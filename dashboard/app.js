@@ -202,20 +202,19 @@ function potentialReason(signal) {
 }
 
 function renderPotentialTopics(signals) {
-  const preferredSources = new Set(["Instagram", "X / Twitter", "Twitter / X", "X", "Quora", "Medium"]);
   const items = signals
     .filter((item) => item.keyword_or_hashtag)
     .sort((a, b) => {
-      const aPreferred = preferredSources.has(a.source_platform) ? 0 : 1;
-      const bPreferred = preferredSources.has(b.source_platform) ? 0 : 1;
-      return aPreferred - bPreferred || String(a.source_platform).localeCompare(String(b.source_platform));
+      const dateDiff = String(b.date || "").localeCompare(String(a.date || ""));
+      if (dateDiff) return dateDiff;
+      return String(a.source_platform).localeCompare(String(b.source_platform));
     })
     .slice(0, 12);
 
-  document.querySelector("#potentialCount").textContent = `扩展来源 · 待核验方向 ${items.length} 条`;
+  document.querySelector("#potentialCount").textContent = `全部来源 · 待核验方向 ${items.length} 条`;
   if (!items.length) {
     document.querySelector("#potentialGrid").innerHTML = `
-      <div class="empty-card">当前时间窗内暂无潜力题材。新增 Instagram、X/Twitter、Quora、Medium 等来源信号后，会优先在这里观察。</div>
+      <div class="empty-card">当前时间窗内暂无潜力题材。任何来源的新热词如果暂时无法映射到现有短剧题材簇，会先进入这里观察。</div>
     `;
     return;
   }
