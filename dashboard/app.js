@@ -20,6 +20,11 @@ const escapeHtml = (value) =>
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;");
 
+const displayValue = (value, fallback = "-") => {
+  if (value === null || value === undefined || value === "") return fallback;
+  return value;
+};
+
 async function loadRadar() {
   const response = await fetch("./data/radar.json", { cache: "no-store" });
   if (!response.ok) throw new Error(`Failed to load radar data: ${response.status}`);
@@ -115,15 +120,16 @@ function renderWatchlist(items) {
 
   const rows = topItems
     .map((item) => {
-      const klass = priorityClass(item.priority);
+      const itemPriority = displayValue(item.priority, "Pending");
+      const klass = priorityClass(itemPriority);
       return `
         <tr>
           <td>${escapeHtml(item.rank)}</td>
           <td><strong>${escapeHtml(item.topic_cluster)}</strong><br><span class="label">${escapeHtml(item.watch_reason)}</span></td>
-          <td><span class="priority ${klass}">${escapeHtml(item.priority)}</span></td>
-          <td class="score">${escapeHtml(item.opportunity_score)}</td>
-          <td>${escapeHtml(item.short_drama_genre)}</td>
-          <td>${escapeHtml(item.platforms_seen)}</td>
+          <td><span class="priority ${klass}">${escapeHtml(itemPriority)}</span></td>
+          <td class="score">${escapeHtml(displayValue(item.opportunity_score))}</td>
+          <td>${escapeHtml(displayValue(item.short_drama_genre))}</td>
+          <td>${escapeHtml(displayValue(item.platforms_seen))}</td>
           <td>${escapeHtml(item.recommended_action)}</td>
         </tr>
       `;

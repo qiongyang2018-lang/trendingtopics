@@ -46,10 +46,72 @@ def sheet_records(workbook, sheet_name: str, header_row: int, start_row: int, ma
     return records
 
 
+def risk_penalty(risk_notes):
+    risk = str(risk_notes or "").lower()
+    if "high" in risk:
+        return 10
+    if "medium" in risk:
+        return 5
+    return 0
+
+
+def opportunity_score(cluster, angle):
+    try:
+        score = (
+            0.35 * float(cluster.get("heat_score") or 0)
+            + 0.25 * float(cluster.get("sentiment_score") or 0)
+            + 0.20 * float(cluster.get("novelty_score") or 0)
+            + 0.10 * float(cluster.get("sustainability_score") or 0)
+            - risk_penalty(angle.get("risk_notes"))
+        )
+    except (TypeError, ValueError):
+        return None
+    return round(score)
+
+
+def priority(score):
+    if score is None:
+        return None
+    if score >= 70:
+        return "High"
+    if score >= 58:
+        return "Watch"
+    return "Risk/Low"
+
+
+def hydrate_watchlist(watchlist, clusters, angles):
+    clusters_by_name = {item.get("cluster_name"): item for item in clusters if item.get("cluster_name")}
+    angles_by_name = {item.get("topic_cluster"): item for item in angles if item.get("topic_cluster")}
+    hydrated = []
+
+    for item in watchlist:
+        topic = item.get("topic_cluster")
+        cluster = clusters_by_name.get(topic, {})
+        angle = angles_by_name.get(topic, {})
+        score = item.get("opportunity_score")
+        if score in (None, ""):
+            score = opportunity_score(cluster, angle)
+
+        hydrated.append(
+            {
+                **item,
+                "priority": item.get("priority") or priority(score),
+                "short_drama_genre": item.get("short_drama_genre") or angle.get("short_drama_genre"),
+                "opportunity_score": score,
+                "platforms_seen": item.get("platforms_seen") or cluster.get("platforms_seen"),
+            }
+        )
+
+    return hydrated
+
+
 def main():
     workbook = load_workbook(WORKBOOK_PATH, data_only=True)
     generated_at = datetime.now()
     snapshot_name = f"{generated_at.date().isoformat()}.json"
+    clusters = sheet_records(workbook, "topic_clusters", 4, 5)
+    angles = sheet_records(workbook, "drama_angle_map", 4, 5)
+    watchlist = hydrate_watchlist(sheet_records(workbook, "weekly_watchlist", 4, 5), clusters, angles)
 
     payload = {
         "generated_at": generated_at.isoformat(timespec="seconds"),
@@ -64,9 +126,9 @@ def main():
             "date": generated_at.date().isoformat(),
             "path": f"data/snapshots/{snapshot_name}",
         },
-        "watchlist": sheet_records(workbook, "weekly_watchlist", 4, 5),
-        "clusters": sheet_records(workbook, "topic_clusters", 4, 5),
-        "angles": sheet_records(workbook, "drama_angle_map", 4, 5),
+        "watchlist": watchlist,
+        "clusters": clusters,
+        "angles": angles,
         "signals": sheet_records(workbook, "raw_signals", 4, 5),
         "dictionary": sheet_records(workbook, "dictionary", 4, 5),
         "weights": [
