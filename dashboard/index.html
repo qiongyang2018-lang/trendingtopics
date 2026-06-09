@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>海外社媒热点短剧题材雷达</title>
-    <link rel="stylesheet" href="./styles.css?v=20260609-6" />
+    <link rel="stylesheet" href="./styles.css?v=20260609-7" />
   </head>
   <body>
     <header class="topbar">
@@ -58,62 +58,78 @@
         </div>
       </section>
 
-      <section class="panel">
-        <div class="section-head">
-          <h2>本周候选题材</h2>
-          <div class="legend">
-            <span id="watchlistCount">已收录 0/10</span>
-            <span><i class="dot high"></i>High</span>
-            <span><i class="dot watch"></i>Watch</span>
-            <span><i class="dot risk"></i>Risk/Low</span>
+      <section class="content-zone zone-hot">
+        <div class="zone-head">
+          <span>一</span>
+          <div>
+            <h2>本周热点候选短剧题材</h2>
+            <p>社媒热点、题材簇拆解和未映射潜力方向。</p>
           </div>
         </div>
-        <div class="table-wrap">
-          <table>
-            <thead>
-              <tr>
-                <th>Rank</th>
-                <th>题材簇</th>
-                <th>优先级</th>
-                <th>机会分</th>
-                <th>短剧类型</th>
-                <th>平台信号</th>
-                <th>建议动作</th>
-              </tr>
-            </thead>
-            <tbody id="watchlistRows"></tbody>
-          </table>
-        </div>
+
+        <section class="panel">
+          <div class="section-head">
+            <h2>本周候选题材</h2>
+            <div class="legend">
+              <span id="watchlistCount">已收录 0/10</span>
+              <span><i class="dot high"></i>High</span>
+              <span><i class="dot watch"></i>Watch</span>
+              <span><i class="dot risk"></i>Risk/Low</span>
+            </div>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Rank</th>
+                  <th>题材簇</th>
+                  <th>优先级</th>
+                  <th>机会分</th>
+                  <th>短剧类型</th>
+                  <th>平台信号</th>
+                  <th>建议动作</th>
+                </tr>
+              </thead>
+              <tbody id="watchlistRows"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="section-head">
+            <h2>题材簇拆解</h2>
+            <span class="label" id="clusterWindowLabel">按本周候选 rank 排序 · 近7天热词</span>
+          </div>
+          <div id="clusterGrid" class="cluster-grid"></div>
+        </section>
+
+        <section class="panel">
+          <div class="section-head">
+            <h2>潜力题材</h2>
+            <span class="label" id="potentialCount">全部来源 · 待核验方向 0 条</span>
+          </div>
+          <div id="potentialGrid" class="potential-grid"></div>
+        </section>
       </section>
 
-      <section class="panel">
-        <div class="section-head">
-          <h2>题材簇拆解</h2>
-          <span class="label" id="clusterWindowLabel">按本周候选 rank 排序 · 近7天热词</span>
-        </div>
-        <div id="clusterGrid" class="cluster-grid"></div>
-      </section>
-
-      <section class="panel">
-        <div class="section-head">
-          <h2>潜力题材</h2>
-          <span class="label" id="potentialCount">全部来源 · 待核验方向 0 条</span>
-        </div>
-        <div id="potentialGrid" class="potential-grid"></div>
-      </section>
-
-      <section class="panel">
-        <div class="section-head">
-          <h2>AI漫剧题材</h2>
-          <span class="label" id="aiAnimationCount">最新公开讨论方向 · 0 条</span>
+      <section class="content-zone zone-ai">
+        <div class="zone-head">
+          <span>二</span>
+          <div>
+            <h2>AI漫剧题材</h2>
+            <p id="aiAnimationCount">最新公开讨论方向 · 0 条</p>
+          </div>
         </div>
         <div id="aiAnimationGrid" class="ai-animation-grid"></div>
       </section>
 
-      <section class="panel">
-        <div class="section-head">
-          <h2>传统影视流行题材</h2>
-          <span class="label" id="traditionalTopicCount">长视频热播启发 · 0 条</span>
+      <section class="content-zone zone-film">
+        <div class="zone-head">
+          <span>三</span>
+          <div>
+            <h2>传统影视流行题材</h2>
+            <p id="traditionalTopicCount">长视频热播启发 · 0 条</p>
+          </div>
         </div>
         <div id="traditionalTopicGrid" class="traditional-topic-grid"></div>
       </section>
@@ -151,6 +167,6 @@
       </section>
     </main>
 
-    <script src="./app.js?v=20260609-6"></script>
+    <script src="./app.js?v=20260609-7"></script>
   </body>
 </html>
