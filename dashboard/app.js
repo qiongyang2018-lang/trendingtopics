@@ -86,9 +86,12 @@ function hotwordSignals(cluster, signals) {
 }
 
 function renderWatchlist(items) {
-  const rows = items
+  const topItems = items
     .filter((item) => item.topic_cluster)
-    .slice(0, 10)
+    .slice(0, 10);
+  document.querySelector("#watchlistCount").textContent = `已收录 ${topItems.length}/10`;
+
+  const rows = topItems
     .map((item) => {
       const klass = priorityClass(item.priority);
       return `
@@ -104,7 +107,23 @@ function renderWatchlist(items) {
       `;
     })
     .join("");
-  document.querySelector("#watchlistRows").innerHTML = rows;
+
+  const placeholders = Array.from({ length: Math.max(0, 10 - topItems.length) }, (_, idx) => {
+    const rank = topItems.length + idx + 1;
+    return `
+      <tr class="placeholder-row">
+        <td>${rank}</td>
+        <td><strong>待补充候选题材</strong><br><span class="label">等待下一轮热点采集和人工校验。</span></td>
+        <td><span class="priority muted">Pending</span></td>
+        <td class="score">-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>补充 raw_signals 后自动进入候选池</td>
+      </tr>
+    `;
+  }).join("");
+
+  document.querySelector("#watchlistRows").innerHTML = rows + placeholders;
 }
 
 function renderWeights(weights) {
@@ -183,6 +202,7 @@ function renderSignals(signals) {
 function renderAll() {
   const signals = filterSignalsByWindow(radarData.signals || [], activeWindowDays);
   document.querySelector("#clusterWindowLabel").textContent = `按本周候选 rank 排序 · 近${activeWindowDays}天热词`;
+  document.querySelector("#windowNote").textContent = `热词 ${signals.length} 条 · 原始信号 ${(radarData.signals || []).length} 条`;
   renderWatchlist(radarData.watchlist || []);
   renderWeights(radarData.weights || []);
   renderClusters(radarData.clusters || [], radarData.watchlist || [], signals);

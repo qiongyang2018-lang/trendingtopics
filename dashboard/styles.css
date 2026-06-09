@@ -126,6 +126,13 @@ main {
   box-shadow: 0 1px 3px rgba(23, 50, 77, 0.16);
 }
 
+.window-note {
+  display: block;
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
 .panel {
   padding: 18px;
   margin-bottom: 18px;
@@ -214,6 +221,20 @@ th {
 .priority.risk {
   color: #991b1b;
   background: #fee2e2;
+}
+
+.priority.muted {
+  color: #5f6f7d;
+  background: #edf1f3;
+}
+
+.placeholder-row {
+  color: #728190;
+  background: #fbfcfd;
+}
+
+.placeholder-row strong {
+  color: #5f6f7d;
 }
 
 .score {
@@ -334,6 +355,8 @@ th {
 
 .info-bottom {
   margin-top: 8px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: stretch;
 }
 
 a {
