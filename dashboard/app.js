@@ -85,6 +85,21 @@ function hotwordSignals(cluster, signals) {
   });
 }
 
+function signalKey(signal) {
+  return `${signal.keyword_or_hashtag}|${signal.source_platform}|${signal.country_region}|${signal.url}`;
+}
+
+function mappedSignalKeys(clusters, watchlist, signals) {
+  const byName = new Map(clusters.filter((item) => item.cluster_name).map((item) => [item.cluster_name, item]));
+  const keys = new Set();
+  watchlist
+    .filter((item) => item.topic_cluster && byName.has(item.topic_cluster))
+    .forEach((item) => {
+      hotwordSignals(byName.get(item.topic_cluster), signals).forEach((signal) => keys.add(signalKey(signal)));
+    });
+  return keys;
+}
+
 function renderWatchlist(items) {
   const topItems = items
     .filter((item) => item.topic_cluster)
@@ -180,6 +195,16 @@ function renderClusters(clusters, watchlist, signals) {
 }
 
 function renderSignals(signals) {
+  document.querySelector("#unmappedCount").textContent = `未映射热词 ${signals.length} 条`;
+  if (!signals.length) {
+    document.querySelector("#signalRows").innerHTML = `
+      <tr class="placeholder-row">
+        <td colspan="7">当前时间窗内暂无未映射热词。新增热词如果还没有进入题材簇，会先出现在这里。</td>
+      </tr>
+    `;
+    return;
+  }
+
   document.querySelector("#signalRows").innerHTML = signals
     .filter((item) => item.keyword_or_hashtag)
     .slice(0, 12)
@@ -201,12 +226,14 @@ function renderSignals(signals) {
 
 function renderAll() {
   const signals = filterSignalsByWindow(radarData.signals || [], activeWindowDays);
+  const mappedKeys = mappedSignalKeys(radarData.clusters || [], radarData.watchlist || [], signals);
+  const unmappedSignals = signals.filter((signal) => !mappedKeys.has(signalKey(signal)));
   document.querySelector("#clusterWindowLabel").textContent = `按本周候选 rank 排序 · 近${activeWindowDays}天热词`;
   document.querySelector("#windowNote").textContent = `热词 ${signals.length} 条 · 原始信号 ${(radarData.signals || []).length} 条`;
   renderWatchlist(radarData.watchlist || []);
   renderWeights(radarData.weights || []);
   renderClusters(radarData.clusters || [], radarData.watchlist || [], signals);
-  renderSignals(signals);
+  renderSignals(unmappedSignals);
 }
 
 function bindWindowControls() {
