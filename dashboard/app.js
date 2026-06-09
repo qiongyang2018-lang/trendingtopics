@@ -178,28 +178,12 @@ function renderWatchlist(items) {
           <td><strong>${escapeHtml(item.topic_cluster)}</strong><br><span class="label">${escapeHtml(item.watch_reason)}</span></td>
           <td><span class="priority ${klass}">${escapeHtml(itemPriority)}</span></td>
           <td class="score">${escapeHtml(displayValue(item.opportunity_score))}</td>
+          <td>${renderScoreBreakdown(item)}</td>
           <td>${escapeHtml(displayValue(item.short_drama_genre))}</td>
+          <td>${escapeHtml(displayValue(item.audience_pain_point || item.watch_reason))}</td>
+          <td><div class="hotword-list compact">${renderHotwordChips(item, clusters, signals)}</div></td>
           <td>${escapeHtml(displayValue(item.platforms_seen))}</td>
           <td>${escapeHtml(item.recommended_action)}</td>
-        </tr>
-        <tr class="detail-row">
-          <td></td>
-          <td colspan="6">
-            <div class="candidate-detail">
-              <div>
-                <span class="detail-label">题材痛点</span>
-                <p>${escapeHtml(displayValue(item.audience_pain_point || item.watch_reason))}</p>
-              </div>
-              <div>
-                <span class="detail-label">映射热词</span>
-                <div class="hotword-list">${renderHotwordChips(item, clusters, signals)}</div>
-              </div>
-              <div>
-                <span class="detail-label">机会分拆解</span>
-                ${renderScoreBreakdown(item)}
-              </div>
-            </div>
-          </td>
         </tr>
       `;
     })
@@ -213,6 +197,9 @@ function renderWatchlist(items) {
         <td><strong>待补充候选题材</strong><br><span class="label">等待下一轮热点采集和人工校验。</span></td>
         <td><span class="priority muted">Pending</span></td>
         <td class="score">-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
         <td>-</td>
         <td>-</td>
         <td>补充 raw_signals 后自动进入候选池</td>

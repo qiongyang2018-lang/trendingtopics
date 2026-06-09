@@ -214,7 +214,7 @@ main {
 
 table {
   width: 100%;
-  min-width: 920px;
+  min-width: 1500px;
   border-collapse: collapse;
   font-size: 13px;
 }
@@ -275,33 +275,6 @@ th {
 .score {
   font-weight: 800;
   color: var(--accent);
-}
-
-.detail-row td {
-  padding-top: 0;
-  background: #fbfcfd;
-}
-
-.candidate-detail {
-  display: grid;
-  grid-template-columns: 1.1fr 1.2fr 1.2fr;
-  gap: 16px;
-  padding: 10px 0 14px;
-}
-
-.candidate-detail p {
-  margin: 4px 0 0;
-  color: #334155;
-  font-size: 13px;
-  line-height: 1.5;
-}
-
-.detail-label {
-  display: block;
-  color: var(--muted);
-  font-size: 12px;
-  font-weight: 700;
-  margin-bottom: 6px;
 }
 
 .score-breakdown {
@@ -365,6 +338,10 @@ th {
   flex-wrap: wrap;
   gap: 8px;
   margin-top: 12px;
+}
+
+.hotword-list.compact {
+  margin-top: 0;
 }
 
 .hotword {
@@ -466,7 +443,6 @@ a:hover {
 
   .summary-grid,
   .two-col,
-  .candidate-detail,
   .potential-grid {
     grid-template-columns: 1fr;
   }
