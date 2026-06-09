@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T11:59:06",
+  "generated_at": "2026-06-09T11:50:44",
   "source_workbook": "社媒热点题材雷达_v1.xlsx",
   "scope": {
     "markets": [
@@ -29,18 +29,7 @@
       "watch_reason": "高热度+强负面情绪，短剧冲突足，现有供给可做细分差异化。",
       "recommended_action": "拆 3 个英文 hook 与前 8 集节奏",
       "owner": "内容策略",
-      "status": "active",
-      "score_components": {
-        "heat": 29.4,
-        "sentiment": 21.5,
-        "short_drama_fit": 11.0,
-        "supply_gap": 6.1,
-        "risk_penalty": 5,
-        "formula": "热度*35% + 情绪*25% + 短剧化/新鲜度*20% + 持续性/供给缺口*10% - 风险扣分"
-      },
-      "audience_pain_point": "亲密关系背叛后的愤怒与复仇期待",
-      "dominant_emotion": "anger",
-      "related_keywords": "#cheatingstory; betrayal; revenge"
+      "status": "active"
     },
     {
       "rank": 2,
@@ -54,18 +43,7 @@
       "watch_reason": "女性逆袭与家庭伦理兼容，制作成本低，海外短剧适配度高。",
       "recommended_action": "补抓 TikTok/Reddit 评论痛点",
       "owner": "内容策略",
-      "status": "active",
-      "score_components": {
-        "heat": 26.6,
-        "sentiment": 18.0,
-        "short_drama_fit": 12.4,
-        "supply_gap": 6.8,
-        "risk_penalty": 0,
-        "formula": "热度*35% + 情绪*25% + 短剧化/新鲜度*20% + 持续性/供给缺口*10% - 风险扣分"
-      },
-      "audience_pain_point": "被低估、被抛弃后重新掌控人生",
-      "dominant_emotion": "resilience",
-      "related_keywords": "single mom comeback; abandoned wife; custody battle"
+      "status": "active"
     },
     {
       "rank": 3,
@@ -79,18 +57,7 @@
       "watch_reason": "情绪强但表达需谨慎，适合女性成长+悬疑化处理。",
       "recommended_action": "做风险词清单与人物设定",
       "owner": "内容策略",
-      "status": "active",
-      "score_components": {
-        "heat": 24.1,
-        "sentiment": 20.0,
-        "short_drama_fit": 11.4,
-        "supply_gap": 7.4,
-        "risk_penalty": 5,
-        "formula": "热度*35% + 情绪*25% + 短剧化/新鲜度*20% + 持续性/供给缺口*10% - 风险扣分"
-      },
-      "audience_pain_point": "情感操控、PUA、逃离关系后的自我修复",
-      "dominant_emotion": "healing",
-      "related_keywords": "toxic relationship; gaslighting; breakup recovery"
+      "status": "active"
     },
     {
       "rank": 4,
@@ -104,18 +71,7 @@
       "watch_reason": "社会情绪稳定，适合低成本都市爽剧，但需强化恋爱/反转钩子。",
       "recommended_action": "对照职场短剧投放素材",
       "owner": "增长分析",
-      "status": "watch",
-      "score_components": {
-        "heat": 22.4,
-        "sentiment": 16.5,
-        "short_drama_fit": 11.6,
-        "supply_gap": 7.2,
-        "risk_penalty": 0,
-        "formula": "热度*35% + 情绪*25% + 短剧化/新鲜度*20% + 持续性/供给缺口*10% - 风险扣分"
-      },
-      "audience_pain_point": "职场压迫、阶层不平等、迟来的正义",
-      "dominant_emotion": "frustration",
-      "related_keywords": "workplace drama; bad boss; fired unfairly"
+      "status": "watch"
     },
     {
       "rank": 5,
@@ -129,18 +85,7 @@
       "watch_reason": "需求耐久但供给拥挤，需要 AI/漫剧化或世界观新意。",
       "recommended_action": "找新设定而非复制 alpha mate",
       "owner": "内容策略",
-      "status": "watch",
-      "score_components": {
-        "heat": 21.7,
-        "sentiment": 17.2,
-        "short_drama_fit": 8.4,
-        "supply_gap": 7.6,
-        "risk_penalty": 5,
-        "formula": "热度*35% + 情绪*25% + 短剧化/新鲜度*20% + 持续性/供给缺口*10% - 风险扣分"
-      },
-      "audience_pain_point": "被命定伴侣拒绝后的逆袭与再选择",
-      "dominant_emotion": "longing",
-      "related_keywords": "werewolf mate; rejected mate; alpha romance"
+      "status": "watch"
     },
     {
       "rank": 6,
@@ -154,18 +99,7 @@
       "watch_reason": "禁忌恋冲突强，但暴力/胁迫风险高，适合只做弱信号追踪。",
       "recommended_action": "仅收集 hook，不进入立项",
       "owner": "内容策略",
-      "status": "risk_watch",
-      "score_components": {
-        "heat": 20.3,
-        "sentiment": 18.5,
-        "short_drama_fit": 10.2,
-        "supply_gap": 6.0,
-        "risk_penalty": 10,
-        "formula": "热度*35% + 情绪*25% + 短剧化/新鲜度*20% + 持续性/供给缺口*10% - 风险扣分"
-      },
-      "audience_pain_point": "高风险关系里的安全感、欲望与权力幻想",
-      "dominant_emotion": "desire",
-      "related_keywords": "mafia romance; forbidden love; dangerous boyfriend"
+      "status": "risk_watch"
     }
   ],
   "clusters": [

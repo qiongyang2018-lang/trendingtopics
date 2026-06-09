@@ -129,44 +129,11 @@ function mappedSignalKeys(clusters, watchlist, signals) {
   return keys;
 }
 
-function renderHotwordChips(item, clusters, signals) {
-  const cluster = clusters.find((entry) => entry.cluster_name === item.topic_cluster);
-  if (!cluster) return `<span class="empty-note">暂无匹配热词</span>`;
-  const hotwords = hotwordSignals(cluster, signals);
-  if (!hotwords.length) return `<span class="empty-note">当前时间窗暂无匹配热词</span>`;
-  return hotwords
-    .map(
-      (signal) => `
-        <a class="hotword" href="${escapeHtml(signal.url)}" target="_blank" rel="noreferrer">
-          <strong>${escapeHtml(signal.keyword_or_hashtag)}</strong>
-          <span>${escapeHtml(signal.source_platform)} · ${escapeHtml(signal.country_region)} · ${escapeHtml(signal.sentiment)}</span>
-        </a>
-      `
-    )
-    .join("");
-}
-
-function renderScoreBreakdown(item) {
-  const parts = item.score_components;
-  if (!parts) return `<span class="empty-note">暂无评分拆解</span>`;
-  return `
-    <div class="score-breakdown" title="${escapeHtml(parts.formula || "")}">
-      <span>热度 +${escapeHtml(parts.heat)}</span>
-      <span>情绪 +${escapeHtml(parts.sentiment)}</span>
-      <span>短剧化 +${escapeHtml(parts.short_drama_fit)}</span>
-      <span>供给缺口 +${escapeHtml(parts.supply_gap)}</span>
-      <span>风险 -${escapeHtml(parts.risk_penalty)}</span>
-    </div>
-  `;
-}
-
 function renderWatchlist(items) {
   const topItems = items
     .filter((item) => item.topic_cluster)
     .slice(0, 10);
   setText("#watchlistCount", `已收录 ${topItems.length}/10`);
-  const signals = filterSignalsByWindow(radarData.signals || [], activeWindowDays);
-  const clusters = radarData.clusters || [];
 
   const rows = topItems
     .map((item) => {
@@ -181,25 +148,6 @@ function renderWatchlist(items) {
           <td>${escapeHtml(displayValue(item.short_drama_genre))}</td>
           <td>${escapeHtml(displayValue(item.platforms_seen))}</td>
           <td>${escapeHtml(item.recommended_action)}</td>
-        </tr>
-        <tr class="detail-row">
-          <td></td>
-          <td colspan="6">
-            <div class="candidate-detail">
-              <div>
-                <span class="detail-label">题材痛点</span>
-                <p>${escapeHtml(displayValue(item.audience_pain_point || item.watch_reason))}</p>
-              </div>
-              <div>
-                <span class="detail-label">映射热词</span>
-                <div class="hotword-list">${renderHotwordChips(item, clusters, signals)}</div>
-              </div>
-              <div>
-                <span class="detail-label">机会分拆解</span>
-                ${renderScoreBreakdown(item)}
-              </div>
-            </div>
-          </td>
         </tr>
       `;
     })
@@ -234,6 +182,45 @@ function renderWeights(weights) {
       </div>
     `
     )
+    .join(""));
+}
+
+function renderClusters(clusters, watchlist, signals) {
+  const byName = new Map(clusters.filter((item) => item.cluster_name).map((item) => [item.cluster_name, item]));
+  const rankedClusters = watchlist
+    .filter((item) => item.topic_cluster && byName.has(item.topic_cluster))
+    .sort((a, b) => Number(a.rank || 999) - Number(b.rank || 999))
+    .map((item) => ({ ...byName.get(item.topic_cluster), watchlist: item }));
+
+  setHtml("#clusterGrid", rankedClusters
+    .slice(0, 10)
+    .map((item) => {
+      const hotwords = hotwordSignals(item, signals);
+      const hotwordMarkup = hotwords.length
+        ? hotwords
+            .map(
+              (signal) => `
+              <a class="hotword" href="${escapeHtml(signal.url)}" target="_blank" rel="noreferrer">
+                <strong>${escapeHtml(signal.keyword_or_hashtag)}</strong>
+                <span>${escapeHtml(signal.source_platform)} · ${escapeHtml(signal.country_region)} · ${escapeHtml(signal.sentiment)}</span>
+              </a>
+            `
+            )
+            .join("")
+        : `<span class="empty-note">当前时间窗暂无匹配热词，可切换到更长时间窗。</span>`;
+
+      return `
+      <article class="cluster">
+        <div class="cluster-rank">#${escapeHtml(item.watchlist.rank)}</div>
+        <h3>${escapeHtml(item.cluster_name)}</h3>
+        <p>${escapeHtml(item.audience_pain_point)}</p>
+        <small>${escapeHtml(item.watchlist.short_drama_genre)} · opportunity ${escapeHtml(item.watchlist.opportunity_score)}</small>
+        <div class="hotword-list">
+          ${hotwordMarkup}
+        </div>
+      </article>
+    `;
+    })
     .join(""));
 }
 
@@ -283,9 +270,11 @@ function renderAll() {
   const signals = filterSignalsByWindow(radarData.signals || [], activeWindowDays);
   const mappedKeys = mappedSignalKeys(radarData.clusters || [], radarData.watchlist || [], signals);
   const unmappedSignals = signals.filter((signal) => !mappedKeys.has(signalKey(signal)));
+  setText("#clusterWindowLabel", `按本周候选 rank 排序 · 近${activeWindowDays}天热词`);
   setText("#windowNote", `热词 ${signals.length} 条 · 原始信号 ${(radarData.signals || []).length} 条`);
   renderWatchlist(radarData.watchlist || []);
   renderWeights(radarData.weights || []);
+  renderClusters(radarData.clusters || [], radarData.watchlist || [], signals);
   renderPotentialTopics(unmappedSignals);
 }
 

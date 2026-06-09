@@ -69,25 +69,6 @@ def opportunity_score(cluster, angle):
     return round(score)
 
 
-def score_components(cluster, angle):
-    try:
-        heat = round(0.35 * float(cluster.get("heat_score") or 0), 1)
-        sentiment = round(0.25 * float(cluster.get("sentiment_score") or 0), 1)
-        short_drama_fit = round(0.20 * float(cluster.get("novelty_score") or 0), 1)
-        supply_gap = round(0.10 * float(cluster.get("sustainability_score") or 0), 1)
-        risk = risk_penalty(angle.get("risk_notes"))
-    except (TypeError, ValueError):
-        return None
-    return {
-        "heat": heat,
-        "sentiment": sentiment,
-        "short_drama_fit": short_drama_fit,
-        "supply_gap": supply_gap,
-        "risk_penalty": risk,
-        "formula": "热度*35% + 情绪*25% + 短剧化/新鲜度*20% + 持续性/供给缺口*10% - 风险扣分",
-    }
-
-
 def priority(score):
     if score is None:
         return None
@@ -117,10 +98,6 @@ def hydrate_watchlist(watchlist, clusters, angles):
                 "priority": item.get("priority") or priority(score),
                 "short_drama_genre": item.get("short_drama_genre") or angle.get("short_drama_genre"),
                 "opportunity_score": score,
-                "score_components": score_components(cluster, angle),
-                "audience_pain_point": cluster.get("audience_pain_point"),
-                "dominant_emotion": cluster.get("dominant_emotion"),
-                "related_keywords": cluster.get("related_keywords"),
                 "platforms_seen": item.get("platforms_seen") or cluster.get("platforms_seen"),
             }
         )
