@@ -4,11 +4,11 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: "30 2 * * 1"
+    - cron: "30 2 * * *"
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -33,6 +33,13 @@ jobs:
 
       - name: Refresh dashboard data
         run: python scripts/export_social_radar_data.py
+
+      - name: Commit daily snapshot
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update daily radar snapshot"
+          file_pattern: dashboard/data/radar.json dashboard/data/snapshots/*.json
 
       - name: Upload dashboard artifact
         uses: actions/upload-pages-artifact@v3

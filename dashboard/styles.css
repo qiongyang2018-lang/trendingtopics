@@ -146,6 +146,32 @@ main {
   margin-bottom: 14px;
 }
 
+.section-head.compact {
+  margin-bottom: 0;
+}
+
+.history-panel {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.snapshot-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.snapshot-links a {
+  display: inline-block;
+  padding: 6px 9px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: #fbfcfd;
+}
+
 .legend {
   display: flex;
   gap: 14px;

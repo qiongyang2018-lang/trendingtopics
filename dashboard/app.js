@@ -26,6 +26,12 @@ async function loadRadar() {
   return response.json();
 }
 
+async function loadSnapshots() {
+  const response = await fetch("./data/snapshots/index.json", { cache: "no-store" });
+  if (!response.ok) return [];
+  return response.json();
+}
+
 let radarData = null;
 let activeWindowDays = 7;
 
@@ -259,12 +265,24 @@ function bindWindowControls() {
   });
 }
 
+function renderSnapshotLinks(snapshots) {
+  const links = snapshots
+    .slice(0, 7)
+    .map((item) => `<a href="./${escapeHtml(item.path)}" target="_blank" rel="noreferrer">${escapeHtml(item.date)}</a>`)
+    .join("");
+  document.querySelector("#snapshotLinks").innerHTML = links || "暂无历史快照";
+}
+
 loadRadar()
   .then((data) => {
     radarData = data;
     document.querySelector("#updatedAt").textContent = `更新时间 ${formatDate(data.generated_at)}`;
     bindWindowControls();
     renderAll();
+    return loadSnapshots();
+  })
+  .then((snapshots) => {
+    renderSnapshotLinks(snapshots || []);
   })
   .catch((error) => {
     document.body.innerHTML = `<main class="panel"><h1>数据加载失败</h1><p>${escapeHtml(error.message)}</p></main>`;
