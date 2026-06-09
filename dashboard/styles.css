@@ -99,6 +99,33 @@ main {
   font-size: 18px;
 }
 
+.window-control {
+  display: inline-flex;
+  gap: 6px;
+  padding: 4px;
+  background: #eef3f5;
+  border-radius: 8px;
+}
+
+.window-button {
+  appearance: none;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: #385164;
+  cursor: pointer;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 6px 10px;
+}
+
+.window-button.active {
+  background: #ffffff;
+  color: var(--accent);
+  box-shadow: 0 1px 3px rgba(23, 50, 77, 0.16);
+}
+
 .panel {
   padding: 18px;
   margin-bottom: 18px;
@@ -196,7 +223,7 @@ th {
 
 .two-col {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 18px;
 }
 
@@ -241,14 +268,24 @@ th {
 }
 
 .cluster {
+  position: relative;
   border: 1px solid var(--line);
   border-radius: 8px;
   padding: 14px;
   background: #fbfcfd;
 }
 
+.cluster-rank {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+}
+
 .cluster h3 {
-  margin: 0 0 8px;
+  margin: 0 34px 8px 0;
   font-size: 15px;
 }
 
@@ -261,6 +298,42 @@ th {
 
 .cluster small {
   color: var(--muted);
+}
+
+.hotword-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.hotword {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 2px;
+  max-width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #cbd8de;
+  border-radius: 8px;
+  background: #ffffff;
+  color: var(--ink);
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.hotword strong {
+  color: var(--accent);
+  font-size: 13px;
+}
+
+.hotword span,
+.empty-note {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.info-bottom {
+  margin-top: 8px;
 }
 
 a {

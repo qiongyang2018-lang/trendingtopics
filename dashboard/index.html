@@ -25,12 +25,16 @@
           <strong>US / UK / CA / AU</strong>
         </article>
         <article>
-          <span class="label">更新节奏</span>
-          <strong>每周一 · 近 7 天</strong>
+          <span class="label">热词时间窗</span>
+          <div class="window-control" aria-label="热词时间窗">
+            <button class="window-button" data-window="1" type="button">近1天</button>
+            <button class="window-button active" data-window="7" type="button">近7天</button>
+            <button class="window-button" data-window="30" type="button">近30天</button>
+          </div>
         </article>
         <article>
-          <span class="label">数据边界</span>
-          <strong>公开链接与聚合指标</strong>
+          <span class="label">更新节奏</span>
+          <strong>每周一自动刷新</strong>
         </article>
         <article>
           <span class="label">输出目标</span>
@@ -70,20 +74,13 @@
           <h2>评分权重</h2>
           <div id="weightBars" class="bars"></div>
         </div>
-        <div class="panel">
-          <h2>监测 SOP</h2>
-          <ol class="sop">
-            <li>抓取 TikTok Creative Center、Google Trends、YouTube、Reddit 过去 7 天公开热点。</li>
-            <li>把公开链接、摘要、地区、互动/排名、情绪标签写入 raw_signals。</li>
-            <li>归并 topic_clusters，并按热度、情绪、新鲜度、持续性评分。</li>
-            <li>映射 drama_angle_map，补充 logline、制作适配和风险。</li>
-            <li>输出 weekly_watchlist：高优先级、观察级、风险苗头。</li>
-          </ol>
-        </div>
       </section>
 
       <section class="panel">
-        <h2>题材簇拆解</h2>
+        <div class="section-head">
+          <h2>题材簇拆解</h2>
+          <span class="label" id="clusterWindowLabel">按本周候选 rank 排序 · 近7天热词</span>
+        </div>
         <div id="clusterGrid" class="cluster-grid"></div>
       </section>
 
@@ -104,6 +101,28 @@
             </thead>
             <tbody id="signalRows"></tbody>
           </table>
+        </div>
+      </section>
+
+      <section class="two-col info-bottom">
+        <div class="panel">
+          <h2>监测 SOP</h2>
+          <ol class="sop">
+            <li>抓取 TikTok Creative Center、Google Trends、YouTube、Reddit 公开热点。</li>
+            <li>把公开链接、摘要、地区、互动/排名、情绪标签写入 raw_signals。</li>
+            <li>归并 topic_clusters，并按热度、情绪、新鲜度、持续性评分。</li>
+            <li>映射 drama_angle_map，补充 logline、制作适配和风险。</li>
+            <li>输出 weekly_watchlist：高优先级、观察级、风险苗头。</li>
+          </ol>
+        </div>
+        <div class="panel">
+          <h2>数据边界</h2>
+          <ul class="sop">
+            <li>只使用公开页面、公开趋势和聚合指标。</li>
+            <li>不采集登录态内容、私密账号或个人敏感信息。</li>
+            <li>题材机会分用于优先级排序，不等同于立项结论。</li>
+            <li>热词时间窗会影响热词和原始信号展示；周榜排序仍以本周候选表为准。</li>
+          </ul>
         </div>
       </section>
     </main>
