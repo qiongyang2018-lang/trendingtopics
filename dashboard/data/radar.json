@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T14:24:15",
+  "generated_at": "2026-06-09T14:46:11",
   "source_workbook": "社媒热点题材雷达_v1.xlsx",
   "scope": {
     "markets": [
@@ -496,6 +496,74 @@
       "related_examples": "micro animation, motion comic loops",
       "source_url": "https://www.creativebloq.com/art/digital-art/digital-art-trends-2026-reveal-how-creatives-are-responding-to-ai-pressure",
       "risk_notes": "信息量太轻时不够短剧化，要补强人物目标和连续悬念。"
+    }
+  ],
+  "traditional_film_tv_topics": [
+    {
+      "topic": "巨制奇幻权谋/家族内战",
+      "recent_signal": "海外长视频六月档继续押注高识别度奇幻IP和战争级大事件，适合观察“家族权力斗争+血缘背叛”的耐久需求。",
+      "short_drama_inspiration": "把宏大战争压缩成家族继承、私生子身份、婚约联盟、背叛复仇等低成本关系冲突。",
+      "conversion_hook": "第一集直接给出继承权被夺、婚盟背刺或血统秘密曝光。",
+      "source_platform": "HBO Max / Tom's Guide",
+      "evidence_level": "B",
+      "reference_titles": "House of the Dragon S3",
+      "source_url": "https://www.tomsguide.com/entertainment/streaming/20-new-shows-and-movies-to-watch-in-june-2026-the-bear-house-of-the-dragon-and-more",
+      "risk_notes": "短剧不宜硬做大场面，优先转译成权谋关系、身份反转和高密度悬念。"
+    },
+    {
+      "topic": "BookTok/女性向小说改编恋爱",
+      "recent_signal": "海外平台持续推出文学/畅销书改编 romance，BookTok 受众和流媒体剧集形成互相导流。",
+      "short_drama_inspiration": "二次机会、夏日旧爱、久别重逢、校园到成人的遗憾补偿，适合女性向短剧连续追更。",
+      "conversion_hook": "多年后重逢时，女主发现男主一直保存当年的秘密证据或未寄出的信。",
+      "source_platform": "Prime Video / AP / Tom's Guide",
+      "evidence_level": "B",
+      "reference_titles": "Every Year After",
+      "source_url": "https://apnews.com/article/19b8e5b96c6860404d16c0cebb19c369",
+      "risk_notes": "要避免平铺直叙，前 3 集必须把旧误会、现任阻碍和现实利益放上桌。"
+    },
+    {
+      "topic": "职场恋爱/强势女主失控感",
+      "recent_signal": "海外六月新片仍在推明星驱动的职场 rom-com，办公室权力差与情感失控是可短剧化的强冲突。",
+      "short_drama_inspiration": "女 CEO、律师、空降高管、竞争对手等设定，转成强势女主与危险新人/旧爱之间的拉扯。",
+      "conversion_hook": "女主刚宣布绝不办公室恋情，新来的法务却掌握她公司最大危机。",
+      "source_platform": "Netflix / Tom's Guide",
+      "evidence_level": "B",
+      "reference_titles": "Office Romance",
+      "source_url": "https://www.tomsguide.com/entertainment/streaming/20-new-shows-and-movies-to-watch-in-june-2026-the-bear-house-of-the-dragon-and-more",
+      "risk_notes": "需处理好职场权力不对等，避免让爱情线显得越界或不适。"
+    },
+    {
+      "topic": "家庭法庭/婚姻纠纷现实题材",
+      "recent_signal": "国内长剧出现家庭法庭、婚姻纠纷、抚养权、养老与继承等社会议题型法治剧。",
+      "short_drama_inspiration": "把一个案件压缩成一条高情绪主线：离婚争产、抚养权争夺、老人遗嘱、家暴取证、隐婚曝光。",
+      "conversion_hook": "女主上庭争抚养权时，发现丈夫提交的证据来自她最信任的亲人。",
+      "source_platform": "Tencent Video / iQIYI / IMDb",
+      "evidence_level": "B",
+      "reference_titles": "Hold a Court Now",
+      "source_url": "https://www.imdb.com/title/tt30478333/plotsummary/",
+      "risk_notes": "涉及家暴、未成年人和法律流程时要弱化猎奇，保留情绪但避免误导法律常识。"
+    },
+    {
+      "topic": "古装女性凝视/强女主复仇",
+      "recent_signal": "国内古偶爆款继续验证女性向古装、反差人设、婚恋权谋和女主主动性的组合。",
+      "short_drama_inspiration": "将古装大剧的朝堂/门阀简化为婚约、替嫁、复仇、身份调换和双强博弈。",
+      "conversion_hook": "替嫁当晚，女主发现新郎正是灭门旧案唯一幸存者。",
+      "source_platform": "Tencent Video / iQIYI / Netflix / Tonboriday",
+      "evidence_level": "B",
+      "reference_titles": "Pursuit of Jade",
+      "source_url": "https://www.tonboriday.com/2026/03/pursuit-of-jade-becomes-2026s-breakout.html",
+      "risk_notes": "短剧化时要减少朝代设定解释，把爽点集中在身份、婚约和复仇反转。"
+    },
+    {
+      "topic": "明星传记/名人代价",
+      "recent_signal": "院线与流媒体持续消化明星传记片热度，观众对天才、家庭控制、名誉危机和遗产争议有稳定兴趣。",
+      "short_drama_inspiration": "可转译为虚构娱乐圈：天才偶像、控制型家人、经纪公司压榨、旧丑闻反噬、舞台复出。",
+      "conversion_hook": "过气女星复出演唱会前夜，收到一段足以毁掉她职业生涯的旧录像。",
+      "source_platform": "Theatrical / PVOD / AP",
+      "evidence_level": "B",
+      "reference_titles": "Michael",
+      "source_url": "https://apnews.com/article/19b8e5b96c6860404d16c0cebb19c369",
+      "risk_notes": "必须虚构化，避免影射真实人物争议；重点放在名利场情绪而非真实八卦。"
     }
   ],
   "dictionary": [

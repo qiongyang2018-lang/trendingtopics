@@ -394,20 +394,23 @@ th {
   gap: 12px;
 }
 
-.ai-animation-grid {
+.ai-animation-grid,
+.traditional-topic-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 12px;
 }
 
-.ai-animation-card {
+.ai-animation-card,
+.traditional-topic-card {
   border: 1px solid var(--line);
   border-radius: 8px;
   background: #fbfcfd;
   padding: 14px;
 }
 
-.ai-animation-meta {
+.ai-animation-meta,
+.traditional-topic-meta {
   display: flex;
   justify-content: space-between;
   gap: 10px;
@@ -416,26 +419,30 @@ th {
   margin-bottom: 8px;
 }
 
-.ai-animation-card h3 {
+.ai-animation-card h3,
+.traditional-topic-card h3 {
   margin: 0 0 8px;
   font-size: 15px;
 }
 
-.ai-animation-card p {
+.ai-animation-card p,
+.traditional-topic-card p {
   margin: 0 0 8px;
   color: #334155;
   font-size: 13px;
   line-height: 1.5;
 }
 
-.ai-animation-card p strong {
+.ai-animation-card p strong,
+.traditional-topic-card p strong {
   display: block;
   color: var(--ink);
   font-size: 12px;
   margin-bottom: 2px;
 }
 
-.ai-animation-examples {
+.ai-animation-examples,
+.traditional-topic-examples {
   margin: 10px 0;
   padding: 8px 10px;
   border-radius: 7px;
@@ -445,7 +452,8 @@ th {
   font-weight: 700;
 }
 
-.ai-animation-card small {
+.ai-animation-card small,
+.traditional-topic-card small {
   display: block;
   margin-bottom: 10px;
   color: var(--muted);
@@ -523,6 +531,7 @@ a:hover {
   .two-col,
   .cluster-grid,
   .ai-animation-grid,
+  .traditional-topic-grid,
   .potential-grid {
     grid-template-columns: 1fr;
   }

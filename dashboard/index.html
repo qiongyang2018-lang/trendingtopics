@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>海外社媒热点短剧题材雷达</title>
-    <link rel="stylesheet" href="./styles.css?v=20260609-5" />
+    <link rel="stylesheet" href="./styles.css?v=20260609-6" />
   </head>
   <body>
     <header class="topbar">
@@ -110,6 +110,14 @@
         <div id="aiAnimationGrid" class="ai-animation-grid"></div>
       </section>
 
+      <section class="panel">
+        <div class="section-head">
+          <h2>传统影视流行题材</h2>
+          <span class="label" id="traditionalTopicCount">长视频热播启发 · 0 条</span>
+        </div>
+        <div id="traditionalTopicGrid" class="traditional-topic-grid"></div>
+      </section>
+
       <section class="two-col">
         <div class="panel">
           <h2>评分权重</h2>
@@ -128,6 +136,7 @@
             <li>输出 weekly_watchlist：高优先级、观察级、风险苗头。</li>
             <li>任何来源里无法映射到现有短剧题材的信号，进入“潜力题材”做观察。</li>
             <li>AI漫剧题材只观察公开讨论中的内容方向，不直接参与题材机会分排序。</li>
+            <li>传统影视流行题材用于观察国内外长视频热播内容，不直接代表短剧立项结论。</li>
           </ol>
         </div>
         <div class="panel">
@@ -142,6 +151,6 @@
       </section>
     </main>
 
-    <script src="./app.js?v=20260609-5"></script>
+    <script src="./app.js?v=20260609-6"></script>
   </body>
 </html>

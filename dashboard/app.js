@@ -296,6 +296,36 @@ function renderAiAnimationTopics(items) {
     .join(""));
 }
 
+function renderTraditionalFilmTvTopics(items) {
+  const topics = (items || []).filter((item) => item.topic).slice(0, 6);
+  setText("#traditionalTopicCount", `长视频热播启发 · ${topics.length} 条`);
+
+  if (!topics.length) {
+    setHtml("#traditionalTopicGrid", `
+      <div class="empty-card">暂无传统影视流行题材数据。后续公开热播信号或人工补录后会进入这里。</div>
+    `);
+    return;
+  }
+
+  setHtml("#traditionalTopicGrid", topics
+    .map((item) => `
+      <article class="traditional-topic-card">
+        <div class="traditional-topic-meta">
+          <span>${escapeHtml(displayValue(item.source_platform))}</span>
+          <span>证据 ${escapeHtml(displayValue(item.evidence_level))}</span>
+        </div>
+        <h3>${escapeHtml(item.topic)}</h3>
+        <p><strong>近期信号</strong>${escapeHtml(displayValue(item.recent_signal))}</p>
+        <p><strong>短剧启发</strong>${escapeHtml(displayValue(item.short_drama_inspiration))}</p>
+        <p><strong>转化钩子</strong>${escapeHtml(displayValue(item.conversion_hook))}</p>
+        <div class="traditional-topic-examples">${escapeHtml(displayValue(item.reference_titles, "参考片名待补充"))}</div>
+        <small>${escapeHtml(displayValue(item.risk_notes, "风险待补充"))}</small>
+        ${item.source_url ? `<a href="${escapeHtml(item.source_url)}" target="_blank" rel="noreferrer">查看公开来源</a>` : ""}
+      </article>
+    `)
+    .join(""));
+}
+
 function renderAll() {
   const signals = filterSignalsByWindow(radarData.signals || [], activeWindowDays);
   const mappedKeys = mappedSignalKeys(radarData.clusters || [], radarData.watchlist || [], signals);
@@ -307,6 +337,7 @@ function renderAll() {
   renderClusters(radarData.clusters || [], radarData.watchlist || [], signals);
   renderPotentialTopics(unmappedSignals);
   renderAiAnimationTopics(radarData.ai_animation_topics || []);
+  renderTraditionalFilmTvTopics(radarData.traditional_film_tv_topics || []);
 }
 
 function bindWindowControls() {
