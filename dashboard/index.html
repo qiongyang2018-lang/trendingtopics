@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>海外社媒热点短剧题材雷达</title>
-    <link rel="stylesheet" href="./styles.css?v=20260609-4" />
+    <link rel="stylesheet" href="./styles.css?v=20260609-5" />
   </head>
   <body>
     <header class="topbar">
@@ -96,18 +96,18 @@
 
       <section class="panel">
         <div class="section-head">
-          <h2>AI内容趋势</h2>
-          <span class="label" id="aiTrendCount">AI漫剧 / AI仿真人剧 / AI短剧 · 0 条</span>
-        </div>
-        <div id="aiTrendGrid" class="ai-trend-grid"></div>
-      </section>
-
-      <section class="panel">
-        <div class="section-head">
           <h2>潜力题材</h2>
           <span class="label" id="potentialCount">全部来源 · 待核验方向 0 条</span>
         </div>
         <div id="potentialGrid" class="potential-grid"></div>
+      </section>
+
+      <section class="panel">
+        <div class="section-head">
+          <h2>AI漫剧题材</h2>
+          <span class="label" id="aiAnimationCount">最新公开讨论方向 · 0 条</span>
+        </div>
+        <div id="aiAnimationGrid" class="ai-animation-grid"></div>
       </section>
 
       <section class="two-col">
@@ -127,7 +127,7 @@
             <li>映射 drama_angle_map，补充 logline、制作适配和风险。</li>
             <li>输出 weekly_watchlist：高优先级、观察级、风险苗头。</li>
             <li>任何来源里无法映射到现有短剧题材的信号，进入“潜力题材”做观察。</li>
-            <li>AI内容趋势独立观察 AI漫剧、AI仿真人剧、AI短剧/平台，不直接参与题材机会分排序。</li>
+            <li>AI漫剧题材只观察公开讨论中的内容方向，不直接参与题材机会分排序。</li>
           </ol>
         </div>
         <div class="panel">
@@ -142,6 +142,6 @@
       </section>
     </main>
 
-    <script src="./app.js?v=20260609-4"></script>
+    <script src="./app.js?v=20260609-5"></script>
   </body>
 </html>

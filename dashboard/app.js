@@ -266,56 +266,31 @@ function renderPotentialTopics(signals) {
     .join(""));
 }
 
-function renderAiTrends(items) {
-  const trends = (items || []).filter((item) => item.title).slice(0, 18);
-  const categoryOrder = ["AI漫剧", "AI仿真人剧", "AI短剧/平台"];
-  setText("#aiTrendCount", `AI漫剧 / AI仿真人剧 / AI短剧 · ${trends.length} 条`);
+function renderAiAnimationTopics(items) {
+  const topics = (items || []).filter((item) => item.topic).slice(0, 6);
+  setText("#aiAnimationCount", `最新公开讨论方向 · ${topics.length} 条`);
 
-  if (!trends.length) {
-    setHtml("#aiTrendGrid", `
-      <div class="empty-card">暂无 AI 内容趋势数据。本地刷新时会从 AI 监控表和 2026 AI 剧爆款盘点表导出。</div>
+  if (!topics.length) {
+    setHtml("#aiAnimationGrid", `
+      <div class="empty-card">暂无 AI 漫剧题材数据。后续公开讨论或人工补录后会进入这里。</div>
     `);
     return;
   }
 
-  const byCategory = categoryOrder.map((category) => ({
-    category,
-    items: trends.filter((item) => item.category === category),
-  }));
-
-  setHtml("#aiTrendGrid", byCategory
-    .filter((group) => group.items.length)
-    .map((group) => `
-      <article class="ai-trend-group">
-        <div class="ai-trend-group-head">
-          <h3>${escapeHtml(group.category)}</h3>
-          <span>${group.items.length} 条</span>
+  setHtml("#aiAnimationGrid", topics
+    .map((item) => `
+      <article class="ai-animation-card">
+        <div class="ai-animation-meta">
+          <span>${escapeHtml(displayValue(item.source_platform))}</span>
+          <span>证据 ${escapeHtml(displayValue(item.evidence_level))}</span>
         </div>
-        <div class="ai-trend-list">
-          ${group.items
-            .map((item) => {
-              const sourceLink = item.source_url
-                ? `<a href="${escapeHtml(item.source_url)}" target="_blank" rel="noreferrer">source</a>`
-                : `<span>${escapeHtml(item.source_sheet || "source")}</span>`;
-              return `
-                <div class="ai-trend-card">
-                  <div class="ai-trend-meta">
-                    <span>${escapeHtml(displayValue(item.platform))} · ${escapeHtml(displayValue(item.region))}</span>
-                    <span>证据 ${escapeHtml(displayValue(item.evidence_level))}</span>
-                  </div>
-                  <h4>${escapeHtml(item.title)}</h4>
-                  <p>${escapeHtml(displayValue(item.trend_signal, "暂无趋势说明"))}</p>
-                  <div class="ai-trend-tags">
-                    <span>${escapeHtml(displayValue(item.genre, "genre TBD"))}</span>
-                    <span>${escapeHtml(displayValue(item.metric, "metric TBD"))}</span>
-                  </div>
-                  <small>${escapeHtml(displayValue(item.production_signal, "制作信号待补充"))}</small>
-                  <div class="ai-trend-source">${sourceLink}</div>
-                </div>
-              `;
-            })
-            .join("")}
-        </div>
+        <h3>${escapeHtml(item.topic)}</h3>
+        <p><strong>热点信号</strong>${escapeHtml(displayValue(item.trend_signal))}</p>
+        <p><strong>内容方向</strong>${escapeHtml(displayValue(item.content_direction))}</p>
+        <p><strong>观众钩子</strong>${escapeHtml(displayValue(item.audience_hook))}</p>
+        <div class="ai-animation-examples">${escapeHtml(displayValue(item.related_examples, "样本待补充"))}</div>
+        <small>${escapeHtml(displayValue(item.risk_notes, "风险待补充"))}</small>
+        ${item.source_url ? `<a href="${escapeHtml(item.source_url)}" target="_blank" rel="noreferrer">查看公开来源</a>` : ""}
       </article>
     `)
     .join(""));
@@ -330,8 +305,8 @@ function renderAll() {
   renderWatchlist(radarData.watchlist || []);
   renderWeights(radarData.weights || []);
   renderClusters(radarData.clusters || [], radarData.watchlist || [], signals);
-  renderAiTrends(radarData.ai_trends || []);
   renderPotentialTopics(unmappedSignals);
+  renderAiAnimationTopics(radarData.ai_animation_topics || []);
 }
 
 function bindWindowControls() {
