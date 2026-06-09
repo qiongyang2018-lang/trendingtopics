@@ -353,6 +353,45 @@ th {
   font-size: 12px;
 }
 
+.potential-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.potential-card,
+.empty-card {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfcfd;
+  padding: 14px;
+}
+
+.potential-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  color: var(--muted);
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.potential-card h3 {
+  margin: 0 0 8px;
+  font-size: 15px;
+}
+
+.potential-card p,
+.empty-card {
+  color: #334155;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.potential-card p {
+  margin: 0 0 12px;
+}
+
 .info-bottom {
   margin-top: 8px;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -388,7 +427,8 @@ a:hover {
 
   .summary-grid,
   .two-col,
-  .cluster-grid {
+  .cluster-grid,
+  .potential-grid {
     grid-template-columns: 1fr;
   }
 }

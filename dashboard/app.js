@@ -194,31 +194,44 @@ function renderClusters(clusters, watchlist, signals) {
     .join("");
 }
 
-function renderSignals(signals) {
-  document.querySelector("#unmappedCount").textContent = `未映射热词 ${signals.length} 条`;
-  if (!signals.length) {
-    document.querySelector("#signalRows").innerHTML = `
-      <tr class="placeholder-row">
-        <td colspan="7">当前时间窗内暂无未映射热词。新增热词如果还没有进入题材簇，会先出现在这里。</td>
-      </tr>
+function potentialReason(signal) {
+  const notes = String(signal.notes || "");
+  if (notes.includes("：")) return notes.split("：").slice(1).join("：");
+  if (notes) return notes;
+  return "暂未映射到现有短剧题材簇，建议先做热度与评论痛点核验。";
+}
+
+function renderPotentialTopics(signals) {
+  const preferredSources = new Set(["Instagram", "X / Twitter", "Twitter / X", "X", "Quora", "Medium"]);
+  const items = signals
+    .filter((item) => item.keyword_or_hashtag)
+    .sort((a, b) => {
+      const aPreferred = preferredSources.has(a.source_platform) ? 0 : 1;
+      const bPreferred = preferredSources.has(b.source_platform) ? 0 : 1;
+      return aPreferred - bPreferred || String(a.source_platform).localeCompare(String(b.source_platform));
+    })
+    .slice(0, 12);
+
+  document.querySelector("#potentialCount").textContent = `扩展来源 · 待核验方向 ${items.length} 条`;
+  if (!items.length) {
+    document.querySelector("#potentialGrid").innerHTML = `
+      <div class="empty-card">当前时间窗内暂无潜力题材。新增 Instagram、X/Twitter、Quora、Medium 等来源信号后，会优先在这里观察。</div>
     `;
     return;
   }
 
-  document.querySelector("#signalRows").innerHTML = signals
-    .filter((item) => item.keyword_or_hashtag)
-    .slice(0, 12)
+  document.querySelector("#potentialGrid").innerHTML = items
     .map(
       (item) => `
-      <tr>
-        <td>${escapeHtml(formatDate(item.date))}</td>
-        <td>${escapeHtml(item.source_platform)}</td>
-        <td>${escapeHtml(item.country_region)}</td>
-        <td>${escapeHtml(item.keyword_or_hashtag)}</td>
-        <td>${escapeHtml(item.sentiment)}</td>
-        <td>${escapeHtml(item.evidence_level)}</td>
-        <td><a href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">source</a></td>
-      </tr>
+      <article class="potential-card">
+        <div class="potential-meta">
+          <span>${escapeHtml(item.source_platform)} · ${escapeHtml(item.country_region)}</span>
+          <span>证据 ${escapeHtml(item.evidence_level || "-")} · ${escapeHtml(item.sentiment || "neutral")}</span>
+        </div>
+        <h3>${escapeHtml(item.keyword_or_hashtag)}</h3>
+        <p>${escapeHtml(potentialReason(item))}</p>
+        <a href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">查看公开入口</a>
+      </article>
     `
     )
     .join("");
@@ -233,7 +246,7 @@ function renderAll() {
   renderWatchlist(radarData.watchlist || []);
   renderWeights(radarData.weights || []);
   renderClusters(radarData.clusters || [], radarData.watchlist || [], signals);
-  renderSignals(unmappedSignals);
+  renderPotentialTopics(unmappedSignals);
 }
 
 function bindWindowControls() {

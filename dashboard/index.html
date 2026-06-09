@@ -71,13 +71,6 @@
         </div>
       </section>
 
-      <section class="two-col">
-        <div class="panel">
-          <h2>评分权重</h2>
-          <div id="weightBars" class="bars"></div>
-        </div>
-      </section>
-
       <section class="panel">
         <div class="section-head">
           <h2>题材簇拆解</h2>
@@ -88,24 +81,16 @@
 
       <section class="panel">
         <div class="section-head">
-          <h2>补充热词池</h2>
-          <span class="label" id="unmappedCount">未映射热词 0 条</span>
+          <h2>潜力题材</h2>
+          <span class="label" id="potentialCount">扩展来源 · 待核验方向 0 条</span>
         </div>
-        <div class="table-wrap">
-          <table>
-            <thead>
-              <tr>
-                <th>日期</th>
-                <th>来源</th>
-                <th>地区</th>
-                <th>关键词</th>
-                <th>情绪</th>
-                <th>证据</th>
-                <th>链接</th>
-              </tr>
-            </thead>
-            <tbody id="signalRows"></tbody>
-          </table>
+        <div id="potentialGrid" class="potential-grid"></div>
+      </section>
+
+      <section class="two-col">
+        <div class="panel">
+          <h2>评分权重</h2>
+          <div id="weightBars" class="bars"></div>
         </div>
       </section>
 
@@ -113,11 +98,12 @@
         <div class="panel">
           <h2>监测 SOP</h2>
           <ol class="sop">
-            <li>抓取 TikTok Creative Center、Google Trends、YouTube、Reddit 公开热点。</li>
+            <li>抓取 TikTok Creative Center、Google Trends、YouTube、Reddit、Instagram、X/Twitter、Quora、Medium 公开热点。</li>
             <li>把公开链接、摘要、地区、互动/排名、情绪标签写入 raw_signals。</li>
             <li>归并 topic_clusters，并按热度、情绪、新鲜度、持续性评分。</li>
             <li>映射 drama_angle_map，补充 logline、制作适配和风险。</li>
             <li>输出 weekly_watchlist：高优先级、观察级、风险苗头。</li>
+            <li>无法映射到现有短剧题材的扩展来源信号，进入“潜力题材”做观察。</li>
           </ol>
         </div>
         <div class="panel">

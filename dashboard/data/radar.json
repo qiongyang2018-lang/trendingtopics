@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T11:14:13",
+  "generated_at": "2026-06-09T11:25:05",
   "source_workbook": "社媒热点题材雷达_v1.xlsx",
   "scope": {
     "markets": [
@@ -17,10 +17,10 @@
       "rank": 1,
       "week_start": "2026-06-09",
       "topic_cluster": "Cheating revenge storytime",
-      "priority": "Watch",
-      "short_drama_genre": "情感背叛 / 复仇爽感",
-      "opportunity_score": 63,
-      "platforms_seen": "TikTok,Reddit",
+      "priority": null,
+      "short_drama_genre": null,
+      "opportunity_score": null,
+      "platforms_seen": null,
       "supply_position": "可跟进",
       "watch_reason": "高热度+强负面情绪，短剧冲突足，现有供给可做细分差异化。",
       "recommended_action": "拆 3 个英文 hook 与前 8 集节奏",
@@ -31,10 +31,10 @@
       "rank": 2,
       "week_start": "2026-06-09",
       "topic_cluster": "Single mom comeback",
-      "priority": "Watch",
-      "short_drama_genre": "女性成长 / 家庭伦理 / 逆袭",
-      "opportunity_score": 64,
-      "platforms_seen": "Google Trends,TikTok",
+      "priority": null,
+      "short_drama_genre": null,
+      "opportunity_score": null,
+      "platforms_seen": null,
       "supply_position": "可跟进",
       "watch_reason": "女性逆袭与家庭伦理兼容，制作成本低，海外短剧适配度高。",
       "recommended_action": "补抓 TikTok/Reddit 评论痛点",
@@ -45,10 +45,10 @@
       "rank": 3,
       "week_start": "2026-06-09",
       "topic_cluster": "Toxic relationship recovery",
-      "priority": "Watch",
-      "short_drama_genre": "女性成长 / 心理悬疑",
-      "opportunity_score": 58,
-      "platforms_seen": "Reddit,TikTok",
+      "priority": null,
+      "short_drama_genre": null,
+      "opportunity_score": null,
+      "platforms_seen": null,
       "supply_position": "差异化",
       "watch_reason": "情绪强但表达需谨慎，适合女性成长+悬疑化处理。",
       "recommended_action": "做风险词清单与人物设定",
@@ -59,10 +59,10 @@
       "rank": 4,
       "week_start": "2026-06-09",
       "topic_cluster": "Workplace justice arc",
-      "priority": "Watch",
-      "short_drama_genre": "职场压迫 / 阶层逆袭",
-      "opportunity_score": 58,
-      "platforms_seen": "YouTube,TikTok,Reddit",
+      "priority": null,
+      "short_drama_genre": null,
+      "opportunity_score": null,
+      "platforms_seen": null,
       "supply_position": "观察",
       "watch_reason": "社会情绪稳定，适合低成本都市爽剧，但需强化恋爱/反转钩子。",
       "recommended_action": "对照职场短剧投放素材",
@@ -73,10 +73,10 @@
       "rank": 5,
       "week_start": "2026-06-09",
       "topic_cluster": "Werewolf rejected mate",
-      "priority": "Risk/Low",
-      "short_drama_genre": "狼人 / 吸血鬼 / 奇幻言情",
-      "opportunity_score": 50,
-      "platforms_seen": "Google Trends,TikTok",
+      "priority": null,
+      "short_drama_genre": null,
+      "opportunity_score": null,
+      "platforms_seen": null,
       "supply_position": "避让/差异化",
       "watch_reason": "需求耐久但供给拥挤，需要 AI/漫剧化或世界观新意。",
       "recommended_action": "找新设定而非复制 alpha mate",
@@ -87,10 +87,10 @@
       "rank": 6,
       "week_start": "2026-06-09",
       "topic_cluster": "Mafia forbidden romance",
-      "priority": "Risk/Low",
-      "short_drama_genre": "禁忌恋 / 黑帮言情",
-      "opportunity_score": 45,
-      "platforms_seen": "TikTok",
+      "priority": null,
+      "short_drama_genre": null,
+      "opportunity_score": null,
+      "platforms_seen": null,
       "supply_position": "高风险观察",
       "watch_reason": "禁忌恋冲突强，但暴力/胁迫风险高，适合只做弱信号追踪。",
       "recommended_action": "仅收集 hook，不进入立项",
@@ -181,7 +181,7 @@
       "reference_titles": "ReelShort/DramaBox romance-revenge baseline",
       "production_fit": "High: live-action, low VFX, strong hook density",
       "risk_notes": "Low: avoid exploiting custody/legal trauma",
-      "opportunity_score": 64
+      "opportunity_score": null
     },
     {
       "topic_cluster": "Cheating revenge storytime",
@@ -191,7 +191,7 @@
       "reference_titles": "Romance revenge / betrayal arcs",
       "production_fit": "High: modern romance, high cliffhanger fit",
       "risk_notes": "Medium: avoid defamatory real-person parallels",
-      "opportunity_score": 63
+      "opportunity_score": null
     },
     {
       "topic_cluster": "Toxic relationship recovery",
@@ -201,7 +201,7 @@
       "reference_titles": "Suspense-romance hybrid",
       "production_fit": "Medium: needs careful tone and empathy",
       "risk_notes": "Medium: domestic abuse depiction sensitivity",
-      "opportunity_score": 58
+      "opportunity_score": null
     },
     {
       "topic_cluster": "Workplace justice arc",
@@ -211,7 +211,7 @@
       "reference_titles": "Urban revenge / career comeback",
       "production_fit": "High: office locations, clear social conflict",
       "risk_notes": "Low: keep employment claims fictional",
-      "opportunity_score": 58
+      "opportunity_score": null
     },
     {
       "topic_cluster": "Mafia forbidden romance",
@@ -221,7 +221,7 @@
       "reference_titles": "Mafia romance / contract love",
       "production_fit": "Medium: strong hooks, but needs stylized production",
       "risk_notes": "High: violence, coercion, brand-safety risk",
-      "opportunity_score": 45
+      "opportunity_score": null
     },
     {
       "topic_cluster": "Werewolf rejected mate",
@@ -231,7 +231,7 @@
       "reference_titles": "Werewolf mate / alpha romance",
       "production_fit": "Medium: AI/VFX or motion-comic friendly",
       "risk_notes": "Medium: category crowded; needs twist",
-      "opportunity_score": 50
+      "opportunity_score": null
     }
   ],
   "signals": [
@@ -348,6 +348,82 @@
       "evidence_level": "C",
       "last_checked": "2026-06-09",
       "notes": "与现有短剧强类型重合"
+    },
+    {
+      "date": "2026-06-09",
+      "source_platform": "Instagram",
+      "country_region": "US",
+      "language": "EN",
+      "keyword_or_hashtag": "tradwife backlash",
+      "post_title_or_caption": "Public hashtag/search direction around traditional-wife identity, backlash, and relationship role debates.",
+      "url": "https://www.instagram.com/explore/tags/tradwife/",
+      "views_or_rank": "public hashtag/search",
+      "likes": null,
+      "comments": null,
+      "shares": null,
+      "trend_window": "7d",
+      "sentiment": "mixed",
+      "emotion_tags": "identity,gender_roles,backlash",
+      "evidence_level": "C",
+      "last_checked": "2026-06-09",
+      "notes": "潜力题材：身份叙事/亲密关系角色争议，待核验热度"
+    },
+    {
+      "date": "2026-06-09",
+      "source_platform": "X / Twitter",
+      "country_region": "US",
+      "language": "EN",
+      "keyword_or_hashtag": "AI girlfriend breakup",
+      "post_title_or_caption": "Public search direction around AI companion relationships and emotional dependency.",
+      "url": "https://x.com/search?q=%22AI%20girlfriend%22&src=typed_query&f=top",
+      "views_or_rank": "public search",
+      "likes": null,
+      "comments": null,
+      "shares": null,
+      "trend_window": "7d",
+      "sentiment": "mixed",
+      "emotion_tags": "loneliness,dependency,technology",
+      "evidence_level": "C",
+      "last_checked": "2026-06-09",
+      "notes": "潜力题材：AI亲密关系/孤独经济，暂不映射现有短剧类型"
+    },
+    {
+      "date": "2026-06-09",
+      "source_platform": "Quora",
+      "country_region": "US",
+      "language": "EN",
+      "keyword_or_hashtag": "dating after divorce",
+      "post_title_or_caption": "Question/search direction around second-chance romance, trust rebuilding, and late-life dating.",
+      "url": "https://www.quora.com/search?q=dating%20after%20divorce",
+      "views_or_rank": "public search",
+      "likes": null,
+      "comments": null,
+      "shares": null,
+      "trend_window": "7d",
+      "sentiment": "mixed",
+      "emotion_tags": "second_chance,trust,healing",
+      "evidence_level": "C",
+      "last_checked": "2026-06-09",
+      "notes": "潜力题材：熟龄二次恋爱/信任重建，待观察"
+    },
+    {
+      "date": "2026-06-09",
+      "source_platform": "Medium",
+      "country_region": "US",
+      "language": "EN",
+      "keyword_or_hashtag": "loneliness economy",
+      "post_title_or_caption": "Essay/search direction around loneliness, emotional services, and modern intimacy.",
+      "url": "https://medium.com/search?q=loneliness%20economy",
+      "views_or_rank": "public search",
+      "likes": null,
+      "comments": null,
+      "shares": null,
+      "trend_window": "7d",
+      "sentiment": "negative",
+      "emotion_tags": "loneliness,modern_life,emotional_need",
+      "evidence_level": "C",
+      "last_checked": "2026-06-09",
+      "notes": "潜力题材：孤独经济/情感服务，偏新方向"
     }
   ],
   "dictionary": [
