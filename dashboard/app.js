@@ -266,6 +266,61 @@ function renderPotentialTopics(signals) {
     .join(""));
 }
 
+function renderAiTrends(items) {
+  const trends = (items || []).filter((item) => item.title).slice(0, 18);
+  const categoryOrder = ["AI漫剧", "AI仿真人剧", "AI短剧/平台"];
+  setText("#aiTrendCount", `AI漫剧 / AI仿真人剧 / AI短剧 · ${trends.length} 条`);
+
+  if (!trends.length) {
+    setHtml("#aiTrendGrid", `
+      <div class="empty-card">暂无 AI 内容趋势数据。本地刷新时会从 AI 监控表和 2026 AI 剧爆款盘点表导出。</div>
+    `);
+    return;
+  }
+
+  const byCategory = categoryOrder.map((category) => ({
+    category,
+    items: trends.filter((item) => item.category === category),
+  }));
+
+  setHtml("#aiTrendGrid", byCategory
+    .filter((group) => group.items.length)
+    .map((group) => `
+      <article class="ai-trend-group">
+        <div class="ai-trend-group-head">
+          <h3>${escapeHtml(group.category)}</h3>
+          <span>${group.items.length} 条</span>
+        </div>
+        <div class="ai-trend-list">
+          ${group.items
+            .map((item) => {
+              const sourceLink = item.source_url
+                ? `<a href="${escapeHtml(item.source_url)}" target="_blank" rel="noreferrer">source</a>`
+                : `<span>${escapeHtml(item.source_sheet || "source")}</span>`;
+              return `
+                <div class="ai-trend-card">
+                  <div class="ai-trend-meta">
+                    <span>${escapeHtml(displayValue(item.platform))} · ${escapeHtml(displayValue(item.region))}</span>
+                    <span>证据 ${escapeHtml(displayValue(item.evidence_level))}</span>
+                  </div>
+                  <h4>${escapeHtml(item.title)}</h4>
+                  <p>${escapeHtml(displayValue(item.trend_signal, "暂无趋势说明"))}</p>
+                  <div class="ai-trend-tags">
+                    <span>${escapeHtml(displayValue(item.genre, "genre TBD"))}</span>
+                    <span>${escapeHtml(displayValue(item.metric, "metric TBD"))}</span>
+                  </div>
+                  <small>${escapeHtml(displayValue(item.production_signal, "制作信号待补充"))}</small>
+                  <div class="ai-trend-source">${sourceLink}</div>
+                </div>
+              `;
+            })
+            .join("")}
+        </div>
+      </article>
+    `)
+    .join(""));
+}
+
 function renderAll() {
   const signals = filterSignalsByWindow(radarData.signals || [], activeWindowDays);
   const mappedKeys = mappedSignalKeys(radarData.clusters || [], radarData.watchlist || [], signals);
@@ -275,6 +330,7 @@ function renderAll() {
   renderWatchlist(radarData.watchlist || []);
   renderWeights(radarData.weights || []);
   renderClusters(radarData.clusters || [], radarData.watchlist || [], signals);
+  renderAiTrends(radarData.ai_trends || []);
   renderPotentialTopics(unmappedSignals);
 }
 

@@ -394,6 +394,98 @@ th {
   gap: 12px;
 }
 
+.ai-trend-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.ai-trend-group {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfcfd;
+  overflow: hidden;
+}
+
+.ai-trend-group-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 12px 14px;
+  background: #eef3f5;
+  border-bottom: 1px solid var(--line);
+}
+
+.ai-trend-group-head h3 {
+  margin: 0;
+  font-size: 15px;
+}
+
+.ai-trend-group-head span {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.ai-trend-list {
+  display: grid;
+  gap: 10px;
+  padding: 12px;
+}
+
+.ai-trend-card {
+  padding: 12px;
+  border: 1px solid #dce4e8;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.ai-trend-meta,
+.ai-trend-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.ai-trend-meta {
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.ai-trend-card h4 {
+  margin: 0 0 8px;
+  font-size: 14px;
+}
+
+.ai-trend-card p {
+  margin: 0 0 10px;
+  color: #334155;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.ai-trend-tags span {
+  padding: 4px 7px;
+  border-radius: 6px;
+  background: #eef3f5;
+}
+
+.ai-trend-card small {
+  display: block;
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.ai-trend-source {
+  margin-top: 8px;
+  font-size: 12px;
+}
+
 .potential-card,
 .empty-card {
   border: 1px solid var(--line);
@@ -463,6 +555,7 @@ a:hover {
   .summary-grid,
   .two-col,
   .cluster-grid,
+  .ai-trend-grid,
   .potential-grid {
     grid-template-columns: 1fr;
   }

@@ -9,6 +9,8 @@ from openpyxl import load_workbook
 
 ROOT = Path(__file__).resolve().parents[1]
 WORKBOOK_PATH = ROOT / "社媒热点题材雷达_v1.xlsx"
+AI_MONITOR_PATH = ROOT / "AI短剧监控总表_v1.xlsx"
+AI_HITS_PATH = ROOT / "2026_AI剧爆款盘点_v3_扩充版.xlsx"
 OUTPUT_PATH = ROOT / "dashboard" / "data" / "radar.json"
 SNAPSHOT_DIR = ROOT / "dashboard" / "data" / "snapshots"
 SNAPSHOT_INDEX_PATH = SNAPSHOT_DIR / "index.json"
@@ -105,6 +107,101 @@ def hydrate_watchlist(watchlist, clusters, angles):
     return hydrated
 
 
+def classify_ai_category(*values):
+    text = " ".join(str(value or "") for value in values).lower()
+    if any(token in text for token in ["motion_comic", "comic", "animation", "micro-animation", "漫剧", "动画", "animated"]):
+        return "AI漫剧"
+    if any(token in text for token in ["simulated live-action", "live-action", "仿真人", "synthetic voice", "reference-image"]):
+        return "AI仿真人剧"
+    return "AI短剧/平台"
+
+
+def build_ai_trends():
+    trends = []
+    seen = set()
+
+    if AI_HITS_PATH.exists():
+        hit_wb = load_workbook(AI_HITS_PATH, data_only=True)
+        for sheet_name in ["AI剧爆款盘点_2026_AB", "AI剧爆款线索_2026_C", "补充样本_含无VV"]:
+            if sheet_name not in hit_wb.sheetnames:
+                continue
+            for row in sheet_records(hit_wb, sheet_name, 1, 2):
+                title = row.get("title/project")
+                if not title or title in seen:
+                    continue
+                seen.add(title)
+                trends.append(
+                    {
+                        "category": classify_ai_category(row.get("format"), row.get("ai_usage")),
+                        "title": title,
+                        "genre": row.get("genre"),
+                        "platform": row.get("platform"),
+                        "region": row.get("region"),
+                        "metric": row.get("hit_metric_public") or row.get("hit_metric_type"),
+                        "trend_signal": row.get("why_defined_as_hit") or row.get("is_hit_type"),
+                        "production_signal": row.get("ai_usage"),
+                        "evidence_level": row.get("evidence_level") or "B/C",
+                        "source_url": row.get("source_url"),
+                        "source_sheet": sheet_name,
+                    }
+                )
+
+    if AI_MONITOR_PATH.exists():
+        monitor_wb = load_workbook(AI_MONITOR_PATH, data_only=True)
+        if "监控总表" not in monitor_wb.sheetnames:
+            monitor_wb.close()
+        else:
+            for row in sheet_records(monitor_wb, "监控总表", 1, 2):
+                title = row.get("content_title")
+                if not title or title in seen:
+                    continue
+                seen.add(title)
+                trends.append(
+                    {
+                        "category": classify_ai_category(row.get("content_type"), row.get("ai_pipeline"), row.get("ai_level")),
+                        "title": title,
+                        "genre": row.get("genre_tags"),
+                        "platform": row.get("platform_app"),
+                        "region": row.get("country_region"),
+                        "metric": f"{row.get('scale_metric_primary') or 'scale'}: {row.get('scale_value') or 'TBD'}",
+                        "trend_signal": row.get("cost_saving_claim") or row.get("next_action"),
+                        "production_signal": row.get("ai_pipeline"),
+                        "evidence_level": row.get("evidence_level"),
+                        "source_url": row.get("source_url"),
+                        "source_sheet": "AI短剧监控总表",
+                    }
+                )
+
+    category_order = {"AI漫剧": 0, "AI仿真人剧": 1, "AI短剧/平台": 2}
+    trends.sort(key=lambda item: (category_order.get(item.get("category"), 9), str(item.get("title") or "")))
+    if trends:
+        selected = []
+        selected_titles = set()
+        for category in category_order:
+            category_items = [item for item in trends if item.get("category") == category]
+            for item in category_items[:6]:
+                selected.append(item)
+                selected_titles.add(item.get("title"))
+
+        for item in trends:
+            if len(selected) >= 18:
+                break
+            if item.get("title") not in selected_titles:
+                selected.append(item)
+                selected_titles.add(item.get("title"))
+
+        return selected[:18]
+
+    if OUTPUT_PATH.exists():
+        try:
+            existing_payload = json.loads(OUTPUT_PATH.read_text(encoding="utf-8"))
+            return existing_payload.get("ai_trends", [])[:18]
+        except (OSError, json.JSONDecodeError):
+            return []
+
+    return []
+
+
 def main():
     workbook = load_workbook(WORKBOOK_PATH, data_only=True)
     generated_at = datetime.now()
@@ -130,6 +227,7 @@ def main():
         "clusters": clusters,
         "angles": angles,
         "signals": sheet_records(workbook, "raw_signals", 4, 5),
+        "ai_trends": build_ai_trends(),
         "dictionary": sheet_records(workbook, "dictionary", 4, 5),
         "weights": [
             {"name": "热度", "weight": 35},
