@@ -34,6 +34,7 @@ async function loadSnapshots() {
 
 let radarData = null;
 let activeWindowDays = 7;
+let snapshots = [];
 
 function parseDate(value) {
   if (!value) return null;
@@ -265,24 +266,56 @@ function bindWindowControls() {
   });
 }
 
-function renderSnapshotLinks(snapshots) {
-  const links = snapshots
-    .slice(0, 7)
-    .map((item) => `<a href="./${escapeHtml(item.path)}" target="_blank" rel="noreferrer">${escapeHtml(item.date)}</a>`)
+function setRadarData(data, modeLabel = "最新数据") {
+  radarData = data;
+  document.querySelector("#updatedAt").textContent = `${modeLabel} · 更新时间 ${formatDate(data.generated_at)}`;
+  renderAll();
+}
+
+async function loadSnapshotPayload(path) {
+  const response = await fetch(`./${path}`, { cache: "no-store" });
+  if (!response.ok) throw new Error(`Failed to load snapshot: ${response.status}`);
+  return response.json();
+}
+
+function renderSnapshotSelector(items) {
+  snapshots = items || [];
+  const select = document.querySelector("#snapshotSelect");
+  const options = [`<option value="latest">最新数据</option>`]
+    .concat(snapshots.map((item) => `<option value="${escapeHtml(item.path)}">${escapeHtml(item.date)}</option>`))
     .join("");
-  document.querySelector("#snapshotLinks").innerHTML = links || "暂无历史快照";
+  select.innerHTML = options;
+  document.querySelector("#snapshotRawLink").href = "./data/radar.json";
+
+  select.addEventListener("change", async () => {
+    const value = select.value;
+    try {
+      if (value === "latest") {
+        const latest = await loadRadar();
+        document.querySelector("#snapshotRawLink").href = "./data/radar.json";
+        setRadarData(latest, "最新数据");
+        return;
+      }
+
+      const selected = snapshots.find((item) => item.path === value);
+      const payload = await loadSnapshotPayload(value);
+      document.querySelector("#snapshotRawLink").href = `./${value}`;
+      setRadarData(payload, `历史快照 ${selected?.date || ""}`.trim());
+    } catch (error) {
+      document.querySelector("#snapshotRawLink").textContent = "加载失败";
+      throw error;
+    }
+  });
 }
 
 loadRadar()
   .then((data) => {
-    radarData = data;
-    document.querySelector("#updatedAt").textContent = `更新时间 ${formatDate(data.generated_at)}`;
     bindWindowControls();
-    renderAll();
+    setRadarData(data);
     return loadSnapshots();
   })
-  .then((snapshots) => {
-    renderSnapshotLinks(snapshots || []);
+  .then((items) => {
+    renderSnapshotSelector(items || []);
   })
   .catch((error) => {
     document.body.innerHTML = `<main class="panel"><h1>数据加载失败</h1><p>${escapeHtml(error.message)}</p></main>`;

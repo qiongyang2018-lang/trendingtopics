@@ -155,21 +155,30 @@ main {
   padding-bottom: 14px;
 }
 
-.snapshot-links {
+.snapshot-control {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
+  align-items: center;
   gap: 8px;
   color: var(--muted);
   font-size: 13px;
 }
 
-.snapshot-links a {
+.snapshot-control select,
+.snapshot-control a {
   display: inline-block;
   padding: 6px 9px;
   border: 1px solid var(--line);
   border-radius: 7px;
   background: #fbfcfd;
+  color: var(--accent);
+  font: inherit;
+  font-weight: 700;
+}
+
+.snapshot-control select {
+  min-width: 150px;
 }
 
 .legend {

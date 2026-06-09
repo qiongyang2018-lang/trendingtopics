@@ -47,9 +47,14 @@
         <div class="section-head compact">
           <div>
             <h2>历史快照</h2>
-            <span class="label">每天更新会保留一份 JSON 快照，方便回看前一天数据。</span>
+            <span class="label">每天更新会保留一份快照，可选择任意日期回看当日看板。</span>
           </div>
-          <div id="snapshotLinks" class="snapshot-links">加载中</div>
+          <div class="snapshot-control">
+            <select id="snapshotSelect" aria-label="选择历史快照">
+              <option value="latest">最新数据</option>
+            </select>
+            <a id="snapshotRawLink" href="./data/radar.json" target="_blank" rel="noreferrer">查看 JSON</a>
+          </div>
         </div>
       </section>
 
