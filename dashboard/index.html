@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>海外社媒热点短剧题材雷达</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Overseas Social Radar</p>
+        <h1>海外社媒热点短剧题材雷达</h1>
+      </div>
+      <div class="meta">
+        <span id="updatedAt">更新中</span>
+        <span>英语市场 · Public only</span>
+      </div>
+    </header>
+
+    <main>
+      <section class="summary-grid" aria-label="概览">
+        <article>
+          <span class="label">覆盖市场</span>
+          <strong>US / UK / CA / AU</strong>
+        </article>
+        <article>
+          <span class="label">更新节奏</span>
+          <strong>每周一 · 近 7 天</strong>
+        </article>
+        <article>
+          <span class="label">数据边界</span>
+          <strong>公开链接与聚合指标</strong>
+        </article>
+        <article>
+          <span class="label">输出目标</span>
+          <strong>Top 10 题材候选</strong>
+        </article>
+      </section>
+
+      <section class="panel">
+        <div class="section-head">
+          <h2>本周候选题材</h2>
+          <div class="legend">
+            <span><i class="dot high"></i>High</span>
+            <span><i class="dot watch"></i>Watch</span>
+            <span><i class="dot risk"></i>Risk/Low</span>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Rank</th>
+                <th>题材簇</th>
+                <th>优先级</th>
+                <th>机会分</th>
+                <th>短剧类型</th>
+                <th>平台信号</th>
+                <th>建议动作</th>
+              </tr>
+            </thead>
+            <tbody id="watchlistRows"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="two-col">
+        <div class="panel">
+          <h2>评分权重</h2>
+          <div id="weightBars" class="bars"></div>
+        </div>
+        <div class="panel">
+          <h2>监测 SOP</h2>
+          <ol class="sop">
+            <li>抓取 TikTok Creative Center、Google Trends、YouTube、Reddit 过去 7 天公开热点。</li>
+            <li>把公开链接、摘要、地区、互动/排名、情绪标签写入 raw_signals。</li>
+            <li>归并 topic_clusters，并按热度、情绪、新鲜度、持续性评分。</li>
+            <li>映射 drama_angle_map，补充 logline、制作适配和风险。</li>
+            <li>输出 weekly_watchlist：高优先级、观察级、风险苗头。</li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>题材簇拆解</h2>
+        <div id="clusterGrid" class="cluster-grid"></div>
+      </section>
+
+      <section class="panel">
+        <h2>原始信号样例</h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>日期</th>
+                <th>来源</th>
+                <th>地区</th>
+                <th>关键词</th>
+                <th>情绪</th>
+                <th>证据</th>
+                <th>链接</th>
+              </tr>
+            </thead>
+            <tbody id="signalRows"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

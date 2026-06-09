@@ -1,0 +1,6 @@
+dashboard_site.zip
+*.DS_Store
+
+# Keep the public radar source workbook, but avoid accidentally publishing other workbooks.
+*.xlsx
+!社媒热点题材雷达_v1.xlsx

@@ -1,0 +1,473 @@
+{
+  "generated_at": "2026-06-09T10:14:31",
+  "source_workbook": "社媒热点题材雷达_v1.xlsx",
+  "scope": {
+    "markets": [
+      "US",
+      "UK",
+      "CA",
+      "AU"
+    ],
+    "language": "EN",
+    "cadence": "Weekly Monday, trailing 7 days",
+    "data_boundary": "Public pages and aggregate metrics only"
+  },
+  "watchlist": [
+    {
+      "rank": 1,
+      "week_start": "2026-06-09",
+      "topic_cluster": "Cheating revenge storytime",
+      "priority": "Watch",
+      "short_drama_genre": "情感背叛 / 复仇爽感",
+      "opportunity_score": 63,
+      "platforms_seen": "TikTok,Reddit",
+      "supply_position": "可跟进",
+      "watch_reason": "高热度+强负面情绪，短剧冲突足，现有供给可做细分差异化。",
+      "recommended_action": "拆 3 个英文 hook 与前 8 集节奏",
+      "owner": "内容策略",
+      "status": "active"
+    },
+    {
+      "rank": 2,
+      "week_start": "2026-06-09",
+      "topic_cluster": "Single mom comeback",
+      "priority": "Watch",
+      "short_drama_genre": "女性成长 / 家庭伦理 / 逆袭",
+      "opportunity_score": 64,
+      "platforms_seen": "Google Trends,TikTok",
+      "supply_position": "可跟进",
+      "watch_reason": "女性逆袭与家庭伦理兼容，制作成本低，海外短剧适配度高。",
+      "recommended_action": "补抓 TikTok/Reddit 评论痛点",
+      "owner": "内容策略",
+      "status": "active"
+    },
+    {
+      "rank": 3,
+      "week_start": "2026-06-09",
+      "topic_cluster": "Toxic relationship recovery",
+      "priority": "Watch",
+      "short_drama_genre": "女性成长 / 心理悬疑",
+      "opportunity_score": 58,
+      "platforms_seen": "Reddit,TikTok",
+      "supply_position": "差异化",
+      "watch_reason": "情绪强但表达需谨慎，适合女性成长+悬疑化处理。",
+      "recommended_action": "做风险词清单与人物设定",
+      "owner": "内容策略",
+      "status": "active"
+    },
+    {
+      "rank": 4,
+      "week_start": "2026-06-09",
+      "topic_cluster": "Workplace justice arc",
+      "priority": "Watch",
+      "short_drama_genre": "职场压迫 / 阶层逆袭",
+      "opportunity_score": 58,
+      "platforms_seen": "YouTube,TikTok,Reddit",
+      "supply_position": "观察",
+      "watch_reason": "社会情绪稳定，适合低成本都市爽剧，但需强化恋爱/反转钩子。",
+      "recommended_action": "对照职场短剧投放素材",
+      "owner": "增长分析",
+      "status": "watch"
+    },
+    {
+      "rank": 5,
+      "week_start": "2026-06-09",
+      "topic_cluster": "Werewolf rejected mate",
+      "priority": "Risk/Low",
+      "short_drama_genre": "狼人 / 吸血鬼 / 奇幻言情",
+      "opportunity_score": 50,
+      "platforms_seen": "Google Trends,TikTok",
+      "supply_position": "避让/差异化",
+      "watch_reason": "需求耐久但供给拥挤，需要 AI/漫剧化或世界观新意。",
+      "recommended_action": "找新设定而非复制 alpha mate",
+      "owner": "内容策略",
+      "status": "watch"
+    },
+    {
+      "rank": 6,
+      "week_start": "2026-06-09",
+      "topic_cluster": "Mafia forbidden romance",
+      "priority": "Risk/Low",
+      "short_drama_genre": "禁忌恋 / 黑帮言情",
+      "opportunity_score": 45,
+      "platforms_seen": "TikTok",
+      "supply_position": "高风险观察",
+      "watch_reason": "禁忌恋冲突强，但暴力/胁迫风险高，适合只做弱信号追踪。",
+      "recommended_action": "仅收集 hook，不进入立项",
+      "owner": "内容策略",
+      "status": "risk_watch"
+    }
+  ],
+  "clusters": [
+    {
+      "cluster_name": "Single mom comeback",
+      "trigger_event": "Single mom / independence / payback narratives rising",
+      "audience_pain_point": "被低估、被抛弃后重新掌控人生",
+      "dominant_emotion": "resilience",
+      "related_keywords": "single mom comeback; abandoned wife; custody battle",
+      "platforms_seen": "Google Trends,TikTok",
+      "heat_score": 76,
+      "sentiment_score": 72,
+      "novelty_score": 62,
+      "sustainability_score": 68
+    },
+    {
+      "cluster_name": "Cheating revenge storytime",
+      "trigger_event": "Confession and betrayal storytime hooks trend",
+      "audience_pain_point": "亲密关系背叛后的愤怒与复仇期待",
+      "dominant_emotion": "anger",
+      "related_keywords": "#cheatingstory; betrayal; revenge",
+      "platforms_seen": "TikTok,Reddit",
+      "heat_score": 84,
+      "sentiment_score": 86,
+      "novelty_score": 55,
+      "sustainability_score": 61
+    },
+    {
+      "cluster_name": "Toxic relationship recovery",
+      "trigger_event": "Advice/discussion threads around manipulation and breakup",
+      "audience_pain_point": "情感操控、PUA、逃离关系后的自我修复",
+      "dominant_emotion": "healing",
+      "related_keywords": "toxic relationship; gaslighting; breakup recovery",
+      "platforms_seen": "Reddit,TikTok",
+      "heat_score": 69,
+      "sentiment_score": 80,
+      "novelty_score": 57,
+      "sustainability_score": 74
+    },
+    {
+      "cluster_name": "Workplace justice arc",
+      "trigger_event": "Unfair boss and workplace conflict content continues to circulate",
+      "audience_pain_point": "职场压迫、阶层不平等、迟来的正义",
+      "dominant_emotion": "frustration",
+      "related_keywords": "workplace drama; bad boss; fired unfairly",
+      "platforms_seen": "YouTube,TikTok,Reddit",
+      "heat_score": 64,
+      "sentiment_score": 66,
+      "novelty_score": 58,
+      "sustainability_score": 72
+    },
+    {
+      "cluster_name": "Mafia forbidden romance",
+      "trigger_event": "Dangerous romance and forbidden-love hooks",
+      "audience_pain_point": "高风险关系里的安全感、欲望与权力幻想",
+      "dominant_emotion": "desire",
+      "related_keywords": "mafia romance; forbidden love; dangerous boyfriend",
+      "platforms_seen": "TikTok",
+      "heat_score": 58,
+      "sentiment_score": 74,
+      "novelty_score": 51,
+      "sustainability_score": 60
+    },
+    {
+      "cluster_name": "Werewolf rejected mate",
+      "trigger_event": "Fantasy soulmate/rejection arcs show durable demand",
+      "audience_pain_point": "被命定伴侣拒绝后的逆袭与再选择",
+      "dominant_emotion": "longing",
+      "related_keywords": "werewolf mate; rejected mate; alpha romance",
+      "platforms_seen": "Google Trends,TikTok",
+      "heat_score": 62,
+      "sentiment_score": 69,
+      "novelty_score": 42,
+      "sustainability_score": 76
+    }
+  ],
+  "angles": [
+    {
+      "topic_cluster": "Single mom comeback",
+      "short_drama_genre": "女性成长 / 家庭伦理 / 逆袭",
+      "possible_logline": "A discarded single mother rebuilds her life, wins custody, and exposes the billionaire ex who tried to erase her.",
+      "target_audience": "Women 25-44, romance/revenge viewers",
+      "reference_titles": "ReelShort/DramaBox romance-revenge baseline",
+      "production_fit": "High: live-action, low VFX, strong hook density",
+      "risk_notes": "Low: avoid exploiting custody/legal trauma",
+      "opportunity_score": 64
+    },
+    {
+      "topic_cluster": "Cheating revenge storytime",
+      "short_drama_genre": "情感背叛 / 复仇爽感",
+      "possible_logline": "After catching her fiance cheating before the wedding, a quiet bride allies with his rival and takes back the family empire.",
+      "target_audience": "Women 18-44, relationship storytime audience",
+      "reference_titles": "Romance revenge / betrayal arcs",
+      "production_fit": "High: modern romance, high cliffhanger fit",
+      "risk_notes": "Medium: avoid defamatory real-person parallels",
+      "opportunity_score": 63
+    },
+    {
+      "topic_cluster": "Toxic relationship recovery",
+      "short_drama_genre": "女性成长 / 心理悬疑",
+      "possible_logline": "A woman escapes a charming manipulator, only to discover his next target is her younger sister.",
+      "target_audience": "Women 18-40, advice/community discussion users",
+      "reference_titles": "Suspense-romance hybrid",
+      "production_fit": "Medium: needs careful tone and empathy",
+      "risk_notes": "Medium: domestic abuse depiction sensitivity",
+      "opportunity_score": 58
+    },
+    {
+      "topic_cluster": "Workplace justice arc",
+      "short_drama_genre": "职场压迫 / 阶层逆袭",
+      "possible_logline": "A fired assistant secretly becomes the investor who decides whether her abusive boss survives the merger.",
+      "target_audience": "Women and workplace drama viewers",
+      "reference_titles": "Urban revenge / career comeback",
+      "production_fit": "High: office locations, clear social conflict",
+      "risk_notes": "Low: keep employment claims fictional",
+      "opportunity_score": 58
+    },
+    {
+      "topic_cluster": "Mafia forbidden romance",
+      "short_drama_genre": "禁忌恋 / 黑帮言情",
+      "possible_logline": "A cautious nurse saves a wounded mafia heir and is pulled into a contract romance that becomes a war for trust.",
+      "target_audience": "Romance fantasy readers/viewers",
+      "reference_titles": "Mafia romance / contract love",
+      "production_fit": "Medium: strong hooks, but needs stylized production",
+      "risk_notes": "High: violence, coercion, brand-safety risk",
+      "opportunity_score": 45
+    },
+    {
+      "topic_cluster": "Werewolf rejected mate",
+      "short_drama_genre": "狼人 / 吸血鬼 / 奇幻言情",
+      "possible_logline": "Rejected by her alpha mate, an omega discovers a hidden bloodline and becomes the only person who can stop a pack war.",
+      "target_audience": "YA/new adult fantasy romance viewers",
+      "reference_titles": "Werewolf mate / alpha romance",
+      "production_fit": "Medium: AI/VFX or motion-comic friendly",
+      "risk_notes": "Medium: category crowded; needs twist",
+      "opportunity_score": 50
+    }
+  ],
+  "signals": [
+    {
+      "date": "2026-06-09",
+      "source_platform": "Google Trends",
+      "country_region": "US",
+      "language": "EN",
+      "keyword_or_hashtag": "single mom comeback",
+      "post_title_or_caption": "Search interest around single mom success / revenge narratives",
+      "url": "https://trends.google.com/trends/trendingsearches/daily?geo=US",
+      "views_or_rank": "rank/watch",
+      "likes": null,
+      "comments": null,
+      "shares": null,
+      "trend_window": "7d",
+      "sentiment": "positive",
+      "emotion_tags": "resilience,revenge,empathy",
+      "evidence_level": "B",
+      "last_checked": "2026-06-09",
+      "notes": "泛热点，需二次核验"
+    },
+    {
+      "date": "2026-06-09",
+      "source_platform": "TikTok Creative Center",
+      "country_region": "US",
+      "language": "EN",
+      "keyword_or_hashtag": "#cheatingstory",
+      "post_title_or_caption": "Relationship betrayal storytime hooks and confession-style videos",
+      "url": "https://ads.tiktok.com/business/creativecenter/inspiration/popular/hashtag",
+      "views_or_rank": "rank/watch",
+      "likes": null,
+      "comments": null,
+      "shares": null,
+      "trend_window": "7d",
+      "sentiment": "negative",
+      "emotion_tags": "anger,betrayal,curiosity",
+      "evidence_level": "B",
+      "last_checked": "2026-06-09",
+      "notes": "适合情感背叛/复仇爽感"
+    },
+    {
+      "date": "2026-06-09",
+      "source_platform": "Reddit",
+      "country_region": "US",
+      "language": "EN",
+      "keyword_or_hashtag": "toxic relationship",
+      "post_title_or_caption": "Advice threads around emotional manipulation and breakup recovery",
+      "url": "https://www.reddit.com/search/?q=toxic%20relationship",
+      "views_or_rank": "score/comments",
+      "likes": null,
+      "comments": null,
+      "shares": null,
+      "trend_window": "7d",
+      "sentiment": "negative",
+      "emotion_tags": "anger,fear,healing",
+      "evidence_level": "B",
+      "last_checked": "2026-06-09",
+      "notes": "只采公开帖摘要"
+    },
+    {
+      "date": "2026-06-09",
+      "source_platform": "YouTube",
+      "country_region": "US",
+      "language": "EN",
+      "keyword_or_hashtag": "workplace drama",
+      "post_title_or_caption": "Trending workplace conflict / unfair boss narratives",
+      "url": "https://www.youtube.com/feed/trending",
+      "views_or_rank": "rank/watch",
+      "likes": null,
+      "comments": null,
+      "shares": null,
+      "trend_window": "7d",
+      "sentiment": "mixed",
+      "emotion_tags": "frustration,justice",
+      "evidence_level": "B",
+      "last_checked": "2026-06-09",
+      "notes": "职场压迫和逆袭可转化"
+    },
+    {
+      "date": "2026-06-09",
+      "source_platform": "TikTok Creative Center",
+      "country_region": "UK",
+      "language": "EN",
+      "keyword_or_hashtag": "mafia romance",
+      "post_title_or_caption": "Romance fantasy hooks with danger / forbidden-love framing",
+      "url": "https://ads.tiktok.com/business/creativecenter/inspiration/popular/hashtag",
+      "views_or_rank": "rank/watch",
+      "likes": null,
+      "comments": null,
+      "shares": null,
+      "trend_window": "7d",
+      "sentiment": "mixed",
+      "emotion_tags": "desire,danger,suspense",
+      "evidence_level": "C",
+      "last_checked": "2026-06-09",
+      "notes": "题材强但风险需标注"
+    },
+    {
+      "date": "2026-06-09",
+      "source_platform": "Google Trends",
+      "country_region": "AU",
+      "language": "EN",
+      "keyword_or_hashtag": "werewolf mate",
+      "post_title_or_caption": "Fantasy romance search pattern tied to soulmate / rejection arcs",
+      "url": "https://trends.google.com/trends/explore?geo=AU&q=werewolf%20mate",
+      "views_or_rank": "search interest",
+      "likes": null,
+      "comments": null,
+      "shares": null,
+      "trend_window": "7d",
+      "sentiment": "positive",
+      "emotion_tags": "fantasy,longing,rejection",
+      "evidence_level": "C",
+      "last_checked": "2026-06-09",
+      "notes": "与现有短剧强类型重合"
+    }
+  ],
+  "dictionary": [
+    {
+      "section": "source_platform",
+      "item": "TikTok Creative Center",
+      "value": "公开趋势入口",
+      "notes": "热门 hashtag、歌曲、创作者、视频；按地区/行业/时间窗筛选。"
+    },
+    {
+      "section": "source_platform",
+      "item": "Google Trends",
+      "value": "公开趋势/RSS",
+      "notes": "Trending now 和搜索兴趣；适合捕捉泛热点。"
+    },
+    {
+      "section": "source_platform",
+      "item": "YouTube",
+      "value": "公开 Trending/Charts",
+      "notes": "标题、分类、排名/观看趋势；不采集登录态。"
+    },
+    {
+      "section": "source_platform",
+      "item": "Reddit",
+      "value": "公开帖子/评论讨论",
+      "notes": "只保留公开帖链接、标题摘要、聚合互动。"
+    },
+    {
+      "section": "country_region",
+      "item": "默认",
+      "value": "US, UK, CA, AU",
+      "notes": "第一阶段英语市场。"
+    },
+    {
+      "section": "evidence_level",
+      "item": "A",
+      "value": "官方/平台可核验",
+      "notes": "平台官方页面、官方 API 或官方趋势产品。"
+    },
+    {
+      "section": "evidence_level",
+      "item": "B",
+      "value": "公开页面可回溯",
+      "notes": "公开网页、搜索结果、公开帖子，可人工复查。"
+    },
+    {
+      "section": "evidence_level",
+      "item": "C",
+      "value": "弱线索待核验",
+      "notes": "第三方转述、低可回溯线索或样本量不足。"
+    },
+    {
+      "section": "score",
+      "item": "heat_score",
+      "value": "0-100",
+      "notes": "热度、排名、增长速度、跨平台出现频次综合。权重 35%。"
+    },
+    {
+      "section": "score",
+      "item": "sentiment_score",
+      "value": "0-100",
+      "notes": "评论/讨论中的情绪强度，不等同正负面。权重 25%。"
+    },
+    {
+      "section": "score",
+      "item": "novelty_score",
+      "value": "0-100",
+      "notes": "相对现有短剧供给的新鲜度/差异化。权重 20%。"
+    },
+    {
+      "section": "score",
+      "item": "sustainability_score",
+      "value": "0-100",
+      "notes": "是否可能持续超过单日热点。权重 10%。"
+    },
+    {
+      "section": "score",
+      "item": "risk_penalty",
+      "value": "0/5/10",
+      "notes": "Low=0, Medium=5, High=10，在 opportunity_score 中扣分。"
+    },
+    {
+      "section": "compliance",
+      "item": "禁止",
+      "value": "私密账号/登录后内容/个人敏感信息",
+      "notes": "v1 不做绕过、批量个人画像或不可回溯采集。"
+    },
+    {
+      "section": "workflow",
+      "item": "周一",
+      "value": "回看过去 7 天",
+      "notes": "先 raw_signals，再 topic_clusters，再 drama_angle_map，最后 weekly_watchlist。"
+    },
+    {
+      "section": "existing_workbook",
+      "item": "AI短剧监控总表_v1.xlsx",
+      "value": "短剧供给/竞品样本库",
+      "notes": "用于判断供给拥挤、可跟进、可错位和需规避。"
+    }
+  ],
+  "weights": [
+    {
+      "name": "热度",
+      "weight": 35
+    },
+    {
+      "name": "情绪强度",
+      "weight": 25
+    },
+    {
+      "name": "题材可短剧化",
+      "weight": 20
+    },
+    {
+      "name": "供给缺口",
+      "weight": 10
+    },
+    {
+      "name": "合规/品牌风险扣分",
+      "weight": 10
+    }
+  ]
+}
