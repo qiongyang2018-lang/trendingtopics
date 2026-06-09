@@ -25,6 +25,23 @@ const displayValue = (value, fallback = "-") => {
   return value;
 };
 
+const $ = (selector) => document.querySelector(selector);
+
+function setText(selector, value) {
+  const element = $(selector);
+  if (element) element.textContent = value;
+}
+
+function setHtml(selector, value) {
+  const element = $(selector);
+  if (element) element.innerHTML = value;
+}
+
+function setHref(selector, value) {
+  const element = $(selector);
+  if (element) element.href = value;
+}
+
 async function loadRadar() {
   const response = await fetch("./data/radar.json", { cache: "no-store" });
   if (!response.ok) throw new Error(`Failed to load radar data: ${response.status}`);
@@ -116,7 +133,7 @@ function renderWatchlist(items) {
   const topItems = items
     .filter((item) => item.topic_cluster)
     .slice(0, 10);
-  document.querySelector("#watchlistCount").textContent = `已收录 ${topItems.length}/10`;
+  setText("#watchlistCount", `已收录 ${topItems.length}/10`);
 
   const rows = topItems
     .map((item) => {
@@ -151,11 +168,11 @@ function renderWatchlist(items) {
     `;
   }).join("");
 
-  document.querySelector("#watchlistRows").innerHTML = rows + placeholders;
+  setHtml("#watchlistRows", rows + placeholders);
 }
 
 function renderWeights(weights) {
-  document.querySelector("#weightBars").innerHTML = weights
+  setHtml("#weightBars", weights
     .map(
       (item) => `
       <div class="bar-row">
@@ -165,7 +182,7 @@ function renderWeights(weights) {
       </div>
     `
     )
-    .join("");
+    .join(""));
 }
 
 function renderClusters(clusters, watchlist, signals) {
@@ -175,7 +192,7 @@ function renderClusters(clusters, watchlist, signals) {
     .sort((a, b) => Number(a.rank || 999) - Number(b.rank || 999))
     .map((item) => ({ ...byName.get(item.topic_cluster), watchlist: item }));
 
-  document.querySelector("#clusterGrid").innerHTML = rankedClusters
+  setHtml("#clusterGrid", rankedClusters
     .slice(0, 10)
     .map((item) => {
       const hotwords = hotwordSignals(item, signals);
@@ -204,7 +221,7 @@ function renderClusters(clusters, watchlist, signals) {
       </article>
     `;
     })
-    .join("");
+    .join(""));
 }
 
 function potentialReason(signal) {
@@ -224,15 +241,15 @@ function renderPotentialTopics(signals) {
     })
     .slice(0, 12);
 
-  document.querySelector("#potentialCount").textContent = `全部来源 · 待核验方向 ${items.length} 条`;
+  setText("#potentialCount", `全部来源 · 待核验方向 ${items.length} 条`);
   if (!items.length) {
-    document.querySelector("#potentialGrid").innerHTML = `
+    setHtml("#potentialGrid", `
       <div class="empty-card">当前时间窗内暂无潜力题材。任何来源的新热词如果暂时无法映射到现有短剧题材簇，会先进入这里观察。</div>
-    `;
+    `);
     return;
   }
 
-  document.querySelector("#potentialGrid").innerHTML = items
+  setHtml("#potentialGrid", items
     .map(
       (item) => `
       <article class="potential-card">
@@ -246,15 +263,15 @@ function renderPotentialTopics(signals) {
       </article>
     `
     )
-    .join("");
+    .join(""));
 }
 
 function renderAll() {
   const signals = filterSignalsByWindow(radarData.signals || [], activeWindowDays);
   const mappedKeys = mappedSignalKeys(radarData.clusters || [], radarData.watchlist || [], signals);
   const unmappedSignals = signals.filter((signal) => !mappedKeys.has(signalKey(signal)));
-  document.querySelector("#clusterWindowLabel").textContent = `按本周候选 rank 排序 · 近${activeWindowDays}天热词`;
-  document.querySelector("#windowNote").textContent = `热词 ${signals.length} 条 · 原始信号 ${(radarData.signals || []).length} 条`;
+  setText("#clusterWindowLabel", `按本周候选 rank 排序 · 近${activeWindowDays}天热词`);
+  setText("#windowNote", `热词 ${signals.length} 条 · 原始信号 ${(radarData.signals || []).length} 条`);
   renderWatchlist(radarData.watchlist || []);
   renderWeights(radarData.weights || []);
   renderClusters(radarData.clusters || [], radarData.watchlist || [], signals);
@@ -274,7 +291,7 @@ function bindWindowControls() {
 
 function setRadarData(data, modeLabel = "最新数据") {
   radarData = data;
-  document.querySelector("#updatedAt").textContent = `${modeLabel} · 更新时间 ${formatDate(data.generated_at)}`;
+  setText("#updatedAt", `${modeLabel} · 更新时间 ${formatDate(data.generated_at)}`);
   renderAll();
 }
 
@@ -286,29 +303,30 @@ async function loadSnapshotPayload(path) {
 
 function renderSnapshotSelector(items) {
   snapshots = items || [];
-  const select = document.querySelector("#snapshotSelect");
+  const select = $("#snapshotSelect");
+  if (!select) return;
   const options = [`<option value="latest">最新数据</option>`]
     .concat(snapshots.map((item) => `<option value="${escapeHtml(item.path)}">${escapeHtml(item.date)}</option>`))
     .join("");
   select.innerHTML = options;
-  document.querySelector("#snapshotRawLink").href = "./data/radar.json";
+  setHref("#snapshotRawLink", "./data/radar.json");
 
   select.addEventListener("change", async () => {
     const value = select.value;
     try {
       if (value === "latest") {
         const latest = await loadRadar();
-        document.querySelector("#snapshotRawLink").href = "./data/radar.json";
+        setHref("#snapshotRawLink", "./data/radar.json");
         setRadarData(latest, "最新数据");
         return;
       }
 
       const selected = snapshots.find((item) => item.path === value);
       const payload = await loadSnapshotPayload(value);
-      document.querySelector("#snapshotRawLink").href = `./${value}`;
+      setHref("#snapshotRawLink", `./${value}`);
       setRadarData(payload, `历史快照 ${selected?.date || ""}`.trim());
     } catch (error) {
-      document.querySelector("#snapshotRawLink").textContent = "加载失败";
+      setText("#snapshotRawLink", "加载失败");
       throw error;
     }
   });
