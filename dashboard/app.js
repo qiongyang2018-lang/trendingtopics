@@ -286,9 +286,12 @@ function renderPotentialTopics(signals) {
     .join(""));
 }
 
-function renderCommentPainPoints(items) {
+function renderCommentPainPoints(items, youtubeStatus = {}) {
   const points = (items || []).filter((item) => item.pain_point).slice(0, 8);
-  setText("#commentPainPointCount", `公开评论/讨论聚合 · ${points.length} 条`);
+  const youtubeNote = youtubeStatus.enabled
+    ? ` · YouTube扫描 ${displayValue(youtubeStatus.comments_scanned, 0)} 条/命中 ${displayValue(youtubeStatus.matched_comments, 0)} 条`
+    : "";
+  setText("#commentPainPointCount", `公开评论/讨论聚合 · ${points.length} 条${youtubeNote}`);
 
   if (!points.length) {
     setHtml("#commentPainPointGrid", `
@@ -414,7 +417,7 @@ function renderAll() {
   renderWeights(radarData.weights || []);
   renderClusters(radarData.clusters || [], radarData.watchlist || [], signals);
   renderPotentialTopics(unmappedSignals);
-  renderCommentPainPoints(radarData.comment_pain_points || []);
+  renderCommentPainPoints(radarData.comment_pain_points || [], radarData.youtube_comment_status || {});
   renderAiAnimationTopics(radarData.ai_animation_topics || []);
   renderTraditionalFilmTvTopics(radarData.traditional_film_tv_topics || []);
   renderIndustryMediaObservations(radarData.industry_media_observations || []);

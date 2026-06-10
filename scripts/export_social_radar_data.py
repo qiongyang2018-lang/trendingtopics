@@ -17,6 +17,67 @@ OUTPUT_PATH = ROOT / "dashboard" / "data" / "radar.json"
 SNAPSHOT_DIR = ROOT / "dashboard" / "data" / "snapshots"
 SNAPSHOT_INDEX_PATH = SNAPSHOT_DIR / "index.json"
 YOUTUBE_REGIONS = {"US": "US", "UK": "GB", "CA": "CA", "AU": "AU"}
+YOUTUBE_COMMENT_QUERIES = [
+    "ReelShort short drama",
+    "DramaBox short drama",
+    "microdrama romance",
+]
+YOUTUBE_COMMENT_PAIN_PATTERNS = [
+    {
+        "pain_point": "YouTube观众抱怨短剧女主太软弱",
+        "frequent_expression": "weak female lead / stop forgiving him / she should leave",
+        "keywords": ["weak female", "weak fl", "forgive him", "forgiving him", "leave him", "stand up for herself"],
+        "emotion": "anger, fatigue",
+        "mapped_drama_angle": "不原谅爽剧 / 强女主反杀 / 离婚后逆袭",
+        "recommended_handling": "前3集明确女主有主动目标和底线，减少反复原谅，把爽点放在证据、事业和新关系兑现。",
+        "risk_notes": "避免只做羞辱前任，需让女主获得实际收益。",
+    },
+    {
+        "pain_point": "YouTube观众对出轨复仇仍有强情绪",
+        "frequent_expression": "cheater / revenge / expose him / karma",
+        "keywords": ["cheater", "cheating", "revenge", "karma", "expose him", "expose her", "affair"],
+        "emotion": "anger, anticipation",
+        "mapped_drama_angle": "情感背叛 / 证据反杀 / 公开打脸",
+        "recommended_handling": "保留出轨证据、公开打脸和财产反转，但增加职业身份或家庭秘密做差异化。",
+        "risk_notes": "同质化高，不能只依赖背叛设定。",
+    },
+    {
+        "pain_point": "YouTube观众讨厌付费后剧情拖水",
+        "frequent_expression": "too many episodes / filler / where is the ending / paid but dragged",
+        "keywords": ["too many episodes", "filler", "dragging", "dragged", "where is the ending", "full episode", "pay", "paid"],
+        "emotion": "frustration",
+        "mapped_drama_angle": "高密度反转 / 付费点后兑现 / 短集节奏优化",
+        "recommended_handling": "每个付费段落必须兑现一个秘密、打脸或关系进展，避免用误会和重复冲突拖时长。",
+        "risk_notes": "这是产品与节奏痛点，不直接等同于新题材。",
+    },
+    {
+        "pain_point": "YouTube观众想看更有新意的狼人/命定伴侣",
+        "frequent_expression": "rejected mate again / alpha / mate bond / werewolf story",
+        "keywords": ["rejected mate", "alpha", "mate bond", "werewolf", "luna", "wolf"],
+        "emotion": "fandom fatigue, curiosity",
+        "mapped_drama_angle": "狼人 rejected mate / 世界观反转 / 女性成长",
+        "recommended_handling": "保留命定拒绝爽点，但改成女主主动拒绝、规则反转或非alpha关系，降低同质化。",
+        "risk_notes": "供给拥挤，必须有世界观或人物关系差异化。",
+    },
+    {
+        "pain_point": "YouTube观众关注单亲/离婚后的重新开始",
+        "frequent_expression": "single mom / divorce / kids / start over",
+        "keywords": ["single mom", "single mother", "divorce", "divorced", "kids", "child", "children", "start over"],
+        "emotion": "hope, empathy",
+        "mapped_drama_angle": "单亲妈妈逆袭 / 离婚重启 / 家庭伦理",
+        "recommended_handling": "把亲情、经济压力、前任纠缠和新身份揭示放在一起，前3集给明确生存压力和翻盘目标。",
+        "risk_notes": "避免把女性成长只写成被拯救。",
+    },
+    {
+        "pain_point": "YouTube观众对黑帮/高压关系既上头又担心有毒",
+        "frequent_expression": "mafia romance / toxic / red flag / obsessed",
+        "keywords": ["mafia", "toxic", "red flag", "possessive", "obsessed", "dangerous"],
+        "emotion": "desire, concern",
+        "mapped_drama_angle": "禁忌恋 / 危险保护欲 / 权力边界",
+        "recommended_handling": "把危险感转成外部威胁和保护关系，弱化胁迫、囚禁和美化暴力。",
+        "risk_notes": "品牌风险较高，只做弱信号追踪。",
+    },
+]
 
 
 def clean(value):
@@ -390,8 +451,16 @@ def build_signals(raw_signals, generated_at):
     return signals
 
 
-def build_comment_pain_points():
-    return [dict(item) for item in COMMENT_PAIN_POINT_SEEDS]
+def build_comment_pain_points(youtube_points=None):
+    points = []
+    seen = set()
+    for item in list(youtube_points or []) + [dict(seed) for seed in COMMENT_PAIN_POINT_SEEDS]:
+        key = item.get("pain_point")
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        points.append(item)
+    return points
 
 
 def fetch_json(url, timeout=20):
@@ -399,8 +468,12 @@ def fetch_json(url, timeout=20):
         return json.loads(response.read().decode("utf-8"))
 
 
+def youtube_api_key():
+    return os.environ.get("YOUTUBE_API_KEY", "").strip()
+
+
 def fetch_youtube_trending_videos(generated_at, max_results_per_region=8):
-    api_key = os.environ.get("YOUTUBE_API_KEY", "").strip()
+    api_key = youtube_api_key()
     status = {
         "enabled": bool(api_key),
         "regions_requested": list(YOUTUBE_REGIONS.keys()),
@@ -457,6 +530,143 @@ def fetch_youtube_trending_videos(generated_at, max_results_per_region=8):
             )
 
     return videos, status
+
+
+def youtube_video_search_url(query):
+    return f"https://www.youtube.com/results?{urlencode({'search_query': query})}"
+
+
+def fetch_youtube_short_drama_videos(api_key, max_results_per_query=3):
+    videos = []
+    seen_ids = set()
+    for query in YOUTUBE_COMMENT_QUERIES:
+        params = {
+            "part": "snippet",
+            "type": "video",
+            "q": query,
+            "maxResults": max_results_per_query,
+            "relevanceLanguage": "en",
+            "safeSearch": "moderate",
+            "key": api_key,
+        }
+        url = f"https://www.googleapis.com/youtube/v3/search?{urlencode(params)}"
+        payload = fetch_json(url)
+        for item in payload.get("items", []):
+            video_id = (item.get("id") or {}).get("videoId")
+            if not video_id or video_id in seen_ids:
+                continue
+            seen_ids.add(video_id)
+            snippet = item.get("snippet", {})
+            videos.append(
+                {
+                    "video_id": video_id,
+                    "query": query,
+                    "title": snippet.get("title", ""),
+                    "channel_title": snippet.get("channelTitle", ""),
+                    "url": f"https://www.youtube.com/watch?v={video_id}",
+                }
+            )
+    return videos
+
+
+def fetch_youtube_top_comments(api_key, video_id, max_results=12):
+    params = {
+        "part": "snippet",
+        "videoId": video_id,
+        "maxResults": max_results,
+        "order": "relevance",
+        "textFormat": "plainText",
+        "key": api_key,
+    }
+    url = f"https://www.googleapis.com/youtube/v3/commentThreads?{urlencode(params)}"
+    payload = fetch_json(url)
+    comments = []
+    for item in payload.get("items", []):
+        snippet = (((item.get("snippet") or {}).get("topLevelComment") or {}).get("snippet") or {})
+        text = snippet.get("textDisplay") or snippet.get("textOriginal") or ""
+        if text:
+            comments.append(text)
+    return comments
+
+
+def comment_matches(text, keywords):
+    normalized = f" {str(text or '').lower()} "
+    return any(keyword in normalized for keyword in keywords)
+
+
+def fetch_youtube_comment_pain_points(generated_at):
+    api_key = youtube_api_key()
+    status = {
+        "enabled": bool(api_key),
+        "queries": list(YOUTUBE_COMMENT_QUERIES),
+        "videos_checked": 0,
+        "comments_scanned": 0,
+        "matched_comments": 0,
+        "error": "",
+        "captured_at": generated_at.isoformat(timespec="seconds"),
+    }
+    if not api_key:
+        status["error"] = "YOUTUBE_API_KEY not configured; skipped YouTube comment scan."
+        return [], status
+
+    aggregate = {
+        pattern["pain_point"]: {
+            "pattern": pattern,
+            "matches": 0,
+            "videos": set(),
+            "queries": set(),
+        }
+        for pattern in YOUTUBE_COMMENT_PAIN_PATTERNS
+    }
+
+    try:
+        videos = fetch_youtube_short_drama_videos(api_key)
+    except (HTTPError, URLError, TimeoutError, json.JSONDecodeError) as error:
+        status["error"] = f"YouTube search failed: {error}"
+        return [], status
+
+    for video in videos:
+        status["videos_checked"] += 1
+        try:
+            comments = fetch_youtube_top_comments(api_key, video["video_id"])
+        except (HTTPError, URLError, TimeoutError, json.JSONDecodeError):
+            continue
+
+        for comment in comments:
+            status["comments_scanned"] += 1
+            matched_any = False
+            for item in aggregate.values():
+                pattern = item["pattern"]
+                if comment_matches(comment, pattern["keywords"]):
+                    item["matches"] += 1
+                    item["videos"].add(video["url"])
+                    item["queries"].add(video["query"])
+                    matched_any = True
+            if matched_any:
+                status["matched_comments"] += 1
+
+    points = []
+    for item in sorted(aggregate.values(), key=lambda value: value["matches"], reverse=True):
+        if item["matches"] <= 0:
+            continue
+        pattern = item["pattern"]
+        source_query = sorted(item["queries"])[0] if item["queries"] else YOUTUBE_COMMENT_QUERIES[0]
+        evidence_level = "B" if item["matches"] >= 3 and len(item["videos"]) >= 2 else "C"
+        points.append(
+            {
+                "pain_point": pattern["pain_point"],
+                "frequent_expression": f"{pattern['frequent_expression']} · matched {item['matches']} public comments across {len(item['videos'])} videos",
+                "source_platform": "YouTube public comments",
+                "emotion": pattern["emotion"],
+                "mapped_drama_angle": pattern["mapped_drama_angle"],
+                "recommended_handling": pattern["recommended_handling"],
+                "evidence_level": evidence_level,
+                "source_url": youtube_video_search_url(source_query),
+                "risk_notes": f"{pattern['risk_notes']} 已匿名聚合，不保留用户名或单条评论原文。",
+            }
+        )
+
+    return points[:6], status
 
 
 def youtube_videos_to_signals(videos):
@@ -888,6 +1098,7 @@ def main():
         hydrate_watchlist(sheet_records(workbook, "weekly_watchlist", 4, 5), clusters, angles)
     )
     youtube_trending_videos, youtube_fetch_status = fetch_youtube_trending_videos(generated_at)
+    youtube_comment_pain_points, youtube_comment_status = fetch_youtube_comment_pain_points(generated_at)
     signals = build_signals(sheet_records(workbook, "raw_signals", 4, 5), generated_at)
 
     payload = {
@@ -909,9 +1120,10 @@ def main():
         "signals": signals,
         "youtube_trending_videos": youtube_trending_videos,
         "youtube_fetch_status": youtube_fetch_status,
+        "youtube_comment_status": youtube_comment_status,
         "ai_animation_topics": build_ai_animation_topics(),
         "traditional_film_tv_topics": build_traditional_film_tv_topics(),
-        "comment_pain_points": build_comment_pain_points(),
+        "comment_pain_points": build_comment_pain_points(youtube_comment_pain_points),
         "industry_media_observations": build_industry_media_observations(),
         "dictionary": sheet_records(workbook, "dictionary", 4, 5),
         "weights": [

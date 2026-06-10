@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T11:04:22",
+  "generated_at": "2026-06-10T11:30:46",
   "source_workbook": "社媒热点题材雷达_v1.xlsx",
   "scope": {
     "markets": [
@@ -586,7 +586,20 @@
     ],
     "regions_with_results": [],
     "error": "YOUTUBE_API_KEY not configured; skipped YouTube fetch.",
-    "captured_at": "2026-06-10T11:04:22"
+    "captured_at": "2026-06-10T11:30:46"
+  },
+  "youtube_comment_status": {
+    "enabled": false,
+    "queries": [
+      "ReelShort short drama",
+      "DramaBox short drama",
+      "microdrama romance"
+    ],
+    "videos_checked": 0,
+    "comments_scanned": 0,
+    "matched_comments": 0,
+    "error": "YOUTUBE_API_KEY not configured; skipped YouTube comment scan.",
+    "captured_at": "2026-06-10T11:30:46"
   },
   "ai_animation_topics": [
     {
