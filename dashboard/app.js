@@ -267,7 +267,7 @@ function renderPotentialTopics(signals) {
 }
 
 function renderAiAnimationTopics(items) {
-  const topics = (items || []).filter((item) => item.topic).slice(0, 6);
+  const topics = (items || []).filter((item) => item.topic).slice(0, 8);
   setText("#aiAnimationCount", `最新公开讨论方向 · ${topics.length} 条`);
 
   if (!topics.length) {
@@ -297,7 +297,7 @@ function renderAiAnimationTopics(items) {
 }
 
 function renderTraditionalFilmTvTopics(items) {
-  const topics = (items || []).filter((item) => item.topic).slice(0, 6);
+  const topics = (items || []).filter((item) => item.topic).slice(0, 8);
   setText("#traditionalTopicCount", `长视频热播启发 · ${topics.length} 条`);
 
   if (!topics.length) {

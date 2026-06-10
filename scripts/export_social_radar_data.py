@@ -105,6 +105,194 @@ def hydrate_watchlist(watchlist, clusters, angles):
     return hydrated
 
 
+BACKFILL_TOPIC_CLUSTERS = [
+    {
+        "cluster_name": "AI humanoid drama export",
+        "trigger_event": "36氪和 DataEye 同时出现 AI短剧出海、AI仿真人剧、AI漫剧榜单信号。",
+        "audience_pain_point": "想看更低成本但情绪密度接近真人短剧的新形态，尤其是逆袭、地域爽剧和高概念设定。",
+        "dominant_emotion": "新奇 / 爽感 / 观望",
+        "related_keywords": "AI humanoid drama; AI short drama export; ToonScroll; PineDrama; AI仿真人剧",
+        "platforms_seen": "36Kr,DataEye",
+        "heat_score": 72,
+        "sentiment_score": 64,
+        "novelty_score": 82,
+        "sustainability_score": 68,
+    },
+    {
+        "cluster_name": "Platform licensed microdrama",
+        "trigger_event": "Peacock 引入 ReelShort 微短剧，海外主流流媒体开始测试竖屏短剧。",
+        "audience_pain_point": "主流平台用户可能被短时长、高反转、强情绪内容吸引，但需要更精致的包装和更清晰类型。",
+        "dominant_emotion": "好奇 / 试水 / 产业关注",
+        "related_keywords": "Peacock ReelShort; microdrama licensing; Hollywood vertical drama; Bravo micro drama",
+        "platforms_seen": "Business Insider,ReelShort,Peacock",
+        "heat_score": 68,
+        "sentiment_score": 58,
+        "novelty_score": 78,
+        "sustainability_score": 66,
+    },
+    {
+        "cluster_name": "Destination inheritance romance",
+        "trigger_event": "Hallmark 夏季 romance 与海外流媒体持续推出异国目的地、继承、契约条件类轻喜剧。",
+        "audience_pain_point": "观众需要低门槛浪漫逃逸，同时保留继承、家族条件、旧爱重逢等明确冲突。",
+        "dominant_emotion": "治愈 / 心动 / 逃离现实",
+        "related_keywords": "destination romance; inheritance romance; Greek romance; contract marriage",
+        "platforms_seen": "Hallmark,Decider,Netflix",
+        "heat_score": 62,
+        "sentiment_score": 60,
+        "novelty_score": 58,
+        "sustainability_score": 62,
+    },
+    {
+        "cluster_name": "Underdog sports comeback",
+        "trigger_event": "Netflix Top 10 与六月片单里出现体育逆袭、动画运动和经典拳击续作回流。",
+        "audience_pain_point": "底层选手证明自己、被低估者翻盘和师徒成长仍有稳定爽感。",
+        "dominant_emotion": "燃 / 逆袭 / 自我证明",
+        "related_keywords": "sports comeback; underdog athlete; boxing revenge; training arc",
+        "platforms_seen": "Netflix,Tom's Guide",
+        "heat_score": 60,
+        "sentiment_score": 62,
+        "novelty_score": 54,
+        "sustainability_score": 66,
+    },
+]
+
+
+BACKFILL_WATCHLIST_SEEDS = [
+    {
+        "topic_cluster": "AI humanoid drama export",
+        "priority": "Watch",
+        "opportunity_score": 66,
+        "short_drama_genre": "AI仿真人 / 出海试水 / 地域爽剧",
+        "platforms_seen": "36Kr,DataEye",
+        "watch_reason": "AI仿真人剧和AI短剧出海同时被行业媒体与榜单提及，适合先做题材与制作形态观察。",
+        "recommended_action": "拆 AI 仿真人可接受度、地域爽剧 hook 和海外平台包装",
+    },
+    {
+        "topic_cluster": "Platform licensed microdrama",
+        "priority": "Watch",
+        "opportunity_score": 61,
+        "short_drama_genre": "平台授权 / Hollywood vertical drama",
+        "platforms_seen": "Business Insider,Peacock,ReelShort",
+        "watch_reason": "主流流媒体试水微短剧，说明竖屏短剧正在从独立App向平台内容库外溢。",
+        "recommended_action": "跟踪 Peacock/ReelShort 授权内容的题材和用户反馈",
+    },
+    {
+        "topic_cluster": "Destination inheritance romance",
+        "priority": "Watch",
+        "opportunity_score": 58,
+        "short_drama_genre": "目的地恋爱 / 继承契约 / 轻喜剧",
+        "platforms_seen": "Hallmark,Decider,Netflix",
+        "watch_reason": "异国目的地、继承条件和契约婚恋组合低成本且容易做前3集冲突。",
+        "recommended_action": "测试 inheritance + fake marriage + old flame 三类英文 hook",
+    },
+    {
+        "topic_cluster": "Underdog sports comeback",
+        "priority": "Risk/Low",
+        "opportunity_score": 55,
+        "short_drama_genre": "体育竞技 / 底层逆袭 / 训练爽感",
+        "platforms_seen": "Netflix,Tom's Guide",
+        "watch_reason": "体育逆袭情绪稳定，但海外短剧供给与制作成本需要再验证。",
+        "recommended_action": "只做低成本拳击/格斗训练线观察，不碰大场面赛事",
+    },
+]
+
+
+POTENTIAL_SIGNAL_SEEDS = [
+    {
+        "source_platform": "Business Insider",
+        "country_region": "US",
+        "language": "EN",
+        "keyword_or_hashtag": "brand microdrama commerce",
+        "post_title_or_caption": "Brands are testing microdramas as shoppable entertainment.",
+        "url": "https://www.wsj.com/cmo-today/body-scrub-concealer-and-shoe-trinkets-star-in-brands-microdramas-195af33c",
+        "views_or_rank": "industry signal",
+        "likes": "",
+        "comments": "",
+        "shares": "",
+        "trend_window": "2026 industry watch",
+        "sentiment": "mixed",
+        "emotion_tags": "commerce, curiosity, brand risk",
+        "evidence_level": "C",
+        "notes": "潜力题材：品牌微短剧不一定映射到传统短剧类型，但可能变成广告投放和题材测试的新入口。",
+    },
+    {
+        "source_platform": "arXiv / HCI",
+        "country_region": "Global",
+        "language": "EN",
+        "keyword_or_hashtag": "viewer feedback driven writing",
+        "post_title_or_caption": "Audience feedback-driven content creation in micro-drama production.",
+        "url": "https://arxiv.org/abs/2602.14045",
+        "views_or_rank": "research signal",
+        "likes": "",
+        "comments": "",
+        "shares": "",
+        "trend_window": "2026 research watch",
+        "sentiment": "neutral",
+        "emotion_tags": "production method, comments, iteration",
+        "evidence_level": "C",
+        "notes": "潜力题材：评论驱动创作更像生产方法论，可用于决定下一轮题材A/B测试。",
+    },
+    {
+        "source_platform": "Axios",
+        "country_region": "US",
+        "language": "EN",
+        "keyword_or_hashtag": "microdrama app funding",
+        "post_title_or_caption": "Holywater raises funding for My Drama and microdrama expansion.",
+        "url": "https://www.axios.com/2026/01/15/holywater-microdrama-app-funding",
+        "views_or_rank": "funding signal",
+        "likes": "",
+        "comments": "",
+        "shares": "",
+        "trend_window": "2026 industry watch",
+        "sentiment": "positive",
+        "emotion_tags": "funding, platform competition, expansion",
+        "evidence_level": "B",
+        "notes": "潜力题材：平台融资本身不是题材，但说明海外微短剧供给侧仍在扩张，值得追踪平台偏好的类型。",
+    },
+]
+
+
+def extend_clusters(clusters):
+    existing = {item.get("cluster_name") for item in clusters if item.get("cluster_name")}
+    extended = [dict(item) for item in clusters]
+    for item in BACKFILL_TOPIC_CLUSTERS:
+        if item["cluster_name"] not in existing:
+            extended.append(dict(item))
+    return extended
+
+
+def extend_watchlist(watchlist):
+    extended = [dict(item) for item in watchlist if item.get("topic_cluster")]
+    existing = {item.get("topic_cluster") for item in extended}
+    next_rank = max([int(item.get("rank") or 0) for item in extended] or [0]) + 1
+
+    for item in BACKFILL_WATCHLIST_SEEDS:
+        if len(extended) >= 10:
+            break
+        if item["topic_cluster"] in existing:
+            continue
+        extended.append({"rank": next_rank, **item})
+        existing.add(item["topic_cluster"])
+        next_rank += 1
+
+    return extended
+
+
+def build_signals(raw_signals, generated_at):
+    signals = [dict(item) for item in raw_signals]
+    existing_keys = {
+        (item.get("keyword_or_hashtag"), item.get("source_platform"), item.get("country_region"))
+        for item in signals
+    }
+    today = generated_at.date().isoformat()
+    for item in POTENTIAL_SIGNAL_SEEDS:
+        key = (item.get("keyword_or_hashtag"), item.get("source_platform"), item.get("country_region"))
+        if key in existing_keys:
+            continue
+        signals.append({"date": today, "last_checked": today, **item})
+    return signals
+
+
 AI_ANIMATION_TOPIC_SEEDS = [
     {
         "topic": "罗曼史IP改编漫剧",
@@ -171,6 +359,28 @@ AI_ANIMATION_TOPIC_SEEDS = [
         "related_examples": "micro animation, motion comic loops",
         "source_url": "https://www.creativebloq.com/art/digital-art/digital-art-trends-2026-reveal-how-creatives-are-responding-to-ai-pressure",
         "risk_notes": "信息量太轻时不够短剧化，要补强人物目标和连续悬念。",
+    },
+    {
+        "topic": "AI仿真人地域爽剧",
+        "trend_signal": "DataEye 日榜出现 AI仿真人剧集中占位，行业媒体也在讨论 AI短剧出海和平台化。",
+        "content_direction": "东北少夫人、落魄千金、乡镇逆袭、隐婚曝光等强情绪题材，用AI仿真人降低真人拍摄成本。",
+        "audience_hook": "真人感角色 + 地域反差 + 每集身份反转，测试观众对AI演员的接受度。",
+        "source_platform": "DataEye / 36Kr",
+        "evidence_level": "B",
+        "related_examples": "AI仿真人剧, ToonScroll, PineDrama",
+        "source_url": "https://www.36kr.com/p/3836864874560388",
+        "risk_notes": "AI真人感容易进入恐怖谷，需控制表演、口型和镜头时长。",
+    },
+    {
+        "topic": "评论反馈驱动漫剧",
+        "trend_signal": "2026 年研究开始关注 micro-drama 生产中如何使用评论、表情包和转发反馈反向影响剧情。",
+        "content_direction": "先用低成本漫剧发布多版人物关系和前3集冲突，根据评论选择追妻、复仇、甜宠或悬疑方向。",
+        "audience_hook": "让观众感觉参与了剧情走向，适合做社媒投票、评论点梗和多结局测试。",
+        "source_platform": "arXiv / HCI",
+        "evidence_level": "C",
+        "related_examples": "Audience in the Loop",
+        "source_url": "https://arxiv.org/abs/2602.14045",
+        "risk_notes": "评论反馈只能辅助判断，不能替代基础叙事质量和合规审查。",
     },
 ]
 
@@ -241,6 +451,28 @@ TRADITIONAL_FILM_TV_TOPIC_SEEDS = [
         "reference_titles": "Michael",
         "source_url": "https://apnews.com/article/19b8e5b96c6860404d16c0cebb19c369",
         "risk_notes": "必须虚构化，避免影射真实人物争议；重点放在名利场情绪而非真实八卦。",
+    },
+    {
+        "topic": "目的地继承/契约浪漫",
+        "recent_signal": "Hallmark 夏季 romance 继续押注异国目的地、继承条件、临时婚约和轻喜剧误会。",
+        "short_drama_inspiration": "把目的地风景压缩成继承条款、假结婚、旧爱重逢和家族餐厅危机。",
+        "conversion_hook": "女主到希腊继承餐厅，却被告知必须和陌生共同继承人结婚才能拿到产权。",
+        "source_platform": "Hallmark / Decider",
+        "evidence_level": "B",
+        "reference_titles": "The Greek Aisle",
+        "source_url": "https://decider.com/2026/06/06/the-greek-aisle-hallmark-cast-guide/",
+        "risk_notes": "目的地元素不能只做风景，要在前3集放入明确利益冲突和情感阻碍。",
+    },
+    {
+        "topic": "体育逆袭/训练爽剧",
+        "recent_signal": "Netflix Top 10 和六月片单里体育动画、拳击经典和底层选手证明自己的内容仍有热度。",
+        "short_drama_inspiration": "低成本转成拳馆、地下格斗、女主教练、伤病复出和家族债务。",
+        "conversion_hook": "被禁赛的女拳手回到破旧拳馆，发现新学员正是当年害她退役的人。",
+        "source_platform": "Netflix / Tom's Guide",
+        "evidence_level": "B",
+        "reference_titles": "Goat, Creed",
+        "source_url": "https://www.tomsguide.com/entertainment/netflix/netflix-top-10-movies-heres-the-3-worth-watching-right-now-june-6-7",
+        "risk_notes": "比赛场面成本较高，优先做训练、债务、师徒和复仇关系线。",
     },
 ]
 
@@ -452,9 +684,12 @@ def main():
     workbook = load_workbook(WORKBOOK_PATH, data_only=True)
     generated_at = datetime.now()
     snapshot_name = f"{generated_at.date().isoformat()}.json"
-    clusters = sheet_records(workbook, "topic_clusters", 4, 5)
+    clusters = extend_clusters(sheet_records(workbook, "topic_clusters", 4, 5))
     angles = sheet_records(workbook, "drama_angle_map", 4, 5)
-    watchlist = hydrate_watchlist(sheet_records(workbook, "weekly_watchlist", 4, 5), clusters, angles)
+    watchlist = extend_watchlist(
+        hydrate_watchlist(sheet_records(workbook, "weekly_watchlist", 4, 5), clusters, angles)
+    )
+    signals = build_signals(sheet_records(workbook, "raw_signals", 4, 5), generated_at)
 
     payload = {
         "generated_at": generated_at.isoformat(timespec="seconds"),
@@ -472,7 +707,7 @@ def main():
         "watchlist": watchlist,
         "clusters": clusters,
         "angles": angles,
-        "signals": sheet_records(workbook, "raw_signals", 4, 5),
+        "signals": signals,
         "ai_animation_topics": build_ai_animation_topics(),
         "traditional_film_tv_topics": build_traditional_film_tv_topics(),
         "industry_media_observations": build_industry_media_observations(),
