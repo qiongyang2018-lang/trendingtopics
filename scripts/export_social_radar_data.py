@@ -370,12 +370,20 @@ def build_traditional_film_tv_topics():
 
 
 def build_industry_media_observations():
+    def sort_key(item):
+        is_dataeye = "DataEye" in str(item.get("source_name", ""))
+        try:
+            article_day = date.fromisoformat(str(item.get("article_date", ""))).toordinal()
+        except ValueError:
+            article_day = 0
+        return (0 if is_dataeye else 1, -article_day)
+
     observations = [
         dict(item)
         for item in INDUSTRY_MEDIA_OBSERVATION_SEEDS
         if str(item.get("article_date", "")).startswith("2026")
     ]
-    observations.sort(key=lambda item: item.get("article_date", ""), reverse=True)
+    observations.sort(key=sort_key)
     if observations:
         return observations
 
@@ -387,7 +395,7 @@ def build_industry_media_observations():
                 for item in existing_payload.get("industry_media_observations", [])
                 if str(item.get("article_date", "")).startswith("2026")
             ]
-            existing_observations.sort(key=lambda item: item.get("article_date", ""), reverse=True)
+            existing_observations.sort(key=sort_key)
             return existing_observations[:10]
         except (OSError, json.JSONDecodeError):
             return []
