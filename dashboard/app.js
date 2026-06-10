@@ -334,7 +334,7 @@ function renderIndustryMediaObservations(items) {
 
   if (!observations.length) {
     setHtml("#industryMediaGrid", `
-      <div class="empty-card">暂无2026年行业媒体观察数据。后续公开搜索结果或人工补录后会进入这里。</div>
+      <div class="empty-card">暂无2026年行业媒体观察数据。该日期快照可能早于此板块上线，或尚未补录公开来源。</div>
     `);
     return;
   }
@@ -360,7 +360,7 @@ function renderAll() {
   const mappedKeys = mappedSignalKeys(radarData.clusters || [], radarData.watchlist || [], signals);
   const unmappedSignals = signals.filter((signal) => !mappedKeys.has(signalKey(signal)));
   setText("#clusterWindowLabel", `按本周候选 rank 排序 · 近${activeWindowDays}天热词`);
-  setText("#windowNote", `热词 ${signals.length} 条 · 原始信号 ${(radarData.signals || []).length} 条`);
+  setText("#windowNote", `筛选热词 ${signals.length}/${(radarData.signals || []).length} 条 · 候选表按快照排序`);
   renderWatchlist(radarData.watchlist || []);
   renderWeights(radarData.weights || []);
   renderClusters(radarData.clusters || [], radarData.watchlist || [], signals);
