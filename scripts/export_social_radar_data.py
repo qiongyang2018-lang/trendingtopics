@@ -703,6 +703,28 @@ def youtube_videos_to_signals(videos):
 
 AI_ANIMATION_TOPIC_SEEDS = [
     {
+        "topic": "AI仿真人演员替代争议",
+        "trend_signal": "Business Insider 近期报道美国 microdrama 产业中 AI 演员、AI短剧创业公司和真人演员替代争议升温。",
+        "content_direction": "先用AI仿真人测试低成本强设定，如契约婚姻、复仇、身份曝光和奇幻恋爱；真人感不足时转向漫剧或半写实风格。",
+        "audience_hook": "AI低成本 + 真人感角色 + 强情绪反转，适合测试观众对AI演员的接受度边界。",
+        "source_platform": "Business Insider / industry discussion",
+        "evidence_level": "B",
+        "related_examples": "TrueShort, StoReel, AI-generated microdramas",
+        "source_url": "https://www.businessinsider.com/actors-losing-jobs-to-ai-hollywood-micro-drama-industry-2026-6",
+        "risk_notes": "AI演员替代有劳动伦理和表演质感争议，页面只做内容形态观察，不建议直接作为品牌主推卖点。",
+    },
+    {
+        "topic": "单句生成短剧/多智能体生产",
+        "trend_signal": "2026 年新论文提出 One Sentence, One Drama，用多智能体流程从一句话生成短剧，并强调节奏、空间一致性和多阶段审校。",
+        "content_direction": "把题材发现、前3集钩子、分镜、BGM和审校拆成可复用流水线，适合AI漫剧和低成本概念样片。",
+        "audience_hook": "用更快的题材A/B测试找到强hook，再决定是否进入真人或漫剧制作。",
+        "source_platform": "arXiv / short-drama generation",
+        "evidence_level": "C",
+        "related_examples": "One Sentence, One Drama; Short-Drama-Bench",
+        "source_url": "https://arxiv.org/abs/2605.22144",
+        "risk_notes": "属于生产方法信号，不等同于用户真实需求；需要和评论痛点、投放表现共同验证。",
+    },
+    {
         "topic": "罗曼史IP改编漫剧",
         "trend_signal": "出版/网文IP正在被改造成竖屏 AI animated microdrama，讨论集中在 romance IP 是否适合 AI 漫剧化。",
         "content_direction": "契约婚姻、二次机会、灰姑娘逆袭、家族秘密等经典 romance trope，做成 30-60 秒强钩子连载。",
@@ -886,6 +908,24 @@ TRADITIONAL_FILM_TV_TOPIC_SEEDS = [
 
 
 INDUSTRY_MEDIA_OBSERVATION_SEEDS = [
+    {
+        "source_name": "Business Insider",
+        "article_date": "2026-06-05",
+        "title": "Actors booked starring roles, then were replaced by AI",
+        "summary": "报道显示美国 microdrama 产业开始用 AI 生成角色和剧集压低成本，演员替代、表演可信度和观众接受度正在成为新争议。",
+        "topic_signal": "AI演员替代 / 真人感短剧 / 生产成本与伦理风险",
+        "evidence_level": "B",
+        "source_url": "https://www.businessinsider.com/actors-losing-jobs-to-ai-hollywood-micro-drama-industry-2026-6",
+    },
+    {
+        "source_name": "arXiv",
+        "article_date": "2026-05-21",
+        "title": "One Sentence, One Drama",
+        "summary": "论文提出用多智能体系统把一句话扩展成短剧，重点解决短剧节奏、跨镜头空间一致性和多阶段审校，可作为AI短剧生产方法观察。",
+        "topic_signal": "AI短剧生成 / 多智能体流程 / Short-Drama-Bench",
+        "evidence_level": "C",
+        "source_url": "https://arxiv.org/abs/2605.22144",
+    },
     {
         "source_name": "36氪 / 骨朵网络影视",
         "article_date": "2026-06-04",
