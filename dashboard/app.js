@@ -384,7 +384,29 @@ function bindWindowControls() {
 function setRadarData(data, modeLabel = "最新数据") {
   radarData = data;
   setText("#updatedAt", `${modeLabel} · 更新时间 ${formatDate(data.generated_at)}`);
+  renderSnapshotSummary(data, modeLabel);
   renderAll();
+}
+
+function renderSnapshotSummary(data, modeLabel) {
+  const counts = [
+    ["社媒信号", (data.signals || []).length],
+    ["候选题材", (data.watchlist || []).length],
+    ["AI漫剧", (data.ai_animation_topics || []).length],
+    ["传统影视", (data.traditional_film_tv_topics || []).length],
+    ["行业媒体", (data.industry_media_observations || []).length],
+  ];
+  const mediaCount = (data.industry_media_observations || []).length;
+  const isHistory = modeLabel.startsWith("历史快照");
+  const note = isHistory && mediaCount === 0
+    ? `<span class="snapshot-note">该日期快照早于“行业媒体观察”补录，第四块会为空。</span>`
+    : "";
+  setHtml("#snapshotSummary", `
+    <strong>${escapeHtml(modeLabel)}</strong>
+    <span>生成 ${escapeHtml(formatDate(data.generated_at) || "-")}</span>
+    ${counts.map(([label, value]) => `<span>${escapeHtml(label)} ${escapeHtml(value)}</span>`).join("")}
+    ${note}
+  `);
 }
 
 async function loadSnapshotPayload(path) {

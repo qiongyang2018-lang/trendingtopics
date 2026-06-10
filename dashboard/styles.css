@@ -564,6 +564,35 @@ th {
   font-weight: 700;
 }
 
+.snapshot-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.snapshot-summary strong,
+.snapshot-summary span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 6px 10px;
+  border-radius: 7px;
+  background: #eef3f5;
+}
+
+.snapshot-summary strong {
+  color: var(--ink);
+  background: #e2e8fb;
+}
+
+.snapshot-summary .snapshot-note {
+  color: #8a4b13;
+  background: #fff2cc;
+}
+
 .ai-animation-card small,
 .traditional-topic-card small {
   display: block;
