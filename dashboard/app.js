@@ -329,7 +329,7 @@ function renderTraditionalFilmTvTopics(items) {
 function renderIndustryMediaObservations(items) {
   const observations = (items || [])
     .filter((item) => item.title && String(item.article_date || "").startsWith("2026"))
-    .slice(0, 10);
+    .slice(0, 15);
   setText("#industryMediaCount", `2026行业媒体信号 · ${observations.length} 条`);
 
   if (!observations.length) {
@@ -349,7 +349,7 @@ function renderIndustryMediaObservations(items) {
         <h3>${escapeHtml(item.title)}</h3>
         <p>${escapeHtml(displayValue(item.summary, "摘要待补充"))}</p>
         <div class="industry-media-signal">${escapeHtml(displayValue(item.topic_signal, "题材信号待补充"))}</div>
-        ${item.source_url ? `<a href="${escapeHtml(item.source_url)}" target="_blank" rel="noreferrer">查看公开搜索入口</a>` : ""}
+        ${item.source_url ? `<a href="${escapeHtml(item.source_url)}" target="_blank" rel="noreferrer">${escapeHtml(item.source_url.includes("weixin.sogou.com") ? "查看公开搜索入口" : "查看公开来源")}</a>` : ""}
       </article>
     `)
     .join(""));

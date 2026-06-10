@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T08:31:56",
+  "generated_at": "2026-06-10T08:46:24",
   "source_workbook": "社媒热点题材雷达_v1.xlsx",
   "scope": {
     "markets": [
@@ -656,6 +656,51 @@
       "topic_signal": "AI短剧出海 / 平台入局 / IP+AI工业化",
       "evidence_level": "B",
       "source_url": "https://www.36kr.com/p/3836864874560388"
+    },
+    {
+      "source_name": "Business Insider",
+      "article_date": "2026-05-13",
+      "title": "Peacock is licensing micro dramas from ReelShort",
+      "summary": "NBCUniversal 将 ReelShort 微短剧引入 Peacock 移动端，并规划 Bravo 原创 micro drama，可作为主流流媒体试水竖屏短剧的信号。",
+      "topic_signal": "主流流媒体试水 / ReelShort授权 / Hollywood vertical drama",
+      "evidence_level": "B",
+      "source_url": "https://www.businessinsider.com/peacock-reelshort-micro-dramas-bravo-hollywood-short-form-vertical-video-2026-5"
+    },
+    {
+      "source_name": "The Week",
+      "article_date": "2026-02-18",
+      "title": "Microdramas are booming",
+      "summary": "文章从美国大众媒体视角解释 microdrama 的观看场景、付费模式、低成本制作和洛杉矶产业机会，可补充海外受众教育视角。",
+      "topic_signal": "美国市场教育 / 竖屏付费短剧 / 低成本高周转",
+      "evidence_level": "B",
+      "source_url": "https://theweek.com/culture-life/film/microdramas-short-tiktok-entertainment"
+    },
+    {
+      "source_name": "arXiv / HCI",
+      "article_date": "2026-02-15",
+      "title": "Audience in the Loop: Viewer Feedback-Driven Content Creation in Micro-drama Production on Social Media",
+      "summary": "论文从编剧和生产流程角度讨论短剧创作如何吸收评论、转发、表情包等观众反馈，可作为题材迭代方法论观察。",
+      "topic_signal": "观众反馈驱动创作 / 评论共创 / 短剧生产流程",
+      "evidence_level": "C",
+      "source_url": "https://arxiv.org/abs/2602.14045"
+    },
+    {
+      "source_name": "Business Insider",
+      "article_date": "2026-01-31",
+      "title": "Creators and fans wrestle with the dark side of the micro drama boom",
+      "summary": "文章关注 micro drama 中暴力、羞辱和厌女桥段的争议，以及粉丝对更强女性角色、多元选角和角色驱动故事的呼声。",
+      "topic_signal": "题材风险 / 女性角色升级 / 反羞辱叙事",
+      "evidence_level": "B",
+      "source_url": "https://www.businessinsider.com/micro-dramas-spark-backlash-over-violence-and-misogyny-in-plots-2026-1"
+    },
+    {
+      "source_name": "Axios",
+      "article_date": "2026-01-15",
+      "title": "Holywater raises $22M for microdramas",
+      "summary": "Holywater 为 My Drama 等 microdrama 产品获得 2200 万美元 A 轮融资，说明非亚洲团队也在加码竖屏短剧平台。",
+      "topic_signal": "海外平台融资 / My Drama / 非亚洲玩家入局",
+      "evidence_level": "B",
+      "source_url": "https://www.axios.com/2026/01/15/holywater-microdrama-app-funding"
     }
   ],
   "dictionary": [
