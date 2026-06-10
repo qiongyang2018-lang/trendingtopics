@@ -171,6 +171,83 @@ function renderWatchlist(items) {
   setHtml("#watchlistRows", rows + placeholders);
 }
 
+function topWatchlistItems(data, limit = 3) {
+  return (data.watchlist || [])
+    .filter((item) => item.topic_cluster)
+    .slice()
+    .sort((a, b) => Number(b.opportunity_score || 0) - Number(a.opportunity_score || 0))
+    .slice(0, limit);
+}
+
+function compactList(items, field, limit = 3) {
+  return (items || [])
+    .map((item) => item[field])
+    .filter(Boolean)
+    .slice(0, limit);
+}
+
+function renderDailyBrief(data) {
+  const watchItems = topWatchlistItems(data, 3);
+  const commentPoints = (data.comment_pain_points || []).filter((item) => item.pain_point);
+  const youtubePoints = commentPoints.filter((item) => item.source_platform === "YouTube public comments");
+  const commentFocus = youtubePoints.length ? youtubePoints : commentPoints;
+  const potentialTopics = (data.signals || []).filter(isPotentialTopicSignal);
+  const aiTopics = data.ai_animation_topics || [];
+  const filmTopics = data.traditional_film_tv_topics || [];
+  const mediaItems = data.industry_media_observations || [];
+  const youtubeStatus = data.youtube_comment_status || {};
+
+  const leadParts = [
+    `本次收录 ${displayValue((data.watchlist || []).length, 0)} 个候选题材`,
+    `评论痛点 ${displayValue(commentPoints.length, 0)} 条`,
+  ];
+  if (youtubeStatus.enabled) {
+    leadParts.push(
+      `YouTube 扫描 ${displayValue(youtubeStatus.videos_checked, 0)} 个短剧相关视频、${displayValue(youtubeStatus.comments_scanned, 0)} 条公开评论，命中 ${displayValue(youtubeStatus.matched_comments, 0)} 条`
+    );
+  }
+
+  setText("#dailyBriefDate", `快照 ${formatDate(data.generated_at) || "-"}`);
+  setText("#dailyBriefLead", `${leadParts.join("；")}。优先看高分候选、评论痛点和新题材苗头。`);
+
+  const sections = [
+    {
+      title: "本周候选",
+      body: watchItems.length
+        ? `优先关注 ${watchItems.map((item) => `${item.topic_cluster}(${displayValue(item.opportunity_score)})`).join("、")}。`
+        : "暂无候选题材。",
+    },
+    {
+      title: "评论痛点",
+      body: compactList(commentFocus, "pain_point", 3).join("；") || "暂无新增评论痛点。",
+    },
+    {
+      title: "潜力题材",
+      body: compactList(potentialTopics, "keyword_or_hashtag", 3).join("；") || "暂无未映射新方向。",
+    },
+    {
+      title: "AI漫剧",
+      body: compactList(aiTopics, "topic", 2).join("；") || "暂无 AI 漫剧新增方向。",
+    },
+    {
+      title: "传统影视/行业",
+      body:
+        compactList(filmTopics, "topic", 2).join("；") ||
+        compactList(mediaItems, "title", 2).join("；") ||
+        "暂无影视或行业媒体新增信号。",
+    },
+  ];
+
+  setHtml("#dailyBriefGrid", sections
+    .map((section) => `
+      <article class="daily-brief-item">
+        <h3>${escapeHtml(section.title)}</h3>
+        <p>${escapeHtml(section.body)}</p>
+      </article>
+    `)
+    .join(""));
+}
+
 function renderWeights(weights) {
   setHtml("#weightBars", weights
     .map(
@@ -438,6 +515,7 @@ function setRadarData(data, modeLabel = "最新数据") {
   radarData = data;
   setText("#updatedAt", `${modeLabel} · 更新时间 ${formatDate(data.generated_at)}`);
   renderSnapshotSummary(data, modeLabel);
+  renderDailyBrief(data);
   renderAll();
 }
 
