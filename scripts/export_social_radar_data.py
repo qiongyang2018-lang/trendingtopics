@@ -245,6 +245,82 @@ TRADITIONAL_FILM_TV_TOPIC_SEEDS = [
 ]
 
 
+INDUSTRY_MEDIA_OBSERVATION_SEEDS = [
+    {
+        "source_name": "DataEye短剧观察",
+        "article_date": "2026-06-01",
+        "title": "DataEye海外微短剧热榜：“女版五十度灰”跻身TOP3，两部“女主逆袭”新剧上榜",
+        "summary": "海外微短剧热榜结果显示情欲悬疑、女主逆袭等题材仍有高热度，适合追踪海外付费短剧用户的强情绪偏好。",
+        "topic_signal": "海外女频：情欲悬疑 / 女主逆袭 / 高压关系",
+        "evidence_level": "B",
+        "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7",
+    },
+    {
+        "source_name": "DataEye短剧出海",
+        "article_date": "2026-03-27",
+        "title": "DataEye海外微短剧热榜：西幻AI新剧上榜，ReelShort登顶素材增长榜首",
+        "summary": "海外短剧榜单出现西幻、AI相关新剧，同时素材增长榜能观察投放侧正在加码的类型。",
+        "topic_signal": "西幻短剧 / AI新剧 / 投放素材增长",
+        "evidence_level": "B",
+        "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7",
+    },
+    {
+        "source_name": "DataEye短剧观察",
+        "article_date": "2026-03-22",
+        "title": "DataEye短剧&漫剧日榜：2D漫包揽TOP2，5部短剧播放增量超1亿，多剧同登3榜",
+        "summary": "2D漫剧和短剧播放增量同时被榜单提及，可作为漫剧和短剧交叉题材的观察入口。",
+        "topic_signal": "2D漫剧 / 播放增量破亿 / 多榜共振",
+        "evidence_level": "B",
+        "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7",
+    },
+    {
+        "source_name": "DataEye短剧观察",
+        "article_date": "2026-03-08",
+        "title": "DataEye短剧&漫剧日榜：“诡异”题材连续3期登顶，TOP2单日播放破亿",
+        "summary": "诡异题材连续登顶说明悬疑惊悚、怪谈和反常识设定值得作为短剧/漫剧方向观察。",
+        "topic_signal": "诡异题材 / 怪谈悬疑 / 高播放增量",
+        "evidence_level": "B",
+        "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7",
+    },
+    {
+        "source_name": "DataEye短剧观察",
+        "article_date": "2024-04-17",
+        "title": "DataEye短剧热力榜：拳击题材短剧登顶，这一元素持续爆火",
+        "summary": "拳击和竞技元素曾在热力榜中登顶，可转化为女性成长、复仇、底层逆袭和高燃训练线。",
+        "topic_signal": "拳击竞技 / 底层逆袭 / 复仇训练",
+        "evidence_level": "B",
+        "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7",
+    },
+    {
+        "source_name": "短剧自习室",
+        "article_date": "2024-05-14",
+        "title": "短剧行业的真实现状：有人连扑27部剧，有人30集拿下500万充值",
+        "summary": "文章搜索摘要指向短剧行业真实现状、内容制作方法论和充值表现差异，适合补充商业验证视角。",
+        "topic_signal": "内容制作方法论 / 充值表现 / 行业分化",
+        "evidence_level": "B",
+        "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E7%9F%AD%E5%89%A7%E8%87%AA%E4%B9%A0%E5%AE%A4",
+    },
+    {
+        "source_name": "短剧自习室",
+        "article_date": "2024-04-29",
+        "title": "短剧内容同质化，怎么破？爆款编剧、制作、平台这样说",
+        "summary": "围绕短剧同质化、爆款编剧、制作和平台观点，可用于补充“差异化题材”判断。",
+        "topic_signal": "同质化破解 / 爆款编剧 / 平台观点",
+        "evidence_level": "B",
+        "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E7%9F%AD%E5%89%A7%E8%87%AA%E4%B9%A0%E5%AE%A4",
+    },
+    {
+        "source_name": "短剧自习室",
+        "article_date": "2023-12-13",
+        "title": "微短剧2024的三个内容趋势",
+        "summary": "搜索摘要提到短剧与小说、电影、网剧、游戏等赛道联动共创，可作为跨媒介题材灵感入口。",
+        "topic_signal": "跨媒介联动 / 小说影视游戏共创 / 内容趋势",
+        "evidence_level": "B",
+        "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E7%9F%AD%E5%89%A7%E8%87%AA%E4%B9%A0%E5%AE%A4",
+    },
+]
+
+
 def build_ai_animation_topics():
     topics = [dict(item) for item in AI_ANIMATION_TOPIC_SEEDS]
     if topics:
@@ -269,6 +345,21 @@ def build_traditional_film_tv_topics():
         try:
             existing_payload = json.loads(OUTPUT_PATH.read_text(encoding="utf-8"))
             return existing_payload.get("traditional_film_tv_topics", [])[:6]
+        except (OSError, json.JSONDecodeError):
+            return []
+
+    return []
+
+
+def build_industry_media_observations():
+    observations = [dict(item) for item in INDUSTRY_MEDIA_OBSERVATION_SEEDS]
+    if observations:
+        return observations
+
+    if OUTPUT_PATH.exists():
+        try:
+            existing_payload = json.loads(OUTPUT_PATH.read_text(encoding="utf-8"))
+            return existing_payload.get("industry_media_observations", [])[:10]
         except (OSError, json.JSONDecodeError):
             return []
 
@@ -302,6 +393,7 @@ def main():
         "signals": sheet_records(workbook, "raw_signals", 4, 5),
         "ai_animation_topics": build_ai_animation_topics(),
         "traditional_film_tv_topics": build_traditional_film_tv_topics(),
+        "industry_media_observations": build_industry_media_observations(),
         "dictionary": sheet_records(workbook, "dictionary", 4, 5),
         "weights": [
             {"name": "热度", "weight": 35},

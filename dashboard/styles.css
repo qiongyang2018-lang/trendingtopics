@@ -163,6 +163,11 @@ main {
   border-color: #ecd0a8;
 }
 
+.zone-media {
+  background: #f1f5ff;
+  border-color: #bfcae8;
+}
+
 .zone-head {
   display: flex;
   align-items: flex-start;
@@ -189,6 +194,10 @@ main {
 
 .zone-film .zone-head > span {
   background: #b45f18;
+}
+
+.zone-media .zone-head > span {
+  background: #4258a8;
 }
 
 .zone-head h2 {
@@ -459,14 +468,16 @@ th {
 }
 
 .ai-animation-grid,
-.traditional-topic-grid {
+.traditional-topic-grid,
+.industry-media-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 12px;
 }
 
 .ai-animation-card,
-.traditional-topic-card {
+.traditional-topic-card,
+.industry-media-card {
   border: 1px solid var(--line);
   border-radius: 8px;
   padding: 14px;
@@ -482,8 +493,14 @@ th {
   border-color: #ecd0a8;
 }
 
+.industry-media-card {
+  background: #f9fbff;
+  border-color: #bfcae8;
+}
+
 .ai-animation-meta,
-.traditional-topic-meta {
+.traditional-topic-meta,
+.industry-media-meta {
   display: flex;
   justify-content: space-between;
   gap: 10px;
@@ -493,13 +510,15 @@ th {
 }
 
 .ai-animation-card h3,
-.traditional-topic-card h3 {
+.traditional-topic-card h3,
+.industry-media-card h3 {
   margin: 0 0 8px;
   font-size: 15px;
 }
 
 .ai-animation-card p,
-.traditional-topic-card p {
+.traditional-topic-card p,
+.industry-media-card p {
   margin: 0 0 8px;
   color: #334155;
   font-size: 13px;
@@ -533,6 +552,16 @@ th {
 .traditional-topic-examples {
   background: #f7e7d1;
   color: #9a4d12;
+}
+
+.industry-media-signal {
+  margin: 10px 0;
+  padding: 8px 10px;
+  border-radius: 7px;
+  background: #e2e8fb;
+  color: #4258a8;
+  font-size: 12px;
+  font-weight: 700;
 }
 
 .ai-animation-card small,
@@ -616,6 +645,7 @@ a:hover {
   .cluster-grid,
   .ai-animation-grid,
   .traditional-topic-grid,
+  .industry-media-grid,
   .potential-grid {
     grid-template-columns: 1fr;
   }

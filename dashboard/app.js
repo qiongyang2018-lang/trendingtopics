@@ -326,6 +326,33 @@ function renderTraditionalFilmTvTopics(items) {
     .join(""));
 }
 
+function renderIndustryMediaObservations(items) {
+  const observations = (items || []).filter((item) => item.title).slice(0, 10);
+  setText("#industryMediaCount", `公众号/行业榜单信号 · ${observations.length} 条`);
+
+  if (!observations.length) {
+    setHtml("#industryMediaGrid", `
+      <div class="empty-card">暂无行业媒体观察数据。后续公开搜索结果或人工补录后会进入这里。</div>
+    `);
+    return;
+  }
+
+  setHtml("#industryMediaGrid", observations
+    .map((item) => `
+      <article class="industry-media-card">
+        <div class="industry-media-meta">
+          <span>${escapeHtml(displayValue(item.article_date))}</span>
+          <span>${escapeHtml(displayValue(item.source_name))} · 证据 ${escapeHtml(displayValue(item.evidence_level))}</span>
+        </div>
+        <h3>${escapeHtml(item.title)}</h3>
+        <p>${escapeHtml(displayValue(item.summary, "摘要待补充"))}</p>
+        <div class="industry-media-signal">${escapeHtml(displayValue(item.topic_signal, "题材信号待补充"))}</div>
+        ${item.source_url ? `<a href="${escapeHtml(item.source_url)}" target="_blank" rel="noreferrer">查看公开搜索入口</a>` : ""}
+      </article>
+    `)
+    .join(""));
+}
+
 function renderAll() {
   const signals = filterSignalsByWindow(radarData.signals || [], activeWindowDays);
   const mappedKeys = mappedSignalKeys(radarData.clusters || [], radarData.watchlist || [], signals);
@@ -338,6 +365,7 @@ function renderAll() {
   renderPotentialTopics(unmappedSignals);
   renderAiAnimationTopics(radarData.ai_animation_topics || []);
   renderTraditionalFilmTvTopics(radarData.traditional_film_tv_topics || []);
+  renderIndustryMediaObservations(radarData.industry_media_observations || []);
 }
 
 function bindWindowControls() {
