@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>海外社媒热点短剧题材雷达</title>
-    <link rel="stylesheet" href="./styles.css?v=20260610-5" />
+    <link rel="stylesheet" href="./styles.css?v=20260610-6" />
   </head>
   <body>
     <header class="topbar">
@@ -119,6 +119,14 @@
           </div>
           <div id="commentPainPointGrid" class="comment-pain-grid"></div>
         </section>
+
+        <section class="panel">
+          <div class="section-head">
+            <h2>YouTube 热门视频</h2>
+            <span class="label" id="youtubeTrendingCount">YouTube Data API · 0 条</span>
+          </div>
+          <div id="youtubeTrendingGrid" class="youtube-grid"></div>
+        </section>
       </section>
 
       <section class="content-zone zone-ai">
@@ -172,6 +180,7 @@
             <li>输出 weekly_watchlist：高优先级、观察级、风险苗头。</li>
             <li>任何来源里无法映射到现有短剧题材的信号，进入“潜力题材”做观察。</li>
             <li>评论痛点雷达只提炼公开评论、公开讨论和应用评价里的聚合痛点，不展示个人账号、单条原文或可识别个人信息。</li>
+            <li>YouTube 热门视频使用 YouTube Data API 的公开 mostPopular 榜单，每天按 US/UK/CA/AU 拉取标题、频道、发布时间和聚合互动指标。</li>
             <li>AI漫剧题材只观察公开讨论中的内容方向，不直接参与题材机会分排序。</li>
             <li>传统影视流行题材用于观察国内外长视频热播内容，不直接代表短剧立项结论。</li>
             <li>行业媒体观察只展示2026年公开搜索结果层面的标题、摘要和题材信号，不抓取登录态全文。</li>
@@ -183,6 +192,7 @@
             <li>只使用公开页面、公开趋势和聚合指标。</li>
             <li>不采集登录态内容、私密账号或个人敏感信息。</li>
             <li>评论痛点用于发现情绪、抱怨、共鸣和题材缺口，只保留聚合表达、来源入口、情绪和短剧映射建议。</li>
+            <li>YouTube 只保留公开视频链接、标题、频道名、地区榜单排名和聚合指标，不下载视频、不采集个人观看记录。</li>
             <li>题材机会分用于优先级排序，不等同于立项结论。</li>
             <li>热词筛选会影响题材簇下的映射热词和潜力题材；周榜排序仍以当前快照的本周候选表为准。</li>
           </ul>
@@ -190,6 +200,6 @@
       </section>
     </main>
 
-    <script src="./app.js?v=20260610-5"></script>
+    <script src="./app.js?v=20260610-6"></script>
   </body>
 </html>

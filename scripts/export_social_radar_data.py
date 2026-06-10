@@ -1,8 +1,12 @@
 from __future__ import annotations
 
 import json
+import os
 from datetime import date, datetime
 from pathlib import Path
+from urllib.error import HTTPError, URLError
+from urllib.parse import urlencode
+from urllib.request import urlopen
 
 from openpyxl import load_workbook
 
@@ -12,6 +16,7 @@ WORKBOOK_PATH = ROOT / "社媒热点题材雷达_v1.xlsx"
 OUTPUT_PATH = ROOT / "dashboard" / "data" / "radar.json"
 SNAPSHOT_DIR = ROOT / "dashboard" / "data" / "snapshots"
 SNAPSHOT_INDEX_PATH = SNAPSHOT_DIR / "index.json"
+YOUTUBE_REGIONS = {"US": "US", "UK": "GB", "CA": "CA", "AU": "AU"}
 
 
 def clean(value):
@@ -387,6 +392,103 @@ def build_signals(raw_signals, generated_at):
 
 def build_comment_pain_points():
     return [dict(item) for item in COMMENT_PAIN_POINT_SEEDS]
+
+
+def fetch_json(url, timeout=20):
+    with urlopen(url, timeout=timeout) as response:
+        return json.loads(response.read().decode("utf-8"))
+
+
+def fetch_youtube_trending_videos(generated_at, max_results_per_region=8):
+    api_key = os.environ.get("YOUTUBE_API_KEY", "").strip()
+    status = {
+        "enabled": bool(api_key),
+        "regions_requested": list(YOUTUBE_REGIONS.keys()),
+        "regions_with_results": [],
+        "error": "",
+        "captured_at": generated_at.isoformat(timespec="seconds"),
+    }
+    if not api_key:
+        status["error"] = "YOUTUBE_API_KEY not configured; skipped YouTube fetch."
+        return [], status
+
+    videos = []
+    for display_region, api_region in YOUTUBE_REGIONS.items():
+        params = {
+            "part": "snippet,statistics",
+            "chart": "mostPopular",
+            "regionCode": api_region,
+            "maxResults": max_results_per_region,
+            "key": api_key,
+        }
+        url = f"https://www.googleapis.com/youtube/v3/videos?{urlencode(params)}"
+        try:
+            payload = fetch_json(url)
+        except (HTTPError, URLError, TimeoutError, json.JSONDecodeError) as error:
+            status["error"] = f"YouTube fetch failed for {display_region}: {error}"
+            continue
+
+        items = payload.get("items", [])
+        if items:
+            status["regions_with_results"].append(display_region)
+
+        for idx, item in enumerate(items, start=1):
+            snippet = item.get("snippet", {})
+            statistics = item.get("statistics", {})
+            video_id = item.get("id", "")
+            videos.append(
+                {
+                    "date": generated_at.date().isoformat(),
+                    "source_platform": "YouTube Trending",
+                    "country_region": display_region,
+                    "rank": idx,
+                    "video_id": video_id,
+                    "title": snippet.get("title", ""),
+                    "channel_title": snippet.get("channelTitle", ""),
+                    "published_at": snippet.get("publishedAt", ""),
+                    "category_id": snippet.get("categoryId", ""),
+                    "view_count": statistics.get("viewCount", ""),
+                    "like_count": statistics.get("likeCount", ""),
+                    "comment_count": statistics.get("commentCount", ""),
+                    "url": f"https://www.youtube.com/watch?v={video_id}" if video_id else "",
+                    "captured_at": generated_at.isoformat(timespec="seconds"),
+                    "evidence_level": "A",
+                }
+            )
+
+    return videos, status
+
+
+def youtube_videos_to_signals(videos):
+    signals = []
+    for item in videos:
+        title = item.get("title", "")
+        if not title:
+            continue
+        views = item.get("view_count") or "-"
+        comments = item.get("comment_count") or "-"
+        signals.append(
+            {
+                "date": item.get("date"),
+                "source_platform": "YouTube Trending",
+                "country_region": item.get("country_region"),
+                "language": "EN",
+                "keyword_or_hashtag": title[:120],
+                "post_title_or_caption": title,
+                "url": item.get("url"),
+                "views_or_rank": f"rank {item.get('rank')} / views {views}",
+                "likes": item.get("like_count"),
+                "comments": comments,
+                "shares": "",
+                "trend_window": "daily YouTube mostPopular",
+                "sentiment": "neutral",
+                "emotion_tags": "video trend, public ranking",
+                "evidence_level": item.get("evidence_level", "A"),
+                "last_checked": item.get("captured_at", ""),
+                "notes": f"YouTube mostPopular公开榜单：{item.get('channel_title', '')}",
+            }
+        )
+    return signals
 
 
 AI_ANIMATION_TOPIC_SEEDS = [
@@ -785,7 +887,11 @@ def main():
     watchlist = extend_watchlist(
         hydrate_watchlist(sheet_records(workbook, "weekly_watchlist", 4, 5), clusters, angles)
     )
-    signals = build_signals(sheet_records(workbook, "raw_signals", 4, 5), generated_at)
+    youtube_trending_videos, youtube_fetch_status = fetch_youtube_trending_videos(generated_at)
+    signals = build_signals(
+        sheet_records(workbook, "raw_signals", 4, 5) + youtube_videos_to_signals(youtube_trending_videos),
+        generated_at,
+    )
 
     payload = {
         "generated_at": generated_at.isoformat(timespec="seconds"),
@@ -804,6 +910,8 @@ def main():
         "clusters": clusters,
         "angles": angles,
         "signals": signals,
+        "youtube_trending_videos": youtube_trending_videos,
+        "youtube_fetch_status": youtube_fetch_status,
         "ai_animation_topics": build_ai_animation_topics(),
         "traditional_film_tv_topics": build_traditional_film_tv_topics(),
         "comment_pain_points": build_comment_pain_points(),

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T10:09:07",
+  "generated_at": "2026-06-10T10:50:07",
   "source_workbook": "社媒热点题材雷达_v1.xlsx",
   "scope": {
     "markets": [
@@ -575,6 +575,19 @@
       "notes": "潜力题材：平台融资本身不是题材，但说明海外微短剧供给侧仍在扩张，值得追踪平台偏好的类型。"
     }
   ],
+  "youtube_trending_videos": [],
+  "youtube_fetch_status": {
+    "enabled": false,
+    "regions_requested": [
+      "US",
+      "UK",
+      "CA",
+      "AU"
+    ],
+    "regions_with_results": [],
+    "error": "YOUTUBE_API_KEY not configured; skipped YouTube fetch.",
+    "captured_at": "2026-06-10T10:50:07"
+  },
   "ai_animation_topics": [
     {
       "topic": "罗曼史IP改编漫剧",

@@ -462,7 +462,8 @@ th {
 }
 
 .potential-grid,
-.comment-pain-grid {
+.comment-pain-grid,
+.youtube-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 12px;
@@ -605,6 +606,7 @@ th {
 
 .potential-card,
 .comment-pain-card,
+.youtube-card,
 .empty-card {
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -617,8 +619,14 @@ th {
   border-color: #e8d9aa;
 }
 
+.youtube-card {
+  background: #fffafa;
+  border-color: #efc8c3;
+}
+
 .potential-meta,
-.comment-pain-meta {
+.comment-pain-meta,
+.youtube-meta {
   display: flex;
   justify-content: space-between;
   gap: 10px;
@@ -628,13 +636,15 @@ th {
 }
 
 .potential-card h3,
-.comment-pain-card h3 {
+.comment-pain-card h3,
+.youtube-card h3 {
   margin: 0 0 8px;
   font-size: 15px;
 }
 
 .potential-card p,
 .comment-pain-card p,
+.youtube-card p,
 .empty-card {
   color: #334155;
   font-size: 13px;
@@ -642,8 +652,25 @@ th {
 }
 
 .potential-card p,
-.comment-pain-card p {
+.comment-pain-card p,
+.youtube-card p {
   margin: 0 0 12px;
+}
+
+.youtube-metrics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 10px 0;
+}
+
+.youtube-metrics span {
+  padding: 5px 8px;
+  border-radius: 7px;
+  background: #fee2e2;
+  color: #991b1b;
+  font-size: 12px;
+  font-weight: 700;
 }
 
 .comment-pain-card p strong {
@@ -702,7 +729,8 @@ a:hover {
     .traditional-topic-grid,
     .industry-media-grid,
     .potential-grid,
-    .comment-pain-grid {
+    .comment-pain-grid,
+    .youtube-grid {
     grid-template-columns: 1fr;
   }
 }

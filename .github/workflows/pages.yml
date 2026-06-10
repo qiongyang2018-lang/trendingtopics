@@ -33,6 +33,8 @@ jobs:
 
       - name: Refresh dashboard data
         run: python scripts/export_social_radar_data.py
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
 
       - name: Commit daily snapshot
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
