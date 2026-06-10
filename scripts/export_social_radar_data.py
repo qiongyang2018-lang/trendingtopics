@@ -888,10 +888,7 @@ def main():
         hydrate_watchlist(sheet_records(workbook, "weekly_watchlist", 4, 5), clusters, angles)
     )
     youtube_trending_videos, youtube_fetch_status = fetch_youtube_trending_videos(generated_at)
-    signals = build_signals(
-        sheet_records(workbook, "raw_signals", 4, 5) + youtube_videos_to_signals(youtube_trending_videos),
-        generated_at,
-    )
+    signals = build_signals(sheet_records(workbook, "raw_signals", 4, 5), generated_at)
 
     payload = {
         "generated_at": generated_at.isoformat(timespec="seconds"),

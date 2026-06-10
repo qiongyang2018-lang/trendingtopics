@@ -231,9 +231,29 @@ function potentialReason(signal) {
   return "暂未映射到现有短剧题材簇，建议先做热度与评论痛点核验。";
 }
 
+function isPotentialTopicSignal(signal) {
+  const notes = normalizeText(signal.notes || "");
+  const tags = normalizeText(signal.emotion_tags || "");
+  const title = normalizeText(signal.post_title_or_caption || signal.keyword_or_hashtag || "");
+  const platform = normalizeText(signal.source_platform || "");
+
+  if (platform === "youtube trending") return false;
+  return (
+    notes.includes("潜力题材") ||
+    notes.includes("短剧启发") ||
+    notes.includes("内容方向") ||
+    tags.includes("drama") ||
+    tags.includes("romance") ||
+    tags.includes("story") ||
+    title.includes("microdrama") ||
+    title.includes("short drama")
+  );
+}
+
 function renderPotentialTopics(signals) {
   const items = signals
     .filter((item) => item.keyword_or_hashtag)
+    .filter(isPotentialTopicSignal)
     .sort((a, b) => {
       const dateDiff = String(b.date || "").localeCompare(String(a.date || ""));
       if (dateDiff) return dateDiff;

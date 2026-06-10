@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T10:50:07",
+  "generated_at": "2026-06-10T11:04:22",
   "source_workbook": "社媒热点题材雷达_v1.xlsx",
   "scope": {
     "markets": [
@@ -586,7 +586,7 @@
     ],
     "regions_with_results": [],
     "error": "YOUTUBE_API_KEY not configured; skipped YouTube fetch.",
-    "captured_at": "2026-06-10T10:50:07"
+    "captured_at": "2026-06-10T11:04:22"
   },
   "ai_animation_topics": [
     {
