@@ -175,11 +175,20 @@ main {
   font-size: 13px;
 }
 
-.daily-brief-item p {
+.daily-brief-item p,
+.daily-brief-item ul {
   margin: 0;
   color: #263f56;
   font-size: 14px;
   line-height: 1.55;
+}
+
+.daily-brief-item ul {
+  padding-left: 18px;
+}
+
+.daily-brief-item li + li {
+  margin-top: 6px;
 }
 
 .content-zone {

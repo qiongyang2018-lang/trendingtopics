@@ -186,6 +186,14 @@ function compactList(items, field, limit = 3) {
     .slice(0, limit);
 }
 
+function splitBriefLines(value) {
+  return String(value || "")
+    .replace(/。$/, "")
+    .split(/[；;]/)
+    .map((item) => item.trim())
+    .filter(Boolean);
+}
+
 function renderDailyBrief(data) {
   const watchItems = topWatchlistItems(data, 3);
   const commentPoints = (data.comment_pain_points || []).filter((item) => item.pain_point);
@@ -239,12 +247,18 @@ function renderDailyBrief(data) {
   ];
 
   setHtml("#dailyBriefGrid", sections
-    .map((section) => `
+    .map((section) => {
+      const lines = splitBriefLines(section.body);
+      const bodyMarkup = lines.length > 1
+        ? `<ul>${lines.map((line) => `<li>${escapeHtml(line)}</li>`).join("")}</ul>`
+        : `<p>${escapeHtml(section.body)}</p>`;
+      return `
       <article class="daily-brief-item">
         <h3>${escapeHtml(section.title)}</h3>
-        <p>${escapeHtml(section.body)}</p>
+        ${bodyMarkup}
       </article>
-    `)
+    `;
+    })
     .join(""));
 }
 
