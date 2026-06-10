@@ -247,6 +247,33 @@ TRADITIONAL_FILM_TV_TOPIC_SEEDS = [
 
 INDUSTRY_MEDIA_OBSERVATION_SEEDS = [
     {
+        "source_name": "36氪 / 骨朵网络影视",
+        "article_date": "2026-06-04",
+        "title": "ROI碾压，才是AI漫剧对真人剧的降维攻击",
+        "summary": "文章讨论漫剧投流、播放和ROI表现，指出网文IP、低成本制作和快速周转正在推动漫剧成为短剧赛道的重要变量。",
+        "topic_signal": "AI漫剧 / 网文IP影像化 / ROI与资金周转",
+        "evidence_level": "B",
+        "source_url": "https://www.36kr.com/p/3838601706440965",
+    },
+    {
+        "source_name": "36氪 / 文娱价值官",
+        "article_date": "2026-06-03",
+        "title": "观众越来越挑食，出海短剧也要卷“细糠”了",
+        "summary": "文章强调海外短剧从翻译搬运进入深度本土化阶段，北美用户对套路化内容耐受降低，题材需要更贴近当地文化语境。",
+        "topic_signal": "出海短剧本土化 / 北美审美变化 / 精品化",
+        "evidence_level": "B",
+        "source_url": "https://www.36kr.com/p/3837211878947464",
+    },
+    {
+        "source_name": "36氪 / 镜像娱乐",
+        "article_date": "2026-06-03",
+        "title": "AI短剧出海热：营收翻1200倍、订单暴涨5000%，阅文字节中文在线等公司纷纷入局",
+        "summary": "文章关注AI短剧出海、ToonScroll、PineDrama、TikTok minis等平台和IP方动作，适合观察海外AI短剧工业化趋势。",
+        "topic_signal": "AI短剧出海 / 平台入局 / IP+AI工业化",
+        "evidence_level": "B",
+        "source_url": "https://www.36kr.com/p/3836864874560388",
+    },
+    {
         "source_name": "DataEye短剧观察",
         "article_date": "2026-06-01",
         "title": "DataEye海外微短剧热榜：“女版五十度灰”跻身TOP3，两部“女主逆袭”新剧上榜",
@@ -256,11 +283,29 @@ INDUSTRY_MEDIA_OBSERVATION_SEEDS = [
         "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7",
     },
     {
+        "source_name": "DataEye短剧观察",
+        "article_date": "2026-03-30",
+        "title": "DataEye短剧&漫剧日榜：6部九州发行AI仿真人剧居前列，红果漫剧榜TOP10有3部萌宝",
+        "summary": "搜索结果显示AI仿真人剧、萌宝漫剧在短剧/漫剧日榜中集中出现，可用于观察AI形态与经典高转化题材的结合。",
+        "topic_signal": "AI仿真人剧 / 萌宝漫剧 / 榜单集中度",
+        "evidence_level": "C",
+        "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7",
+    },
+    {
         "source_name": "DataEye短剧出海",
         "article_date": "2026-03-27",
         "title": "DataEye海外微短剧热榜：西幻AI新剧上榜，ReelShort登顶素材增长榜首",
         "summary": "海外短剧榜单出现西幻、AI相关新剧，同时素材增长榜能观察投放侧正在加码的类型。",
         "topic_signal": "西幻短剧 / AI新剧 / 投放素材增长",
+        "evidence_level": "B",
+        "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7",
+    },
+    {
+        "source_name": "DataEye短剧出海",
+        "article_date": "2026-03-15",
+        "title": "DataEye海外微短剧热榜：“虐恋追妻”新剧上榜，麦芽、昆仑万维包揽双榜TOP3",
+        "summary": "海外短剧热榜提到虐恋追妻、平台发行方榜单变化，可继续观察追妻火葬场和头部供给竞争。",
+        "topic_signal": "虐恋追妻 / 头部平台供给 / 海外女频",
         "evidence_level": "B",
         "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7",
     },
@@ -284,39 +329,12 @@ INDUSTRY_MEDIA_OBSERVATION_SEEDS = [
     },
     {
         "source_name": "DataEye短剧观察",
-        "article_date": "2024-04-17",
-        "title": "DataEye短剧热力榜：拳击题材短剧登顶，这一元素持续爆火",
-        "summary": "拳击和竞技元素曾在热力榜中登顶，可转化为女性成长、复仇、底层逆袭和高燃训练线。",
-        "topic_signal": "拳击竞技 / 底层逆袭 / 复仇训练",
+        "article_date": "2026-03-01",
+        "title": "DataEye短剧&漫剧日榜：AI仿真人剧包揽TOP5，《少夫人来自东北》空降榜首",
+        "summary": "AI仿真人剧在日榜中集中占位，东北地域、少夫人、付免双爆等信号可用于观察AI短剧题材包装。",
+        "topic_signal": "AI仿真人剧 / 地域爽剧 / 付免双爆",
         "evidence_level": "B",
         "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7",
-    },
-    {
-        "source_name": "短剧自习室",
-        "article_date": "2024-05-14",
-        "title": "短剧行业的真实现状：有人连扑27部剧，有人30集拿下500万充值",
-        "summary": "文章搜索摘要指向短剧行业真实现状、内容制作方法论和充值表现差异，适合补充商业验证视角。",
-        "topic_signal": "内容制作方法论 / 充值表现 / 行业分化",
-        "evidence_level": "B",
-        "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E7%9F%AD%E5%89%A7%E8%87%AA%E4%B9%A0%E5%AE%A4",
-    },
-    {
-        "source_name": "短剧自习室",
-        "article_date": "2024-04-29",
-        "title": "短剧内容同质化，怎么破？爆款编剧、制作、平台这样说",
-        "summary": "围绕短剧同质化、爆款编剧、制作和平台观点，可用于补充“差异化题材”判断。",
-        "topic_signal": "同质化破解 / 爆款编剧 / 平台观点",
-        "evidence_level": "B",
-        "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E7%9F%AD%E5%89%A7%E8%87%AA%E4%B9%A0%E5%AE%A4",
-    },
-    {
-        "source_name": "短剧自习室",
-        "article_date": "2023-12-13",
-        "title": "微短剧2024的三个内容趋势",
-        "summary": "搜索摘要提到短剧与小说、电影、网剧、游戏等赛道联动共创，可作为跨媒介题材灵感入口。",
-        "topic_signal": "跨媒介联动 / 小说影视游戏共创 / 内容趋势",
-        "evidence_level": "B",
-        "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E7%9F%AD%E5%89%A7%E8%87%AA%E4%B9%A0%E5%AE%A4",
     },
 ]
 
@@ -352,14 +370,25 @@ def build_traditional_film_tv_topics():
 
 
 def build_industry_media_observations():
-    observations = [dict(item) for item in INDUSTRY_MEDIA_OBSERVATION_SEEDS]
+    observations = [
+        dict(item)
+        for item in INDUSTRY_MEDIA_OBSERVATION_SEEDS
+        if str(item.get("article_date", "")).startswith("2026")
+    ]
+    observations.sort(key=lambda item: item.get("article_date", ""), reverse=True)
     if observations:
         return observations
 
     if OUTPUT_PATH.exists():
         try:
             existing_payload = json.loads(OUTPUT_PATH.read_text(encoding="utf-8"))
-            return existing_payload.get("industry_media_observations", [])[:10]
+            existing_observations = [
+                item
+                for item in existing_payload.get("industry_media_observations", [])
+                if str(item.get("article_date", "")).startswith("2026")
+            ]
+            existing_observations.sort(key=lambda item: item.get("article_date", ""), reverse=True)
+            return existing_observations[:10]
         except (OSError, json.JSONDecodeError):
             return []
 

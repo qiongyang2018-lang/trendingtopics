@@ -327,12 +327,14 @@ function renderTraditionalFilmTvTopics(items) {
 }
 
 function renderIndustryMediaObservations(items) {
-  const observations = (items || []).filter((item) => item.title).slice(0, 10);
-  setText("#industryMediaCount", `公众号/行业榜单信号 · ${observations.length} 条`);
+  const observations = (items || [])
+    .filter((item) => item.title && String(item.article_date || "").startsWith("2026"))
+    .slice(0, 10);
+  setText("#industryMediaCount", `2026行业媒体信号 · ${observations.length} 条`);
 
   if (!observations.length) {
     setHtml("#industryMediaGrid", `
-      <div class="empty-card">暂无行业媒体观察数据。后续公开搜索结果或人工补录后会进入这里。</div>
+      <div class="empty-card">暂无2026年行业媒体观察数据。后续公开搜索结果或人工补录后会进入这里。</div>
     `);
     return;
   }
