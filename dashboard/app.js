@@ -315,39 +315,6 @@ function renderCommentPainPoints(items) {
     .join(""));
 }
 
-function renderYoutubeTrending(videos, status = {}) {
-  const items = (videos || []).filter((item) => item.title).slice(0, 12);
-  const regions = (status.regions_with_results || []).join("/") || "未抓到地区";
-  const statusText = status.enabled ? `YouTube Data API · ${items.length} 条 · ${regions}` : "YouTube Data API 未配置";
-  setText("#youtubeTrendingCount", statusText);
-
-  if (!items.length) {
-    const message = status.enabled
-      ? "本次未抓到 YouTube 热门视频。可检查 API 配额、地区支持或稍后重试。"
-      : "尚未配置 YOUTUBE_API_KEY，GitHub Secret 配置后每日更新会自动抓取 YouTube 公开热门视频。";
-    setHtml("#youtubeTrendingGrid", `<div class="empty-card">${escapeHtml(message)}</div>`);
-    return;
-  }
-
-  setHtml("#youtubeTrendingGrid", items
-    .map((item) => `
-      <article class="youtube-card">
-        <div class="youtube-meta">
-          <span>${escapeHtml(item.country_region)} #${escapeHtml(item.rank)}</span>
-          <span>${escapeHtml(displayValue(formatDate(item.published_at), "日期待补"))}</span>
-        </div>
-        <h3>${escapeHtml(item.title)}</h3>
-        <p>${escapeHtml(displayValue(item.channel_title, "频道待补"))}</p>
-        <div class="youtube-metrics">
-          <span>views ${escapeHtml(displayValue(item.view_count))}</span>
-          <span>comments ${escapeHtml(displayValue(item.comment_count))}</span>
-        </div>
-        ${item.url ? `<a href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">查看公开视频</a>` : ""}
-      </article>
-    `)
-    .join(""));
-}
-
 function renderAiAnimationTopics(items) {
   const topics = (items || []).filter((item) => item.topic).slice(0, 8);
   setText("#aiAnimationCount", `最新公开讨论方向 · ${topics.length} 条`);
@@ -448,7 +415,6 @@ function renderAll() {
   renderClusters(radarData.clusters || [], radarData.watchlist || [], signals);
   renderPotentialTopics(unmappedSignals);
   renderCommentPainPoints(radarData.comment_pain_points || []);
-  renderYoutubeTrending(radarData.youtube_trending_videos || [], radarData.youtube_fetch_status || {});
   renderAiAnimationTopics(radarData.ai_animation_topics || []);
   renderTraditionalFilmTvTopics(radarData.traditional_film_tv_topics || []);
   renderIndustryMediaObservations(radarData.industry_media_observations || []);
@@ -477,7 +443,6 @@ function renderSnapshotSummary(data, modeLabel) {
     ["社媒信号", (data.signals || []).length],
     ["候选题材", (data.watchlist || []).length],
     ["评论痛点", (data.comment_pain_points || []).length],
-    ["YouTube", (data.youtube_trending_videos || []).length],
     ["AI漫剧", (data.ai_animation_topics || []).length],
     ["传统影视", (data.traditional_film_tv_topics || []).length],
     ["行业媒体", (data.industry_media_observations || []).length],
