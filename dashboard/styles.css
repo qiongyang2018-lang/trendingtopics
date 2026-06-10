@@ -461,7 +461,8 @@ th {
   font-size: 12px;
 }
 
-.potential-grid {
+.potential-grid,
+.comment-pain-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 12px;
@@ -603,6 +604,7 @@ th {
 }
 
 .potential-card,
+.comment-pain-card,
 .empty-card {
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -610,7 +612,13 @@ th {
   padding: 14px;
 }
 
-.potential-meta {
+.comment-pain-card {
+  background: #fffdf7;
+  border-color: #e8d9aa;
+}
+
+.potential-meta,
+.comment-pain-meta {
   display: flex;
   justify-content: space-between;
   gap: 10px;
@@ -619,20 +627,38 @@ th {
   margin-bottom: 10px;
 }
 
-.potential-card h3 {
+.potential-card h3,
+.comment-pain-card h3 {
   margin: 0 0 8px;
   font-size: 15px;
 }
 
 .potential-card p,
+.comment-pain-card p,
 .empty-card {
   color: #334155;
   font-size: 13px;
   line-height: 1.5;
 }
 
-.potential-card p {
+.potential-card p,
+.comment-pain-card p {
   margin: 0 0 12px;
+}
+
+.comment-pain-card p strong {
+  display: block;
+  color: var(--ink);
+  font-size: 12px;
+  margin-bottom: 2px;
+}
+
+.comment-pain-card small {
+  display: block;
+  margin-bottom: 10px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.4;
 }
 
 .info-bottom {
@@ -673,9 +699,10 @@ a:hover {
   .two-col,
   .cluster-grid,
   .ai-animation-grid,
-  .traditional-topic-grid,
-  .industry-media-grid,
-  .potential-grid {
+    .traditional-topic-grid,
+    .industry-media-grid,
+    .potential-grid,
+    .comment-pain-grid {
     grid-template-columns: 1fr;
   }
 }

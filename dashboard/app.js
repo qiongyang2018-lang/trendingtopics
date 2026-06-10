@@ -266,6 +266,35 @@ function renderPotentialTopics(signals) {
     .join(""));
 }
 
+function renderCommentPainPoints(items) {
+  const points = (items || []).filter((item) => item.pain_point).slice(0, 8);
+  setText("#commentPainPointCount", `公开评论/讨论聚合 · ${points.length} 条`);
+
+  if (!points.length) {
+    setHtml("#commentPainPointGrid", `
+      <div class="empty-card">暂无评论痛点数据。后续公开评论、公开讨论或应用评价聚合后会进入这里。</div>
+    `);
+    return;
+  }
+
+  setHtml("#commentPainPointGrid", points
+    .map((item) => `
+      <article class="comment-pain-card">
+        <div class="comment-pain-meta">
+          <span>${escapeHtml(displayValue(item.source_platform))}</span>
+          <span>证据 ${escapeHtml(displayValue(item.evidence_level))} · ${escapeHtml(displayValue(item.emotion, "neutral"))}</span>
+        </div>
+        <h3>${escapeHtml(item.pain_point)}</h3>
+        <p><strong>高频表达</strong>${escapeHtml(displayValue(item.frequent_expression))}</p>
+        <p><strong>短剧映射</strong>${escapeHtml(displayValue(item.mapped_drama_angle))}</p>
+        <p><strong>处理建议</strong>${escapeHtml(displayValue(item.recommended_handling))}</p>
+        <small>${escapeHtml(displayValue(item.risk_notes, "风险待补充"))}</small>
+        ${item.source_url ? `<a href="${escapeHtml(item.source_url)}" target="_blank" rel="noreferrer">查看公开入口</a>` : ""}
+      </article>
+    `)
+    .join(""));
+}
+
 function renderAiAnimationTopics(items) {
   const topics = (items || []).filter((item) => item.topic).slice(0, 8);
   setText("#aiAnimationCount", `最新公开讨论方向 · ${topics.length} 条`);
@@ -365,6 +394,7 @@ function renderAll() {
   renderWeights(radarData.weights || []);
   renderClusters(radarData.clusters || [], radarData.watchlist || [], signals);
   renderPotentialTopics(unmappedSignals);
+  renderCommentPainPoints(radarData.comment_pain_points || []);
   renderAiAnimationTopics(radarData.ai_animation_topics || []);
   renderTraditionalFilmTvTopics(radarData.traditional_film_tv_topics || []);
   renderIndustryMediaObservations(radarData.industry_media_observations || []);
@@ -392,6 +422,7 @@ function renderSnapshotSummary(data, modeLabel) {
   const counts = [
     ["社媒信号", (data.signals || []).length],
     ["候选题材", (data.watchlist || []).length],
+    ["评论痛点", (data.comment_pain_points || []).length],
     ["AI漫剧", (data.ai_animation_topics || []).length],
     ["传统影视", (data.traditional_film_tv_topics || []).length],
     ["行业媒体", (data.industry_media_observations || []).length],

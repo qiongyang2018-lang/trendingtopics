@@ -252,6 +252,98 @@ POTENTIAL_SIGNAL_SEEDS = [
 ]
 
 
+COMMENT_PAIN_POINT_SEEDS = [
+    {
+        "pain_point": "不想再看软弱女主反复原谅",
+        "frequent_expression": "Tired of weak female leads / why does she forgive him again",
+        "source_platform": "Reddit / app reviews",
+        "emotion": "anger, fatigue",
+        "mapped_drama_angle": "不原谅爽剧 / 离婚后反杀 / 强女主复仇",
+        "recommended_handling": "前3集明确女主不回头，男主追悔只能做阻力，爽点给事业和新关系。",
+        "evidence_level": "B",
+        "source_url": "https://www.reddit.com/search/?q=weak%20female%20lead%20microdrama",
+        "risk_notes": "避免把女性成长简化成单纯羞辱前任，需补足主动目标。",
+    },
+    {
+        "pain_point": "出轨复仇题材爽但同质化",
+        "frequent_expression": "Cheating revenge is addictive but predictable",
+        "source_platform": "TikTok / Reddit",
+        "emotion": "anger, anticipation",
+        "mapped_drama_angle": "情感背叛 / 复仇爽感 / 证据反杀",
+        "recommended_handling": "保留出轨证据、公开打脸、财产反转，但增加职业身份或家庭秘密差异化。",
+        "evidence_level": "B",
+        "source_url": "https://www.reddit.com/search/?q=cheating%20revenge%20storytime",
+        "risk_notes": "不能只堆羞辱，需要让女主有清晰收益和成长。",
+    },
+    {
+        "pain_point": "熟龄女性二次恋爱供给少",
+        "frequent_expression": "Need more stories about older women dating again",
+        "source_platform": "Quora / Reddit / app reviews",
+        "emotion": "hope, loneliness",
+        "mapped_drama_angle": "熟龄二次恋爱 / 离婚重启 / 信任修复",
+        "recommended_handling": "把恋爱线和子女、财务独立、前夫纠缠放在一起，避免只做年轻化甜宠。",
+        "evidence_level": "C",
+        "source_url": "https://www.quora.com/search?q=dating%20after%20divorce%20older%20women",
+        "risk_notes": "需避免年龄羞辱和刻板化家庭压力。",
+    },
+    {
+        "pain_point": "AI演员有违和感但剧情上头",
+        "frequent_expression": "AI actors look creepy but the story is addictive",
+        "source_platform": "Reddit / industry comments",
+        "emotion": "curiosity, discomfort",
+        "mapped_drama_angle": "AI仿真人剧可接受度 / 漫剧优先 / 高概念低成本测试",
+        "recommended_handling": "优先用漫剧或半写实风格承接高概念题材，真人感AI只用于短镜头和强钩子测试。",
+        "evidence_level": "C",
+        "source_url": "https://www.reddit.com/search/?q=AI%20microdrama%20actors",
+        "risk_notes": "不要夸大AI替代真人，页面只做内容形态观察。",
+    },
+    {
+        "pain_point": "观众想参与剧情走向",
+        "frequent_expression": "Let the comments decide what happens next",
+        "source_platform": "arXiv / social comments",
+        "emotion": "playful, participatory",
+        "mapped_drama_angle": "评论共创 / 多结局恋爱 / 伪互动短剧",
+        "recommended_handling": "把评论投票作为下一集钩子，不直接让用户决定核心价值观和合规风险情节。",
+        "evidence_level": "C",
+        "source_url": "https://arxiv.org/abs/2602.14045",
+        "risk_notes": "评论反馈只能辅助A/B测试，不能替代编剧判断。",
+    },
+    {
+        "pain_point": "黑帮/禁忌恋有吸引力但胁迫风险高",
+        "frequent_expression": "Mafia romance is hot but too toxic",
+        "source_platform": "BookTok / Reddit",
+        "emotion": "desire, concern",
+        "mapped_drama_angle": "禁忌恋 / 危险保护欲 / 权力边界",
+        "recommended_handling": "把危险感转成外部威胁和保护关系，弱化胁迫、囚禁和美化暴力。",
+        "evidence_level": "C",
+        "source_url": "https://www.reddit.com/search/?q=mafia%20romance%20toxic",
+        "risk_notes": "高品牌风险题材，只做弱信号追踪。",
+    },
+    {
+        "pain_point": "用户讨厌付费后剧情拖水",
+        "frequent_expression": "Too many filler episodes after I pay",
+        "source_platform": "App Store / Google Play reviews",
+        "emotion": "frustration",
+        "mapped_drama_angle": "高密度反转 / 付费点后兑现 / 短集节奏优化",
+        "recommended_handling": "每个付费段落必须兑现一个秘密、打脸或关系进展，避免只做误会延长。",
+        "evidence_level": "B",
+        "source_url": "https://play.google.com/store/search?q=ReelShort%20DramaBox&c=apps",
+        "risk_notes": "这是产品/节奏痛点，不直接等同于新题材。",
+    },
+    {
+        "pain_point": "想看更不套路的狼人命定伴侣",
+        "frequent_expression": "Rejected mate again, but give me something new",
+        "source_platform": "Reddit / TikTok comments",
+        "emotion": "fandom fatigue, curiosity",
+        "mapped_drama_angle": "狼人 rejected mate / 世界观新意 / 女性成长",
+        "recommended_handling": "保留命定拒绝爽点，但改成女主主动拒绝、群体规则反转或非alpha关系。",
+        "evidence_level": "C",
+        "source_url": "https://www.reddit.com/search/?q=rejected%20mate%20werewolf%20romance",
+        "risk_notes": "供给拥挤，必须有世界观或人物关系差异化。",
+    },
+]
+
+
 def extend_clusters(clusters):
     existing = {item.get("cluster_name") for item in clusters if item.get("cluster_name")}
     extended = [dict(item) for item in clusters]
@@ -291,6 +383,10 @@ def build_signals(raw_signals, generated_at):
             continue
         signals.append({"date": today, "last_checked": today, **item})
     return signals
+
+
+def build_comment_pain_points():
+    return [dict(item) for item in COMMENT_PAIN_POINT_SEEDS]
 
 
 AI_ANIMATION_TOPIC_SEEDS = [
@@ -710,6 +806,7 @@ def main():
         "signals": signals,
         "ai_animation_topics": build_ai_animation_topics(),
         "traditional_film_tv_topics": build_traditional_film_tv_topics(),
+        "comment_pain_points": build_comment_pain_points(),
         "industry_media_observations": build_industry_media_observations(),
         "dictionary": sheet_records(workbook, "dictionary", 4, 5),
         "weights": [
