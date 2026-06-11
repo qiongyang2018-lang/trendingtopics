@@ -4,7 +4,10 @@ on:
   push:
     branches: [main]
   schedule:
+    # Beijing time: 09:00 primary run, plus fallback runs because GitHub schedules can be delayed.
     - cron: "0 1 * * *"
+    - cron: "15 2 * * *"
+    - cron: "30 3 * * *"
   workflow_dispatch:
 
 permissions:
