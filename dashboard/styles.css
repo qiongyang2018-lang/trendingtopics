@@ -257,6 +257,43 @@ main {
   line-height: 1.4;
 }
 
+.project-example-list {
+  list-style: none;
+  margin: 4px 0 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.project-example-list li {
+  padding: 9px 10px;
+  border: 1px solid #dce8d4;
+  border-radius: 7px;
+  background: #fbfdf8;
+}
+
+.project-example-list strong {
+  display: block;
+  margin-bottom: 3px;
+  color: var(--ink);
+}
+
+.project-example-list span,
+.project-example-list em,
+.project-example-list small {
+  display: block;
+  margin: 0 0 2px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.35;
+  font-style: normal;
+}
+
+.project-example-list em {
+  color: #2b7778;
+  font-weight: 700;
+}
+
 .zone-hot {
   background: #f8fafb;
 }

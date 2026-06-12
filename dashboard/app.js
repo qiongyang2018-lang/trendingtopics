@@ -67,6 +67,31 @@ function audienceBadge(item) {
   return `<span class="audience-badge ${klass}">${escapeHtml(segment)}</span>`;
 }
 
+function projectExamplesMarkup(item) {
+  const examples = Array.isArray(item.project_examples) ? item.project_examples : [];
+  if (!examples.length) {
+    const fallback = String(item.candidate_projects || item.topic_directions || "")
+      .split(/[；;]/)
+      .map((value) => value.trim())
+      .filter(Boolean);
+    if (!fallback.length) return `<p class="empty-note">项目样本待补充。</p>`;
+    return `<ul class="project-example-list">${fallback.map((value) => `<li>${escapeHtml(value)}</li>`).join("")}</ul>`;
+  }
+
+  return `<ul class="project-example-list">
+    ${examples
+      .map((example) => `
+        <li>
+          <strong>${escapeHtml(example.title)}</strong>
+          <span>${escapeHtml(displayValue(example.platform, "平台待补"))} · ${escapeHtml(displayValue(example.audience_segment || audienceSegment(example), "受众待判"))}</span>
+          <em>${escapeHtml(displayValue(example.topic_tag, "题材待补"))}</em>
+          <small>${escapeHtml(displayValue(example.date_window, "日期待核验"))} · ${escapeHtml(displayValue(example.evidence, "证据待补"))}</small>
+        </li>
+      `)
+      .join("")}
+  </ul>`;
+}
+
 const $ = (selector) => document.querySelector(selector);
 
 function setText(selector, value) {
@@ -336,7 +361,8 @@ function renderStrategicFocus(items) {
         <h3>${escapeHtml(item.focus_name)}</h3>
         ${audienceBadge(item)}
         <p><strong>方向判断</strong>${escapeHtml(displayValue(item.strategic_read || item.why_it_matters))}</p>
-        <p><strong>代表项目/题材样本</strong>${escapeHtml(displayValue(item.candidate_projects || item.topic_directions))}</p>
+        <p><strong>代表项目/题材样本</strong></p>
+        ${projectExamplesMarkup(item)}
       </article>
     `)
     .join(""));
