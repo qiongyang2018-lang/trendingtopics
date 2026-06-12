@@ -293,14 +293,6 @@ function renderStrategicFocus(items) {
         <p><strong>方向判断</strong>${escapeHtml(displayValue(item.strategic_read || item.why_it_matters))}</p>
         <p><strong>竞品/样本信号</strong>${escapeHtml(displayValue(item.sample_signals || item.current_signals))}</p>
         <p><strong>候选项目/题材</strong>${escapeHtml(displayValue(item.candidate_projects || item.topic_directions))}</p>
-        <div class="strategic-focus-tags">
-          ${String(item.topic_directions || "")
-            .split(";")
-            .map((tag) => tag.trim())
-            .filter(Boolean)
-            .map((tag) => `<span>${escapeHtml(tag)}</span>`)
-            .join("")}
-        </div>
         <p><strong>验证指标</strong>${escapeHtml(displayValue(item.validation_metrics || item.next_action))}</p>
         <small>${escapeHtml(displayValue(item.risk_notes, "风险待补充"))}</small>
       </article>
@@ -544,29 +536,6 @@ function renderIndustryMediaObservations(items) {
     .join(""));
 }
 
-function renderSourceMonitor(items) {
-  const sources = (items || []).filter((item) => item.source_name);
-  setHidden("#sourceMonitorSection", !sources.length);
-  if (!sources.length) return;
-
-  setText("#sourceMonitorCount", `${sources.length} 个来源`);
-  setHtml("#sourceMonitorGrid", sources
-    .map((item) => `
-      <article class="source-monitor-card">
-        <div class="source-monitor-meta">
-          <span>${escapeHtml(displayValue(item.priority, "中"))}优先级</span>
-          <span>${escapeHtml(displayValue(item.access_mode, "公开检索"))}</span>
-        </div>
-        <h3>${escapeHtml(item.source_name)}</h3>
-        <p><strong>${escapeHtml(displayValue(item.source_type, "信息源"))}</strong>${escapeHtml(displayValue(item.coverage))}</p>
-        <p>${escapeHtml(displayValue(item.use_case))}</p>
-        <small>${escapeHtml(displayValue(item.boundary, "只采集公开信息"))}</small>
-        ${item.source_url ? `<a href="${escapeHtml(item.source_url)}" target="_blank" rel="noreferrer">查看入口</a>` : ""}
-      </article>
-    `)
-    .join(""));
-}
-
 function renderAll() {
   const signals = filterSignalsByWindow(radarData.signals || [], activeWindowDays);
   const mappedKeys = mappedSignalKeys(radarData.clusters || [], radarData.watchlist || [], signals);
@@ -582,7 +551,6 @@ function renderAll() {
   renderAiAnimationTopics(radarData.ai_animation_topics || []);
   renderTraditionalFilmTvTopics(radarData.traditional_film_tv_topics || []);
   renderIndustryMediaObservations(radarData.industry_media_observations || []);
-  renderSourceMonitor(radarData.source_monitor || []);
 }
 
 function bindWindowControls() {
