@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T01:39:34",
+  "generated_at": "2026-06-12T05:53:00",
   "source_workbook": "社媒热点题材雷达_v1.xlsx",
   "scope": {
     "markets": [
@@ -29,7 +29,8 @@
       "watch_reason": "高热度+强负面情绪，短剧冲突足，现有供给可做细分差异化。",
       "recommended_action": "拆 3 个英文 hook 与前 8 集节奏",
       "owner": "内容策略",
-      "status": "active"
+      "status": "active",
+      "audience_segment": "女频"
     },
     {
       "rank": 2,
@@ -43,7 +44,8 @@
       "watch_reason": "女性逆袭与家庭伦理兼容，制作成本低，海外短剧适配度高。",
       "recommended_action": "补抓 TikTok/Reddit 评论痛点",
       "owner": "内容策略",
-      "status": "active"
+      "status": "active",
+      "audience_segment": "女频"
     },
     {
       "rank": 3,
@@ -57,7 +59,8 @@
       "watch_reason": "情绪强但表达需谨慎，适合女性成长+悬疑化处理。",
       "recommended_action": "做风险词清单与人物设定",
       "owner": "内容策略",
-      "status": "active"
+      "status": "active",
+      "audience_segment": "女频"
     },
     {
       "rank": 4,
@@ -71,7 +74,8 @@
       "watch_reason": "社会情绪稳定，适合低成本都市爽剧，但需强化恋爱/反转钩子。",
       "recommended_action": "对照职场短剧投放素材",
       "owner": "增长分析",
-      "status": "watch"
+      "status": "watch",
+      "audience_segment": "泛向/待验证"
     },
     {
       "rank": 5,
@@ -85,7 +89,8 @@
       "watch_reason": "需求耐久但供给拥挤，需要 AI/漫剧化或世界观新意。",
       "recommended_action": "找新设定而非复制 alpha mate",
       "owner": "内容策略",
-      "status": "watch"
+      "status": "watch",
+      "audience_segment": "女频"
     },
     {
       "rank": 6,
@@ -99,7 +104,8 @@
       "watch_reason": "禁忌恋冲突强，但暴力/胁迫风险高，适合只做弱信号追踪。",
       "recommended_action": "仅收集 hook，不进入立项",
       "owner": "内容策略",
-      "status": "risk_watch"
+      "status": "risk_watch",
+      "audience_segment": "女频"
     },
     {
       "rank": 7,
@@ -109,7 +115,8 @@
       "short_drama_genre": "AI仿真人 / 出海试水 / 地域爽剧",
       "platforms_seen": "36Kr,DataEye",
       "watch_reason": "AI仿真人剧和AI短剧出海同时被行业媒体与榜单提及，适合先做题材与制作形态观察。",
-      "recommended_action": "拆 AI 仿真人可接受度、地域爽剧 hook 和海外平台包装"
+      "recommended_action": "拆 AI 仿真人可接受度、地域爽剧 hook 和海外平台包装",
+      "audience_segment": "泛向/待验证"
     },
     {
       "rank": 8,
@@ -119,7 +126,8 @@
       "short_drama_genre": "平台授权 / Hollywood vertical drama",
       "platforms_seen": "Business Insider,Peacock,ReelShort",
       "watch_reason": "主流流媒体试水微短剧，说明竖屏短剧正在从独立App向平台内容库外溢。",
-      "recommended_action": "跟踪 Peacock/ReelShort 授权内容的题材和用户反馈"
+      "recommended_action": "跟踪 Peacock/ReelShort 授权内容的题材和用户反馈",
+      "audience_segment": "泛向/待验证"
     },
     {
       "rank": 9,
@@ -129,7 +137,8 @@
       "short_drama_genre": "目的地恋爱 / 继承契约 / 轻喜剧",
       "platforms_seen": "Hallmark,Decider,Netflix",
       "watch_reason": "异国目的地、继承条件和契约婚恋组合低成本且容易做前3集冲突。",
-      "recommended_action": "测试 inheritance + fake marriage + old flame 三类英文 hook"
+      "recommended_action": "测试 inheritance + fake marriage + old flame 三类英文 hook",
+      "audience_segment": "女频"
     },
     {
       "rank": 10,
@@ -139,7 +148,8 @@
       "short_drama_genre": "体育竞技 / 底层逆袭 / 训练爽感",
       "platforms_seen": "Netflix,Tom's Guide",
       "watch_reason": "体育逆袭情绪稳定，但海外短剧供给与制作成本需要再验证。",
-      "recommended_action": "只做低成本拳击/格斗训练线观察，不碰大场面赛事"
+      "recommended_action": "只做低成本拳击/格斗训练线观察，不碰大场面赛事",
+      "audience_segment": "男频"
     }
   ],
   "clusters": [
@@ -153,7 +163,8 @@
       "heat_score": 76,
       "sentiment_score": 72,
       "novelty_score": 62,
-      "sustainability_score": 68
+      "sustainability_score": 68,
+      "audience_segment": "女频"
     },
     {
       "cluster_name": "Cheating revenge storytime",
@@ -165,7 +176,8 @@
       "heat_score": 84,
       "sentiment_score": 86,
       "novelty_score": 55,
-      "sustainability_score": 61
+      "sustainability_score": 61,
+      "audience_segment": "女频"
     },
     {
       "cluster_name": "Toxic relationship recovery",
@@ -177,7 +189,8 @@
       "heat_score": 69,
       "sentiment_score": 80,
       "novelty_score": 57,
-      "sustainability_score": 74
+      "sustainability_score": 74,
+      "audience_segment": "女频"
     },
     {
       "cluster_name": "Workplace justice arc",
@@ -189,7 +202,8 @@
       "heat_score": 64,
       "sentiment_score": 66,
       "novelty_score": 58,
-      "sustainability_score": 72
+      "sustainability_score": 72,
+      "audience_segment": "泛向/待验证"
     },
     {
       "cluster_name": "Mafia forbidden romance",
@@ -201,7 +215,8 @@
       "heat_score": 58,
       "sentiment_score": 74,
       "novelty_score": 51,
-      "sustainability_score": 60
+      "sustainability_score": 60,
+      "audience_segment": "女频"
     },
     {
       "cluster_name": "Werewolf rejected mate",
@@ -213,7 +228,8 @@
       "heat_score": 62,
       "sentiment_score": 69,
       "novelty_score": 42,
-      "sustainability_score": 76
+      "sustainability_score": 76,
+      "audience_segment": "女频"
     },
     {
       "cluster_name": "AI humanoid drama export",
@@ -225,7 +241,8 @@
       "heat_score": 72,
       "sentiment_score": 64,
       "novelty_score": 82,
-      "sustainability_score": 68
+      "sustainability_score": 68,
+      "audience_segment": "泛向/待验证"
     },
     {
       "cluster_name": "Platform licensed microdrama",
@@ -237,7 +254,8 @@
       "heat_score": 68,
       "sentiment_score": 58,
       "novelty_score": 78,
-      "sustainability_score": 66
+      "sustainability_score": 66,
+      "audience_segment": "泛向/待验证"
     },
     {
       "cluster_name": "Destination inheritance romance",
@@ -249,7 +267,8 @@
       "heat_score": 62,
       "sentiment_score": 60,
       "novelty_score": 58,
-      "sustainability_score": 62
+      "sustainability_score": 62,
+      "audience_segment": "女频"
     },
     {
       "cluster_name": "Underdog sports comeback",
@@ -261,7 +280,8 @@
       "heat_score": 60,
       "sentiment_score": 62,
       "novelty_score": 54,
-      "sustainability_score": 66
+      "sustainability_score": 66,
+      "audience_segment": "男频"
     }
   ],
   "angles": [
@@ -273,7 +293,8 @@
       "reference_titles": "ReelShort/DramaBox romance-revenge baseline",
       "production_fit": "High: live-action, low VFX, strong hook density",
       "risk_notes": "Low: avoid exploiting custody/legal trauma",
-      "opportunity_score": null
+      "opportunity_score": null,
+      "audience_segment": "女频"
     },
     {
       "topic_cluster": "Cheating revenge storytime",
@@ -283,7 +304,8 @@
       "reference_titles": "Romance revenge / betrayal arcs",
       "production_fit": "High: modern romance, high cliffhanger fit",
       "risk_notes": "Medium: avoid defamatory real-person parallels",
-      "opportunity_score": null
+      "opportunity_score": null,
+      "audience_segment": "女频"
     },
     {
       "topic_cluster": "Toxic relationship recovery",
@@ -293,7 +315,8 @@
       "reference_titles": "Suspense-romance hybrid",
       "production_fit": "Medium: needs careful tone and empathy",
       "risk_notes": "Medium: domestic abuse depiction sensitivity",
-      "opportunity_score": null
+      "opportunity_score": null,
+      "audience_segment": "女频"
     },
     {
       "topic_cluster": "Workplace justice arc",
@@ -303,7 +326,8 @@
       "reference_titles": "Urban revenge / career comeback",
       "production_fit": "High: office locations, clear social conflict",
       "risk_notes": "Low: keep employment claims fictional",
-      "opportunity_score": null
+      "opportunity_score": null,
+      "audience_segment": "泛向/待验证"
     },
     {
       "topic_cluster": "Mafia forbidden romance",
@@ -313,7 +337,8 @@
       "reference_titles": "Mafia romance / contract love",
       "production_fit": "Medium: strong hooks, but needs stylized production",
       "risk_notes": "High: violence, coercion, brand-safety risk",
-      "opportunity_score": null
+      "opportunity_score": null,
+      "audience_segment": "女频"
     },
     {
       "topic_cluster": "Werewolf rejected mate",
@@ -323,7 +348,8 @@
       "reference_titles": "Werewolf mate / alpha romance",
       "production_fit": "Medium: AI/VFX or motion-comic friendly",
       "risk_notes": "Medium: category crowded; needs twist",
-      "opportunity_score": null
+      "opportunity_score": null,
+      "audience_segment": "女频"
     }
   ],
   "signals": [
@@ -344,7 +370,8 @@
       "emotion_tags": "resilience,revenge,empathy",
       "evidence_level": "B",
       "last_checked": "2026-06-09",
-      "notes": "泛热点，需二次核验"
+      "notes": "泛热点，需二次核验",
+      "audience_segment": "女频"
     },
     {
       "date": "2026-06-09",
@@ -363,7 +390,8 @@
       "emotion_tags": "anger,betrayal,curiosity",
       "evidence_level": "B",
       "last_checked": "2026-06-09",
-      "notes": "适合情感背叛/复仇爽感"
+      "notes": "适合情感背叛/复仇爽感",
+      "audience_segment": "女频"
     },
     {
       "date": "2026-06-09",
@@ -382,7 +410,8 @@
       "emotion_tags": "anger,fear,healing",
       "evidence_level": "B",
       "last_checked": "2026-06-09",
-      "notes": "只采公开帖摘要"
+      "notes": "只采公开帖摘要",
+      "audience_segment": "女频"
     },
     {
       "date": "2026-06-09",
@@ -401,7 +430,8 @@
       "emotion_tags": "frustration,justice",
       "evidence_level": "B",
       "last_checked": "2026-06-09",
-      "notes": "职场压迫和逆袭可转化"
+      "notes": "职场压迫和逆袭可转化",
+      "audience_segment": "泛向/待验证"
     },
     {
       "date": "2026-06-09",
@@ -420,7 +450,8 @@
       "emotion_tags": "desire,danger,suspense",
       "evidence_level": "C",
       "last_checked": "2026-06-09",
-      "notes": "题材强但风险需标注"
+      "notes": "题材强但风险需标注",
+      "audience_segment": "女频"
     },
     {
       "date": "2026-06-09",
@@ -439,7 +470,8 @@
       "emotion_tags": "fantasy,longing,rejection",
       "evidence_level": "C",
       "last_checked": "2026-06-09",
-      "notes": "与现有短剧强类型重合"
+      "notes": "与现有短剧强类型重合",
+      "audience_segment": "女频"
     },
     {
       "date": "2026-06-09",
@@ -458,7 +490,8 @@
       "emotion_tags": "identity,gender_roles,backlash",
       "evidence_level": "C",
       "last_checked": "2026-06-09",
-      "notes": "潜力题材：身份叙事/亲密关系角色争议，待核验热度"
+      "notes": "潜力题材：身份叙事/亲密关系角色争议，待核验热度",
+      "audience_segment": "女频"
     },
     {
       "date": "2026-06-09",
@@ -477,7 +510,8 @@
       "emotion_tags": "loneliness,dependency,technology",
       "evidence_level": "C",
       "last_checked": "2026-06-09",
-      "notes": "潜力题材：AI亲密关系/孤独经济，暂不映射现有短剧类型"
+      "notes": "潜力题材：AI亲密关系/孤独经济，暂不映射现有短剧类型",
+      "audience_segment": "泛向/待验证"
     },
     {
       "date": "2026-06-09",
@@ -496,7 +530,8 @@
       "emotion_tags": "second_chance,trust,healing",
       "evidence_level": "C",
       "last_checked": "2026-06-09",
-      "notes": "潜力题材：熟龄二次恋爱/信任重建，待观察"
+      "notes": "潜力题材：熟龄二次恋爱/信任重建，待观察",
+      "audience_segment": "女频"
     },
     {
       "date": "2026-06-09",
@@ -515,7 +550,8 @@
       "emotion_tags": "loneliness,modern_life,emotional_need",
       "evidence_level": "C",
       "last_checked": "2026-06-09",
-      "notes": "潜力题材：孤独经济/情感服务，偏新方向"
+      "notes": "潜力题材：孤独经济/情感服务，偏新方向",
+      "audience_segment": "女频"
     },
     {
       "date": "2026-06-12",
@@ -534,7 +570,8 @@
       "sentiment": "mixed",
       "emotion_tags": "commerce, curiosity, brand risk",
       "evidence_level": "C",
-      "notes": "潜力题材：品牌微短剧不一定映射到传统短剧类型，但可能变成广告投放和题材测试的新入口。"
+      "notes": "潜力题材：品牌微短剧不一定映射到传统短剧类型，但可能变成广告投放和题材测试的新入口。",
+      "audience_segment": "泛向/待验证"
     },
     {
       "date": "2026-06-12",
@@ -553,7 +590,8 @@
       "sentiment": "neutral",
       "emotion_tags": "production method, comments, iteration",
       "evidence_level": "C",
-      "notes": "潜力题材：评论驱动创作更像生产方法论，可用于决定下一轮题材A/B测试。"
+      "notes": "潜力题材：评论驱动创作更像生产方法论，可用于决定下一轮题材A/B测试。",
+      "audience_segment": "泛向/待验证"
     },
     {
       "date": "2026-06-12",
@@ -572,7 +610,8 @@
       "sentiment": "positive",
       "emotion_tags": "funding, platform competition, expansion",
       "evidence_level": "B",
-      "notes": "潜力题材：平台融资本身不是题材，但说明海外微短剧供给侧仍在扩张，值得追踪平台偏好的类型。"
+      "notes": "潜力题材：平台融资本身不是题材，但说明海外微短剧供给侧仍在扩张，值得追踪平台偏好的类型。",
+      "audience_segment": "泛向/待验证"
     }
   ],
   "youtube_trending_videos": [
@@ -586,11 +625,11 @@
       "channel_title": "HYBE LABELS",
       "published_at": "2026-06-10T14:58:06Z",
       "category_id": "10",
-      "view_count": "11014288",
-      "like_count": "1031872",
-      "comment_count": "84373",
+      "view_count": "11688881",
+      "like_count": "1064603",
+      "comment_count": "88703",
       "url": "https://www.youtube.com/watch?v=27C4pfRsf9g",
-      "captured_at": "2026-06-12T01:39:34",
+      "captured_at": "2026-06-12T05:53:00",
       "evidence_level": "A"
     },
     {
@@ -603,11 +642,11 @@
       "channel_title": "PlayOverwatch",
       "published_at": "2026-06-11T16:00:13Z",
       "category_id": "20",
-      "view_count": "741681",
-      "like_count": "43550",
-      "comment_count": "3740",
+      "view_count": "824310",
+      "like_count": "45352",
+      "comment_count": "3874",
       "url": "https://www.youtube.com/watch?v=fEkFkFZyx5w",
-      "captured_at": "2026-06-12T01:39:34",
+      "captured_at": "2026-06-12T05:53:00",
       "evidence_level": "A"
     },
     {
@@ -620,11 +659,11 @@
       "channel_title": "Fortnite",
       "published_at": "2026-06-11T13:00:29Z",
       "category_id": "20",
-      "view_count": "1519421",
-      "like_count": "129457",
-      "comment_count": "9304",
+      "view_count": "1812413",
+      "like_count": "141177",
+      "comment_count": "9957",
       "url": "https://www.youtube.com/watch?v=ibY5qR4CYU8",
-      "captured_at": "2026-06-12T01:39:34",
+      "captured_at": "2026-06-12T05:53:00",
       "evidence_level": "A"
     },
     {
@@ -632,16 +671,16 @@
       "source_platform": "YouTube Trending",
       "country_region": "US",
       "rank": 4,
-      "video_id": "Ho2qcOpcBlo",
-      "title": "Al Final Del Día",
-      "channel_title": "Grupo Firme - Topic",
-      "published_at": "2026-06-10T10:00:19Z",
+      "video_id": "Rt9tW3cMLhI",
+      "title": "Olivia Rodrigo - stupid song (Official Music Video)",
+      "channel_title": "OliviaRodrigoVEVO",
+      "published_at": "2026-06-12T04:00:06Z",
       "category_id": "10",
-      "view_count": "152271",
-      "like_count": "6120",
-      "comment_count": "165",
-      "url": "https://www.youtube.com/watch?v=Ho2qcOpcBlo",
-      "captured_at": "2026-06-12T01:39:34",
+      "view_count": "366655",
+      "like_count": "117038",
+      "comment_count": "8738",
+      "url": "https://www.youtube.com/watch?v=Rt9tW3cMLhI",
+      "captured_at": "2026-06-12T05:53:00",
       "evidence_level": "A"
     },
     {
@@ -654,11 +693,11 @@
       "channel_title": "Pixar",
       "published_at": "2026-06-11T16:01:48Z",
       "category_id": "1",
-      "view_count": "1120705",
-      "like_count": "39885",
-      "comment_count": "2575",
+      "view_count": "1289486",
+      "like_count": "43863",
+      "comment_count": "2756",
       "url": "https://www.youtube.com/watch?v=NIKfR_uF_d0",
-      "captured_at": "2026-06-12T01:39:34",
+      "captured_at": "2026-06-12T05:53:00",
       "evidence_level": "A"
     },
     {
@@ -671,11 +710,11 @@
       "channel_title": "SMii7Y",
       "published_at": "2026-06-11T21:13:27Z",
       "category_id": "20",
-      "view_count": "335992",
-      "like_count": "34867",
-      "comment_count": "1243",
+      "view_count": "640114",
+      "like_count": "52313",
+      "comment_count": "1484",
       "url": "https://www.youtube.com/watch?v=p0o679-N9DI",
-      "captured_at": "2026-06-12T01:39:34",
+      "captured_at": "2026-06-12T05:53:00",
       "evidence_level": "A"
     },
     {
@@ -683,16 +722,16 @@
       "source_platform": "YouTube Trending",
       "country_region": "US",
       "rank": 7,
-      "video_id": "mTN5DTJEFEs",
-      "title": "Jnr Vigi, Liz Vamarasi - Lewa (Official Audio)",
-      "channel_title": "VT1S",
-      "published_at": "2026-06-05T06:59:57Z",
+      "video_id": "MEoxtFRfPoc",
+      "title": "BTS (방탄소년단) 'Come Over' Lyric Video",
+      "channel_title": "BANGTANTV",
+      "published_at": "2026-06-12T04:00:02Z",
       "category_id": "10",
-      "view_count": "61364",
-      "like_count": "2887",
-      "comment_count": "179",
-      "url": "https://www.youtube.com/watch?v=mTN5DTJEFEs",
-      "captured_at": "2026-06-12T01:39:34",
+      "view_count": "612454",
+      "like_count": "354955",
+      "comment_count": "35868",
+      "url": "https://www.youtube.com/watch?v=MEoxtFRfPoc",
+      "captured_at": "2026-06-12T05:53:00",
       "evidence_level": "A"
     },
     {
@@ -705,11 +744,11 @@
       "channel_title": "Paramount Pictures",
       "published_at": "2026-06-11T13:00:12Z",
       "category_id": "1",
-      "view_count": "2541284",
-      "like_count": "21491",
-      "comment_count": "1270",
+      "view_count": "5574389",
+      "like_count": "27213",
+      "comment_count": "1497",
       "url": "https://www.youtube.com/watch?v=JFQcDFhNh4o",
-      "captured_at": "2026-06-12T01:39:34",
+      "captured_at": "2026-06-12T05:53:00",
       "evidence_level": "A"
     },
     {
@@ -722,11 +761,11 @@
       "channel_title": "HYBE LABELS",
       "published_at": "2026-06-10T14:58:06Z",
       "category_id": "10",
-      "view_count": "11014288",
-      "like_count": "1031872",
-      "comment_count": "84373",
+      "view_count": "11688881",
+      "like_count": "1064603",
+      "comment_count": "88703",
       "url": "https://www.youtube.com/watch?v=27C4pfRsf9g",
-      "captured_at": "2026-06-12T01:39:34",
+      "captured_at": "2026-06-12T05:53:00",
       "evidence_level": "A"
     },
     {
@@ -734,16 +773,16 @@
       "source_platform": "YouTube Trending",
       "country_region": "UK",
       "rank": 2,
-      "video_id": "fEkFkFZyx5w",
-      "title": "Shion | New Hero Gameplay Trailer | Overwatch",
-      "channel_title": "PlayOverwatch",
-      "published_at": "2026-06-11T16:00:13Z",
-      "category_id": "20",
-      "view_count": "741681",
-      "like_count": "43550",
-      "comment_count": "3740",
-      "url": "https://www.youtube.com/watch?v=fEkFkFZyx5w",
-      "captured_at": "2026-06-12T01:39:34",
+      "video_id": "9QvZmMKqnsw",
+      "title": "ICE CITY | EPISODE 2",
+      "channel_title": "Nines",
+      "published_at": "2026-06-11T20:55:35Z",
+      "category_id": "24",
+      "view_count": "19464",
+      "like_count": "895",
+      "comment_count": "94",
+      "url": "https://www.youtube.com/watch?v=9QvZmMKqnsw",
+      "captured_at": "2026-06-12T05:53:00",
       "evidence_level": "A"
     },
     {
@@ -756,11 +795,11 @@
       "channel_title": "Daz Games",
       "published_at": "2026-06-11T17:00:28Z",
       "category_id": "20",
-      "view_count": "145432",
-      "like_count": "10806",
-      "comment_count": "509",
+      "view_count": "182352",
+      "like_count": "12322",
+      "comment_count": "550",
       "url": "https://www.youtube.com/watch?v=8FouC9oMYm4",
-      "captured_at": "2026-06-12T01:39:34",
+      "captured_at": "2026-06-12T05:53:00",
       "evidence_level": "A"
     },
     {
@@ -773,11 +812,11 @@
       "channel_title": "KTrapVEVO",
       "published_at": "2026-06-11T18:30:13Z",
       "category_id": "10",
-      "view_count": "29670",
-      "like_count": "2169",
-      "comment_count": "94",
+      "view_count": "35126",
+      "like_count": "2300",
+      "comment_count": "96",
       "url": "https://www.youtube.com/watch?v=Z5vSpK5OMKs",
-      "captured_at": "2026-06-12T01:39:34",
+      "captured_at": "2026-06-12T05:53:00",
       "evidence_level": "A"
     },
     {
@@ -785,16 +824,16 @@
       "source_platform": "YouTube Trending",
       "country_region": "UK",
       "rank": 5,
-      "video_id": "9QvZmMKqnsw",
-      "title": "ICE CITY | EPISODE 2",
-      "channel_title": "Nines",
-      "published_at": "2026-06-11T20:55:35Z",
-      "category_id": "24",
-      "view_count": "10964",
-      "like_count": "726",
-      "comment_count": "71",
-      "url": "https://www.youtube.com/watch?v=9QvZmMKqnsw",
-      "captured_at": "2026-06-12T01:39:34",
+      "video_id": "fEkFkFZyx5w",
+      "title": "Shion | New Hero Gameplay Trailer | Overwatch",
+      "channel_title": "PlayOverwatch",
+      "published_at": "2026-06-11T16:00:13Z",
+      "category_id": "20",
+      "view_count": "824310",
+      "like_count": "45352",
+      "comment_count": "3874",
+      "url": "https://www.youtube.com/watch?v=fEkFkFZyx5w",
+      "captured_at": "2026-06-12T05:53:00",
       "evidence_level": "A"
     },
     {
@@ -807,11 +846,11 @@
       "channel_title": "Fortnite",
       "published_at": "2026-06-11T13:00:29Z",
       "category_id": "20",
-      "view_count": "1519421",
-      "like_count": "129457",
-      "comment_count": "9304",
+      "view_count": "1812413",
+      "like_count": "141177",
+      "comment_count": "9957",
       "url": "https://www.youtube.com/watch?v=ibY5qR4CYU8",
-      "captured_at": "2026-06-12T01:39:34",
+      "captured_at": "2026-06-12T05:53:00",
       "evidence_level": "A"
     },
     {
@@ -819,16 +858,16 @@
       "source_platform": "YouTube Trending",
       "country_region": "UK",
       "rank": 7,
-      "video_id": "yZx0zwbz1eQ",
-      "title": "Abra Cadabra X Dezzie X Izzpot - Defender (Official Video)",
-      "channel_title": "Dezzie",
-      "published_at": "2026-06-11T16:30:06Z",
-      "category_id": "19",
-      "view_count": "20580",
-      "like_count": "1469",
-      "comment_count": "98",
-      "url": "https://www.youtube.com/watch?v=yZx0zwbz1eQ",
-      "captured_at": "2026-06-12T01:39:34",
+      "video_id": "AUbqzuTARpo",
+      "title": "Sarkodie x Shatta Wale - Everlasting (Official Video)",
+      "channel_title": "Sarkodie",
+      "published_at": "2026-06-11T21:00:26Z",
+      "category_id": "10",
+      "view_count": "165543",
+      "like_count": "24703",
+      "comment_count": "3663",
+      "url": "https://www.youtube.com/watch?v=AUbqzuTARpo",
+      "captured_at": "2026-06-12T05:53:00",
       "evidence_level": "A"
     },
     {
@@ -841,11 +880,11 @@
       "channel_title": "Star Studios",
       "published_at": "2026-06-11T07:12:45Z",
       "category_id": "24",
-      "view_count": "12676310",
-      "like_count": "166031",
-      "comment_count": "23914",
+      "view_count": "13250388",
+      "like_count": "178683",
+      "comment_count": "28520",
       "url": "https://www.youtube.com/watch?v=R704yP3dlXw",
-      "captured_at": "2026-06-12T01:39:34",
+      "captured_at": "2026-06-12T05:53:00",
       "evidence_level": "A"
     },
     {
@@ -858,11 +897,11 @@
       "channel_title": "HYBE LABELS",
       "published_at": "2026-06-10T14:58:06Z",
       "category_id": "10",
-      "view_count": "11014288",
-      "like_count": "1031872",
-      "comment_count": "84373",
+      "view_count": "11688881",
+      "like_count": "1064603",
+      "comment_count": "88703",
       "url": "https://www.youtube.com/watch?v=27C4pfRsf9g",
-      "captured_at": "2026-06-12T01:39:34",
+      "captured_at": "2026-06-12T05:53:00",
       "evidence_level": "A"
     },
     {
@@ -875,11 +914,11 @@
       "channel_title": "Star Studios",
       "published_at": "2026-06-11T07:12:45Z",
       "category_id": "24",
-      "view_count": "12676310",
-      "like_count": "166031",
-      "comment_count": "23914",
+      "view_count": "13250388",
+      "like_count": "178683",
+      "comment_count": "28520",
       "url": "https://www.youtube.com/watch?v=R704yP3dlXw",
-      "captured_at": "2026-06-12T01:39:34",
+      "captured_at": "2026-06-12T05:53:00",
       "evidence_level": "A"
     },
     {
@@ -887,16 +926,16 @@
       "source_platform": "YouTube Trending",
       "country_region": "CA",
       "rank": 3,
-      "video_id": "ibY5qR4CYU8",
-      "title": "Pomni and Jax from The Amazing Digital Circus are coming to Fortnite!",
-      "channel_title": "Fortnite",
-      "published_at": "2026-06-11T13:00:29Z",
+      "video_id": "p0o679-N9DI",
+      "title": "Burglin' Gnomes is FINALLY Out",
+      "channel_title": "SMii7Y",
+      "published_at": "2026-06-11T21:13:27Z",
       "category_id": "20",
-      "view_count": "1519421",
-      "like_count": "129457",
-      "comment_count": "9304",
-      "url": "https://www.youtube.com/watch?v=ibY5qR4CYU8",
-      "captured_at": "2026-06-12T01:39:34",
+      "view_count": "640114",
+      "like_count": "52313",
+      "comment_count": "1484",
+      "url": "https://www.youtube.com/watch?v=p0o679-N9DI",
+      "captured_at": "2026-06-12T05:53:00",
       "evidence_level": "A"
     },
     {
@@ -904,16 +943,16 @@
       "source_platform": "YouTube Trending",
       "country_region": "CA",
       "rank": 4,
-      "video_id": "DmR2Mahb0mU",
-      "title": "Cupidon - Tony M (Clip Officiel)",
-      "channel_title": "Cupidon LV",
-      "published_at": "2026-06-11T22:00:06Z",
+      "video_id": "Rt9tW3cMLhI",
+      "title": "Olivia Rodrigo - stupid song (Official Music Video)",
+      "channel_title": "OliviaRodrigoVEVO",
+      "published_at": "2026-06-12T04:00:06Z",
       "category_id": "10",
-      "view_count": "7321",
-      "like_count": "1227",
-      "comment_count": "158",
-      "url": "https://www.youtube.com/watch?v=DmR2Mahb0mU",
-      "captured_at": "2026-06-12T01:39:34",
+      "view_count": "366655",
+      "like_count": "117038",
+      "comment_count": "8738",
+      "url": "https://www.youtube.com/watch?v=Rt9tW3cMLhI",
+      "captured_at": "2026-06-12T05:53:00",
       "evidence_level": "A"
     },
     {
@@ -926,11 +965,11 @@
       "channel_title": "PlayOverwatch",
       "published_at": "2026-06-11T16:00:13Z",
       "category_id": "20",
-      "view_count": "741681",
-      "like_count": "43550",
-      "comment_count": "3740",
+      "view_count": "824310",
+      "like_count": "45352",
+      "comment_count": "3874",
       "url": "https://www.youtube.com/watch?v=fEkFkFZyx5w",
-      "captured_at": "2026-06-12T01:39:34",
+      "captured_at": "2026-06-12T05:53:00",
       "evidence_level": "A"
     },
     {
@@ -938,16 +977,16 @@
       "source_platform": "YouTube Trending",
       "country_region": "CA",
       "rank": 6,
-      "video_id": "p0o679-N9DI",
-      "title": "Burglin' Gnomes is FINALLY Out",
-      "channel_title": "SMii7Y",
-      "published_at": "2026-06-11T21:13:27Z",
+      "video_id": "ibY5qR4CYU8",
+      "title": "Pomni and Jax from The Amazing Digital Circus are coming to Fortnite!",
+      "channel_title": "Fortnite",
+      "published_at": "2026-06-11T13:00:29Z",
       "category_id": "20",
-      "view_count": "335992",
-      "like_count": "34867",
-      "comment_count": "1243",
-      "url": "https://www.youtube.com/watch?v=p0o679-N9DI",
-      "captured_at": "2026-06-12T01:39:34",
+      "view_count": "1812413",
+      "like_count": "141177",
+      "comment_count": "9957",
+      "url": "https://www.youtube.com/watch?v=ibY5qR4CYU8",
+      "captured_at": "2026-06-12T05:53:00",
       "evidence_level": "A"
     },
     {
@@ -955,16 +994,16 @@
       "source_platform": "YouTube Trending",
       "country_region": "CA",
       "rank": 7,
-      "video_id": "_VSiJ1gBR1A",
-      "title": "Nai Dabde - Official Music Video | Gulab Sidhu | Karmita Kaur | Kulshan Sandhu",
-      "channel_title": "Saregama Punjabi",
-      "published_at": "2026-06-11T06:30:07Z",
+      "video_id": "DmR2Mahb0mU",
+      "title": "Cupidon - Tony M (Clip Officiel)",
+      "channel_title": "Cupidon LV",
+      "published_at": "2026-06-11T22:00:06Z",
       "category_id": "10",
-      "view_count": "337446",
-      "like_count": "4888",
-      "comment_count": "498",
-      "url": "https://www.youtube.com/watch?v=_VSiJ1gBR1A",
-      "captured_at": "2026-06-12T01:39:34",
+      "view_count": "13542",
+      "like_count": "1586",
+      "comment_count": "196",
+      "url": "https://www.youtube.com/watch?v=DmR2Mahb0mU",
+      "captured_at": "2026-06-12T05:53:00",
       "evidence_level": "A"
     },
     {
@@ -977,11 +1016,11 @@
       "channel_title": "Paramount Pictures",
       "published_at": "2026-06-11T13:00:12Z",
       "category_id": "1",
-      "view_count": "2541284",
-      "like_count": "21491",
-      "comment_count": "1270",
+      "view_count": "5574389",
+      "like_count": "27213",
+      "comment_count": "1497",
       "url": "https://www.youtube.com/watch?v=JFQcDFhNh4o",
-      "captured_at": "2026-06-12T01:39:34",
+      "captured_at": "2026-06-12T05:53:00",
       "evidence_level": "A"
     },
     {
@@ -994,11 +1033,11 @@
       "channel_title": "HYBE LABELS",
       "published_at": "2026-06-10T14:58:06Z",
       "category_id": "10",
-      "view_count": "11014288",
-      "like_count": "1031872",
-      "comment_count": "84373",
+      "view_count": "11688881",
+      "like_count": "1064603",
+      "comment_count": "88703",
       "url": "https://www.youtube.com/watch?v=27C4pfRsf9g",
-      "captured_at": "2026-06-12T01:39:34",
+      "captured_at": "2026-06-12T05:53:00",
       "evidence_level": "A"
     },
     {
@@ -1006,16 +1045,16 @@
       "source_platform": "YouTube Trending",
       "country_region": "AU",
       "rank": 2,
-      "video_id": "0d4nirTymmg",
-      "title": "ALPHA | Official Teaser | Alia, Sharvari, Anil, Bobby | Shiv Rawail | YRF Spy Universe | 3 July 2026",
-      "channel_title": "YRF",
-      "published_at": "2026-06-10T05:30:05Z",
-      "category_id": "1",
-      "view_count": "19960209",
-      "like_count": "147191",
-      "comment_count": "19088",
-      "url": "https://www.youtube.com/watch?v=0d4nirTymmg",
-      "captured_at": "2026-06-12T01:39:34",
+      "video_id": "R704yP3dlXw",
+      "title": "Welcome To The Jungle - Official Trailer | In Cinemas 26th June",
+      "channel_title": "Star Studios",
+      "published_at": "2026-06-11T07:12:45Z",
+      "category_id": "24",
+      "view_count": "13250388",
+      "like_count": "178683",
+      "comment_count": "28520",
+      "url": "https://www.youtube.com/watch?v=R704yP3dlXw",
+      "captured_at": "2026-06-12T05:53:00",
       "evidence_level": "A"
     },
     {
@@ -1028,11 +1067,11 @@
       "channel_title": "ESL Counter-Strike",
       "published_at": "2026-06-11T21:24:08Z",
       "category_id": "20",
-      "view_count": "2730471",
-      "like_count": "22718",
-      "comment_count": "36",
+      "view_count": "2753382",
+      "like_count": "22833",
+      "comment_count": "55",
       "url": "https://www.youtube.com/watch?v=XaIPf-LpCI0",
-      "captured_at": "2026-06-12T01:39:34",
+      "captured_at": "2026-06-12T05:53:00",
       "evidence_level": "A"
     },
     {
@@ -1045,11 +1084,11 @@
       "channel_title": "Olivia Rodrigo - Topic",
       "published_at": "2026-06-11T10:00:10Z",
       "category_id": "10",
-      "view_count": "77108",
-      "like_count": "7472",
-      "comment_count": "673",
+      "view_count": "136318",
+      "like_count": "14252",
+      "comment_count": "873",
       "url": "https://www.youtube.com/watch?v=XPrg3MqoJTc",
-      "captured_at": "2026-06-12T01:39:34",
+      "captured_at": "2026-06-12T05:53:00",
       "evidence_level": "A"
     },
     {
@@ -1057,16 +1096,16 @@
       "source_platform": "YouTube Trending",
       "country_region": "AU",
       "rank": 5,
-      "video_id": "R704yP3dlXw",
-      "title": "Welcome To The Jungle - Official Trailer | In Cinemas 26th June",
-      "channel_title": "Star Studios",
-      "published_at": "2026-06-11T07:12:45Z",
-      "category_id": "24",
-      "view_count": "12676310",
-      "like_count": "166031",
-      "comment_count": "23914",
-      "url": "https://www.youtube.com/watch?v=R704yP3dlXw",
-      "captured_at": "2026-06-12T01:39:34",
+      "video_id": "0d4nirTymmg",
+      "title": "ALPHA | Official Teaser | Alia, Sharvari, Anil, Bobby | Shiv Rawail | YRF Spy Universe | 3 July 2026",
+      "channel_title": "YRF",
+      "published_at": "2026-06-10T05:30:05Z",
+      "category_id": "1",
+      "view_count": "21143055",
+      "like_count": "149478",
+      "comment_count": "20141",
+      "url": "https://www.youtube.com/watch?v=0d4nirTymmg",
+      "captured_at": "2026-06-12T05:53:00",
       "evidence_level": "A"
     },
     {
@@ -1079,11 +1118,11 @@
       "channel_title": "SidemenReacts",
       "published_at": "2026-06-10T16:00:04Z",
       "category_id": "24",
-      "view_count": "845953",
-      "like_count": "36771",
-      "comment_count": "980",
+      "view_count": "871595",
+      "like_count": "37507",
+      "comment_count": "1076",
       "url": "https://www.youtube.com/watch?v=dj-INFIOJcI",
-      "captured_at": "2026-06-12T01:39:34",
+      "captured_at": "2026-06-12T05:53:00",
       "evidence_level": "A"
     },
     {
@@ -1091,16 +1130,16 @@
       "source_platform": "YouTube Trending",
       "country_region": "AU",
       "rank": 7,
-      "video_id": "RJLm5-QL61A",
-      "title": "C Walk",
-      "channel_title": "Karan Aujla - Topic",
-      "published_at": "2026-06-07T18:14:27Z",
+      "video_id": "mhSpdlCXU7M",
+      "title": "Kath Lagda",
+      "channel_title": "Navaan Sandhu - Topic",
+      "published_at": "2026-06-11T10:02:16Z",
       "category_id": "10",
-      "view_count": "3984074",
-      "like_count": "120294",
-      "comment_count": "4729",
-      "url": "https://www.youtube.com/watch?v=RJLm5-QL61A",
-      "captured_at": "2026-06-12T01:39:34",
+      "view_count": "203008",
+      "like_count": "28742",
+      "comment_count": "2355",
+      "url": "https://www.youtube.com/watch?v=mhSpdlCXU7M",
+      "captured_at": "2026-06-12T05:53:00",
       "evidence_level": "A"
     },
     {
@@ -1113,11 +1152,11 @@
       "channel_title": "Sony Pictures Entertainment",
       "published_at": "2026-06-10T12:58:35Z",
       "category_id": "24",
-      "view_count": "1283308",
-      "like_count": "31937",
-      "comment_count": "2520",
+      "view_count": "1314288",
+      "like_count": "32515",
+      "comment_count": "2641",
       "url": "https://www.youtube.com/watch?v=gM4LkaXwGuY",
-      "captured_at": "2026-06-12T01:39:34",
+      "captured_at": "2026-06-12T05:53:00",
       "evidence_level": "A"
     }
   ],
@@ -1136,7 +1175,7 @@
       "AU"
     ],
     "error": "",
-    "captured_at": "2026-06-12T01:39:34"
+    "captured_at": "2026-06-12T05:53:00"
   },
   "youtube_comment_status": {
     "enabled": true,
@@ -1146,10 +1185,10 @@
       "microdrama romance"
     ],
     "videos_checked": 8,
-    "comments_scanned": 62,
-    "matched_comments": 2,
+    "comments_scanned": 51,
+    "matched_comments": 1,
     "error": "",
-    "captured_at": "2026-06-12T01:39:34"
+    "captured_at": "2026-06-12T05:53:00"
   },
   "ai_animation_topics": [
     {
@@ -1161,7 +1200,8 @@
       "evidence_level": "B",
       "related_examples": "TrueShort, StoReel, AI-generated microdramas",
       "source_url": "https://www.businessinsider.com/actors-losing-jobs-to-ai-hollywood-micro-drama-industry-2026-6",
-      "risk_notes": "AI演员替代有劳动伦理和表演质感争议，页面只做内容形态观察，不建议直接作为品牌主推卖点。"
+      "risk_notes": "AI演员替代有劳动伦理和表演质感争议，页面只做内容形态观察，不建议直接作为品牌主推卖点。",
+      "audience_segment": "泛向/待验证"
     },
     {
       "topic": "单句生成短剧/多智能体生产",
@@ -1172,7 +1212,8 @@
       "evidence_level": "C",
       "related_examples": "One Sentence, One Drama; Short-Drama-Bench",
       "source_url": "https://arxiv.org/abs/2605.22144",
-      "risk_notes": "属于生产方法信号，不等同于用户真实需求；需要和评论痛点、投放表现共同验证。"
+      "risk_notes": "属于生产方法信号，不等同于用户真实需求；需要和评论痛点、投放表现共同验证。",
+      "audience_segment": "泛向/待验证"
     },
     {
       "topic": "罗曼史IP改编漫剧",
@@ -1183,7 +1224,8 @@
       "evidence_level": "A/B",
       "related_examples": "Harlequin x Dashverse, A Fairy-Tail Ending",
       "source_url": "https://www.publishersweekly.com/pw/print/20260406/100043-harlequin-announces-slew-of-ai-generated-microdramas.html",
-      "risk_notes": "AI 改编会引发读者对作者、画师和廉价感的争议，需强调审美与人工把关。"
+      "risk_notes": "AI 改编会引发读者对作者、画师和廉价感的争议，需强调审美与人工把关。",
+      "audience_segment": "女频"
     },
     {
       "topic": "东方奇幻/捉妖悬疑漫剧",
@@ -1194,7 +1236,8 @@
       "evidence_level": "A",
       "related_examples": "Imperial Exorcist Guards",
       "source_url": "https://www.prnewswire.com/news-releases/iqiyi-leads-ai-storytelling-as-original-micro-animations-gain-strong-traction-302713157.html",
-      "risk_notes": "海外版本需要降低文化门槛，优先保留情感冲突和清晰视觉符号。"
+      "risk_notes": "海外版本需要降低文化门槛，优先保留情感冲突和清晰视觉符号。",
+      "audience_segment": "混合/待验证"
     },
     {
       "topic": "机甲科幻爽感漫剧",
@@ -1205,7 +1248,8 @@
       "evidence_level": "A",
       "related_examples": "My Mecha is a Bit OP",
       "source_url": "https://www.prnewswire.com/news-releases/iqiyi-leads-ai-storytelling-as-original-micro-animations-gain-strong-traction-302713157.html",
-      "risk_notes": "科幻设定容易解释成本高，必须用简单目标和强情绪降低理解门槛。"
+      "risk_notes": "科幻设定容易解释成本高，必须用简单目标和强情绪降低理解门槛。",
+      "audience_segment": "混合/待验证"
     },
     {
       "topic": "漫画读者向奇幻恋爱",
@@ -1216,7 +1260,8 @@
       "evidence_level": "B/C",
       "related_examples": "fantasy romance AI animation discussions",
       "source_url": "https://www.reddit.com/r/fantasyromance/comments/1s7v0o4/harlequin_to_coproduce_aigenerated_microdramas/",
-      "risk_notes": "同质化风险高，需用新世界观或女性成长线区隔普通狼人/吸血鬼供给。"
+      "risk_notes": "同质化风险高，需用新世界观或女性成长线区隔普通狼人/吸血鬼供给。",
+      "audience_segment": "女频"
     },
     {
       "topic": "互动分支/游戏IP漫剧",
@@ -1227,7 +1272,8 @@
       "evidence_level": "C",
       "related_examples": "interactive drama, game-IP animation",
       "source_url": "https://min.news/en/news/53ea6d3712e03ebbbe5d8850ecbf5372.html",
-      "risk_notes": "互动机制上线成本高，第一阶段可先做“伪互动”评论投票验证。"
+      "risk_notes": "互动机制上线成本高，第一阶段可先做“伪互动”评论投票验证。",
+      "audience_segment": "泛向/待验证"
     },
     {
       "topic": "微动效漫画/轻剧情漫剧",
@@ -1238,7 +1284,8 @@
       "evidence_level": "B",
       "related_examples": "micro animation, motion comic loops",
       "source_url": "https://www.creativebloq.com/art/digital-art/digital-art-trends-2026-reveal-how-creatives-are-responding-to-ai-pressure",
-      "risk_notes": "信息量太轻时不够短剧化，要补强人物目标和连续悬念。"
+      "risk_notes": "信息量太轻时不够短剧化，要补强人物目标和连续悬念。",
+      "audience_segment": "泛向/待验证"
     },
     {
       "topic": "AI仿真人地域爽剧",
@@ -1249,7 +1296,8 @@
       "evidence_level": "B",
       "related_examples": "AI仿真人剧, ToonScroll, PineDrama",
       "source_url": "https://www.36kr.com/p/3836864874560388",
-      "risk_notes": "AI真人感容易进入恐怖谷，需控制表演、口型和镜头时长。"
+      "risk_notes": "AI真人感容易进入恐怖谷，需控制表演、口型和镜头时长。",
+      "audience_segment": "泛向/待验证"
     },
     {
       "topic": "评论反馈驱动漫剧",
@@ -1260,7 +1308,8 @@
       "evidence_level": "C",
       "related_examples": "Audience in the Loop",
       "source_url": "https://arxiv.org/abs/2602.14045",
-      "risk_notes": "评论反馈只能辅助判断，不能替代基础叙事质量和合规审查。"
+      "risk_notes": "评论反馈只能辅助判断，不能替代基础叙事质量和合规审查。",
+      "audience_segment": "女频"
     }
   ],
   "traditional_film_tv_topics": [
@@ -1273,7 +1322,8 @@
       "evidence_level": "B",
       "reference_titles": "House of the Dragon S3",
       "source_url": "https://www.tomsguide.com/entertainment/streaming/20-new-shows-and-movies-to-watch-in-june-2026-the-bear-house-of-the-dragon-and-more",
-      "risk_notes": "短剧不宜硬做大场面，优先转译成权谋关系、身份反转和高密度悬念。"
+      "risk_notes": "短剧不宜硬做大场面，优先转译成权谋关系、身份反转和高密度悬念。",
+      "audience_segment": "泛向/待验证"
     },
     {
       "topic": "BookTok/女性向小说改编恋爱",
@@ -1284,7 +1334,8 @@
       "evidence_level": "B",
       "reference_titles": "Every Year After",
       "source_url": "https://apnews.com/article/19b8e5b96c6860404d16c0cebb19c369",
-      "risk_notes": "要避免平铺直叙，前 3 集必须把旧误会、现任阻碍和现实利益放上桌。"
+      "risk_notes": "要避免平铺直叙，前 3 集必须把旧误会、现任阻碍和现实利益放上桌。",
+      "audience_segment": "女频"
     },
     {
       "topic": "职场恋爱/强势女主失控感",
@@ -1295,7 +1346,8 @@
       "evidence_level": "B",
       "reference_titles": "Office Romance",
       "source_url": "https://www.tomsguide.com/entertainment/streaming/20-new-shows-and-movies-to-watch-in-june-2026-the-bear-house-of-the-dragon-and-more",
-      "risk_notes": "需处理好职场权力不对等，避免让爱情线显得越界或不适。"
+      "risk_notes": "需处理好职场权力不对等，避免让爱情线显得越界或不适。",
+      "audience_segment": "女频"
     },
     {
       "topic": "家庭法庭/婚姻纠纷现实题材",
@@ -1306,7 +1358,8 @@
       "evidence_level": "B",
       "reference_titles": "Hold a Court Now",
       "source_url": "https://www.imdb.com/title/tt30478333/plotsummary/",
-      "risk_notes": "涉及家暴、未成年人和法律流程时要弱化猎奇，保留情绪但避免误导法律常识。"
+      "risk_notes": "涉及家暴、未成年人和法律流程时要弱化猎奇，保留情绪但避免误导法律常识。",
+      "audience_segment": "泛向/待验证"
     },
     {
       "topic": "古装女性凝视/强女主复仇",
@@ -1317,7 +1370,8 @@
       "evidence_level": "B",
       "reference_titles": "Pursuit of Jade",
       "source_url": "https://www.tonboriday.com/2026/03/pursuit-of-jade-becomes-2026s-breakout.html",
-      "risk_notes": "短剧化时要减少朝代设定解释，把爽点集中在身份、婚约和复仇反转。"
+      "risk_notes": "短剧化时要减少朝代设定解释，把爽点集中在身份、婚约和复仇反转。",
+      "audience_segment": "女频"
     },
     {
       "topic": "明星传记/名人代价",
@@ -1328,7 +1382,8 @@
       "evidence_level": "B",
       "reference_titles": "Michael",
       "source_url": "https://apnews.com/article/19b8e5b96c6860404d16c0cebb19c369",
-      "risk_notes": "必须虚构化，避免影射真实人物争议；重点放在名利场情绪而非真实八卦。"
+      "risk_notes": "必须虚构化，避免影射真实人物争议；重点放在名利场情绪而非真实八卦。",
+      "audience_segment": "泛向/待验证"
     },
     {
       "topic": "目的地继承/契约浪漫",
@@ -1339,7 +1394,8 @@
       "evidence_level": "B",
       "reference_titles": "The Greek Aisle",
       "source_url": "https://decider.com/2026/06/06/the-greek-aisle-hallmark-cast-guide/",
-      "risk_notes": "目的地元素不能只做风景，要在前3集放入明确利益冲突和情感阻碍。"
+      "risk_notes": "目的地元素不能只做风景，要在前3集放入明确利益冲突和情感阻碍。",
+      "audience_segment": "女频"
     },
     {
       "topic": "体育逆袭/训练爽剧",
@@ -1350,7 +1406,8 @@
       "evidence_level": "B",
       "reference_titles": "Goat, Creed",
       "source_url": "https://www.tomsguide.com/entertainment/netflix/netflix-top-10-movies-heres-the-3-worth-watching-right-now-june-6-7",
-      "risk_notes": "比赛场面成本较高，优先做训练、债务、师徒和复仇关系线。"
+      "risk_notes": "比赛场面成本较高，优先做训练、债务、师徒和复仇关系线。",
+      "audience_segment": "泛向/待验证"
     }
   ],
   "comment_pain_points": [
@@ -1363,18 +1420,8 @@
       "recommended_handling": "每个付费段落必须兑现一个秘密、打脸或关系进展，避免用误会和重复冲突拖时长。",
       "evidence_level": "C",
       "source_url": "https://www.youtube.com/results?search_query=ReelShort+short+drama",
-      "risk_notes": "这是产品与节奏痛点，不直接等同于新题材。 已匿名聚合，不保留用户名或单条评论原文。"
-    },
-    {
-      "pain_point": "YouTube观众关注单亲/离婚后的重新开始",
-      "frequent_expression": "single mom / divorce / kids / start over · matched 1 public comments across 1 videos",
-      "source_platform": "YouTube public comments",
-      "emotion": "hope, empathy",
-      "mapped_drama_angle": "单亲妈妈逆袭 / 离婚重启 / 家庭伦理",
-      "recommended_handling": "把亲情、经济压力、前任纠缠和新身份揭示放在一起，前3集给明确生存压力和翻盘目标。",
-      "evidence_level": "C",
-      "source_url": "https://www.youtube.com/results?search_query=ReelShort+short+drama",
-      "risk_notes": "避免把女性成长只写成被拯救。 已匿名聚合，不保留用户名或单条评论原文。"
+      "risk_notes": "这是产品与节奏痛点，不直接等同于新题材。 已匿名聚合，不保留用户名或单条评论原文。",
+      "audience_segment": "泛向/待验证"
     },
     {
       "pain_point": "不想再看软弱女主反复原谅",
@@ -1385,7 +1432,8 @@
       "recommended_handling": "前3集明确女主不回头，男主追悔只能做阻力，爽点给事业和新关系。",
       "evidence_level": "B",
       "source_url": "https://www.reddit.com/search/?q=weak%20female%20lead%20microdrama",
-      "risk_notes": "避免把女性成长简化成单纯羞辱前任，需补足主动目标。"
+      "risk_notes": "避免把女性成长简化成单纯羞辱前任，需补足主动目标。",
+      "audience_segment": "混合/待验证"
     },
     {
       "pain_point": "出轨复仇题材爽但同质化",
@@ -1396,7 +1444,8 @@
       "recommended_handling": "保留出轨证据、公开打脸、财产反转，但增加职业身份或家庭秘密差异化。",
       "evidence_level": "B",
       "source_url": "https://www.reddit.com/search/?q=cheating%20revenge%20storytime",
-      "risk_notes": "不能只堆羞辱，需要让女主有清晰收益和成长。"
+      "risk_notes": "不能只堆羞辱，需要让女主有清晰收益和成长。",
+      "audience_segment": "女频"
     },
     {
       "pain_point": "熟龄女性二次恋爱供给少",
@@ -1407,7 +1456,8 @@
       "recommended_handling": "把恋爱线和子女、财务独立、前夫纠缠放在一起，避免只做年轻化甜宠。",
       "evidence_level": "C",
       "source_url": "https://www.quora.com/search?q=dating%20after%20divorce%20older%20women",
-      "risk_notes": "需避免年龄羞辱和刻板化家庭压力。"
+      "risk_notes": "需避免年龄羞辱和刻板化家庭压力。",
+      "audience_segment": "女频"
     },
     {
       "pain_point": "AI演员有违和感但剧情上头",
@@ -1418,7 +1468,8 @@
       "recommended_handling": "优先用漫剧或半写实风格承接高概念题材，真人感AI只用于短镜头和强钩子测试。",
       "evidence_level": "C",
       "source_url": "https://www.reddit.com/search/?q=AI%20microdrama%20actors",
-      "risk_notes": "不要夸大AI替代真人，页面只做内容形态观察。"
+      "risk_notes": "不要夸大AI替代真人，页面只做内容形态观察。",
+      "audience_segment": "泛向/待验证"
     },
     {
       "pain_point": "观众想参与剧情走向",
@@ -1429,7 +1480,8 @@
       "recommended_handling": "把评论投票作为下一集钩子，不直接让用户决定核心价值观和合规风险情节。",
       "evidence_level": "C",
       "source_url": "https://arxiv.org/abs/2602.14045",
-      "risk_notes": "评论反馈只能辅助A/B测试，不能替代编剧判断。"
+      "risk_notes": "评论反馈只能辅助A/B测试，不能替代编剧判断。",
+      "audience_segment": "泛向/待验证"
     },
     {
       "pain_point": "黑帮/禁忌恋有吸引力但胁迫风险高",
@@ -1440,7 +1492,8 @@
       "recommended_handling": "把危险感转成外部威胁和保护关系，弱化胁迫、囚禁和美化暴力。",
       "evidence_level": "C",
       "source_url": "https://www.reddit.com/search/?q=mafia%20romance%20toxic",
-      "risk_notes": "高品牌风险题材，只做弱信号追踪。"
+      "risk_notes": "高品牌风险题材，只做弱信号追踪。",
+      "audience_segment": "女频"
     },
     {
       "pain_point": "用户讨厌付费后剧情拖水",
@@ -1451,7 +1504,8 @@
       "recommended_handling": "每个付费段落必须兑现一个秘密、打脸或关系进展，避免只做误会延长。",
       "evidence_level": "B",
       "source_url": "https://play.google.com/store/search?q=ReelShort%20DramaBox&c=apps",
-      "risk_notes": "这是产品/节奏痛点，不直接等同于新题材。"
+      "risk_notes": "这是产品/节奏痛点，不直接等同于新题材。",
+      "audience_segment": "泛向/待验证"
     },
     {
       "pain_point": "想看更不套路的狼人命定伴侣",
@@ -1462,7 +1516,8 @@
       "recommended_handling": "保留命定拒绝爽点，但改成女主主动拒绝、群体规则反转或非alpha关系。",
       "evidence_level": "C",
       "source_url": "https://www.reddit.com/search/?q=rejected%20mate%20werewolf%20romance",
-      "risk_notes": "供给拥挤，必须有世界观或人物关系差异化。"
+      "risk_notes": "供给拥挤，必须有世界观或人物关系差异化。",
+      "audience_segment": "女频"
     }
   ],
   "industry_media_observations": [
@@ -1473,7 +1528,8 @@
       "summary": "海外微短剧热榜结果显示情欲悬疑、女主逆袭等题材仍有高热度，适合追踪海外付费短剧用户的强情绪偏好。",
       "topic_signal": "海外女频：情欲悬疑 / 女主逆袭 / 高压关系",
       "evidence_level": "B",
-      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7"
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7",
+      "audience_segment": "女频"
     },
     {
       "source_name": "DataEye短剧观察",
@@ -1482,7 +1538,8 @@
       "summary": "搜索结果显示AI仿真人剧、萌宝漫剧在短剧/漫剧日榜中集中出现，可用于观察AI形态与经典高转化题材的结合。",
       "topic_signal": "AI仿真人剧 / 萌宝漫剧 / 榜单集中度",
       "evidence_level": "C",
-      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7"
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7",
+      "audience_segment": "女频"
     },
     {
       "source_name": "DataEye短剧出海",
@@ -1491,7 +1548,8 @@
       "summary": "海外短剧榜单出现西幻、AI相关新剧，同时素材增长榜能观察投放侧正在加码的类型。",
       "topic_signal": "西幻短剧 / AI新剧 / 投放素材增长",
       "evidence_level": "B",
-      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7"
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7",
+      "audience_segment": "男频"
     },
     {
       "source_name": "DataEye短剧观察",
@@ -1500,7 +1558,8 @@
       "summary": "2D漫剧和短剧播放增量同时被榜单提及，可作为漫剧和短剧交叉题材的观察入口。",
       "topic_signal": "2D漫剧 / 播放增量破亿 / 多榜共振",
       "evidence_level": "B",
-      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7"
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7",
+      "audience_segment": "泛向/待验证"
     },
     {
       "source_name": "DataEye短剧出海",
@@ -1509,7 +1568,8 @@
       "summary": "海外短剧热榜提到虐恋追妻、平台发行方榜单变化，可继续观察追妻火葬场和头部供给竞争。",
       "topic_signal": "虐恋追妻 / 头部平台供给 / 海外女频",
       "evidence_level": "B",
-      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7"
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7",
+      "audience_segment": "女频"
     },
     {
       "source_name": "DataEye短剧观察",
@@ -1518,7 +1578,8 @@
       "summary": "诡异题材连续登顶说明悬疑惊悚、怪谈和反常识设定值得作为短剧/漫剧方向观察。",
       "topic_signal": "诡异题材 / 怪谈悬疑 / 高播放增量",
       "evidence_level": "B",
-      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7"
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7",
+      "audience_segment": "男频"
     },
     {
       "source_name": "DataEye短剧观察",
@@ -1527,7 +1588,8 @@
       "summary": "AI仿真人剧在日榜中集中占位，东北地域、少夫人、付免双爆等信号可用于观察AI短剧题材包装。",
       "topic_signal": "AI仿真人剧 / 地域爽剧 / 付免双爆",
       "evidence_level": "B",
-      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7"
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7",
+      "audience_segment": "泛向/待验证"
     },
     {
       "source_name": "Business Insider",
@@ -1536,7 +1598,8 @@
       "summary": "报道显示美国 microdrama 产业开始用 AI 生成角色和剧集压低成本，演员替代、表演可信度和观众接受度正在成为新争议。",
       "topic_signal": "AI演员替代 / 真人感短剧 / 生产成本与伦理风险",
       "evidence_level": "B",
-      "source_url": "https://www.businessinsider.com/actors-losing-jobs-to-ai-hollywood-micro-drama-industry-2026-6"
+      "source_url": "https://www.businessinsider.com/actors-losing-jobs-to-ai-hollywood-micro-drama-industry-2026-6",
+      "audience_segment": "泛向/待验证"
     },
     {
       "source_name": "36氪 / 骨朵网络影视",
@@ -1545,7 +1608,8 @@
       "summary": "文章讨论漫剧投流、播放和ROI表现，指出网文IP、低成本制作和快速周转正在推动漫剧成为短剧赛道的重要变量。",
       "topic_signal": "AI漫剧 / 网文IP影像化 / ROI与资金周转",
       "evidence_level": "B",
-      "source_url": "https://www.36kr.com/p/3838601706440965"
+      "source_url": "https://www.36kr.com/p/3838601706440965",
+      "audience_segment": "泛向/待验证"
     },
     {
       "source_name": "36氪 / 文娱价值官",
@@ -1554,7 +1618,8 @@
       "summary": "文章强调海外短剧从翻译搬运进入深度本土化阶段，北美用户对套路化内容耐受降低，题材需要更贴近当地文化语境。",
       "topic_signal": "出海短剧本土化 / 北美审美变化 / 精品化",
       "evidence_level": "B",
-      "source_url": "https://www.36kr.com/p/3837211878947464"
+      "source_url": "https://www.36kr.com/p/3837211878947464",
+      "audience_segment": "泛向/待验证"
     },
     {
       "source_name": "36氪 / 镜像娱乐",
@@ -1563,7 +1628,8 @@
       "summary": "文章关注AI短剧出海、ToonScroll、PineDrama、TikTok minis等平台和IP方动作，适合观察海外AI短剧工业化趋势。",
       "topic_signal": "AI短剧出海 / 平台入局 / IP+AI工业化",
       "evidence_level": "B",
-      "source_url": "https://www.36kr.com/p/3836864874560388"
+      "source_url": "https://www.36kr.com/p/3836864874560388",
+      "audience_segment": "泛向/待验证"
     },
     {
       "source_name": "arXiv",
@@ -1572,7 +1638,8 @@
       "summary": "论文提出用多智能体系统把一句话扩展成短剧，重点解决短剧节奏、跨镜头空间一致性和多阶段审校，可作为AI短剧生产方法观察。",
       "topic_signal": "AI短剧生成 / 多智能体流程 / Short-Drama-Bench",
       "evidence_level": "C",
-      "source_url": "https://arxiv.org/abs/2605.22144"
+      "source_url": "https://arxiv.org/abs/2605.22144",
+      "audience_segment": "泛向/待验证"
     },
     {
       "source_name": "Business Insider",
@@ -1581,7 +1648,8 @@
       "summary": "NBCUniversal 将 ReelShort 微短剧引入 Peacock 移动端，并规划 Bravo 原创 micro drama，可作为主流流媒体试水竖屏短剧的信号。",
       "topic_signal": "主流流媒体试水 / ReelShort授权 / Hollywood vertical drama",
       "evidence_level": "B",
-      "source_url": "https://www.businessinsider.com/peacock-reelshort-micro-dramas-bravo-hollywood-short-form-vertical-video-2026-5"
+      "source_url": "https://www.businessinsider.com/peacock-reelshort-micro-dramas-bravo-hollywood-short-form-vertical-video-2026-5",
+      "audience_segment": "泛向/待验证"
     },
     {
       "source_name": "The Week",
@@ -1590,7 +1658,8 @@
       "summary": "文章从美国大众媒体视角解释 microdrama 的观看场景、付费模式、低成本制作和洛杉矶产业机会，可补充海外受众教育视角。",
       "topic_signal": "美国市场教育 / 竖屏付费短剧 / 低成本高周转",
       "evidence_level": "B",
-      "source_url": "https://theweek.com/culture-life/film/microdramas-short-tiktok-entertainment"
+      "source_url": "https://theweek.com/culture-life/film/microdramas-short-tiktok-entertainment",
+      "audience_segment": "泛向/待验证"
     },
     {
       "source_name": "arXiv / HCI",
@@ -1599,7 +1668,8 @@
       "summary": "论文从编剧和生产流程角度讨论短剧创作如何吸收评论、转发、表情包等观众反馈，可作为题材迭代方法论观察。",
       "topic_signal": "观众反馈驱动创作 / 评论共创 / 短剧生产流程",
       "evidence_level": "C",
-      "source_url": "https://arxiv.org/abs/2602.14045"
+      "source_url": "https://arxiv.org/abs/2602.14045",
+      "audience_segment": "泛向/待验证"
     },
     {
       "source_name": "Business Insider",
@@ -1608,7 +1678,8 @@
       "summary": "文章关注 micro drama 中暴力、羞辱和厌女桥段的争议，以及粉丝对更强女性角色、多元选角和角色驱动故事的呼声。",
       "topic_signal": "题材风险 / 女性角色升级 / 反羞辱叙事",
       "evidence_level": "B",
-      "source_url": "https://www.businessinsider.com/micro-dramas-spark-backlash-over-violence-and-misogyny-in-plots-2026-1"
+      "source_url": "https://www.businessinsider.com/micro-dramas-spark-backlash-over-violence-and-misogyny-in-plots-2026-1",
+      "audience_segment": "女频"
     },
     {
       "source_name": "Axios",
@@ -1617,7 +1688,108 @@
       "summary": "Holywater 为 My Drama 等 microdrama 产品获得 2200 万美元 A 轮融资，说明非亚洲团队也在加码竖屏短剧平台。",
       "topic_signal": "海外平台融资 / My Drama / 非亚洲玩家入局",
       "evidence_level": "B",
-      "source_url": "https://www.axios.com/2026/01/15/holywater-microdrama-app-funding"
+      "source_url": "https://www.axios.com/2026/01/15/holywater-microdrama-app-funding",
+      "audience_segment": "泛向/待验证"
+    }
+  ],
+  "strategic_focus": [
+    {
+      "focus_name": "AI漫剧 / AI仿真人",
+      "status": "重点关注",
+      "audience_segment": "混合/待验证",
+      "strategic_read": "AI漫剧适合承接高概念、奇幻、复仇、升级流和大世界观题材，可用较低制作成本测试真人短剧较难落地的设定。",
+      "sample_signals": "DataEye短剧观察出现AI仿真人剧、2D漫剧和西幻/诡异题材上榜；36氪、Business Insider等媒体持续讨论AI短剧生产效率和AI演员争议。",
+      "candidate_projects": "AI仿真人地域爽剧；AI漫剧IP工业化；2D男频升级漫剧；西幻AI新剧；诡异怪谈漫剧",
+      "project_examples": [
+        {
+          "title": "AI仿真人地域爽剧",
+          "platform": "AI仿真人 / 地域爽剧",
+          "date_window": "DataEye与行业稿均出现AI仿真人剧信号",
+          "audience_segment": "混合/待验证",
+          "topic_tag": "落魄千金、少夫人、隐婚曝光、地域身份反差",
+          "evidence": "适合用AI仿真人测试强身份反转和低成本情绪爽点"
+        },
+        {
+          "title": "AI漫剧IP工业化",
+          "platform": "ToonScroll / PineDrama / TikTok minis",
+          "date_window": "36氪公开报道AI短剧出海平台动作",
+          "audience_segment": "混合/待验证",
+          "topic_tag": "网文IP、批量生成、竖屏漫剧、平台化生产",
+          "evidence": "适合追踪高概念题材的低成本批量测试能力"
+        },
+        {
+          "title": "2D男频升级漫剧",
+          "platform": "DataEye / 漫剧有数题材信号",
+          "date_window": "国内行业稿持续提到2D漫剧与播放增量",
+          "audience_segment": "男频",
+          "topic_tag": "西幻升级、机甲科幻、战力成长、怪谈副本",
+          "evidence": "适合承接真人短剧成本较高的世界观和动作场面"
+        },
+        {
+          "title": "诡异怪谈漫剧",
+          "platform": "DataEye短剧&漫剧日榜题材信号",
+          "date_window": "行业稿出现诡异题材连续登顶表述",
+          "audience_segment": "男频",
+          "topic_tag": "怪谈规则、反常识设定、悬疑副本、强钩子开局",
+          "evidence": "适合AI漫剧做高频视觉反转和低成本惊悚场景"
+        }
+      ],
+      "topic_directions": "AI仿真人地域爽剧; 2D男频升级; 东方奇幻/捉妖悬疑; 西幻升级; 诡异怪谈; 机甲科幻爽感",
+      "validation_metrics": "优先记录项目名称、题材类型、榜单位置、播放/热度变化、投流素材增长、评论接受度和可复用英文hook。",
+      "risk_notes": "AI演员替代和真人感质量仍有争议，适合作为趋势观察、样片验证和低成本题材测试，不宜直接包装成品牌主卖点。"
+    },
+    {
+      "focus_name": "男频向短剧 / 漫剧",
+      "status": "补强监控",
+      "audience_segment": "男频",
+      "strategic_read": "海外短剧供给仍以女频情感为主，男频可从高爽感、强目标、升级反馈和低成本动作/奇幻表达里寻找增量。",
+      "sample_signals": "DataEye短剧/漫剧榜单、剧势分析、剧查查和公众号样本用于跟踪男频项目热度，重点看是否出现连续上榜、素材放量和评论共鸣。",
+      "candidate_projects": "体育复出爽剧；失落继承人/家族复仇；赘婿反杀/强者回归；西幻升级/龙与王者；诡异怪谈/末世副本",
+      "project_examples": [
+        {
+          "title": "体育复出爽剧",
+          "platform": "竞品样本方向",
+          "date_window": "公开讨论出现高尔夫王者归来、Hockey Captain等体育男主样本",
+          "audience_segment": "男频",
+          "topic_tag": "退役王者、父女责任、学费压力、重返赛场、荣誉夺回",
+          "evidence": "适合低成本训练线和强目标叙事，不依赖大场面赛事"
+        },
+        {
+          "title": "失落继承人/家族复仇",
+          "platform": "DramaBox等竞品题材信号",
+          "date_window": "公开报道出现 Lost Heir / Reckoning 类样本",
+          "audience_segment": "男频",
+          "topic_tag": "隐形继承人、家族压迫、身份揭晓、公开清算",
+          "evidence": "适合前3集做羞辱-身份揭示-资源反杀"
+        },
+        {
+          "title": "赘婿反杀/强者回归",
+          "platform": "海外短剧通用男频方向",
+          "date_window": "国内行业稿和竞品样本均高频出现强身份反转",
+          "audience_segment": "男频",
+          "topic_tag": "被轻视丈夫、隐藏战神、技术天才、商业反杀",
+          "evidence": "与海外观众熟悉的underdog comeback结构兼容"
+        },
+        {
+          "title": "西幻升级/龙与王者",
+          "platform": "AI漫剧/短剧交叉方向",
+          "date_window": "DataEye出现西幻AI新剧、海外平台有龙/王者类题材样本",
+          "audience_segment": "男频",
+          "topic_tag": "龙、王者、魔法血统、被放逐后升级回归",
+          "evidence": "适合漫剧化，真人拍摄成本高但视觉钩子强"
+        },
+        {
+          "title": "诡异怪谈/末世副本",
+          "platform": "漫剧榜单题材信号",
+          "date_window": "行业稿出现诡异题材高播放/登顶表述",
+          "audience_segment": "男频",
+          "topic_tag": "规则怪谈、末世副本、怪物机制、闯关生存",
+          "evidence": "适合短集高频反转和低成本AI视觉测试"
+        }
+      ],
+      "topic_directions": "战神/龙王归来; 都市赘婿逆袭; 西幻升级; 诡异怪谈; 末世机甲; 竞技训练爽剧; 退役王者回归",
+      "validation_metrics": "优先记录竞品项目名、平台/榜单位置、受众向标签、付费爽点、前三集钩子、投流素材和海外评论反馈。",
+      "risk_notes": "男频题材在海外短剧里需要验证文化转译和付费效率，先用榜单样本和投流素材判断，不直接替代女频主线。"
     }
   ],
   "dictionary": [
