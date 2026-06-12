@@ -354,10 +354,7 @@ function renderStrategicFocus(items) {
   setHtml("#strategicFocusGrid", focusItems
     .map((item) => `
       <article class="strategic-focus-card">
-        <div class="strategic-focus-meta">
-          <span>${escapeHtml(displayValue(item.status, "观察"))}</span>
-          <span>${escapeHtml(displayValue(item.source_focus, "来源待补"))}</span>
-        </div>
+        <div class="strategic-focus-meta">${escapeHtml(displayValue(item.status, "观察"))}</div>
         <h3>${escapeHtml(item.focus_name)}</h3>
         ${audienceBadge(item)}
         <p><strong>方向判断</strong>${escapeHtml(displayValue(item.strategic_read || item.why_it_matters))}</p>
