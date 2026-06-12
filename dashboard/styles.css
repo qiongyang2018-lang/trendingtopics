@@ -444,6 +444,41 @@ th {
   background: #edf1f3;
 }
 
+.audience-badge {
+  display: inline-block;
+  margin: 4px 0 8px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #465869;
+  background: #eef3f5;
+}
+
+td .audience-badge {
+  margin: 0;
+}
+
+.audience-badge.male {
+  color: #1d4ed8;
+  background: #dbeafe;
+}
+
+.audience-badge.female {
+  color: #be185d;
+  background: #fce7f3;
+}
+
+.audience-badge.mixed {
+  color: #6d28d9;
+  background: #ede9fe;
+}
+
+.audience-badge.neutral {
+  color: #475569;
+  background: #e2e8f0;
+}
+
 .placeholder-row {
   color: #728190;
   background: #fbfcfd;

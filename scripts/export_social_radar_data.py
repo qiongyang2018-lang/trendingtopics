@@ -88,6 +88,43 @@ def clean(value):
     return value
 
 
+def normalize_for_match(value):
+    return str(value or "").lower()
+
+
+def infer_audience_segment(item):
+    text = normalize_for_match(" ".join(str(value) for value in item.values() if value))
+    male_terms = [
+        "男频", "male", "战神", "龙王", "赘婿", "son-in-law", "son in law",
+        "final boss", "tech genius", "underdog", "sports", "hockey", "golf",
+        "dragon slayer", "机甲", "西幻", "怪谈", "诡异", "王者", "末世", "竞技",
+    ]
+    female_terms = [
+        "女频", "female", "女性", "romance", "billionaire", "heiress", "wife",
+        "bride", "mom", "single mom", "alpha", "werewolf", "mafia", "forbidden",
+        "contract", "cheating", "toxic relationship", "booktok", "追妻", "萌宝",
+        "家庭伦理", "霸总", "情感", "禁忌恋",
+    ]
+    male_hit = any(term in text for term in male_terms)
+    female_hit = any(term in text for term in female_terms)
+    if male_hit and female_hit:
+        return "混合/待验证"
+    if male_hit:
+        return "男频"
+    if female_hit:
+        return "女频"
+    return "泛向/待验证"
+
+
+def with_audience_segments(items):
+    enriched = []
+    for item in items or []:
+        row = dict(item)
+        row.setdefault("audience_segment", infer_audience_segment(row))
+        enriched.append(row)
+    return enriched
+
+
 def sheet_records(workbook, sheet_name: str, header_row: int, start_row: int, max_blank_rows: int = 3):
     sheet = workbook[sheet_name]
     headers = [cell.value for cell in sheet[header_row]]
@@ -414,9 +451,10 @@ STRATEGIC_FOCUS_SEEDS = [
     {
         "focus_name": "AI漫剧 / AI仿真人",
         "status": "重点关注",
+        "audience_segment": "混合/待验证",
         "strategic_read": "AI漫剧适合承接高概念、奇幻、复仇、升级流和大世界观题材，可用较低制作成本测试真人短剧较难落地的设定。",
         "sample_signals": "DataEye短剧观察出现AI仿真人剧、2D漫剧和西幻/诡异题材上榜；36氪、Business Insider等媒体持续讨论AI短剧生产效率和AI演员争议。",
-        "candidate_projects": "AI仿真人地域爽剧；2D男频升级漫剧；西幻AI新剧；诡异/怪谈类漫剧；东方奇幻/捉妖悬疑漫剧",
+        "candidate_projects": "Wings of Fire: The Dragon Slayer Is My Ex-Lover（ReelShort，奇幻/龙/前任）；Move Aside! I'm the Final Boss（ReelShort，男频爽感/强身份）；You Fired a Tech Genius（ReelShort，技术天才逆袭）；AI仿真人地域爽剧（DataEye样本方向，东北少夫人/落魄千金/隐婚曝光）；2D漫剧日榜样本（DataEye/漫剧有数，西幻AI新剧、诡异怪谈、萌宝漫剧）",
         "topic_directions": "AI仿真人地域爽剧; 2D男频升级; 东方奇幻/捉妖悬疑; 西幻升级; 诡异怪谈; 机甲科幻爽感",
         "source_focus": "DataEye短剧观察, 漫剧有数, 36氪, Business Insider, arXiv",
         "validation_metrics": "优先记录项目名称、题材类型、榜单位置、播放/热度变化、投流素材增长、评论接受度和可复用英文hook。",
@@ -425,9 +463,10 @@ STRATEGIC_FOCUS_SEEDS = [
     {
         "focus_name": "男频向短剧 / 漫剧",
         "status": "补强监控",
+        "audience_segment": "男频",
         "strategic_read": "海外短剧供给仍以女频情感为主，男频可从高爽感、强目标、升级反馈和低成本动作/奇幻表达里寻找增量。",
         "sample_signals": "DataEye短剧/漫剧榜单、剧势分析、剧查查和公众号样本用于跟踪男频项目热度，重点看是否出现连续上榜、素材放量和评论共鸣。",
-        "candidate_projects": "战神/龙王归来；都市赘婿逆袭；西幻升级；诡异怪谈；末世机甲；竞技训练爽剧；退役王者/职业回归",
+        "candidate_projects": "Son-in-Law's Revenge（ReelShort，赘婿/复仇/身份反转）；Move Aside! I'm the Final Boss（ReelShort，强者回归/反杀）；You Fired a Tech Genius（ReelShort，职场误判/技术天才逆袭）；The Lost Heir: A Christmas Reckoning（DramaBox，失落继承人/家族复仇）；A Deal with the Hockey Captain（DramaBox，体育男主/契约关系）；Ace! The Golf King's Reconquest（微短剧样本，高尔夫王者归来/父女/复出）",
         "topic_directions": "战神/龙王归来; 都市赘婿逆袭; 西幻升级; 诡异怪谈; 末世机甲; 竞技训练爽剧; 退役王者回归",
         "source_focus": "剧势分析, 剧查查, DataEye短剧出海, 漫剧有数, YouTube评论痛点",
         "validation_metrics": "优先记录竞品项目名、平台/榜单位置、受众向标签、付费爽点、前三集钩子、投流素材和海外评论反馈。",
@@ -1184,18 +1223,18 @@ def main():
             "date": generated_at.date().isoformat(),
             "path": f"data/snapshots/{snapshot_name}",
         },
-        "watchlist": watchlist,
-        "clusters": clusters,
-        "angles": angles,
-        "signals": signals,
+        "watchlist": with_audience_segments(watchlist),
+        "clusters": with_audience_segments(clusters),
+        "angles": with_audience_segments(angles),
+        "signals": with_audience_segments(signals),
         "youtube_trending_videos": youtube_trending_videos,
         "youtube_fetch_status": youtube_fetch_status,
         "youtube_comment_status": youtube_comment_status,
-        "ai_animation_topics": build_ai_animation_topics(),
-        "traditional_film_tv_topics": build_traditional_film_tv_topics(),
-        "comment_pain_points": build_comment_pain_points(youtube_comment_pain_points),
-        "industry_media_observations": build_industry_media_observations(),
-        "strategic_focus": build_strategic_focus(),
+        "ai_animation_topics": with_audience_segments(build_ai_animation_topics()),
+        "traditional_film_tv_topics": with_audience_segments(build_traditional_film_tv_topics()),
+        "comment_pain_points": with_audience_segments(build_comment_pain_points(youtube_comment_pain_points)),
+        "industry_media_observations": with_audience_segments(build_industry_media_observations()),
+        "strategic_focus": with_audience_segments(build_strategic_focus()),
         "dictionary": sheet_records(workbook, "dictionary", 4, 5),
         "weights": [
             {"name": "热度", "weight": 35},

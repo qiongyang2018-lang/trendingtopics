@@ -25,6 +25,48 @@ const displayValue = (value, fallback = "-") => {
   return value;
 };
 
+function audienceSegment(item = {}) {
+  if (item.audience_segment) return item.audience_segment;
+  const text = normalizeText([
+    item.topic_cluster,
+    item.short_drama_genre,
+    item.topic,
+    item.keyword_or_hashtag,
+    item.pain_point,
+    item.mapped_drama_angle,
+    item.topic_signal,
+    item.content_direction,
+    item.short_drama_inspiration,
+    item.candidate_projects,
+    item.watch_reason,
+  ].filter(Boolean).join(" "));
+  const maleTerms = [
+    "male", "男频", "战神", "龙王", "赘婿", "son in law", "final boss", "tech genius",
+    "underdog", "sports", "hockey", "golf", "dragon slayer", "机甲", "西幻", "怪谈", "诡异",
+    "王者", "末世", "竞技"
+  ];
+  const femaleTerms = [
+    "female", "女频", "女性", "romance", "billionaire", "heiress", "wife", "bride", "mom",
+    "single mom", "alpha", "werewolf", "mafia", "forbidden", "contract", "cheating",
+    "toxic relationship", "booktok", "追妻", "萌宝", "家庭伦理", "霸总", "情感", "禁忌恋"
+  ];
+  const maleHit = maleTerms.some((term) => text.includes(normalizeText(term)));
+  const femaleHit = femaleTerms.some((term) => text.includes(normalizeText(term)));
+  if (maleHit && femaleHit) return "混合/待验证";
+  if (maleHit) return "男频";
+  if (femaleHit) return "女频";
+  return "泛向/待验证";
+}
+
+function audienceBadge(item) {
+  const segment = audienceSegment(item);
+  let klass = "neutral";
+  if (segment.includes("男频")) klass = "male";
+  if (segment.includes("女频")) klass = "female";
+  if (segment.includes("混合")) klass = "mixed";
+  return `<span class="audience-badge ${klass}">${escapeHtml(segment)}</span>`;
+}
+
 const $ = (selector) => document.querySelector(selector);
 
 function setText(selector, value) {
@@ -148,6 +190,7 @@ function renderWatchlist(items) {
         <tr>
           <td>${escapeHtml(item.rank)}</td>
           <td><strong>${escapeHtml(item.topic_cluster)}</strong><br><span class="label">${escapeHtml(item.watch_reason)}</span></td>
+          <td>${audienceBadge(item)}</td>
           <td><span class="priority ${klass}">${escapeHtml(itemPriority)}</span></td>
           <td class="score">${escapeHtml(displayValue(item.opportunity_score))}</td>
           <td>${escapeHtml(displayValue(item.short_drama_genre))}</td>
@@ -164,6 +207,7 @@ function renderWatchlist(items) {
       <tr class="placeholder-row">
         <td>${rank}</td>
         <td><strong>待补充候选题材</strong><br><span class="label">等待下一轮热点采集和人工校验。</span></td>
+        <td><span class="audience-badge neutral">待验证</span></td>
         <td><span class="priority muted">Pending</span></td>
         <td class="score">-</td>
         <td>-</td>
@@ -290,11 +334,9 @@ function renderStrategicFocus(items) {
           <span>${escapeHtml(displayValue(item.source_focus, "来源待补"))}</span>
         </div>
         <h3>${escapeHtml(item.focus_name)}</h3>
+        ${audienceBadge(item)}
         <p><strong>方向判断</strong>${escapeHtml(displayValue(item.strategic_read || item.why_it_matters))}</p>
-        <p><strong>竞品/样本信号</strong>${escapeHtml(displayValue(item.sample_signals || item.current_signals))}</p>
-        <p><strong>候选项目/题材</strong>${escapeHtml(displayValue(item.candidate_projects || item.topic_directions))}</p>
-        <p><strong>验证指标</strong>${escapeHtml(displayValue(item.validation_metrics || item.next_action))}</p>
-        <small>${escapeHtml(displayValue(item.risk_notes, "风险待补充"))}</small>
+        <p><strong>代表项目/题材样本</strong>${escapeHtml(displayValue(item.candidate_projects || item.topic_directions))}</p>
       </article>
     `)
     .join(""));
@@ -342,6 +384,7 @@ function renderClusters(clusters, watchlist, signals) {
       <article class="cluster">
         <div class="cluster-rank">#${escapeHtml(item.watchlist.rank)}</div>
         <h3>${escapeHtml(item.cluster_name)}</h3>
+        ${audienceBadge(item.watchlist)}
         <p>${escapeHtml(item.audience_pain_point)}</p>
         <small>${escapeHtml(item.watchlist.short_drama_genre)} · opportunity ${escapeHtml(item.watchlist.opportunity_score)}</small>
         <div class="hotword-list">
@@ -407,6 +450,7 @@ function renderPotentialTopics(signals) {
           <span>证据 ${escapeHtml(item.evidence_level || "-")} · ${escapeHtml(item.sentiment || "neutral")}</span>
         </div>
         <h3>${escapeHtml(item.keyword_or_hashtag)}</h3>
+        ${audienceBadge(item)}
         <p>${escapeHtml(potentialReason(item))}</p>
         <a href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">查看公开入口</a>
       </article>
@@ -437,6 +481,7 @@ function renderCommentPainPoints(items, youtubeStatus = {}) {
           <span>证据 ${escapeHtml(displayValue(item.evidence_level))} · ${escapeHtml(displayValue(item.emotion, "neutral"))}</span>
         </div>
         <h3>${escapeHtml(item.pain_point)}</h3>
+        ${audienceBadge(item)}
         <p><strong>高频表达</strong>${escapeHtml(displayValue(item.frequent_expression))}</p>
         <p><strong>短剧映射</strong>${escapeHtml(displayValue(item.mapped_drama_angle))}</p>
         <p><strong>处理建议</strong>${escapeHtml(displayValue(item.recommended_handling))}</p>
@@ -466,6 +511,7 @@ function renderAiAnimationTopics(items) {
           <span>证据 ${escapeHtml(displayValue(item.evidence_level))}</span>
         </div>
         <h3>${escapeHtml(item.topic)}</h3>
+        ${audienceBadge(item)}
         <p><strong>热点信号</strong>${escapeHtml(displayValue(item.trend_signal))}</p>
         <p><strong>内容方向</strong>${escapeHtml(displayValue(item.content_direction))}</p>
         <p><strong>观众钩子</strong>${escapeHtml(displayValue(item.audience_hook))}</p>
@@ -496,6 +542,7 @@ function renderTraditionalFilmTvTopics(items) {
           <span>证据 ${escapeHtml(displayValue(item.evidence_level))}</span>
         </div>
         <h3>${escapeHtml(item.topic)}</h3>
+        ${audienceBadge(item)}
         <p><strong>近期信号</strong>${escapeHtml(displayValue(item.recent_signal))}</p>
         <p><strong>短剧启发</strong>${escapeHtml(displayValue(item.short_drama_inspiration))}</p>
         <p><strong>转化钩子</strong>${escapeHtml(displayValue(item.conversion_hook))}</p>
@@ -528,6 +575,7 @@ function renderIndustryMediaObservations(items) {
           <span>${escapeHtml(displayValue(item.source_name))} · 证据 ${escapeHtml(displayValue(item.evidence_level))}</span>
         </div>
         <h3>${escapeHtml(item.title)}</h3>
+        ${audienceBadge(item)}
         <p>${escapeHtml(displayValue(item.summary, "摘要待补充"))}</p>
         <div class="industry-media-signal">${escapeHtml(displayValue(item.topic_signal, "题材信号待补充"))}</div>
         ${item.source_url ? `<a href="${escapeHtml(item.source_url)}" target="_blank" rel="noreferrer">${escapeHtml(item.source_url.includes("weixin.sogou.com") ? "查看公开搜索入口" : "查看公开来源")}</a>` : ""}
