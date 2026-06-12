@@ -83,9 +83,9 @@ function projectExamplesMarkup(item) {
       .map((example) => `
         <li>
           <strong>${escapeHtml(example.title)}</strong>
-          <span>${escapeHtml(displayValue(example.platform, "平台待补"))} · ${escapeHtml(displayValue(example.audience_segment || audienceSegment(example), "受众待判"))}</span>
-          <em>${escapeHtml(displayValue(example.topic_tag, "题材待补"))}</em>
-          <small>${escapeHtml(displayValue(example.date_window, "日期待核验"))} · ${escapeHtml(displayValue(example.evidence, "证据待补"))}</small>
+          <span>${escapeHtml(displayValue(example.audience_segment || audienceSegment(example), "受众待判"))}</span>
+          <em>${escapeHtml(displayValue(example.topic_tag || example.platform, "题材信号待补"))}</em>
+          <small>${escapeHtml(displayValue(example.evidence || example.date_window, "来源信号待补"))}</small>
         </li>
       `)
       .join("")}
@@ -362,7 +362,7 @@ function renderStrategicFocus(items) {
         <h3>${escapeHtml(item.focus_name)}</h3>
         ${audienceBadge(item)}
         <p><strong>方向判断</strong>${escapeHtml(displayValue(item.strategic_read || item.why_it_matters))}</p>
-        <p><strong>代表项目/题材样本</strong></p>
+        <p><strong>题材发现</strong></p>
         ${projectExamplesMarkup(item)}
       </article>
     `)
