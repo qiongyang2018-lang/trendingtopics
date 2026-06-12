@@ -290,8 +290,9 @@ function renderStrategicFocus(items) {
           <span>${escapeHtml(displayValue(item.source_focus, "来源待补"))}</span>
         </div>
         <h3>${escapeHtml(item.focus_name)}</h3>
-        <p><strong>为什么重要</strong>${escapeHtml(displayValue(item.why_it_matters))}</p>
-        <p><strong>当前信号</strong>${escapeHtml(displayValue(item.current_signals))}</p>
+        <p><strong>方向判断</strong>${escapeHtml(displayValue(item.strategic_read || item.why_it_matters))}</p>
+        <p><strong>竞品/样本信号</strong>${escapeHtml(displayValue(item.sample_signals || item.current_signals))}</p>
+        <p><strong>候选项目/题材</strong>${escapeHtml(displayValue(item.candidate_projects || item.topic_directions))}</p>
         <div class="strategic-focus-tags">
           ${String(item.topic_directions || "")
             .split(";")
@@ -300,7 +301,7 @@ function renderStrategicFocus(items) {
             .map((tag) => `<span>${escapeHtml(tag)}</span>`)
             .join("")}
         </div>
-        <p><strong>下一步</strong>${escapeHtml(displayValue(item.next_action))}</p>
+        <p><strong>验证指标</strong>${escapeHtml(displayValue(item.validation_metrics || item.next_action))}</p>
         <small>${escapeHtml(displayValue(item.risk_notes, "风险待补充"))}</small>
       </article>
     `)
