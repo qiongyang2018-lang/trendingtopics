@@ -454,7 +454,7 @@ STRATEGIC_FOCUS_SEEDS = [
         "audience_segment": "混合/待验证",
         "strategic_read": "AI漫剧适合承接高概念、奇幻、复仇、升级流和大世界观题材，可用较低制作成本测试真人短剧较难落地的设定。",
         "sample_signals": "DataEye短剧观察出现AI仿真人剧、2D漫剧和西幻/诡异题材上榜；36氪、Business Insider等媒体持续讨论AI短剧生产效率和AI演员争议。",
-        "candidate_projects": "ToonScroll / PineDrama / TikTok minis（2026-06-03，AI短剧出海平台动作）；Peacock 引入 ReelShort micro dramas（2026-05-13，主流平台试水竖屏短剧；自家授权信号，不作竞品项目）；近2个月AI漫剧竞品具体项目名待 DataEye/漫剧有数/剧查查补榜",
+        "candidate_projects": "ToonScroll / PineDrama / TikTok minis（2026-06-03，AI短剧出海平台动作）；Peacock 引入 ReelShort micro dramas（2026-05-13，主流平台试水竖屏短剧；自家授权信号，不作竞品项目）；近2个月AI漫剧竞品具体项目名从 DataEye、漫剧有数、36氪、白鲸出海等公开稿检索，满足热榜/播放/收入/素材增长口径才升为样本。",
         "project_examples": [
             {
                 "title": "ToonScroll / PineDrama / TikTok minis",
@@ -473,12 +473,12 @@ STRATEGIC_FOCUS_SEEDS = [
                 "evidence": "Business Insider公开报道，近2个月；自家授权信号，不作竞品榜单",
             },
             {
-                "title": "近2个月AI漫剧竞品项目名",
-                "platform": "待补录",
-                "date_window": "待 DataEye/漫剧有数/剧查查补榜",
+                "title": "国内新闻稿检索：近2个月AI漫剧竞品项目名",
+                "platform": "DataEye / 漫剧有数 / 36氪 / 白鲸出海",
+                "date_window": "每日检索近2个月公开稿",
                 "audience_segment": "待验证",
                 "topic_tag": "AI漫剧 / AI仿真人 / 2D漫剧",
-                "evidence": "当前公开网页未拿到可回溯单剧名，避免用旧项目冒充新热榜",
+                "evidence": "新闻稿明确出现热榜、播放、收入或素材增长时，升为样本；否则只作为线索",
             },
         ],
         "topic_directions": "AI仿真人地域爽剧; 2D男频升级; 东方奇幻/捉妖悬疑; 西幻升级; 诡异怪谈; 机甲科幻爽感",
@@ -491,15 +491,15 @@ STRATEGIC_FOCUS_SEEDS = [
         "audience_segment": "男频",
         "strategic_read": "海外短剧供给仍以女频情感为主，男频可从高爽感、强目标、升级反馈和低成本动作/奇幻表达里寻找增量。",
         "sample_signals": "DataEye短剧/漫剧榜单、剧势分析、剧查查和公众号样本用于跟踪男频项目热度，重点看是否出现连续上榜、素材放量和评论共鸣。",
-        "candidate_projects": "近2个月男频竞品单剧名待 DataEye/剧势分析/剧查查补榜；当前公开网页只能确认 DramaBox、My Drama、ShortMax、PocketFilms 等平台方向，不能稳定确认近2个月热榜项目名",
+        "candidate_projects": "近2个月男频竞品单剧名优先从国内行业稿检索：DataEye短剧出海、DataEye短剧观察、白鲸出海、36氪、娱乐资本论、短剧自习室、剧势分析/剧查查公开口径；只有稿件明确写热榜、爆款、播放、收入或素材增长，才标为爆款样本。",
         "project_examples": [
             {
-                "title": "近2个月男频竞品单剧名",
-                "platform": "待补录",
-                "date_window": "待 DataEye/剧势分析/剧查查补榜",
+                "title": "国内新闻稿检索：近2个月男频竞品单剧名",
+                "platform": "DataEye / 白鲸出海 / 36氪 / 娱乐资本论 / 短剧自习室",
+                "date_window": "每日检索近2个月公开稿",
                 "audience_segment": "男频",
                 "topic_tag": "体育复出 / 失落继承人 / 赘婿反杀 / 强者回归 / 西幻升级",
-                "evidence": "当前公开网页未拿到近2个月可回溯热榜单剧名，避免展示旧项目",
+                "evidence": "新闻稿明确出现热榜、爆款、播放、收入或素材增长时，升为爆款样本；否则只作为线索",
             },
             {
                 "title": "竞品平台观察池",

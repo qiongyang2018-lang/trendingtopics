@@ -133,6 +133,17 @@ main {
   font-size: 12px;
 }
 
+.watchlist-status {
+  margin: -2px 0 12px;
+  padding: 9px 11px;
+  border: 1px solid #dce8ee;
+  border-radius: 7px;
+  color: #4b6274;
+  background: #f8fbfc;
+  font-size: 12px;
+  line-height: 1.45;
+}
+
 .panel {
   padding: 18px;
   margin-bottom: 18px;
