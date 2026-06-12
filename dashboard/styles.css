@@ -157,7 +157,7 @@ main {
 
 .daily-brief-grid {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 10px;
 }
 
@@ -200,6 +200,97 @@ main {
 
 .content-zone .panel:last-child {
   margin-bottom: 0;
+}
+
+.strategic-focus-panel {
+  border-color: #c7d9b5;
+  background: #fcfef8;
+}
+
+.strategic-focus-grid,
+.source-monitor-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.strategic-focus-card,
+.source-monitor-card {
+  border: 1px solid #d6e2c9;
+  border-radius: 8px;
+  padding: 14px;
+  background: #ffffff;
+}
+
+.strategic-focus-meta,
+.source-monitor-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  color: var(--muted);
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.strategic-focus-card h3,
+.source-monitor-card h3 {
+  margin: 0 0 10px;
+  color: #315f22;
+  font-size: 16px;
+}
+
+.strategic-focus-card p,
+.source-monitor-card p {
+  margin: 0 0 9px;
+  color: #334155;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.strategic-focus-card p strong,
+.source-monitor-card p strong {
+  display: block;
+  color: var(--ink);
+  font-size: 12px;
+  margin-bottom: 2px;
+}
+
+.strategic-focus-card small,
+.source-monitor-card small {
+  display: block;
+  margin-bottom: 10px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.strategic-focus-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 10px 0;
+}
+
+.strategic-focus-tags span {
+  padding: 5px 8px;
+  border-radius: 7px;
+  background: #eef6e8;
+  color: #315f22;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.source-monitor-panel {
+  margin-top: 16px;
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.source-monitor-card {
+  border-color: #cbd6ef;
+}
+
+.source-monitor-card h3 {
+  color: #4258a8;
 }
 
 .zone-hot {
@@ -778,6 +869,8 @@ a:hover {
   .summary-grid,
   .two-col,
   .daily-brief-grid,
+  .strategic-focus-grid,
+  .source-monitor-grid,
   .cluster-grid,
   .ai-animation-grid,
     .traditional-topic-grid,

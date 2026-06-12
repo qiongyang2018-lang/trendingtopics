@@ -42,6 +42,11 @@ function setHref(selector, value) {
   if (element) element.href = value;
 }
 
+function setHidden(selector, hidden) {
+  const element = $(selector);
+  if (element) element.hidden = hidden;
+}
+
 async function loadRadar() {
   const response = await fetch("./data/radar.json", { cache: "no-store" });
   if (!response.ok) throw new Error(`Failed to load radar data: ${response.status}`);
@@ -203,6 +208,7 @@ function renderDailyBrief(data) {
   const aiTopics = data.ai_animation_topics || [];
   const filmTopics = data.traditional_film_tv_topics || [];
   const mediaItems = data.industry_media_observations || [];
+  const focusItems = data.strategic_focus || [];
   const youtubeStatus = data.youtube_comment_status || {};
 
   const leadParts = [
@@ -237,6 +243,14 @@ function renderDailyBrief(data) {
       title: "AI漫剧",
       body: compactList(aiTopics, "topic", 2).join("；") || "暂无 AI 漫剧新增方向。",
     },
+    ...(focusItems.length
+      ? [
+          {
+            title: "重点方向",
+            body: compactList(focusItems, "focus_name", 3).join("；"),
+          },
+        ]
+      : []),
     {
       title: "传统影视/行业",
       body:
@@ -259,6 +273,37 @@ function renderDailyBrief(data) {
       </article>
     `;
     })
+    .join(""));
+}
+
+function renderStrategicFocus(items) {
+  const focusItems = (items || []).filter((item) => item.focus_name);
+  setHidden("#strategicFocusSection", !focusItems.length);
+  if (!focusItems.length) return;
+
+  setText("#strategicFocusCount", `${focusItems.length} 个重点方向`);
+  setHtml("#strategicFocusGrid", focusItems
+    .map((item) => `
+      <article class="strategic-focus-card">
+        <div class="strategic-focus-meta">
+          <span>${escapeHtml(displayValue(item.status, "观察"))}</span>
+          <span>${escapeHtml(displayValue(item.source_focus, "来源待补"))}</span>
+        </div>
+        <h3>${escapeHtml(item.focus_name)}</h3>
+        <p><strong>为什么重要</strong>${escapeHtml(displayValue(item.why_it_matters))}</p>
+        <p><strong>当前信号</strong>${escapeHtml(displayValue(item.current_signals))}</p>
+        <div class="strategic-focus-tags">
+          ${String(item.topic_directions || "")
+            .split(";")
+            .map((tag) => tag.trim())
+            .filter(Boolean)
+            .map((tag) => `<span>${escapeHtml(tag)}</span>`)
+            .join("")}
+        </div>
+        <p><strong>下一步</strong>${escapeHtml(displayValue(item.next_action))}</p>
+        <small>${escapeHtml(displayValue(item.risk_notes, "风险待补充"))}</small>
+      </article>
+    `)
     .join(""));
 }
 
@@ -498,6 +543,29 @@ function renderIndustryMediaObservations(items) {
     .join(""));
 }
 
+function renderSourceMonitor(items) {
+  const sources = (items || []).filter((item) => item.source_name);
+  setHidden("#sourceMonitorSection", !sources.length);
+  if (!sources.length) return;
+
+  setText("#sourceMonitorCount", `${sources.length} 个来源`);
+  setHtml("#sourceMonitorGrid", sources
+    .map((item) => `
+      <article class="source-monitor-card">
+        <div class="source-monitor-meta">
+          <span>${escapeHtml(displayValue(item.priority, "中"))}优先级</span>
+          <span>${escapeHtml(displayValue(item.access_mode, "公开检索"))}</span>
+        </div>
+        <h3>${escapeHtml(item.source_name)}</h3>
+        <p><strong>${escapeHtml(displayValue(item.source_type, "信息源"))}</strong>${escapeHtml(displayValue(item.coverage))}</p>
+        <p>${escapeHtml(displayValue(item.use_case))}</p>
+        <small>${escapeHtml(displayValue(item.boundary, "只采集公开信息"))}</small>
+        ${item.source_url ? `<a href="${escapeHtml(item.source_url)}" target="_blank" rel="noreferrer">查看入口</a>` : ""}
+      </article>
+    `)
+    .join(""));
+}
+
 function renderAll() {
   const signals = filterSignalsByWindow(radarData.signals || [], activeWindowDays);
   const mappedKeys = mappedSignalKeys(radarData.clusters || [], radarData.watchlist || [], signals);
@@ -505,6 +573,7 @@ function renderAll() {
   setText("#clusterWindowLabel", `按本周候选 rank 排序 · 近${activeWindowDays}天热词`);
   setText("#windowNote", `筛选热词 ${signals.length}/${(radarData.signals || []).length} 条 · 候选表按快照排序`);
   renderWatchlist(radarData.watchlist || []);
+  renderStrategicFocus(radarData.strategic_focus || []);
   renderWeights(radarData.weights || []);
   renderClusters(radarData.clusters || [], radarData.watchlist || [], signals);
   renderPotentialTopics(unmappedSignals);
@@ -512,6 +581,7 @@ function renderAll() {
   renderAiAnimationTopics(radarData.ai_animation_topics || []);
   renderTraditionalFilmTvTopics(radarData.traditional_film_tv_topics || []);
   renderIndustryMediaObservations(radarData.industry_media_observations || []);
+  renderSourceMonitor(radarData.source_monitor || []);
 }
 
 function bindWindowControls() {

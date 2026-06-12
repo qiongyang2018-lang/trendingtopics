@@ -410,6 +410,104 @@ COMMENT_PAIN_POINT_SEEDS = [
 ]
 
 
+STRATEGIC_FOCUS_SEEDS = [
+    {
+        "focus_name": "AI漫剧 / AI仿真人",
+        "status": "重点关注",
+        "why_it_matters": "老板关注的高潜力方向。AI漫剧能用较低成本承接高概念、奇幻、复仇和男频升级题材，AI仿真人则适合测试真人短剧成本更高的设定。",
+        "current_signals": "DataEye榜单出现AI仿真人剧和2D漫剧集中上榜；36氪讨论AI漫剧ROI；海外媒体出现AI演员替代microdrama演员争议。",
+        "topic_directions": "AI仿真人地域爽剧; 2D漫剧男频升级; 东方奇幻/捉妖悬疑; 机甲科幻爽感; 单句生成短剧/多智能体生产",
+        "source_focus": "DataEye短剧观察, 漫剧有数, 36氪, Business Insider, arXiv",
+        "next_action": "把AI漫剧单独看作题材池，重点记录题材、画风、转化钩子、榜单位置和投流素材增长。",
+        "risk_notes": "AI演员替代和真人感质量有争议，适合做趋势观察和样片验证，不宜直接包装成品牌主卖点。",
+    },
+    {
+        "focus_name": "男频向短剧 / 漫剧",
+        "status": "补强监控",
+        "why_it_matters": "现有海外短剧样本偏女频，男频向如果结合AI漫剧可以降低制作成本，承接战神归来、都市逆袭、诡异怪谈、西幻升级、机甲末世等更高概念题材。",
+        "current_signals": "DataEye短剧/漫剧日榜中出现西幻AI新剧、诡异题材连续登顶、2D漫剧播放增量强；男频爽感更适合通过榜单和投流素材验证。",
+        "topic_directions": "战神/龙王归来; 都市赘婿逆袭; 西幻升级; 诡异怪谈; 末世机甲; 竞技训练爽剧",
+        "source_focus": "剧势分析, 剧查查, DataEye短剧出海, 漫剧有数, YouTube评论痛点",
+        "next_action": "在候选题材中增加受众向标签，并用榜单/公众号/小程序补充男频热词和样本。",
+        "risk_notes": "男频题材在海外短剧里需要验证文化转译和付费效率，先作为观察池，不直接替代女频主线。",
+    },
+]
+
+
+SOURCE_MONITOR_SEEDS = [
+    {
+        "source_name": "DataEye短剧出海",
+        "source_type": "微信公众号 / 行业榜单",
+        "coverage": "海外微短剧热榜、素材增长榜、平台榜、题材趋势。",
+        "access_mode": "公开搜索入口 + 人工校验",
+        "priority": "高",
+        "use_case": "优先用于海外题材热度、平台供给和投流素材增长判断。",
+        "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%E7%9F%AD%E5%89%A7%E5%87%BA%E6%B5%B7",
+        "boundary": "不抓取登录态全文；只记录标题、摘要、公开入口和题材信号。",
+    },
+    {
+        "source_name": "DataEye短剧观察",
+        "source_type": "微信公众号 / 国内短剧与漫剧榜单",
+        "coverage": "短剧日榜、漫剧日榜、AI仿真人剧、2D漫剧、题材榜单。",
+        "access_mode": "公开搜索入口 + 人工校验",
+        "priority": "高",
+        "use_case": "重点监控AI漫剧、男频题材、诡异/西幻/萌宝/逆袭等榜单变化。",
+        "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%E7%9F%AD%E5%89%A7%E8%A7%82%E5%AF%9F",
+        "boundary": "只保留公开搜索结果和必要摘要，榜单细节需人工复核。",
+    },
+    {
+        "source_name": "漫剧有数",
+        "source_type": "微信公众号 / 漫剧垂类观察",
+        "coverage": "AI漫剧、2D漫剧、漫剧榜单、投流素材和题材拆解。",
+        "access_mode": "公开搜索入口 + 人工校验",
+        "priority": "高",
+        "use_case": "补强AI漫剧和男频漫剧方向，尤其关注画风、题材和转化钩子。",
+        "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E6%BC%AB%E5%89%A7%E6%9C%89%E6%95%B0",
+        "boundary": "公众号内容只做公开入口级监控，不抓取私域或登录态内容。",
+    },
+    {
+        "source_name": "剧势分析",
+        "source_type": "微信小程序 / 短剧榜单工具",
+        "coverage": "短剧排行榜、热剧、题材、投流和平台表现。",
+        "access_mode": "小程序人工录入",
+        "priority": "高",
+        "use_case": "用于补充男频/女频区分、榜单热度和竞品样本。",
+        "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E5%89%A7%E5%8A%BF%E5%88%86%E6%9E%90%20%E7%9F%AD%E5%89%A7",
+        "boundary": "小程序不能直接公开抓取，先由人工截图/导出后录入。",
+    },
+    {
+        "source_name": "剧查查",
+        "source_type": "微信小程序 / 短剧数据工具",
+        "coverage": "短剧榜单、剧目查询、热度和题材参考。",
+        "access_mode": "小程序人工录入",
+        "priority": "高",
+        "use_case": "用于验证候选题材是否已有供给、是否拥挤、是否存在男频样本。",
+        "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E5%89%A7%E6%9F%A5%E6%9F%A5%20%E7%9F%AD%E5%89%A7",
+        "boundary": "小程序内容先做人工采集，不绕过登录或访问限制。",
+    },
+    {
+        "source_name": "短剧自习室",
+        "source_type": "微信公众号 / 短剧行业观察",
+        "coverage": "短剧行业案例、投流、制作、题材复盘。",
+        "access_mode": "公开搜索入口 + 人工校验",
+        "priority": "中",
+        "use_case": "补充行业视角和爆款复盘，辅助解释题材为什么能转化。",
+        "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E7%9F%AD%E5%89%A7%E8%87%AA%E4%B9%A0%E5%AE%A4",
+        "boundary": "只保留公开入口和摘要。",
+    },
+    {
+        "source_name": "娱乐商业评论 / 娱乐资本论 / 新腕儿",
+        "source_type": "行业媒体",
+        "coverage": "短剧出海、平台公司、投融资、监管和内容趋势。",
+        "access_mode": "公开网页/公开搜索",
+        "priority": "中",
+        "use_case": "补充行业大势，避免只看单一榜单。",
+        "source_url": "https://www.google.com/search?q=%E5%A8%B1%E4%B9%90%E5%95%86%E4%B8%9A%E8%AF%84%E8%AE%BA%20%E6%B5%B7%E5%A4%96%E7%9F%AD%E5%89%A7",
+        "boundary": "只采集公开网页和搜索摘要。",
+    },
+]
+
+
 def extend_clusters(clusters):
     existing = {item.get("cluster_name") for item in clusters if item.get("cluster_name")}
     extended = [dict(item) for item in clusters]
@@ -461,6 +559,14 @@ def build_comment_pain_points(youtube_points=None):
         seen.add(key)
         points.append(item)
     return points
+
+
+def build_strategic_focus():
+    return [dict(item) for item in STRATEGIC_FOCUS_SEEDS]
+
+
+def build_source_monitor():
+    return [dict(item) for item in SOURCE_MONITOR_SEEDS]
 
 
 def fetch_json(url, timeout=20):
@@ -1165,6 +1271,8 @@ def main():
         "traditional_film_tv_topics": build_traditional_film_tv_topics(),
         "comment_pain_points": build_comment_pain_points(youtube_comment_pain_points),
         "industry_media_observations": build_industry_media_observations(),
+        "strategic_focus": build_strategic_focus(),
+        "source_monitor": build_source_monitor(),
         "dictionary": sheet_records(workbook, "dictionary", 4, 5),
         "weights": [
             {"name": "热度", "weight": 35},

@@ -55,6 +55,17 @@
         <div id="dailyBriefGrid" class="daily-brief-grid"></div>
       </section>
 
+      <section id="strategicFocusSection" class="panel strategic-focus-panel" hidden>
+        <div class="section-head compact">
+          <div>
+            <h2>重点方向雷达</h2>
+            <span class="label">从今天开始重点跟踪 AI漫剧、男频向和老板关注方向。</span>
+          </div>
+          <span class="label" id="strategicFocusCount">0 条</span>
+        </div>
+        <div id="strategicFocusGrid" class="strategic-focus-grid"></div>
+      </section>
+
       <section class="panel history-panel">
         <div class="section-head compact">
           <div>
@@ -165,6 +176,16 @@
           </div>
         </div>
         <div id="industryMediaGrid" class="industry-media-grid"></div>
+        <section id="sourceMonitorSection" class="panel source-monitor-panel" hidden>
+          <div class="section-head compact">
+            <div>
+              <h2>信息源监控池</h2>
+              <span class="label">公众号、小程序和行业媒体来源，区分公开检索与人工录入口径。</span>
+            </div>
+            <span class="label" id="sourceMonitorCount">0 个来源</span>
+          </div>
+          <div id="sourceMonitorGrid" class="source-monitor-grid"></div>
+        </section>
       </section>
 
       <section class="two-col">
@@ -187,7 +208,7 @@
             <li>评论痛点雷达只提炼公开评论、公开讨论和应用评价里的聚合痛点，不展示个人账号、单条原文或可识别个人信息。</li>
             <li>YouTube Data API 只作为后台辅助源：每天按 US/UK/CA/AU 拉取公开 mostPopular 榜单，但普通大盘视频不在主看板展示，也不自动进入潜力题材。</li>
             <li>YouTube 评论只扫描短剧相关查询词下的公开视频评论，并按痛点词典聚合到“评论痛点雷达”。</li>
-            <li>AI漫剧题材只观察公开讨论中的内容方向，不直接参与题材机会分排序。</li>
+            <li>AI漫剧和男频向作为重点方向单独监控；老日期快照没有该字段时不展示新模块。</li>
             <li>传统影视流行题材用于观察国内外长视频热播内容，不直接代表短剧立项结论。</li>
             <li>行业媒体观察只展示2026年公开搜索结果层面的标题、摘要和题材信号，不抓取登录态全文。</li>
           </ol>
@@ -202,6 +223,7 @@
             <li>YouTube 评论扫描只覆盖短剧相关查询词，例如 ReelShort short drama、DramaBox short drama、microdrama romance。</li>
             <li>YouTube 评论只读取公开视频的顶层公开评论，并按痛点词典做匿名聚合；不保存用户名、头像、频道主页、单条评论原文或个人观看记录。</li>
             <li>YouTube 评论痛点只作为题材线索和用户情绪参考，不等同于完整舆情结论；低样本命中会标记为弱证据。</li>
+            <li>剧势分析、剧查查等小程序来源先采用人工录入，不绕过登录或访问限制；公众号来源优先使用公开搜索入口和人工校验。</li>
             <li>题材机会分用于优先级排序，不等同于立项结论。</li>
             <li>热词筛选会影响题材簇下的映射热词和潜力题材；周榜排序仍以当前快照的本周候选表为准。</li>
           </ul>
@@ -209,6 +231,6 @@
       </section>
     </main>
 
-    <script src="./app.js?v=20260610-12"></script>
+    <script src="./app.js?v=20260612-1"></script>
   </body>
 </html>
