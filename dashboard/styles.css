@@ -70,22 +70,10 @@ main {
   padding: 24px 36px 44px;
 }
 
-.summary-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 12px;
-  margin-bottom: 18px;
-}
-
-.summary-grid article,
 .panel {
   background: var(--panel);
   border: 1px solid var(--line);
   border-radius: 8px;
-}
-
-.summary-grid article {
-  padding: 16px;
 }
 
 .label {
@@ -93,10 +81,6 @@ main {
   color: var(--muted);
   font-size: 12px;
   margin-bottom: 8px;
-}
-
-.summary-grid strong {
-  font-size: 18px;
 }
 
 .window-control {
@@ -331,6 +315,19 @@ main {
   margin-bottom: 14px;
 }
 
+.zone-head > div:nth-child(2) {
+  flex: 1 1 auto;
+}
+
+.zone-controls {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+  margin-left: auto;
+}
+
 .zone-head > span {
   display: grid;
   place-items: center;
@@ -394,8 +391,7 @@ main {
   font-size: 13px;
 }
 
-.snapshot-control select,
-.snapshot-control a {
+.snapshot-control select {
   display: inline-block;
   padding: 6px 9px;
   border: 1px solid var(--line);
@@ -913,7 +909,6 @@ a:hover {
     text-align: left;
   }
 
-  .summary-grid,
   .two-col,
   .daily-brief-grid,
   .strategic-focus-grid,
@@ -925,5 +920,10 @@ a:hover {
     .comment-pain-grid,
     .youtube-grid {
     grid-template-columns: 1fr;
+  }
+
+  .zone-controls {
+    align-items: flex-start;
+    margin-left: 0;
   }
 }

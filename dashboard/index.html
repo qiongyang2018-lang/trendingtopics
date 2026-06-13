@@ -19,24 +19,19 @@
     </header>
 
     <main>
-      <section class="summary-grid" aria-label="概览">
-        <article>
-          <span class="label">覆盖市场</span>
-          <strong>US / UK / CA / AU</strong>
-        </article>
-        <article>
-          <span class="label">热词筛选</span>
-          <div class="window-control" aria-label="热词筛选">
-            <button class="window-button" data-window="1" type="button">近1天</button>
-            <button class="window-button active" data-window="7" type="button">近7天</button>
-            <button class="window-button" data-window="30" type="button">近30天</button>
+      <section class="panel history-panel">
+        <div class="section-head compact">
+          <div>
+            <h2>历史快照</h2>
+            <span class="label">选择日期回看当日看板。</span>
           </div>
-          <span class="window-note" id="windowNote">筛选热词 0 条</span>
-        </article>
-        <article>
-          <span class="label">输出目标</span>
-          <strong>Top 10 题材候选</strong>
-        </article>
+          <div class="snapshot-control">
+            <select id="snapshotSelect" aria-label="选择历史快照">
+              <option value="latest">最新数据</option>
+            </select>
+          </div>
+        </div>
+        <div id="snapshotSummary" class="snapshot-summary">当前快照加载中</div>
       </section>
 
       <section class="panel daily-brief" aria-label="本次总结">
@@ -62,28 +57,20 @@
         <div id="strategicFocusGrid" class="strategic-focus-grid"></div>
       </section>
 
-      <section class="panel history-panel">
-        <div class="section-head compact">
-          <div>
-            <h2>历史快照</h2>
-            <span class="label">每次更新会保留一份快照，可选择任意日期回看当日看板。</span>
-          </div>
-          <div class="snapshot-control">
-            <select id="snapshotSelect" aria-label="选择历史快照">
-              <option value="latest">最新数据</option>
-            </select>
-            <a id="snapshotRawLink" href="./data/radar.json" target="_blank" rel="noreferrer">查看 JSON</a>
-          </div>
-        </div>
-        <div id="snapshotSummary" class="snapshot-summary">当前快照加载中</div>
-      </section>
-
       <section class="content-zone zone-hot">
         <div class="zone-head">
           <span>一</span>
           <div>
             <h2>周度候选题材池</h2>
             <p>稳定候选池、题材簇拆解和未映射潜力方向；新增信号看评论痛点、潜力题材和行业观察。</p>
+          </div>
+          <div class="zone-controls" aria-label="热词筛选">
+            <div class="window-control">
+              <button class="window-button" data-window="1" type="button">近1天</button>
+              <button class="window-button active" data-window="7" type="button">近7天</button>
+              <button class="window-button" data-window="30" type="button">近30天</button>
+            </div>
+            <span class="window-note" id="windowNote">筛选热词 0 条</span>
           </div>
         </div>
 

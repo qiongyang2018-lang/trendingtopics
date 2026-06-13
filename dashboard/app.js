@@ -683,24 +683,20 @@ function renderSnapshotSelector(items) {
     .concat(snapshots.map((item) => `<option value="${escapeHtml(item.path)}">${escapeHtml(item.date)}</option>`))
     .join("");
   select.innerHTML = options;
-  setHref("#snapshotRawLink", "./data/radar.json");
 
   select.addEventListener("change", async () => {
     const value = select.value;
     try {
       if (value === "latest") {
         const latest = await loadRadar();
-        setHref("#snapshotRawLink", "./data/radar.json");
         setRadarData(latest, "最新数据");
         return;
       }
 
       const selected = snapshots.find((item) => item.path === value);
       const payload = await loadSnapshotPayload(value);
-      setHref("#snapshotRawLink", `./${value}`);
       setRadarData(payload, `历史快照 ${selected?.date || ""}`.trim());
     } catch (error) {
-      setText("#snapshotRawLink", "加载失败");
       throw error;
     }
   });
