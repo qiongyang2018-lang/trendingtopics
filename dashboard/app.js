@@ -264,6 +264,22 @@ function compactList(items, field, limit = 3) {
     .slice(0, limit);
 }
 
+function directPotentialScore(item = {}) {
+  const text = normalizeText([
+    item.keyword_or_hashtag,
+    item.post_title_or_caption,
+    item.notes,
+    item.emotion_tags,
+    item.trend_window,
+  ].join(" "));
+  let score = 0;
+  if (String(item.date || "") === formatDate(radarData?.generated_at)) score += 30;
+  if (String(item.evidence_level || "").toUpperCase() === "B") score += 8;
+  if (/(romance|supernatural|vampire|werewolf|moral|twist|bl|campus|revenge|story)/.test(text)) score += 10;
+  if (/(funding|commerce|method|feedback driven writing|production method)/.test(text)) score -= 12;
+  return score;
+}
+
 function splitBriefLines(value) {
   return String(value || "")
     .replace(/。$/, "")
@@ -277,7 +293,10 @@ function renderDailyBrief(data) {
   const commentPoints = (data.comment_pain_points || []).filter((item) => item.pain_point);
   const youtubePoints = commentPoints.filter((item) => item.source_platform === "YouTube public comments");
   const commentFocus = youtubePoints.length ? youtubePoints : commentPoints;
-  const potentialTopics = (data.signals || []).filter(isPotentialTopicSignal);
+  const potentialTopics = (data.signals || [])
+    .filter(isPotentialTopicSignal)
+    .slice()
+    .sort((a, b) => directPotentialScore(b) - directPotentialScore(a));
   const aiTopics = data.ai_animation_topics || [];
   const filmTopics = data.traditional_film_tv_topics || [];
   const mediaItems = data.industry_media_observations || [];
