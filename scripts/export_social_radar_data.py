@@ -1306,7 +1306,7 @@ def main():
         "scope": {
             "markets": ["US", "UK", "CA", "AU"],
             "language": "EN",
-            "cadence": "Daily, trailing 1/7/30 days selectable",
+            "cadence": "Manual or scheduled refresh; trailing 1/7/30 days selectable",
             "data_boundary": "Public pages and aggregate metrics only",
         },
         "snapshot": {

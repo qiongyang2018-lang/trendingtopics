@@ -208,7 +208,7 @@ function renderWatchlist(items) {
   setText("#watchlistCount", `已收录 ${topItems.length}/10`);
   setText(
     "#watchlistStatus",
-    "本表是周度基准候选池，不是每日实时热榜；本快照暂无新入池。每日变化优先看潜力题材、评论痛点、行业媒体和重点方向观察。"
+    "本表是周度基准候选池，不是实时热榜；本快照暂无新入池。新增变化优先看潜力题材、评论痛点、行业媒体和重点方向观察。"
   );
 
   const rows = topItems
