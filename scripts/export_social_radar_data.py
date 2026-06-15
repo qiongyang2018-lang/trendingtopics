@@ -302,6 +302,23 @@ BACKFILL_WATCHLIST_SEEDS = [
 
 POTENTIAL_SIGNAL_SEEDS = [
     {
+        "source_platform": "Times of India",
+        "country_region": "IN / Global",
+        "language": "EN",
+        "keyword_or_hashtag": "Indian vertical OTT genre slate",
+        "post_title_or_caption": "Rocket Reels adds eight original micro-dramas, including Lady Bond 007, Honey Trap, Marriage Bureau and action/crime/local comedy titles.",
+        "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/compelling-storytelling-can-thrive-in-shorter-formats-kranti-shanbhag/articleshow/131700683.cms",
+        "views_or_rank": "2026-06-13 slate signal",
+        "likes": "",
+        "comments": "",
+        "shares": "",
+        "trend_window": "2026-06 industry watch",
+        "sentiment": "positive",
+        "emotion_tags": "female spy, honey trap, marriage bureau, local comedy, action crime",
+        "evidence_level": "B",
+        "notes": "潜力题材：印度 vertical OTT 新片单显示女特工、诱捕悬疑、婚介轻喜、地方动作犯罪等非霸总/狼人方向也在扩张。",
+    },
+    {
         "source_platform": "Business Insider",
         "country_region": "US",
         "language": "EN",
@@ -1279,6 +1296,15 @@ TRADITIONAL_FILM_TV_TOPIC_SEEDS = [
 
 
 INDUSTRY_MEDIA_OBSERVATION_SEEDS = [
+    {
+        "source_name": "Times of India",
+        "article_date": "2026-06-13",
+        "title": "Rocket Reels expands with eight new original micro-dramas",
+        "summary": "印度 vertical OTT 平台 Rocket Reels 在一次性推出 10 部原创剧后继续扩张，新增 Lady Bond 007、Honey Trap、Marriage Bureau、Pathan The Killer 等 8 部原创 micro-drama。",
+        "topic_signal": "印度竖屏短剧 / 女特工 / 诱捕悬疑 / 婚介轻喜 / 动作犯罪",
+        "evidence_level": "B",
+        "source_url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/compelling-storytelling-can-thrive-in-shorter-formats-kranti-shanbhag/articleshow/131700683.cms",
+    },
     {
         "source_name": "Business Insider",
         "article_date": "2026-03-18",
