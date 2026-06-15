@@ -264,6 +264,28 @@ function compactList(items, field, limit = 3) {
     .slice(0, limit);
 }
 
+function compactUniqueList(items, field, limit, usedValues) {
+  const values = [];
+  (items || []).forEach((item) => {
+    const value = item[field];
+    const key = normalizeText(value);
+    const primaryKey = String(value || "").includes("/") || String(value || "").includes("／")
+      ? normalizeText(String(value || "").split(/[\/／]/)[0])
+      : "";
+    const isDuplicate = [...usedValues].some((used) => {
+      if (used === key) return true;
+      if (primaryKey && used === primaryKey) return true;
+      if (used.length < 6 || key.length < 6) return false;
+      return used.includes(key) || key.includes(used);
+    });
+    if (!value || !key || isDuplicate || values.length >= limit) return;
+    usedValues.add(key);
+    if (primaryKey) usedValues.add(primaryKey);
+    values.push(value);
+  });
+  return values;
+}
+
 function directPotentialScore(item = {}) {
   const text = normalizeText([
     item.keyword_or_hashtag,
@@ -317,38 +339,52 @@ function renderDailyBrief(data) {
   setText("#dailyBriefDate", `快照 ${formatDate(data.generated_at) || "-"}`);
   setText("#dailyBriefLead", `${leadParts.join("；")}。优先看高分候选、评论痛点和新题材苗头。`);
 
+  const usedBriefValues = new Set();
+  const watchBrief = compactUniqueList(
+    watchItems.map((item) => ({ label: `${item.topic_cluster}(${displayValue(item.opportunity_score)})` })),
+    "label",
+    3,
+    usedBriefValues
+  );
+  const commentBrief = compactUniqueList(commentFocus, "pain_point", 3, usedBriefValues);
+  const potentialBrief = compactUniqueList(potentialTopics, "keyword_or_hashtag", 3, usedBriefValues);
+  const aiBrief = compactUniqueList(aiTopics, "topic", 2, usedBriefValues);
+  const focusBrief = compactUniqueList(focusItems, "focus_name", 3, usedBriefValues);
+  const filmBrief = compactUniqueList(filmTopics, "topic", 2, usedBriefValues);
+  const mediaBrief = compactUniqueList(mediaItems, "title", 2, usedBriefValues);
+
   const sections = [
     {
       title: "本周候选",
-      body: watchItems.length
-        ? `优先关注 ${watchItems.map((item) => `${item.topic_cluster}(${displayValue(item.opportunity_score)})`).join("、")}。`
+      body: watchBrief.length
+        ? `优先关注 ${watchBrief.join("、")}。`
         : "暂无候选题材。",
     },
     {
       title: "评论痛点",
-      body: compactList(commentFocus, "pain_point", 3).join("；") || "暂无新增评论痛点。",
+      body: commentBrief.join("；") || "暂无新增评论痛点。",
     },
     {
       title: "潜力题材",
-      body: compactList(potentialTopics, "keyword_or_hashtag", 3).join("；") || "暂无未映射新方向。",
+      body: potentialBrief.join("；") || "暂无未映射新方向。",
     },
     {
       title: "AI漫剧",
-      body: compactList(aiTopics, "topic", 2).join("；") || "暂无 AI 漫剧新增方向。",
+      body: aiBrief.join("；") || "暂无 AI 漫剧新增方向。",
     },
     ...(focusItems.length
       ? [
           {
             title: "重点方向",
-            body: compactList(focusItems, "focus_name", 3).join("；"),
+            body: focusBrief.join("；"),
           },
         ]
       : []),
     {
       title: "传统影视/行业",
       body:
-        compactList(filmTopics, "topic", 2).join("；") ||
-        compactList(mediaItems, "title", 2).join("；") ||
+        filmBrief.join("；") ||
+        mediaBrief.join("；") ||
         "暂无影视或行业媒体新增信号。",
     },
   ];
