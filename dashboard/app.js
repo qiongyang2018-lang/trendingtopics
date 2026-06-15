@@ -276,6 +276,7 @@ function directPotentialScore(item = {}) {
   if (String(item.date || "") === formatDate(radarData?.generated_at)) score += 30;
   if (String(item.evidence_level || "").toUpperCase() === "B") score += 8;
   if (/(romance|supernatural|vampire|werewolf|moral|twist|bl|campus|revenge|story)/.test(text)) score += 10;
+  if (/(sci fi|sci|zombie|interactive|family|assassin|palace|crime|animation)/.test(text)) score += 12;
   if (/(funding|commerce|method|feedback driven writing|production method)/.test(text)) score -= 12;
   return score;
 }

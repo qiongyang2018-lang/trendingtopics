@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T08:00:10",
+  "generated_at": "2026-06-15T08:09:22+08:00",
   "source_workbook": "社媒热点题材雷达_v1.xlsx",
   "scope": {
     "markets": [
@@ -672,6 +672,63 @@
       "evidence_level": "B",
       "notes": "潜力题材：平台融资本身不是题材，但说明海外微短剧供给侧仍在扩张，值得追踪平台偏好的类型。",
       "audience_segment": "泛向/待验证"
+    },
+    {
+      "date": "2026-06-14",
+      "last_checked": "2026-06-14",
+      "source_platform": "Business Insider",
+      "country_region": "US",
+      "language": "EN",
+      "keyword_or_hashtag": "AI absurd sci-fi microdrama",
+      "post_title_or_caption": "TikTok Short Drama feed tests AI-created zombies, absurd comedy and sci-fi alongside crime and romance vertical series.",
+      "url": "https://www.businessinsider.com/tiktok-testing-mini-drama-feed-ai-2026-3",
+      "views_or_rank": "TikTok Short Drama feed signal",
+      "likes": "",
+      "comments": "",
+      "shares": "",
+      "trend_window": "2026 platform watch",
+      "sentiment": "mixed",
+      "emotion_tags": "AI, zombie, absurd comedy, sci-fi, crime",
+      "evidence_level": "B",
+      "notes": "潜力题材：AI荒诞科幻可测试低成本高概念钩子，如僵尸邻居、AI动物人、末日办公室和反常识生存规则。"
+    },
+    {
+      "date": "2026-06-14",
+      "last_checked": "2026-06-14",
+      "source_platform": "Business Insider",
+      "country_region": "US",
+      "language": "EN",
+      "keyword_or_hashtag": "family drama interactive microdrama",
+      "post_title_or_caption": "DramaBox is exploring family dramas and interactive content as it competes in the US microdrama race.",
+      "url": "https://www.businessinsider.com/dramabox-seeks-new-funding-micro-drama-apps-gain-global-momentum-2026-1",
+      "views_or_rank": "DramaBox strategy signal",
+      "likes": "",
+      "comments": "",
+      "shares": "",
+      "trend_window": "2026 platform watch",
+      "sentiment": "positive",
+      "emotion_tags": "family drama, interactive, mystery, inheritance",
+      "evidence_level": "B",
+      "notes": "潜力题材：家庭悬疑和互动分支适合做遗产争夺、失踪亲人、真假千金、评论投票选择下一集证据。"
+    },
+    {
+      "date": "2026-06-14",
+      "last_checked": "2026-06-14",
+      "source_platform": "Korean short-drama title watch",
+      "country_region": "KR / Global",
+      "language": "KO / EN",
+      "keyword_or_hashtag": "palace assassin romance short drama",
+      "post_title_or_caption": "Korean webtoon Gwang-an is being adapted into a short drama about a court maid assassin and a crown prince power-romance setup.",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8B%82%E7%9C%BC",
+      "views_or_rank": "2026 webtoon short-drama adaptation",
+      "likes": "",
+      "comments": "",
+      "shares": "",
+      "trend_window": "2026 title watch",
+      "sentiment": "positive",
+      "emotion_tags": "webtoon IP, palace, assassin, romance, power struggle",
+      "evidence_level": "C",
+      "notes": "潜力题材：宫廷刺客恋爱可转成女刺客潜伏、暴君世子、身份暴露、权谋追杀，兼具女性向恋爱和动作悬疑。"
     }
   ],
   "youtube_trending_videos": [
@@ -1252,6 +1309,28 @@
   },
   "ai_animation_topics": [
     {
+      "topic": "AI荒诞科幻/僵尸短剧",
+      "trend_signal": "TikTok Short Drama 测试入口中出现 AI 僵尸、荒诞动物人、科幻和犯罪等混合内容，显示平台在 romance 之外尝试更高概念题材。",
+      "content_direction": "先做短剧化可理解的荒诞设定：僵尸邻居、AI动物人、末日办公室、会预言的AI同事、规则怪谈生存局。",
+      "audience_hook": "第一集直接给反常识视觉钩子，第二集用生存规则或身份反转承接，而不是只靠奇观。",
+      "source_platform": "Business Insider / TikTok Short Drama",
+      "evidence_level": "B",
+      "related_examples": "AI-generated zombies; absurd sci-fi; crime/romance feed mix",
+      "source_url": "https://www.businessinsider.com/tiktok-testing-mini-drama-feed-ai-2026-3",
+      "risk_notes": "荒诞题材容易只好笑不好追，需要绑定明确目标：逃生、复仇、恋爱或身份揭露。"
+    },
+    {
+      "topic": "AI陪伴恋爱/人机情感替代",
+      "trend_signal": "2026 韩剧 Love Phobia 把“用AI comfort替代人际连接”的设定放进浪漫喜剧和神秘秘密结构。",
+      "content_direction": "短剧可转成女总裁沉迷AI男友、AI替身暴露真实秘密、真人小说家/程序员打破情感依赖。",
+      "audience_hook": "她以为AI最懂自己，直到AI开始说出只有前任或死去亲人才知道的秘密。",
+      "source_platform": "U+ Mobile TV / Lifetime",
+      "evidence_level": "C",
+      "related_examples": "Love Phobia",
+      "source_url": "https://en.wikipedia.org/wiki/Love_Phobia_%28TV_series%29",
+      "risk_notes": "要避免只做AI陪伴产品宣传，核心冲突应是亲密关系、秘密和自我修复。"
+    },
+    {
       "topic": "一句话生成短剧/个性化AI漫剧",
       "trend_signal": "2026 年新论文提出 One Sentence, One Drama，用多智能体流程从一句话生成短剧，并强调节奏、空间一致性和多阶段审校。",
       "content_direction": "把用户一句话偏好转成前3集钩子、角色关系、反转节点和视觉分镜，适合做AI漫剧题材A/B测试。",
@@ -1260,8 +1339,7 @@
       "evidence_level": "C",
       "related_examples": "One Sentence, One Drama; Short-Drama-Bench",
       "source_url": "https://arxiv.org/abs/2605.22144",
-      "risk_notes": "这是生产形态信号，需用真实投放和完播验证题材，不应只展示技术概念。",
-      "audience_segment": "男频"
+      "risk_notes": "这是生产形态信号，需用真实投放和完播验证题材，不应只展示技术概念。"
     },
     {
       "topic": "创作者道德反转AI漫剧",
@@ -1272,8 +1350,7 @@
       "evidence_level": "B",
       "related_examples": "Dhar Mann Studios x My Drama",
       "source_url": "https://www.businessinsider.com/fox-partnering-with-dhar-mann-to-win-micro-drama-fans-2026-1",
-      "risk_notes": "容易说教，必须保留人物欲望和连续悬念，不能只做单集道德短片。",
-      "audience_segment": "泛向/待验证"
+      "risk_notes": "容易说教，必须保留人物欲望和连续悬念，不能只做单集道德短片。"
     },
     {
       "topic": "AI仿真人演员替代争议",
@@ -1284,8 +1361,7 @@
       "evidence_level": "B",
       "related_examples": "TrueShort, StoReel, AI-generated microdramas",
       "source_url": "https://www.businessinsider.com/actors-losing-jobs-to-ai-hollywood-micro-drama-industry-2026-6",
-      "risk_notes": "AI演员替代有劳动伦理和表演质感争议，页面只做内容形态观察，不建议直接作为品牌主推卖点。",
-      "audience_segment": "泛向/待验证"
+      "risk_notes": "AI演员替代有劳动伦理和表演质感争议，页面只做内容形态观察，不建议直接作为品牌主推卖点。"
     },
     {
       "topic": "单句生成短剧/多智能体生产",
@@ -1296,8 +1372,7 @@
       "evidence_level": "C",
       "related_examples": "One Sentence, One Drama; Short-Drama-Bench",
       "source_url": "https://arxiv.org/abs/2605.22144",
-      "risk_notes": "属于生产方法信号，不等同于用户真实需求；需要和评论痛点、投放表现共同验证。",
-      "audience_segment": "泛向/待验证"
+      "risk_notes": "属于生产方法信号，不等同于用户真实需求；需要和评论痛点、投放表现共同验证。"
     },
     {
       "topic": "罗曼史IP改编漫剧",
@@ -1308,8 +1383,7 @@
       "evidence_level": "A/B",
       "related_examples": "Harlequin x Dashverse, A Fairy-Tail Ending",
       "source_url": "https://www.publishersweekly.com/pw/print/20260406/100043-harlequin-announces-slew-of-ai-generated-microdramas.html",
-      "risk_notes": "AI 改编会引发读者对作者、画师和廉价感的争议，需强调审美与人工把关。",
-      "audience_segment": "女频"
+      "risk_notes": "AI 改编会引发读者对作者、画师和廉价感的争议，需强调审美与人工把关。"
     },
     {
       "topic": "东方奇幻/捉妖悬疑漫剧",
@@ -1320,8 +1394,7 @@
       "evidence_level": "A",
       "related_examples": "Imperial Exorcist Guards",
       "source_url": "https://www.prnewswire.com/news-releases/iqiyi-leads-ai-storytelling-as-original-micro-animations-gain-strong-traction-302713157.html",
-      "risk_notes": "海外版本需要降低文化门槛，优先保留情感冲突和清晰视觉符号。",
-      "audience_segment": "混合/待验证"
+      "risk_notes": "海外版本需要降低文化门槛，优先保留情感冲突和清晰视觉符号。"
     },
     {
       "topic": "机甲科幻爽感漫剧",
@@ -1332,8 +1405,7 @@
       "evidence_level": "A",
       "related_examples": "My Mecha is a Bit OP",
       "source_url": "https://www.prnewswire.com/news-releases/iqiyi-leads-ai-storytelling-as-original-micro-animations-gain-strong-traction-302713157.html",
-      "risk_notes": "科幻设定容易解释成本高，必须用简单目标和强情绪降低理解门槛。",
-      "audience_segment": "混合/待验证"
+      "risk_notes": "科幻设定容易解释成本高，必须用简单目标和强情绪降低理解门槛。"
     },
     {
       "topic": "漫画读者向奇幻恋爱",
@@ -1344,8 +1416,7 @@
       "evidence_level": "B/C",
       "related_examples": "fantasy romance AI animation discussions",
       "source_url": "https://www.reddit.com/r/fantasyromance/comments/1s7v0o4/harlequin_to_coproduce_aigenerated_microdramas/",
-      "risk_notes": "同质化风险高，需用新世界观或女性成长线区隔普通狼人/吸血鬼供给。",
-      "audience_segment": "女频"
+      "risk_notes": "同质化风险高，需用新世界观或女性成长线区隔普通狼人/吸血鬼供给。"
     },
     {
       "topic": "互动分支/游戏IP漫剧",
@@ -1356,8 +1427,7 @@
       "evidence_level": "C",
       "related_examples": "interactive drama, game-IP animation",
       "source_url": "https://min.news/en/news/53ea6d3712e03ebbbe5d8850ecbf5372.html",
-      "risk_notes": "互动机制上线成本高，第一阶段可先做“伪互动”评论投票验证。",
-      "audience_segment": "泛向/待验证"
+      "risk_notes": "互动机制上线成本高，第一阶段可先做“伪互动”评论投票验证。"
     },
     {
       "topic": "微动效漫画/轻剧情漫剧",
@@ -1368,8 +1438,7 @@
       "evidence_level": "B",
       "related_examples": "micro animation, motion comic loops",
       "source_url": "https://www.creativebloq.com/art/digital-art/digital-art-trends-2026-reveal-how-creatives-are-responding-to-ai-pressure",
-      "risk_notes": "信息量太轻时不够短剧化，要补强人物目标和连续悬念。",
-      "audience_segment": "泛向/待验证"
+      "risk_notes": "信息量太轻时不够短剧化，要补强人物目标和连续悬念。"
     },
     {
       "topic": "AI仿真人地域爽剧",
@@ -1380,8 +1449,7 @@
       "evidence_level": "B",
       "related_examples": "AI仿真人剧, ToonScroll, PineDrama",
       "source_url": "https://www.36kr.com/p/3836864874560388",
-      "risk_notes": "AI真人感容易进入恐怖谷，需控制表演、口型和镜头时长。",
-      "audience_segment": "泛向/待验证"
+      "risk_notes": "AI真人感容易进入恐怖谷，需控制表演、口型和镜头时长。"
     },
     {
       "topic": "评论反馈驱动漫剧",
@@ -1392,11 +1460,43 @@
       "evidence_level": "C",
       "related_examples": "Audience in the Loop",
       "source_url": "https://arxiv.org/abs/2602.14045",
-      "risk_notes": "评论反馈只能辅助判断，不能替代基础叙事质量和合规审查。",
-      "audience_segment": "女频"
+      "risk_notes": "评论反馈只能辅助判断，不能替代基础叙事质量和合规审查。"
     }
   ],
   "traditional_film_tv_topics": [
+    {
+      "topic": "宫廷刺客/权力恋爱短剧",
+      "recent_signal": "韩国 webtoon《狂眼》被改编为短剧，设定是假扮宫女的刺客与性格乖戾世子之间的浪漫与权力斗争。",
+      "short_drama_inspiration": "短剧可转成女刺客潜入王府/财阀家族，目标是刺杀或盗取证据，却被暴君继承人识破并被迫合作。",
+      "conversion_hook": "女刺客第一晚潜入寝殿，却发现世子早已把她的通缉画像藏在枕下。",
+      "source_platform": "Korean short-drama title watch",
+      "evidence_level": "C",
+      "reference_titles": "Gwang-an / 狂眼",
+      "source_url": "https://zh.wikipedia.org/wiki/%E7%8B%82%E7%9C%BC",
+      "risk_notes": "古装成本较高，海外短剧可转译成现代财阀宅邸、黑帮继承人或虚构小国王室。"
+    },
+    {
+      "topic": "AI陪伴恋爱/情感替代",
+      "recent_signal": "Love Phobia 以女 CEO 用 AI comfort 代替真实亲密关系为核心，和浪漫喜剧、神秘秘密结合。",
+      "short_drama_inspiration": "短剧可把 AI 男友、情感替身、记忆数据和真人旧爱放在同一条线，做科技感情感悬疑。",
+      "conversion_hook": "女主删除AI男友当天，AI却发来一段只有她失踪未婚夫才知道的语音。",
+      "source_platform": "U+ Mobile TV / Lifetime",
+      "evidence_level": "C",
+      "reference_titles": "Love Phobia",
+      "source_url": "https://en.wikipedia.org/wiki/Love_Phobia_%28TV_series%29",
+      "risk_notes": "重点是情感悬疑，不是AI产品展示；需要处理隐私和依赖风险。"
+    },
+    {
+      "topic": "BL奇幻命运重启",
+      "recent_signal": "台湾 BL 奇幻剧 Wishing Upon the Shooting Stars 在 2026 年播出，并通过 Viki、GagaOOLala 等面向国际观众。",
+      "short_drama_inspiration": "可转成海外 BL 短剧：流星许愿、平行时空、错过的暗恋重来一次、命运倒计时。",
+      "conversion_hook": "男主许愿回到十年前，却发现每救一次暗恋对象，自己就会少活一天。",
+      "source_platform": "LINE TV / Viki / GagaOOLala",
+      "evidence_level": "C",
+      "reference_titles": "Wishing Upon the Shooting Stars",
+      "source_url": "https://en.wikipedia.org/wiki/Wishing_Upon_the_Shooting_Stars",
+      "risk_notes": "BL题材受众粘性高但圈层化，适合小成本高情绪测试，不宜泛化为大众盘。"
+    },
     {
       "topic": "神秘转学生/校园审判惊悚",
       "recent_signal": "日本版《Girl from Nowhere》在 2026 年上线，延续神秘少女进入校园、揭露学生和教师阴暗面的单元审判结构。",
@@ -1406,8 +1506,7 @@
       "evidence_level": "C",
       "reference_titles": "Transfer Student Nanno / Girl from Nowhere remake",
       "source_url": "https://zh.wikipedia.org/wiki/%E8%BD%89%E5%AD%B8%E4%BE%86%E7%9A%84%E5%A5%B3%E7%94%9F_%28%E6%97%A5%E6%9C%AC%E9%9B%BB%E8%A6%96%E5%8A%87%29",
-      "risk_notes": "校园题材需规避未成年人伤害细节，重点放在审判机制、悬疑反转和成年化职场替代版本。",
-      "audience_segment": "泛向/待验证"
+      "risk_notes": "校园题材需规避未成年人伤害细节，重点放在审判机制、悬疑反转和成年化职场替代版本。"
     },
     {
       "topic": "本地社区女性群像/阶层喜剧",
@@ -1418,8 +1517,7 @@
       "evidence_level": "B",
       "reference_titles": "Les Nounous",
       "source_url": "https://www.theguardian.com/culture/2026/may/22/from-chinese-microdramas-to-an-arctic-comedy-what-the-world-is-watching",
-      "risk_notes": "要避免刻板化底层职业，重点做女性互助、阶层观察和秘密反转。",
-      "audience_segment": "女频"
+      "risk_notes": "要避免刻板化底层职业，重点做女性互助、阶层观察和秘密反转。"
     },
     {
       "topic": "成名塌房/依赖型BL重逢",
@@ -1430,8 +1528,7 @@
       "evidence_level": "C",
       "reference_titles": "Love After Addiction",
       "source_url": "https://en.wikipedia.org/wiki/Love_After_Addiction",
-      "risk_notes": "涉及成瘾、失眠和心理依赖时要避免美化病理关系，可改成治愈互助和事业复出。",
-      "audience_segment": "女频"
+      "risk_notes": "涉及成瘾、失眠和心理依赖时要避免美化病理关系，可改成治愈互助和事业复出。"
     },
     {
       "topic": "巨制奇幻权谋/家族内战",
@@ -1442,8 +1539,7 @@
       "evidence_level": "B",
       "reference_titles": "House of the Dragon S3",
       "source_url": "https://www.tomsguide.com/entertainment/streaming/20-new-shows-and-movies-to-watch-in-june-2026-the-bear-house-of-the-dragon-and-more",
-      "risk_notes": "短剧不宜硬做大场面，优先转译成权谋关系、身份反转和高密度悬念。",
-      "audience_segment": "泛向/待验证"
+      "risk_notes": "短剧不宜硬做大场面，优先转译成权谋关系、身份反转和高密度悬念。"
     },
     {
       "topic": "BookTok/女性向小说改编恋爱",
@@ -1454,8 +1550,7 @@
       "evidence_level": "B",
       "reference_titles": "Every Year After",
       "source_url": "https://apnews.com/article/19b8e5b96c6860404d16c0cebb19c369",
-      "risk_notes": "要避免平铺直叙，前 3 集必须把旧误会、现任阻碍和现实利益放上桌。",
-      "audience_segment": "女频"
+      "risk_notes": "要避免平铺直叙，前 3 集必须把旧误会、现任阻碍和现实利益放上桌。"
     },
     {
       "topic": "职场恋爱/强势女主失控感",
@@ -1466,8 +1561,7 @@
       "evidence_level": "B",
       "reference_titles": "Office Romance",
       "source_url": "https://www.tomsguide.com/entertainment/streaming/20-new-shows-and-movies-to-watch-in-june-2026-the-bear-house-of-the-dragon-and-more",
-      "risk_notes": "需处理好职场权力不对等，避免让爱情线显得越界或不适。",
-      "audience_segment": "女频"
+      "risk_notes": "需处理好职场权力不对等，避免让爱情线显得越界或不适。"
     },
     {
       "topic": "家庭法庭/婚姻纠纷现实题材",
@@ -1478,8 +1572,7 @@
       "evidence_level": "B",
       "reference_titles": "Hold a Court Now",
       "source_url": "https://www.imdb.com/title/tt30478333/plotsummary/",
-      "risk_notes": "涉及家暴、未成年人和法律流程时要弱化猎奇，保留情绪但避免误导法律常识。",
-      "audience_segment": "泛向/待验证"
+      "risk_notes": "涉及家暴、未成年人和法律流程时要弱化猎奇，保留情绪但避免误导法律常识。"
     },
     {
       "topic": "古装女性凝视/强女主复仇",
@@ -1490,8 +1583,7 @@
       "evidence_level": "B",
       "reference_titles": "Pursuit of Jade",
       "source_url": "https://www.tonboriday.com/2026/03/pursuit-of-jade-becomes-2026s-breakout.html",
-      "risk_notes": "短剧化时要减少朝代设定解释，把爽点集中在身份、婚约和复仇反转。",
-      "audience_segment": "女频"
+      "risk_notes": "短剧化时要减少朝代设定解释，把爽点集中在身份、婚约和复仇反转。"
     },
     {
       "topic": "明星传记/名人代价",
@@ -1502,8 +1594,7 @@
       "evidence_level": "B",
       "reference_titles": "Michael",
       "source_url": "https://apnews.com/article/19b8e5b96c6860404d16c0cebb19c369",
-      "risk_notes": "必须虚构化，避免影射真实人物争议；重点放在名利场情绪而非真实八卦。",
-      "audience_segment": "泛向/待验证"
+      "risk_notes": "必须虚构化，避免影射真实人物争议；重点放在名利场情绪而非真实八卦。"
     },
     {
       "topic": "目的地继承/契约浪漫",
@@ -1514,8 +1605,7 @@
       "evidence_level": "B",
       "reference_titles": "The Greek Aisle",
       "source_url": "https://decider.com/2026/06/06/the-greek-aisle-hallmark-cast-guide/",
-      "risk_notes": "目的地元素不能只做风景，要在前3集放入明确利益冲突和情感阻碍。",
-      "audience_segment": "女频"
+      "risk_notes": "目的地元素不能只做风景，要在前3集放入明确利益冲突和情感阻碍。"
     },
     {
       "topic": "体育逆袭/训练爽剧",
@@ -1526,8 +1616,7 @@
       "evidence_level": "B",
       "reference_titles": "Goat, Creed",
       "source_url": "https://www.tomsguide.com/entertainment/netflix/netflix-top-10-movies-heres-the-3-worth-watching-right-now-june-6-7",
-      "risk_notes": "比赛场面成本较高，优先做训练、债务、师徒和复仇关系线。",
-      "audience_segment": "泛向/待验证"
+      "risk_notes": "比赛场面成本较高，优先做训练、债务、师徒和复仇关系线。"
     }
   ],
   "comment_pain_points": [
@@ -1672,8 +1761,7 @@
       "summary": "海外微短剧热榜结果显示情欲悬疑、女主逆袭等题材仍有高热度，适合追踪海外付费短剧用户的强情绪偏好。",
       "topic_signal": "海外女频：情欲悬疑 / 女主逆袭 / 高压关系",
       "evidence_level": "B",
-      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7",
-      "audience_segment": "女频"
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7"
     },
     {
       "source_name": "DataEye短剧观察",
@@ -1682,8 +1770,7 @@
       "summary": "搜索结果显示AI仿真人剧、萌宝漫剧在短剧/漫剧日榜中集中出现，可用于观察AI形态与经典高转化题材的结合。",
       "topic_signal": "AI仿真人剧 / 萌宝漫剧 / 榜单集中度",
       "evidence_level": "C",
-      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7",
-      "audience_segment": "女频"
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7"
     },
     {
       "source_name": "DataEye短剧出海",
@@ -1692,8 +1779,7 @@
       "summary": "海外短剧榜单出现西幻、AI相关新剧，同时素材增长榜能观察投放侧正在加码的类型。",
       "topic_signal": "西幻短剧 / AI新剧 / 投放素材增长",
       "evidence_level": "B",
-      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7",
-      "audience_segment": "男频"
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7"
     },
     {
       "source_name": "DataEye短剧观察",
@@ -1702,8 +1788,7 @@
       "summary": "2D漫剧和短剧播放增量同时被榜单提及，可作为漫剧和短剧交叉题材的观察入口。",
       "topic_signal": "2D漫剧 / 播放增量破亿 / 多榜共振",
       "evidence_level": "B",
-      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7",
-      "audience_segment": "泛向/待验证"
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7"
     },
     {
       "source_name": "DataEye短剧出海",
@@ -1712,8 +1797,7 @@
       "summary": "海外短剧热榜提到虐恋追妻、平台发行方榜单变化，可继续观察追妻火葬场和头部供给竞争。",
       "topic_signal": "虐恋追妻 / 头部平台供给 / 海外女频",
       "evidence_level": "B",
-      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7",
-      "audience_segment": "女频"
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7"
     },
     {
       "source_name": "DataEye短剧观察",
@@ -1722,8 +1806,7 @@
       "summary": "诡异题材连续登顶说明悬疑惊悚、怪谈和反常识设定值得作为短剧/漫剧方向观察。",
       "topic_signal": "诡异题材 / 怪谈悬疑 / 高播放增量",
       "evidence_level": "B",
-      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7",
-      "audience_segment": "男频"
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7"
     },
     {
       "source_name": "DataEye短剧观察",
@@ -1732,8 +1815,7 @@
       "summary": "AI仿真人剧在日榜中集中占位，东北地域、少夫人、付免双爆等信号可用于观察AI短剧题材包装。",
       "topic_signal": "AI仿真人剧 / 地域爽剧 / 付免双爆",
       "evidence_level": "B",
-      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7",
-      "audience_segment": "泛向/待验证"
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7"
     },
     {
       "source_name": "Business Insider",
@@ -1742,8 +1824,16 @@
       "summary": "报道显示美国 microdrama 产业开始用 AI 生成角色和剧集压低成本，演员替代、表演可信度和观众接受度正在成为新争议。",
       "topic_signal": "AI演员替代 / 真人感短剧 / 生产成本与伦理风险",
       "evidence_level": "B",
-      "source_url": "https://www.businessinsider.com/actors-losing-jobs-to-ai-hollywood-micro-drama-industry-2026-6",
-      "audience_segment": "泛向/待验证"
+      "source_url": "https://www.businessinsider.com/actors-losing-jobs-to-ai-hollywood-micro-drama-industry-2026-6"
+    },
+    {
+      "source_name": "Taiwan BL title watch",
+      "article_date": "2026-06-04",
+      "title": "Wishing Upon the Shooting Stars finishes run",
+      "summary": "台湾 BL 奇幻剧通过 Viki、GagaOOLala 面向国际观众，流星许愿、平行命运和错过重来可作为 BL 短剧轻奇幻方向。",
+      "topic_signal": "BL奇幻 / 命运重启 / 国际小众受众",
+      "evidence_level": "C",
+      "source_url": "https://en.wikipedia.org/wiki/Wishing_Upon_the_Shooting_Stars"
     },
     {
       "source_name": "36氪 / 骨朵网络影视",
@@ -1752,8 +1842,7 @@
       "summary": "文章讨论漫剧投流、播放和ROI表现，指出网文IP、低成本制作和快速周转正在推动漫剧成为短剧赛道的重要变量。",
       "topic_signal": "AI漫剧 / 网文IP影像化 / ROI与资金周转",
       "evidence_level": "B",
-      "source_url": "https://www.36kr.com/p/3838601706440965",
-      "audience_segment": "泛向/待验证"
+      "source_url": "https://www.36kr.com/p/3838601706440965"
     },
     {
       "source_name": "36氪 / 文娱价值官",
@@ -1762,8 +1851,7 @@
       "summary": "文章强调海外短剧从翻译搬运进入深度本土化阶段，北美用户对套路化内容耐受降低，题材需要更贴近当地文化语境。",
       "topic_signal": "出海短剧本土化 / 北美审美变化 / 精品化",
       "evidence_level": "B",
-      "source_url": "https://www.36kr.com/p/3837211878947464",
-      "audience_segment": "泛向/待验证"
+      "source_url": "https://www.36kr.com/p/3837211878947464"
     },
     {
       "source_name": "36氪 / 镜像娱乐",
@@ -1772,8 +1860,7 @@
       "summary": "文章关注AI短剧出海、ToonScroll、PineDrama、TikTok minis等平台和IP方动作，适合观察海外AI短剧工业化趋势。",
       "topic_signal": "AI短剧出海 / 平台入局 / IP+AI工业化",
       "evidence_level": "B",
-      "source_url": "https://www.36kr.com/p/3836864874560388",
-      "audience_segment": "泛向/待验证"
+      "source_url": "https://www.36kr.com/p/3836864874560388"
     },
     {
       "source_name": "The Guardian",
@@ -1782,8 +1869,7 @@
       "summary": "全球观看观察里提到中国 microdrama、阿根廷女性分手喜剧、加拿大北极社区喜剧和科特迪瓦保姆群像，说明本地文化和女性社区故事仍能形成讨论。",
       "topic_signal": "本地社区题材 / 女性劳动者群像 / 分手后自我重建",
       "evidence_level": "B",
-      "source_url": "https://www.theguardian.com/culture/2026/may/22/from-chinese-microdramas-to-an-arctic-comedy-what-the-world-is-watching",
-      "audience_segment": "女频"
+      "source_url": "https://www.theguardian.com/culture/2026/may/22/from-chinese-microdramas-to-an-arctic-comedy-what-the-world-is-watching"
     },
     {
       "source_name": "arXiv",
@@ -1792,8 +1878,7 @@
       "summary": "论文提出用多智能体从一句话生成短剧，并强调短剧节奏、钩子、空间一致性和多阶段审校，可作为 AI 漫剧个性化生产方向。",
       "topic_signal": "一句话生成短剧 / 个性化AI漫剧 / 多智能体",
       "evidence_level": "C",
-      "source_url": "https://arxiv.org/abs/2605.22144",
-      "audience_segment": "泛向/待验证"
+      "source_url": "https://arxiv.org/abs/2605.22144"
     },
     {
       "source_name": "arXiv",
@@ -1802,8 +1887,7 @@
       "summary": "论文提出用多智能体系统把一句话扩展成短剧，重点解决短剧节奏、跨镜头空间一致性和多阶段审校，可作为AI短剧生产方法观察。",
       "topic_signal": "AI短剧生成 / 多智能体流程 / Short-Drama-Bench",
       "evidence_level": "C",
-      "source_url": "https://arxiv.org/abs/2605.22144",
-      "audience_segment": "泛向/待验证"
+      "source_url": "https://arxiv.org/abs/2605.22144"
     },
     {
       "source_name": "Business Insider",
@@ -1812,8 +1896,25 @@
       "summary": "NBCUniversal 将 ReelShort 微短剧引入 Peacock 移动端，并规划 Bravo 原创 micro drama，可作为主流流媒体试水竖屏短剧的信号。",
       "topic_signal": "主流流媒体试水 / ReelShort授权 / Hollywood vertical drama",
       "evidence_level": "B",
-      "source_url": "https://www.businessinsider.com/peacock-reelshort-micro-dramas-bravo-hollywood-short-form-vertical-video-2026-5",
-      "audience_segment": "泛向/待验证"
+      "source_url": "https://www.businessinsider.com/peacock-reelshort-micro-dramas-bravo-hollywood-short-form-vertical-video-2026-5"
+    },
+    {
+      "source_name": "Korean short-drama title watch",
+      "article_date": "2026-04-28",
+      "title": "Gwang-an webtoon adapted into short drama",
+      "summary": "韩国人气 webtoon《狂眼》改编短剧，设定为假扮宫女的刺客与世子之间的浪漫、权力和身份斗争。",
+      "topic_signal": "宫廷刺客 / webtoon IP / 权力恋爱",
+      "evidence_level": "C",
+      "source_url": "https://zh.wikipedia.org/wiki/%E7%8B%82%E7%9C%BC"
+    },
+    {
+      "source_name": "Business Insider",
+      "article_date": "2026-03-18",
+      "title": "TikTok tests Short Drama feed with AI zombies and sci-fi",
+      "summary": "TikTok 主站测试 Short Drama feed，内容覆盖 crime、romance、absurd comedy、sci-fi，并出现 AI 僵尸等高概念内容，可观察平台是否把短剧从 romance 推向更广类型。",
+      "topic_signal": "AI荒诞科幻 / 僵尸短剧 / TikTok短剧入口",
+      "evidence_level": "B",
+      "source_url": "https://www.businessinsider.com/tiktok-testing-mini-drama-feed-ai-2026-3"
     },
     {
       "source_name": "Korean BL title watch",
@@ -1822,8 +1923,7 @@
       "summary": "2026 韩国 BL 列表出现 50 集以上竖屏短剧形态，校园暗恋、对立吸引和久别重逢可作为海外小众高粘性题材观察。",
       "topic_signal": "BL竖屏短剧 / 校园暗恋 / 久别重逢",
       "evidence_level": "C",
-      "source_url": "https://zh.wikipedia.org/wiki/%E9%9F%A9%E5%9B%BDBL%E7%94%B5%E8%A7%86%E5%89%A7%E5%88%97%E8%A1%A8",
-      "audience_segment": "泛向/待验证"
+      "source_url": "https://zh.wikipedia.org/wiki/%E9%9F%A9%E5%9B%BDBL%E7%94%B5%E8%A7%86%E5%89%A7%E5%88%97%E8%A1%A8"
     },
     {
       "source_name": "FOD / Fuji TV",
@@ -1832,8 +1932,16 @@
       "summary": "泰国《禁忌女孩》日本版改编以神秘转学生揭露校园黑暗面为核心，可转译成短剧里的校园/职场审判单元剧。",
       "topic_signal": "神秘转学生 / 校园审判 / 单元悬疑",
       "evidence_level": "C",
-      "source_url": "https://zh.wikipedia.org/wiki/%E8%BD%89%E5%AD%B8%E4%BE%86%E7%9A%84%E5%A5%B3%E7%94%9F_%28%E6%97%A5%E6%9C%AC%E9%9B%BB%E8%A6%96%E5%8A%87%29",
-      "audience_segment": "泛向/待验证"
+      "source_url": "https://zh.wikipedia.org/wiki/%E8%BD%89%E5%AD%B8%E4%BE%86%E7%9A%84%E5%A5%B3%E7%94%9F_%28%E6%97%A5%E6%9C%AC%E9%9B%BB%E8%A6%96%E5%8A%87%29"
+    },
+    {
+      "source_name": "Korean drama title watch",
+      "article_date": "2026-02-19",
+      "title": "Love Phobia centers AI comfort and romantic mystery",
+      "summary": "Love Phobia 将 AI comfort、人际连接缺失、浪漫喜剧和神秘秘密结合，可转化为AI陪伴恋爱/情感替代短剧方向。",
+      "topic_signal": "AI陪伴恋爱 / 情感替代 / 科技悬疑",
+      "evidence_level": "C",
+      "source_url": "https://en.wikipedia.org/wiki/Love_Phobia_%28TV_series%29"
     },
     {
       "source_name": "The Week",
@@ -1842,8 +1950,7 @@
       "summary": "文章从美国大众媒体视角解释 microdrama 的观看场景、付费模式、低成本制作和洛杉矶产业机会，可补充海外受众教育视角。",
       "topic_signal": "美国市场教育 / 竖屏付费短剧 / 低成本高周转",
       "evidence_level": "B",
-      "source_url": "https://theweek.com/culture-life/film/microdramas-short-tiktok-entertainment",
-      "audience_segment": "泛向/待验证"
+      "source_url": "https://theweek.com/culture-life/film/microdramas-short-tiktok-entertainment"
     },
     {
       "source_name": "arXiv / HCI",
@@ -1852,8 +1959,7 @@
       "summary": "论文从编剧和生产流程角度讨论短剧创作如何吸收评论、转发、表情包等观众反馈，可作为题材迭代方法论观察。",
       "topic_signal": "观众反馈驱动创作 / 评论共创 / 短剧生产流程",
       "evidence_level": "C",
-      "source_url": "https://arxiv.org/abs/2602.14045",
-      "audience_segment": "泛向/待验证"
+      "source_url": "https://arxiv.org/abs/2602.14045"
     },
     {
       "source_name": "Business Insider",
@@ -1862,8 +1968,7 @@
       "summary": "文章关注 micro drama 中暴力、羞辱和厌女桥段的争议，以及粉丝对更强女性角色、多元选角和角色驱动故事的呼声。",
       "topic_signal": "题材风险 / 女性角色升级 / 反羞辱叙事",
       "evidence_level": "B",
-      "source_url": "https://www.businessinsider.com/micro-dramas-spark-backlash-over-violence-and-misogyny-in-plots-2026-1",
-      "audience_segment": "女频"
+      "source_url": "https://www.businessinsider.com/micro-dramas-spark-backlash-over-violence-and-misogyny-in-plots-2026-1"
     },
     {
       "source_name": "Business Insider",
@@ -1872,8 +1977,16 @@
       "summary": "Fox 与 Dhar Mann Studios 合作 40 部 scripted vertical microdrama，说明 creator-led 的道德反转、社会议题和强报应叙事正在被主流公司吸收。",
       "topic_signal": "道德反转 / creator-led短剧 / 报应爽感",
       "evidence_level": "B",
-      "source_url": "https://www.businessinsider.com/fox-partnering-with-dhar-mann-to-win-micro-drama-fans-2026-1",
-      "audience_segment": "泛向/待验证"
+      "source_url": "https://www.businessinsider.com/fox-partnering-with-dhar-mann-to-win-micro-drama-fans-2026-1"
+    },
+    {
+      "source_name": "Business Insider",
+      "article_date": "2026-01-22",
+      "title": "DramaBox explores family dramas and interactive content",
+      "summary": "DramaBox 在美国竞争中被提到探索 family dramas 和 interactive content，可作为遗产、亲情悬疑、真假亲人和评论分支题材观察。",
+      "topic_signal": "家庭悬疑 / 互动分支 / 遗产与亲情反转",
+      "evidence_level": "B",
+      "source_url": "https://www.businessinsider.com/dramabox-seeks-new-funding-micro-drama-apps-gain-global-momentum-2026-1"
     },
     {
       "source_name": "Business Insider",
@@ -1882,8 +1995,7 @@
       "summary": "PineDrama 以免费、无广告试水 microdrama，热门内容集中在 romance 和 supernatural，Love at First Bite 等吸血鬼/狼人恋爱题材具备短剧化参考价值。",
       "topic_signal": "免费平台测试 / 吸血鬼恋爱 / 超自然romance",
       "evidence_level": "B",
-      "source_url": "https://www.businessinsider.com/tiktok-launches-a-new-micro-drama-app-called-pinedrama-2026-1",
-      "audience_segment": "女频"
+      "source_url": "https://www.businessinsider.com/tiktok-launches-a-new-micro-drama-app-called-pinedrama-2026-1"
     },
     {
       "source_name": "Axios",
@@ -1892,8 +2004,16 @@
       "summary": "Holywater 为 My Drama 等 microdrama 产品获得 2200 万美元 A 轮融资，说明非亚洲团队也在加码竖屏短剧平台。",
       "topic_signal": "海外平台融资 / My Drama / 非亚洲玩家入局",
       "evidence_level": "B",
-      "source_url": "https://www.axios.com/2026/01/15/holywater-microdrama-app-funding",
-      "audience_segment": "泛向/待验证"
+      "source_url": "https://www.axios.com/2026/01/15/holywater-microdrama-app-funding"
+    },
+    {
+      "source_name": "Business Insider",
+      "article_date": "2026-01-08",
+      "title": "Microdramas face reality check after US arrival",
+      "summary": "报道指出 Fox、Disney 等玩家正在探索 romance 之外的 crime、animation、广告支持和产品植入模式，说明题材需要从霸总/狼人扩展到犯罪、动画和品牌剧情。",
+      "topic_signal": "犯罪短剧 / 动画短剧 / 品类扩张",
+      "evidence_level": "B",
+      "source_url": "https://www.businessinsider.com/micro-dramas-face-reality-check-after-buzzy-us-arrival-2026-1"
     }
   ],
   "strategic_focus": [
