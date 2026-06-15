@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T10:47:49+08:00",
+  "generated_at": "2026-06-15T06:30:37",
   "source_workbook": "社媒热点题材雷达_v1.xlsx",
   "scope": {
     "markets": [
@@ -556,6 +556,26 @@
     {
       "date": "2026-06-15",
       "last_checked": "2026-06-15",
+      "source_platform": "Times of India",
+      "country_region": "IN / Global",
+      "language": "EN",
+      "keyword_or_hashtag": "Indian vertical OTT genre slate",
+      "post_title_or_caption": "Rocket Reels adds eight original micro-dramas, including Lady Bond 007, Honey Trap, Marriage Bureau and action/crime/local comedy titles.",
+      "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/compelling-storytelling-can-thrive-in-shorter-formats-kranti-shanbhag/articleshow/131700683.cms",
+      "views_or_rank": "2026-06-13 slate signal",
+      "likes": "",
+      "comments": "",
+      "shares": "",
+      "trend_window": "2026-06 industry watch",
+      "sentiment": "positive",
+      "emotion_tags": "female spy, honey trap, marriage bureau, local comedy, action crime",
+      "evidence_level": "B",
+      "notes": "潜力题材：印度 vertical OTT 新片单显示女特工、诱捕悬疑、婚介轻喜、地方动作犯罪等非霸总/狼人方向也在扩张。",
+      "audience_segment": "混合/待验证"
+    },
+    {
+      "date": "2026-06-15",
+      "last_checked": "2026-06-15",
       "source_platform": "Business Insider",
       "country_region": "US",
       "language": "EN",
@@ -732,25 +752,6 @@
       "evidence_level": "B",
       "notes": "潜力题材：平台融资本身不是题材，但说明海外微短剧供给侧仍在扩张，值得追踪平台偏好的类型。",
       "audience_segment": "泛向/待验证"
-    },
-    {
-      "date": "2026-06-15",
-      "last_checked": "2026-06-15",
-      "source_platform": "Times of India",
-      "country_region": "IN / Global",
-      "language": "EN",
-      "keyword_or_hashtag": "Indian vertical OTT genre slate",
-      "post_title_or_caption": "Rocket Reels adds eight original micro-dramas, including Lady Bond 007, Honey Trap, Marriage Bureau and action/crime/local comedy titles.",
-      "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/compelling-storytelling-can-thrive-in-shorter-formats-kranti-shanbhag/articleshow/131700683.cms",
-      "views_or_rank": "2026-06-13 slate signal",
-      "likes": "",
-      "comments": "",
-      "shares": "",
-      "trend_window": "2026-06 industry watch",
-      "sentiment": "positive",
-      "emotion_tags": "female spy, honey trap, marriage bureau, local comedy, action crime",
-      "evidence_level": "B",
-      "notes": "潜力题材：印度 vertical OTT 新片单显示女特工、诱捕悬疑、婚介轻喜、地方动作犯罪等非霸总/狼人方向也在扩张。"
     }
   ],
   "youtube_trending_videos": [
@@ -764,11 +765,11 @@
       "channel_title": "HYBE LABELS",
       "published_at": "2026-06-13T15:00:00Z",
       "category_id": "10",
-      "view_count": "3444638",
-      "like_count": "290508",
-      "comment_count": "9608",
+      "view_count": "3680246",
+      "like_count": "300013",
+      "comment_count": "9778",
       "url": "https://www.youtube.com/watch?v=2rA2K0gwjoo",
-      "captured_at": "2026-06-15T00:38:11",
+      "captured_at": "2026-06-15T06:30:37",
       "evidence_level": "A"
     },
     {
@@ -781,11 +782,11 @@
       "channel_title": "New Rockstars",
       "published_at": "2026-06-14T15:00:33Z",
       "category_id": "24",
-      "view_count": "37371",
-      "like_count": "1594",
-      "comment_count": "86",
+      "view_count": "49833",
+      "like_count": "1899",
+      "comment_count": "100",
       "url": "https://www.youtube.com/watch?v=q-TngZqHF_I",
-      "captured_at": "2026-06-15T00:38:11",
+      "captured_at": "2026-06-15T06:30:37",
       "evidence_level": "A"
     },
     {
@@ -798,11 +799,11 @@
       "channel_title": "SMii7Y",
       "published_at": "2026-06-14T18:58:26Z",
       "category_id": "20",
-      "view_count": "744991",
-      "like_count": "84336",
-      "comment_count": "2681",
+      "view_count": "1570635",
+      "like_count": "130273",
+      "comment_count": "3409",
       "url": "https://www.youtube.com/watch?v=LWy8YJMOWuU",
-      "captured_at": "2026-06-15T00:38:11",
+      "captured_at": "2026-06-15T06:30:37",
       "evidence_level": "A"
     },
     {
@@ -815,11 +816,11 @@
       "channel_title": "Keller MX",
       "published_at": "2026-06-09T21:30:21Z",
       "category_id": "10",
-      "view_count": "241196",
-      "like_count": "671",
+      "view_count": "342257",
+      "like_count": "874",
       "comment_count": "6",
       "url": "https://www.youtube.com/watch?v=OdXwt1u8R8g",
-      "captured_at": "2026-06-15T00:38:11",
+      "captured_at": "2026-06-15T06:30:37",
       "evidence_level": "A"
     },
     {
@@ -827,16 +828,16 @@
       "source_platform": "YouTube Trending",
       "country_region": "US",
       "rank": 5,
-      "video_id": "IRKzYypfMWI",
-      "title": "Brawlhalla x DreamWorks Animation Shrek - Official Crossover Event Announcement Trailer",
-      "channel_title": "IGN",
-      "published_at": "2026-06-14T17:04:04Z",
+      "video_id": "biplNLScvK0",
+      "title": "Southwest Florida Trailer",
+      "channel_title": "Strigid",
+      "published_at": "2026-06-15T03:40:10Z",
       "category_id": "20",
-      "view_count": "41058",
-      "like_count": "1548",
-      "comment_count": "144",
-      "url": "https://www.youtube.com/watch?v=IRKzYypfMWI",
-      "captured_at": "2026-06-15T00:38:11",
+      "view_count": "7629",
+      "like_count": "1913",
+      "comment_count": "365",
+      "url": "https://www.youtube.com/watch?v=biplNLScvK0",
+      "captured_at": "2026-06-15T06:30:37",
       "evidence_level": "A"
     },
     {
@@ -844,16 +845,16 @@
       "source_platform": "YouTube Trending",
       "country_region": "US",
       "rank": 6,
-      "video_id": "bUMLC9lCgHo",
-      "title": "i-dle (아이들) 'Crow' Official Music Video",
-      "channel_title": "i-dle (아이들)",
-      "published_at": "2026-06-14T13:00:02Z",
-      "category_id": "10",
-      "view_count": "1414297",
-      "like_count": "121233",
-      "comment_count": "9358",
-      "url": "https://www.youtube.com/watch?v=bUMLC9lCgHo",
-      "captured_at": "2026-06-15T00:38:11",
+      "video_id": "2TseoyiHoP8",
+      "title": "Dead by Daylight | 10th Anniversary Broadcast",
+      "channel_title": "Dead by Daylight",
+      "published_at": "2026-06-15T02:42:49Z",
+      "category_id": "20",
+      "view_count": "1064558",
+      "like_count": "23844",
+      "comment_count": "302",
+      "url": "https://www.youtube.com/watch?v=2TseoyiHoP8",
+      "captured_at": "2026-06-15T06:30:37",
       "evidence_level": "A"
     },
     {
@@ -861,16 +862,33 @@
       "source_platform": "YouTube Trending",
       "country_region": "US",
       "rank": 7,
-      "video_id": "LybM_FBqepA",
-      "title": "Brawlhalla New Legend: Aurus Reveal Trailer",
-      "channel_title": "Brawlhalla",
-      "published_at": "2026-06-14T15:49:45Z",
+      "video_id": "xxJ49TLCIJg",
+      "title": "Kane Rodriguez - SE VOLVIERON LOCOS (Letra)",
+      "channel_title": "Nación Mexa",
+      "published_at": "2026-06-14T19:00:26Z",
+      "category_id": "22",
+      "view_count": "63997",
+      "like_count": "231",
+      "comment_count": "2",
+      "url": "https://www.youtube.com/watch?v=xxJ49TLCIJg",
+      "captured_at": "2026-06-15T06:30:37",
+      "evidence_level": "A"
+    },
+    {
+      "date": "2026-06-15",
+      "source_platform": "YouTube Trending",
+      "country_region": "US",
+      "rank": 8,
+      "video_id": "IRKzYypfMWI",
+      "title": "Brawlhalla x DreamWorks Animation Shrek - Official Crossover Event Announcement Trailer",
+      "channel_title": "IGN",
+      "published_at": "2026-06-14T17:04:04Z",
       "category_id": "20",
-      "view_count": "44845",
-      "like_count": "2987",
-      "comment_count": "381",
-      "url": "https://www.youtube.com/watch?v=LybM_FBqepA",
-      "captured_at": "2026-06-15T00:38:11",
+      "view_count": "55727",
+      "like_count": "1770",
+      "comment_count": "158",
+      "url": "https://www.youtube.com/watch?v=IRKzYypfMWI",
+      "captured_at": "2026-06-15T06:30:37",
       "evidence_level": "A"
     },
     {
@@ -883,11 +901,11 @@
       "channel_title": "i-dle (아이들)",
       "published_at": "2026-06-14T13:00:02Z",
       "category_id": "10",
-      "view_count": "1414297",
-      "like_count": "121233",
-      "comment_count": "9358",
+      "view_count": "1798785",
+      "like_count": "140134",
+      "comment_count": "10212",
       "url": "https://www.youtube.com/watch?v=bUMLC9lCgHo",
-      "captured_at": "2026-06-15T00:38:11",
+      "captured_at": "2026-06-15T06:30:37",
       "evidence_level": "A"
     },
     {
@@ -900,11 +918,11 @@
       "channel_title": "New Rockstars",
       "published_at": "2026-06-14T15:00:33Z",
       "category_id": "24",
-      "view_count": "37371",
-      "like_count": "1594",
-      "comment_count": "86",
+      "view_count": "49833",
+      "like_count": "1899",
+      "comment_count": "100",
       "url": "https://www.youtube.com/watch?v=q-TngZqHF_I",
-      "captured_at": "2026-06-15T00:38:11",
+      "captured_at": "2026-06-15T06:30:37",
       "evidence_level": "A"
     },
     {
@@ -912,16 +930,16 @@
       "source_platform": "YouTube Trending",
       "country_region": "UK",
       "rank": 3,
-      "video_id": "KxfDKXR4tvo",
-      "title": "THE SIDEMEN AMONG US WORLD CUP",
-      "channel_title": "MoreSidemen",
-      "published_at": "2026-06-13T19:30:35Z",
-      "category_id": "24",
-      "view_count": "1965967",
-      "like_count": "78491",
-      "comment_count": "3103",
-      "url": "https://www.youtube.com/watch?v=KxfDKXR4tvo",
-      "captured_at": "2026-06-15T00:38:11",
+      "video_id": "2TseoyiHoP8",
+      "title": "Dead by Daylight | 10th Anniversary Broadcast",
+      "channel_title": "Dead by Daylight",
+      "published_at": "2026-06-15T02:42:49Z",
+      "category_id": "20",
+      "view_count": "1064558",
+      "like_count": "23844",
+      "comment_count": "302",
+      "url": "https://www.youtube.com/watch?v=2TseoyiHoP8",
+      "captured_at": "2026-06-15T06:30:37",
       "evidence_level": "A"
     },
     {
@@ -934,11 +952,11 @@
       "channel_title": "The 7 Notes Band",
       "published_at": "2026-06-14T13:30:10Z",
       "category_id": "22",
-      "view_count": "36054",
-      "like_count": "2968",
-      "comment_count": "119",
+      "view_count": "42010",
+      "like_count": "3400",
+      "comment_count": "127",
       "url": "https://www.youtube.com/watch?v=j7OjgneruOM",
-      "captured_at": "2026-06-15T00:38:11",
+      "captured_at": "2026-06-15T06:30:37",
       "evidence_level": "A"
     },
     {
@@ -951,11 +969,11 @@
       "channel_title": "Think Music India",
       "published_at": "2026-06-14T11:30:06Z",
       "category_id": "10",
-      "view_count": "813447",
-      "like_count": "6199",
-      "comment_count": "260",
+      "view_count": "845033",
+      "like_count": "7462",
+      "comment_count": "302",
       "url": "https://www.youtube.com/watch?v=f_mCvoMgoYs",
-      "captured_at": "2026-06-15T00:38:11",
+      "captured_at": "2026-06-15T06:30:37",
       "evidence_level": "A"
     },
     {
@@ -968,11 +986,11 @@
       "channel_title": "SMii7Y",
       "published_at": "2026-06-14T18:58:26Z",
       "category_id": "20",
-      "view_count": "744991",
-      "like_count": "84336",
-      "comment_count": "2681",
+      "view_count": "1570635",
+      "like_count": "130273",
+      "comment_count": "3409",
       "url": "https://www.youtube.com/watch?v=LWy8YJMOWuU",
-      "captured_at": "2026-06-15T00:38:11",
+      "captured_at": "2026-06-15T06:30:37",
       "evidence_level": "A"
     },
     {
@@ -985,11 +1003,11 @@
       "channel_title": "HYBE LABELS",
       "published_at": "2026-06-13T15:00:00Z",
       "category_id": "10",
-      "view_count": "3444638",
-      "like_count": "290508",
-      "comment_count": "9608",
+      "view_count": "3680246",
+      "like_count": "300013",
+      "comment_count": "9778",
       "url": "https://www.youtube.com/watch?v=2rA2K0gwjoo",
-      "captured_at": "2026-06-15T00:38:11",
+      "captured_at": "2026-06-15T06:30:37",
       "evidence_level": "A"
     },
     {
@@ -1002,11 +1020,11 @@
       "channel_title": "IGN",
       "published_at": "2026-06-14T17:04:04Z",
       "category_id": "20",
-      "view_count": "41058",
-      "like_count": "1548",
-      "comment_count": "144",
+      "view_count": "55727",
+      "like_count": "1770",
+      "comment_count": "158",
       "url": "https://www.youtube.com/watch?v=IRKzYypfMWI",
-      "captured_at": "2026-06-15T00:38:11",
+      "captured_at": "2026-06-15T06:30:37",
       "evidence_level": "A"
     },
     {
@@ -1019,11 +1037,11 @@
       "channel_title": "Release - Topic",
       "published_at": "2026-06-13T23:17:18Z",
       "category_id": "10",
-      "view_count": "144756",
-      "like_count": "2503",
+      "view_count": "175637",
+      "like_count": "2681",
       "comment_count": "104",
       "url": "https://www.youtube.com/watch?v=VgvmYuEnmj0",
-      "captured_at": "2026-06-15T00:38:11",
+      "captured_at": "2026-06-15T06:30:37",
       "evidence_level": "A"
     },
     {
@@ -1036,11 +1054,11 @@
       "channel_title": "Think Music India",
       "published_at": "2026-06-14T11:30:06Z",
       "category_id": "10",
-      "view_count": "813447",
-      "like_count": "6199",
-      "comment_count": "260",
+      "view_count": "845033",
+      "like_count": "7462",
+      "comment_count": "302",
       "url": "https://www.youtube.com/watch?v=f_mCvoMgoYs",
-      "captured_at": "2026-06-15T00:38:11",
+      "captured_at": "2026-06-15T06:30:37",
       "evidence_level": "A"
     },
     {
@@ -1053,11 +1071,11 @@
       "channel_title": "SMii7Y",
       "published_at": "2026-06-14T18:58:26Z",
       "category_id": "20",
-      "view_count": "744991",
-      "like_count": "84336",
-      "comment_count": "2681",
+      "view_count": "1570635",
+      "like_count": "130273",
+      "comment_count": "3409",
       "url": "https://www.youtube.com/watch?v=LWy8YJMOWuU",
-      "captured_at": "2026-06-15T00:38:11",
+      "captured_at": "2026-06-15T06:30:37",
       "evidence_level": "A"
     },
     {
@@ -1070,11 +1088,11 @@
       "channel_title": "HYBE LABELS",
       "published_at": "2026-06-13T15:00:00Z",
       "category_id": "10",
-      "view_count": "3444638",
-      "like_count": "290508",
-      "comment_count": "9608",
+      "view_count": "3680246",
+      "like_count": "300013",
+      "comment_count": "9778",
       "url": "https://www.youtube.com/watch?v=2rA2K0gwjoo",
-      "captured_at": "2026-06-15T00:38:11",
+      "captured_at": "2026-06-15T06:30:37",
       "evidence_level": "A"
     },
     {
@@ -1087,11 +1105,11 @@
       "channel_title": "Tried&Refused Productions.",
       "published_at": "2026-06-14T09:00:34Z",
       "category_id": "24",
-      "view_count": "128498",
-      "like_count": "3999",
-      "comment_count": "635",
+      "view_count": "143984",
+      "like_count": "4400",
+      "comment_count": "684",
       "url": "https://www.youtube.com/watch?v=CvyOL5HoIYk",
-      "captured_at": "2026-06-15T00:38:11",
+      "captured_at": "2026-06-15T06:30:37",
       "evidence_level": "A"
     },
     {
@@ -1099,16 +1117,16 @@
       "source_platform": "YouTube Trending",
       "country_region": "CA",
       "rank": 6,
-      "video_id": "_9RANXjjCWI",
-      "title": "IEM Cologne Major 2026 - Day 12 - Stream A - FULL SHOW",
-      "channel_title": "ESL Counter-Strike",
-      "published_at": "2026-06-14T21:53:26Z",
+      "video_id": "2TseoyiHoP8",
+      "title": "Dead by Daylight | 10th Anniversary Broadcast",
+      "channel_title": "Dead by Daylight",
+      "published_at": "2026-06-15T02:42:49Z",
       "category_id": "20",
-      "view_count": "2529163",
-      "like_count": "19540",
-      "comment_count": "20",
-      "url": "https://www.youtube.com/watch?v=_9RANXjjCWI",
-      "captured_at": "2026-06-15T00:38:11",
+      "view_count": "1064558",
+      "like_count": "23844",
+      "comment_count": "302",
+      "url": "https://www.youtube.com/watch?v=2TseoyiHoP8",
+      "captured_at": "2026-06-15T06:30:37",
       "evidence_level": "A"
     },
     {
@@ -1121,11 +1139,11 @@
       "channel_title": "i-dle (아이들)",
       "published_at": "2026-06-14T13:00:02Z",
       "category_id": "10",
-      "view_count": "1414297",
-      "like_count": "121233",
-      "comment_count": "9358",
+      "view_count": "1798785",
+      "like_count": "140134",
+      "comment_count": "10212",
       "url": "https://www.youtube.com/watch?v=bUMLC9lCgHo",
-      "captured_at": "2026-06-15T00:38:11",
+      "captured_at": "2026-06-15T06:30:37",
       "evidence_level": "A"
     },
     {
@@ -1133,16 +1151,16 @@
       "source_platform": "YouTube Trending",
       "country_region": "CA",
       "rank": 8,
-      "video_id": "IG-eByZdz6Y",
-      "title": "Dhamaal 4 (Trailer): Ajay Devgn, Arshad W, Riteish D, Jaaved J| Indra K| Bhushan K, Ashok T| 10 July",
-      "channel_title": "T-Series",
-      "published_at": "2026-06-12T12:30:06Z",
-      "category_id": "10",
-      "view_count": "19308314",
-      "like_count": "352597",
-      "comment_count": "22489",
-      "url": "https://www.youtube.com/watch?v=IG-eByZdz6Y",
-      "captured_at": "2026-06-15T00:38:11",
+      "video_id": "iyWQo4w8ULo",
+      "title": "FROM Season 4 Episode 9 Trailer \"The Calm Before\"",
+      "channel_title": "Jeremy Ice & Fire 33",
+      "published_at": "2026-06-15T03:10:06Z",
+      "category_id": "24",
+      "view_count": "26198",
+      "like_count": "1027",
+      "comment_count": "210",
+      "url": "https://www.youtube.com/watch?v=iyWQo4w8ULo",
+      "captured_at": "2026-06-15T06:30:37",
       "evidence_level": "A"
     },
     {
@@ -1155,11 +1173,11 @@
       "channel_title": "HYBE LABELS",
       "published_at": "2026-06-10T14:58:06Z",
       "category_id": "10",
-      "view_count": "20850965",
-      "like_count": "1371324",
-      "comment_count": "101062",
+      "view_count": "21414815",
+      "like_count": "1382185",
+      "comment_count": "101461",
       "url": "https://www.youtube.com/watch?v=27C4pfRsf9g",
-      "captured_at": "2026-06-15T00:38:11",
+      "captured_at": "2026-06-15T06:30:37",
       "evidence_level": "A"
     },
     {
@@ -1172,11 +1190,11 @@
       "channel_title": "T-Series",
       "published_at": "2026-06-12T12:30:06Z",
       "category_id": "10",
-      "view_count": "19308314",
-      "like_count": "352597",
-      "comment_count": "22489",
+      "view_count": "19523306",
+      "like_count": "358825",
+      "comment_count": "22691",
       "url": "https://www.youtube.com/watch?v=IG-eByZdz6Y",
-      "captured_at": "2026-06-15T00:38:11",
+      "captured_at": "2026-06-15T06:30:37",
       "evidence_level": "A"
     },
     {
@@ -1189,11 +1207,11 @@
       "channel_title": "MoreSidemen",
       "published_at": "2026-06-13T19:30:35Z",
       "category_id": "24",
-      "view_count": "1965967",
-      "like_count": "78491",
-      "comment_count": "3103",
+      "view_count": "2105552",
+      "like_count": "81848",
+      "comment_count": "3197",
       "url": "https://www.youtube.com/watch?v=KxfDKXR4tvo",
-      "captured_at": "2026-06-15T00:38:11",
+      "captured_at": "2026-06-15T06:30:37",
       "evidence_level": "A"
     },
     {
@@ -1201,16 +1219,16 @@
       "source_platform": "YouTube Trending",
       "country_region": "AU",
       "rank": 4,
-      "video_id": "Rt9tW3cMLhI",
-      "title": "Olivia Rodrigo - stupid song (Official Music Video)",
-      "channel_title": "OliviaRodrigoVEVO",
-      "published_at": "2026-06-12T04:00:06Z",
+      "video_id": "nMozMETeCyw",
+      "title": "Kath Lagda - Navaan Sandhu ft Dhanda Nyoliwala ( Official Music Video )",
+      "channel_title": "Navaan Sandhu",
+      "published_at": "2026-06-12T05:30:00Z",
       "category_id": "10",
-      "view_count": "4348392",
-      "like_count": "363210",
-      "comment_count": "14591",
-      "url": "https://www.youtube.com/watch?v=Rt9tW3cMLhI",
-      "captured_at": "2026-06-15T00:38:11",
+      "view_count": "5401077",
+      "like_count": "190726",
+      "comment_count": "12963",
+      "url": "https://www.youtube.com/watch?v=nMozMETeCyw",
+      "captured_at": "2026-06-15T06:30:37",
       "evidence_level": "A"
     },
     {
@@ -1223,11 +1241,11 @@
       "channel_title": "Star Studios",
       "published_at": "2026-06-11T07:12:45Z",
       "category_id": "24",
-      "view_count": "21897392",
-      "like_count": "246469",
-      "comment_count": "39481",
+      "view_count": "22161972",
+      "like_count": "248201",
+      "comment_count": "39647",
       "url": "https://www.youtube.com/watch?v=R704yP3dlXw",
-      "captured_at": "2026-06-15T00:38:11",
+      "captured_at": "2026-06-15T06:30:37",
       "evidence_level": "A"
     },
     {
@@ -1235,16 +1253,16 @@
       "source_platform": "YouTube Trending",
       "country_region": "AU",
       "rank": 6,
-      "video_id": "0UG_SZpo750",
-      "title": "T1 vs GEN | 2026 LCK Road to MSI: Final Round",
-      "channel_title": "LCK Global",
-      "published_at": "2026-06-14T12:02:51Z",
+      "video_id": "LWy8YJMOWuU",
+      "title": "Prop Hunt But With Paint",
+      "channel_title": "SMii7Y",
+      "published_at": "2026-06-14T18:58:26Z",
       "category_id": "20",
-      "view_count": "2864866",
-      "like_count": "17485",
-      "comment_count": "261",
-      "url": "https://www.youtube.com/watch?v=0UG_SZpo750",
-      "captured_at": "2026-06-15T00:38:11",
+      "view_count": "1570635",
+      "like_count": "130273",
+      "comment_count": "3409",
+      "url": "https://www.youtube.com/watch?v=LWy8YJMOWuU",
+      "captured_at": "2026-06-15T06:30:37",
       "evidence_level": "A"
     },
     {
@@ -1252,16 +1270,16 @@
       "source_platform": "YouTube Trending",
       "country_region": "AU",
       "rank": 7,
-      "video_id": "nMozMETeCyw",
-      "title": "Kath Lagda - Navaan Sandhu ft Dhanda Nyoliwala ( Official Music Video )",
-      "channel_title": "Navaan Sandhu",
-      "published_at": "2026-06-12T05:30:00Z",
+      "video_id": "Rt9tW3cMLhI",
+      "title": "Olivia Rodrigo - stupid song (Official Music Video)",
+      "channel_title": "OliviaRodrigoVEVO",
+      "published_at": "2026-06-12T04:00:06Z",
       "category_id": "10",
-      "view_count": "5205698",
-      "like_count": "185284",
-      "comment_count": "12763",
-      "url": "https://www.youtube.com/watch?v=nMozMETeCyw",
-      "captured_at": "2026-06-15T00:38:11",
+      "view_count": "4515289",
+      "like_count": "368180",
+      "comment_count": "14672",
+      "url": "https://www.youtube.com/watch?v=Rt9tW3cMLhI",
+      "captured_at": "2026-06-15T06:30:37",
       "evidence_level": "A"
     },
     {
@@ -1274,11 +1292,11 @@
       "channel_title": "YRF",
       "published_at": "2026-06-10T05:30:05Z",
       "category_id": "1",
-      "view_count": "31003343",
-      "like_count": "181541",
-      "comment_count": "27711",
+      "view_count": "31033936",
+      "like_count": "182083",
+      "comment_count": "27949",
       "url": "https://www.youtube.com/watch?v=0d4nirTymmg",
-      "captured_at": "2026-06-15T00:38:11",
+      "captured_at": "2026-06-15T06:30:37",
       "evidence_level": "A"
     }
   ],
@@ -1297,7 +1315,7 @@
       "AU"
     ],
     "error": "",
-    "captured_at": "2026-06-15T00:38:11"
+    "captured_at": "2026-06-15T06:30:37"
   },
   "youtube_comment_status": {
     "enabled": true,
@@ -1306,11 +1324,11 @@
       "DramaBox short drama",
       "microdrama romance"
     ],
-    "videos_checked": 9,
-    "comments_scanned": 81,
-    "matched_comments": 6,
+    "videos_checked": 8,
+    "comments_scanned": 71,
+    "matched_comments": 7,
     "error": "",
-    "captured_at": "2026-06-15T00:38:11"
+    "captured_at": "2026-06-15T06:30:37"
   },
   "ai_animation_topics": [
     {
@@ -1655,19 +1673,43 @@
   "comment_pain_points": [
     {
       "pain_point": "YouTube观众讨厌付费后剧情拖水",
-      "frequent_expression": "too many episodes / filler / where is the ending / paid but dragged · matched 3 public comments across 3 videos",
+      "frequent_expression": "too many episodes / filler / where is the ending / paid but dragged · matched 2 public comments across 2 videos",
       "source_platform": "YouTube public comments",
       "emotion": "frustration",
       "mapped_drama_angle": "高密度反转 / 付费点后兑现 / 短集节奏优化",
       "recommended_handling": "每个付费段落必须兑现一个秘密、打脸或关系进展，避免用误会和重复冲突拖时长。",
-      "evidence_level": "B",
+      "evidence_level": "C",
       "source_url": "https://www.youtube.com/results?search_query=DramaBox+short+drama",
       "risk_notes": "这是产品与节奏痛点，不直接等同于新题材。 已匿名聚合，不保留用户名或单条评论原文。",
       "audience_segment": "泛向/待验证"
     },
     {
+      "pain_point": "YouTube观众关注单亲/离婚后的重新开始",
+      "frequent_expression": "single mom / divorce / kids / start over · matched 2 public comments across 1 videos",
+      "source_platform": "YouTube public comments",
+      "emotion": "hope, empathy",
+      "mapped_drama_angle": "单亲妈妈逆袭 / 离婚重启 / 家庭伦理",
+      "recommended_handling": "把亲情、经济压力、前任纠缠和新身份揭示放在一起，前3集给明确生存压力和翻盘目标。",
+      "evidence_level": "C",
+      "source_url": "https://www.youtube.com/results?search_query=ReelShort+short+drama",
+      "risk_notes": "避免把女性成长只写成被拯救。 已匿名聚合，不保留用户名或单条评论原文。",
+      "audience_segment": "女频"
+    },
+    {
+      "pain_point": "YouTube观众对黑帮/高压关系既上头又担心有毒",
+      "frequent_expression": "mafia romance / toxic / red flag / obsessed · matched 2 public comments across 2 videos",
+      "source_platform": "YouTube public comments",
+      "emotion": "desire, concern",
+      "mapped_drama_angle": "禁忌恋 / 危险保护欲 / 权力边界",
+      "recommended_handling": "把危险感转成外部威胁和保护关系，弱化胁迫、囚禁和美化暴力。",
+      "evidence_level": "C",
+      "source_url": "https://www.youtube.com/results?search_query=DramaBox+short+drama",
+      "risk_notes": "品牌风险较高，只做弱信号追踪。 已匿名聚合，不保留用户名或单条评论原文。",
+      "audience_segment": "女频"
+    },
+    {
       "pain_point": "YouTube观众想看更有新意的狼人/命定伴侣",
-      "frequent_expression": "rejected mate again / alpha / mate bond / werewolf story · matched 2 public comments across 1 videos",
+      "frequent_expression": "rejected mate again / alpha / mate bond / werewolf story · matched 1 public comments across 1 videos",
       "source_platform": "YouTube public comments",
       "emotion": "fandom fatigue, curiosity",
       "mapped_drama_angle": "狼人 rejected mate / 世界观反转 / 女性成长",
@@ -1675,18 +1717,6 @@
       "evidence_level": "C",
       "source_url": "https://www.youtube.com/results?search_query=microdrama+romance",
       "risk_notes": "供给拥挤，必须有世界观或人物关系差异化。 已匿名聚合，不保留用户名或单条评论原文。",
-      "audience_segment": "女频"
-    },
-    {
-      "pain_point": "YouTube观众对黑帮/高压关系既上头又担心有毒",
-      "frequent_expression": "mafia romance / toxic / red flag / obsessed · matched 1 public comments across 1 videos",
-      "source_platform": "YouTube public comments",
-      "emotion": "desire, concern",
-      "mapped_drama_angle": "禁忌恋 / 危险保护欲 / 权力边界",
-      "recommended_handling": "把危险感转成外部威胁和保护关系，弱化胁迫、囚禁和美化暴力。",
-      "evidence_level": "C",
-      "source_url": "https://www.youtube.com/results?search_query=ReelShort+short+drama",
-      "risk_notes": "品牌风险较高，只做弱信号追踪。 已匿名聚合，不保留用户名或单条评论原文。",
       "audience_segment": "女频"
     },
     {
@@ -1794,7 +1824,8 @@
       "summary": "海外微短剧热榜结果显示情欲悬疑、女主逆袭等题材仍有高热度，适合追踪海外付费短剧用户的强情绪偏好。",
       "topic_signal": "海外女频：情欲悬疑 / 女主逆袭 / 高压关系",
       "evidence_level": "B",
-      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7"
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7",
+      "audience_segment": "女频"
     },
     {
       "source_name": "DataEye短剧观察",
@@ -1803,7 +1834,8 @@
       "summary": "搜索结果显示AI仿真人剧、萌宝漫剧在短剧/漫剧日榜中集中出现，可用于观察AI形态与经典高转化题材的结合。",
       "topic_signal": "AI仿真人剧 / 萌宝漫剧 / 榜单集中度",
       "evidence_level": "C",
-      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7"
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7",
+      "audience_segment": "女频"
     },
     {
       "source_name": "DataEye短剧出海",
@@ -1812,7 +1844,8 @@
       "summary": "海外短剧榜单出现西幻、AI相关新剧，同时素材增长榜能观察投放侧正在加码的类型。",
       "topic_signal": "西幻短剧 / AI新剧 / 投放素材增长",
       "evidence_level": "B",
-      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7"
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7",
+      "audience_segment": "男频"
     },
     {
       "source_name": "DataEye短剧观察",
@@ -1821,7 +1854,8 @@
       "summary": "2D漫剧和短剧播放增量同时被榜单提及，可作为漫剧和短剧交叉题材的观察入口。",
       "topic_signal": "2D漫剧 / 播放增量破亿 / 多榜共振",
       "evidence_level": "B",
-      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7"
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7",
+      "audience_segment": "泛向/待验证"
     },
     {
       "source_name": "DataEye短剧出海",
@@ -1830,7 +1864,8 @@
       "summary": "海外短剧热榜提到虐恋追妻、平台发行方榜单变化，可继续观察追妻火葬场和头部供给竞争。",
       "topic_signal": "虐恋追妻 / 头部平台供给 / 海外女频",
       "evidence_level": "B",
-      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7"
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7",
+      "audience_segment": "女频"
     },
     {
       "source_name": "DataEye短剧观察",
@@ -1839,7 +1874,8 @@
       "summary": "诡异题材连续登顶说明悬疑惊悚、怪谈和反常识设定值得作为短剧/漫剧方向观察。",
       "topic_signal": "诡异题材 / 怪谈悬疑 / 高播放增量",
       "evidence_level": "B",
-      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7"
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7",
+      "audience_segment": "男频"
     },
     {
       "source_name": "DataEye短剧观察",
@@ -1848,7 +1884,8 @@
       "summary": "AI仿真人剧在日榜中集中占位，东北地域、少夫人、付免双爆等信号可用于观察AI短剧题材包装。",
       "topic_signal": "AI仿真人剧 / 地域爽剧 / 付免双爆",
       "evidence_level": "B",
-      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7"
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=DataEye%20%E7%9F%AD%E5%89%A7",
+      "audience_segment": "泛向/待验证"
     },
     {
       "source_name": "Times of India",
@@ -1857,7 +1894,8 @@
       "summary": "印度 vertical OTT 平台 Rocket Reels 在一次性推出 10 部原创剧后继续扩张，新增 Lady Bond 007、Honey Trap、Marriage Bureau、Pathan The Killer 等 8 部原创 micro-drama。",
       "topic_signal": "印度竖屏短剧 / 女特工 / 诱捕悬疑 / 婚介轻喜 / 动作犯罪",
       "evidence_level": "B",
-      "source_url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/compelling-storytelling-can-thrive-in-shorter-formats-kranti-shanbhag/articleshow/131700683.cms"
+      "source_url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/compelling-storytelling-can-thrive-in-shorter-formats-kranti-shanbhag/articleshow/131700683.cms",
+      "audience_segment": "泛向/待验证"
     },
     {
       "source_name": "Business Insider",
@@ -1866,7 +1904,8 @@
       "summary": "报道显示美国 microdrama 产业开始用 AI 生成角色和剧集压低成本，演员替代、表演可信度和观众接受度正在成为新争议。",
       "topic_signal": "AI演员替代 / 真人感短剧 / 生产成本与伦理风险",
       "evidence_level": "B",
-      "source_url": "https://www.businessinsider.com/actors-losing-jobs-to-ai-hollywood-micro-drama-industry-2026-6"
+      "source_url": "https://www.businessinsider.com/actors-losing-jobs-to-ai-hollywood-micro-drama-industry-2026-6",
+      "audience_segment": "泛向/待验证"
     },
     {
       "source_name": "Taiwan BL title watch",
@@ -1875,7 +1914,8 @@
       "summary": "台湾 BL 奇幻剧通过 Viki、GagaOOLala 面向国际观众，流星许愿、平行命运和错过重来可作为 BL 短剧轻奇幻方向。",
       "topic_signal": "BL奇幻 / 命运重启 / 国际小众受众",
       "evidence_level": "C",
-      "source_url": "https://en.wikipedia.org/wiki/Wishing_Upon_the_Shooting_Stars"
+      "source_url": "https://en.wikipedia.org/wiki/Wishing_Upon_the_Shooting_Stars",
+      "audience_segment": "泛向/待验证"
     },
     {
       "source_name": "36氪 / 骨朵网络影视",
@@ -1884,7 +1924,8 @@
       "summary": "文章讨论漫剧投流、播放和ROI表现，指出网文IP、低成本制作和快速周转正在推动漫剧成为短剧赛道的重要变量。",
       "topic_signal": "AI漫剧 / 网文IP影像化 / ROI与资金周转",
       "evidence_level": "B",
-      "source_url": "https://www.36kr.com/p/3838601706440965"
+      "source_url": "https://www.36kr.com/p/3838601706440965",
+      "audience_segment": "泛向/待验证"
     },
     {
       "source_name": "36氪 / 文娱价值官",
@@ -1893,7 +1934,8 @@
       "summary": "文章强调海外短剧从翻译搬运进入深度本土化阶段，北美用户对套路化内容耐受降低，题材需要更贴近当地文化语境。",
       "topic_signal": "出海短剧本土化 / 北美审美变化 / 精品化",
       "evidence_level": "B",
-      "source_url": "https://www.36kr.com/p/3837211878947464"
+      "source_url": "https://www.36kr.com/p/3837211878947464",
+      "audience_segment": "泛向/待验证"
     },
     {
       "source_name": "36氪 / 镜像娱乐",
@@ -1902,7 +1944,8 @@
       "summary": "文章关注AI短剧出海、ToonScroll、PineDrama、TikTok minis等平台和IP方动作，适合观察海外AI短剧工业化趋势。",
       "topic_signal": "AI短剧出海 / 平台入局 / IP+AI工业化",
       "evidence_level": "B",
-      "source_url": "https://www.36kr.com/p/3836864874560388"
+      "source_url": "https://www.36kr.com/p/3836864874560388",
+      "audience_segment": "泛向/待验证"
     },
     {
       "source_name": "The Guardian",
@@ -1911,7 +1954,8 @@
       "summary": "全球观看观察里提到中国 microdrama、阿根廷女性分手喜剧、加拿大北极社区喜剧和科特迪瓦保姆群像，说明本地文化和女性社区故事仍能形成讨论。",
       "topic_signal": "本地社区题材 / 女性劳动者群像 / 分手后自我重建",
       "evidence_level": "B",
-      "source_url": "https://www.theguardian.com/culture/2026/may/22/from-chinese-microdramas-to-an-arctic-comedy-what-the-world-is-watching"
+      "source_url": "https://www.theguardian.com/culture/2026/may/22/from-chinese-microdramas-to-an-arctic-comedy-what-the-world-is-watching",
+      "audience_segment": "女频"
     },
     {
       "source_name": "arXiv",
@@ -1920,7 +1964,8 @@
       "summary": "论文提出用多智能体从一句话生成短剧，并强调短剧节奏、钩子、空间一致性和多阶段审校，可作为 AI 漫剧个性化生产方向。",
       "topic_signal": "一句话生成短剧 / 个性化AI漫剧 / 多智能体",
       "evidence_level": "C",
-      "source_url": "https://arxiv.org/abs/2605.22144"
+      "source_url": "https://arxiv.org/abs/2605.22144",
+      "audience_segment": "泛向/待验证"
     },
     {
       "source_name": "arXiv",
@@ -1929,7 +1974,8 @@
       "summary": "论文提出用多智能体系统把一句话扩展成短剧，重点解决短剧节奏、跨镜头空间一致性和多阶段审校，可作为AI短剧生产方法观察。",
       "topic_signal": "AI短剧生成 / 多智能体流程 / Short-Drama-Bench",
       "evidence_level": "C",
-      "source_url": "https://arxiv.org/abs/2605.22144"
+      "source_url": "https://arxiv.org/abs/2605.22144",
+      "audience_segment": "泛向/待验证"
     },
     {
       "source_name": "Business Insider",
@@ -1938,7 +1984,8 @@
       "summary": "NBCUniversal 将 ReelShort 微短剧引入 Peacock 移动端，并规划 Bravo 原创 micro drama，可作为主流流媒体试水竖屏短剧的信号。",
       "topic_signal": "主流流媒体试水 / ReelShort授权 / Hollywood vertical drama",
       "evidence_level": "B",
-      "source_url": "https://www.businessinsider.com/peacock-reelshort-micro-dramas-bravo-hollywood-short-form-vertical-video-2026-5"
+      "source_url": "https://www.businessinsider.com/peacock-reelshort-micro-dramas-bravo-hollywood-short-form-vertical-video-2026-5",
+      "audience_segment": "泛向/待验证"
     },
     {
       "source_name": "Korean short-drama title watch",
@@ -1947,7 +1994,8 @@
       "summary": "韩国人气 webtoon《狂眼》改编短剧，设定为假扮宫女的刺客与世子之间的浪漫、权力和身份斗争。",
       "topic_signal": "宫廷刺客 / webtoon IP / 权力恋爱",
       "evidence_level": "C",
-      "source_url": "https://zh.wikipedia.org/wiki/%E7%8B%82%E7%9C%BC"
+      "source_url": "https://zh.wikipedia.org/wiki/%E7%8B%82%E7%9C%BC",
+      "audience_segment": "泛向/待验证"
     },
     {
       "source_name": "Business Insider",
@@ -1956,7 +2004,8 @@
       "summary": "TikTok 主站测试 Short Drama feed，内容覆盖 crime、romance、absurd comedy、sci-fi，并出现 AI 僵尸等高概念内容，可观察平台是否把短剧从 romance 推向更广类型。",
       "topic_signal": "AI荒诞科幻 / 僵尸短剧 / TikTok短剧入口",
       "evidence_level": "B",
-      "source_url": "https://www.businessinsider.com/tiktok-testing-mini-drama-feed-ai-2026-3"
+      "source_url": "https://www.businessinsider.com/tiktok-testing-mini-drama-feed-ai-2026-3",
+      "audience_segment": "女频"
     },
     {
       "source_name": "Korean BL title watch",
@@ -1965,7 +2014,8 @@
       "summary": "2026 韩国 BL 列表出现 50 集以上竖屏短剧形态，校园暗恋、对立吸引和久别重逢可作为海外小众高粘性题材观察。",
       "topic_signal": "BL竖屏短剧 / 校园暗恋 / 久别重逢",
       "evidence_level": "C",
-      "source_url": "https://zh.wikipedia.org/wiki/%E9%9F%A9%E5%9B%BDBL%E7%94%B5%E8%A7%86%E5%89%A7%E5%88%97%E8%A1%A8"
+      "source_url": "https://zh.wikipedia.org/wiki/%E9%9F%A9%E5%9B%BDBL%E7%94%B5%E8%A7%86%E5%89%A7%E5%88%97%E8%A1%A8",
+      "audience_segment": "泛向/待验证"
     },
     {
       "source_name": "FOD / Fuji TV",
@@ -1974,7 +2024,8 @@
       "summary": "泰国《禁忌女孩》日本版改编以神秘转学生揭露校园黑暗面为核心，可转译成短剧里的校园/职场审判单元剧。",
       "topic_signal": "神秘转学生 / 校园审判 / 单元悬疑",
       "evidence_level": "C",
-      "source_url": "https://zh.wikipedia.org/wiki/%E8%BD%89%E5%AD%B8%E4%BE%86%E7%9A%84%E5%A5%B3%E7%94%9F_%28%E6%97%A5%E6%9C%AC%E9%9B%BB%E8%A6%96%E5%8A%87%29"
+      "source_url": "https://zh.wikipedia.org/wiki/%E8%BD%89%E5%AD%B8%E4%BE%86%E7%9A%84%E5%A5%B3%E7%94%9F_%28%E6%97%A5%E6%9C%AC%E9%9B%BB%E8%A6%96%E5%8A%87%29",
+      "audience_segment": "泛向/待验证"
     },
     {
       "source_name": "Korean drama title watch",
@@ -1983,7 +2034,8 @@
       "summary": "Love Phobia 将 AI comfort、人际连接缺失、浪漫喜剧和神秘秘密结合，可转化为AI陪伴恋爱/情感替代短剧方向。",
       "topic_signal": "AI陪伴恋爱 / 情感替代 / 科技悬疑",
       "evidence_level": "C",
-      "source_url": "https://en.wikipedia.org/wiki/Love_Phobia_%28TV_series%29"
+      "source_url": "https://en.wikipedia.org/wiki/Love_Phobia_%28TV_series%29",
+      "audience_segment": "女频"
     },
     {
       "source_name": "The Week",
@@ -1992,7 +2044,8 @@
       "summary": "文章从美国大众媒体视角解释 microdrama 的观看场景、付费模式、低成本制作和洛杉矶产业机会，可补充海外受众教育视角。",
       "topic_signal": "美国市场教育 / 竖屏付费短剧 / 低成本高周转",
       "evidence_level": "B",
-      "source_url": "https://theweek.com/culture-life/film/microdramas-short-tiktok-entertainment"
+      "source_url": "https://theweek.com/culture-life/film/microdramas-short-tiktok-entertainment",
+      "audience_segment": "泛向/待验证"
     },
     {
       "source_name": "arXiv / HCI",
@@ -2001,7 +2054,8 @@
       "summary": "论文从编剧和生产流程角度讨论短剧创作如何吸收评论、转发、表情包等观众反馈，可作为题材迭代方法论观察。",
       "topic_signal": "观众反馈驱动创作 / 评论共创 / 短剧生产流程",
       "evidence_level": "C",
-      "source_url": "https://arxiv.org/abs/2602.14045"
+      "source_url": "https://arxiv.org/abs/2602.14045",
+      "audience_segment": "泛向/待验证"
     },
     {
       "source_name": "Business Insider",
@@ -2010,7 +2064,8 @@
       "summary": "文章关注 micro drama 中暴力、羞辱和厌女桥段的争议，以及粉丝对更强女性角色、多元选角和角色驱动故事的呼声。",
       "topic_signal": "题材风险 / 女性角色升级 / 反羞辱叙事",
       "evidence_level": "B",
-      "source_url": "https://www.businessinsider.com/micro-dramas-spark-backlash-over-violence-and-misogyny-in-plots-2026-1"
+      "source_url": "https://www.businessinsider.com/micro-dramas-spark-backlash-over-violence-and-misogyny-in-plots-2026-1",
+      "audience_segment": "女频"
     },
     {
       "source_name": "Business Insider",
@@ -2019,7 +2074,8 @@
       "summary": "Fox 与 Dhar Mann Studios 合作 40 部 scripted vertical microdrama，说明 creator-led 的道德反转、社会议题和强报应叙事正在被主流公司吸收。",
       "topic_signal": "道德反转 / creator-led短剧 / 报应爽感",
       "evidence_level": "B",
-      "source_url": "https://www.businessinsider.com/fox-partnering-with-dhar-mann-to-win-micro-drama-fans-2026-1"
+      "source_url": "https://www.businessinsider.com/fox-partnering-with-dhar-mann-to-win-micro-drama-fans-2026-1",
+      "audience_segment": "泛向/待验证"
     },
     {
       "source_name": "Business Insider",
@@ -2028,7 +2084,8 @@
       "summary": "DramaBox 在美国竞争中被提到探索 family dramas 和 interactive content，可作为遗产、亲情悬疑、真假亲人和评论分支题材观察。",
       "topic_signal": "家庭悬疑 / 互动分支 / 遗产与亲情反转",
       "evidence_level": "B",
-      "source_url": "https://www.businessinsider.com/dramabox-seeks-new-funding-micro-drama-apps-gain-global-momentum-2026-1"
+      "source_url": "https://www.businessinsider.com/dramabox-seeks-new-funding-micro-drama-apps-gain-global-momentum-2026-1",
+      "audience_segment": "女频"
     },
     {
       "source_name": "Business Insider",
@@ -2037,7 +2094,8 @@
       "summary": "PineDrama 以免费、无广告试水 microdrama，热门内容集中在 romance 和 supernatural，Love at First Bite 等吸血鬼/狼人恋爱题材具备短剧化参考价值。",
       "topic_signal": "免费平台测试 / 吸血鬼恋爱 / 超自然romance",
       "evidence_level": "B",
-      "source_url": "https://www.businessinsider.com/tiktok-launches-a-new-micro-drama-app-called-pinedrama-2026-1"
+      "source_url": "https://www.businessinsider.com/tiktok-launches-a-new-micro-drama-app-called-pinedrama-2026-1",
+      "audience_segment": "女频"
     },
     {
       "source_name": "Axios",
@@ -2046,7 +2104,8 @@
       "summary": "Holywater 为 My Drama 等 microdrama 产品获得 2200 万美元 A 轮融资，说明非亚洲团队也在加码竖屏短剧平台。",
       "topic_signal": "海外平台融资 / My Drama / 非亚洲玩家入局",
       "evidence_level": "B",
-      "source_url": "https://www.axios.com/2026/01/15/holywater-microdrama-app-funding"
+      "source_url": "https://www.axios.com/2026/01/15/holywater-microdrama-app-funding",
+      "audience_segment": "泛向/待验证"
     },
     {
       "source_name": "Business Insider",
@@ -2055,7 +2114,8 @@
       "summary": "报道指出 Fox、Disney 等玩家正在探索 romance 之外的 crime、animation、广告支持和产品植入模式，说明题材需要从霸总/狼人扩展到犯罪、动画和品牌剧情。",
       "topic_signal": "犯罪短剧 / 动画短剧 / 品类扩张",
       "evidence_level": "B",
-      "source_url": "https://www.businessinsider.com/micro-dramas-face-reality-check-after-buzzy-us-arrival-2026-1"
+      "source_url": "https://www.businessinsider.com/micro-dramas-face-reality-check-after-buzzy-us-arrival-2026-1",
+      "audience_segment": "女频"
     }
   ],
   "strategic_focus": [
