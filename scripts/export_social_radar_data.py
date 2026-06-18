@@ -1621,11 +1621,12 @@ def build_traditional_film_tv_topics():
 def build_industry_media_observations():
     def sort_key(item):
         is_dataeye = "DataEye" in str(item.get("source_name", ""))
+        is_june_2026 = str(item.get("article_date", "")).startswith("2026-06")
         try:
             article_day = date.fromisoformat(str(item.get("article_date", ""))).toordinal()
         except ValueError:
             article_day = 0
-        return (0 if is_dataeye else 1, -article_day)
+        return (0 if is_june_2026 else 1, -article_day, 0 if is_dataeye else 1)
 
     observations = [
         dict(item)

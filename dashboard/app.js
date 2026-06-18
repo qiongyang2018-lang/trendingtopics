@@ -641,7 +641,10 @@ function renderIndustryMediaObservations(items) {
   const observations = (items || [])
     .filter((item) => item.title && String(item.article_date || "").startsWith("2026"))
     .slice(0, 15);
-  setText("#industryMediaCount", `2026行业媒体信号 · ${observations.length} 条`);
+  const juneCount = (items || [])
+    .filter((item) => item.title && String(item.article_date || "").startsWith("2026-06"))
+    .length;
+  setText("#industryMediaCount", `6月行业媒体信号 ${juneCount} 条 · 2026共 ${observations.length} 条`);
 
   if (!observations.length) {
     setHtml("#industryMediaGrid", `
