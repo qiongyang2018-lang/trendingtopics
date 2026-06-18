@@ -729,12 +729,31 @@ def build_comment_pain_points(youtube_points=None):
     points = []
     seen = set()
     for item in list(youtube_points or []) + [dict(seed) for seed in COMMENT_PAIN_POINT_SEEDS]:
-        key = item.get("pain_point")
+        key = comment_pain_semantic_key(item)
         if not key or key in seen:
             continue
         seen.add(key)
         points.append(item)
     return points
+
+
+def comment_pain_semantic_key(item):
+    text = " ".join(
+        str(item.get(field, "")).lower()
+        for field in ("pain_point", "frequent_expression", "mapped_drama_angle")
+    )
+    semantic_rules = [
+        ("weak-female-lead", ("weak female", "weak fl", "软弱女主", "反复原谅", "forgive him")),
+        ("cheating-revenge", ("cheater", "cheating", "出轨", "复仇", "证据反杀")),
+        ("paid-filler", ("filler", "drag", "付费", "拖水", "too many episodes")),
+        ("werewolf-mate", ("werewolf", "rejected mate", "命定伴侣", "狼人", "alpha")),
+        ("single-mom-divorce", ("single mom", "single mother", "单亲", "离婚后", "divorce")),
+        ("mafia-toxic", ("mafia", "黑帮", "禁忌恋", "高压关系", "toxic", "red flag")),
+    ]
+    for key, tokens in semantic_rules:
+        if any(token in text for token in tokens):
+            return key
+    return item.get("pain_point")
 
 
 def build_strategic_focus():
