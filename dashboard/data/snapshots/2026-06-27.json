@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T06:01:02",
+  "generated_at": "2026-06-27T06:41:27",
   "source_workbook": "社媒热点题材雷达_v1.xlsx",
   "scope": {
     "markets": [
@@ -765,11 +765,11 @@
       "channel_title": "JYP Entertainment",
       "published_at": "2026-06-24T04:00:01Z",
       "category_id": "10",
-      "view_count": "18100551",
-      "like_count": "1140708",
-      "comment_count": "109361",
+      "view_count": "18195157",
+      "like_count": "1141632",
+      "comment_count": "109468",
       "url": "https://www.youtube.com/watch?v=Q7IFjVUUb_E",
-      "captured_at": "2026-06-27T06:01:02",
+      "captured_at": "2026-06-27T06:41:27",
       "evidence_level": "A"
     },
     {
@@ -782,11 +782,11 @@
       "channel_title": "New Rockstars",
       "published_at": "2026-06-24T19:25:22Z",
       "category_id": "24",
-      "view_count": "416122",
-      "like_count": "12688",
-      "comment_count": "751",
+      "view_count": "417150",
+      "like_count": "12705",
+      "comment_count": "752",
       "url": "https://www.youtube.com/watch?v=ynR3e3R7NjE",
-      "captured_at": "2026-06-27T06:01:02",
+      "captured_at": "2026-06-27T06:41:27",
       "evidence_level": "A"
     },
     {
@@ -799,11 +799,11 @@
       "channel_title": "VanossGaming",
       "published_at": "2026-06-25T01:48:24Z",
       "category_id": "20",
-      "view_count": "1308062",
-      "like_count": "57437",
-      "comment_count": "1327",
+      "view_count": "1313134",
+      "like_count": "57551",
+      "comment_count": "1328",
       "url": "https://www.youtube.com/watch?v=U-JyUSsROC0",
-      "captured_at": "2026-06-27T06:01:02",
+      "captured_at": "2026-06-27T06:41:27",
       "evidence_level": "A"
     },
     {
@@ -816,11 +816,11 @@
       "channel_title": "Bizarrap",
       "published_at": "2026-06-25T00:00:12Z",
       "category_id": "24",
-      "view_count": "4492567",
-      "like_count": "419740",
-      "comment_count": "19981",
+      "view_count": "4518200",
+      "like_count": "420250",
+      "comment_count": "19988",
       "url": "https://www.youtube.com/watch?v=ic2A-IAGMcE",
-      "captured_at": "2026-06-27T06:01:02",
+      "captured_at": "2026-06-27T06:41:27",
       "evidence_level": "A"
     },
     {
@@ -833,11 +833,11 @@
       "channel_title": "Warner Bros.",
       "published_at": "2026-06-24T16:00:38Z",
       "category_id": "1",
-      "view_count": "7484137",
-      "like_count": "13777",
-      "comment_count": "854",
+      "view_count": "7569220",
+      "like_count": "13812",
+      "comment_count": "855",
       "url": "https://www.youtube.com/watch?v=Ho10_4IX1jE",
-      "captured_at": "2026-06-27T06:01:02",
+      "captured_at": "2026-06-27T06:41:27",
       "evidence_level": "A"
     },
     {
@@ -850,11 +850,11 @@
       "channel_title": "FridBlox",
       "published_at": "2026-06-25T03:10:34Z",
       "category_id": "20",
-      "view_count": "463243",
+      "view_count": "463360",
       "like_count": "2348",
       "comment_count": "9",
       "url": "https://www.youtube.com/watch?v=JFzLaXckaBU",
-      "captured_at": "2026-06-27T06:01:02",
+      "captured_at": "2026-06-27T06:41:27",
       "evidence_level": "A"
     },
     {
@@ -867,11 +867,11 @@
       "channel_title": "Toby Fox",
       "published_at": "2026-06-24T16:22:12Z",
       "category_id": "10",
-      "view_count": "1187443",
-      "like_count": "40551",
-      "comment_count": "6669",
+      "view_count": "1202653",
+      "like_count": "40801",
+      "comment_count": "6702",
       "url": "https://www.youtube.com/watch?v=GWf9_qSrnOM",
-      "captured_at": "2026-06-27T06:01:02",
+      "captured_at": "2026-06-27T06:41:27",
       "evidence_level": "A"
     },
     {
@@ -884,11 +884,11 @@
       "channel_title": "Hulu",
       "published_at": "2026-06-24T12:59:54Z",
       "category_id": "24",
-      "view_count": "4424597",
-      "like_count": "11858",
-      "comment_count": "1261",
+      "view_count": "4476317",
+      "like_count": "11869",
+      "comment_count": "1264",
       "url": "https://www.youtube.com/watch?v=g2JXuQ3nKPU",
-      "captured_at": "2026-06-27T06:01:02",
+      "captured_at": "2026-06-27T06:41:27",
       "evidence_level": "A"
     },
     {
@@ -901,11 +901,11 @@
       "channel_title": "Kimo Sounds",
       "published_at": "2026-06-23T16:30:04Z",
       "category_id": "10",
-      "view_count": "350957",
-      "like_count": "2934",
+      "view_count": "354430",
+      "like_count": "2976",
       "comment_count": "68",
       "url": "https://www.youtube.com/watch?v=w8bk91BeYig",
-      "captured_at": "2026-06-27T06:01:02",
+      "captured_at": "2026-06-27T06:41:27",
       "evidence_level": "A"
     },
     {
@@ -918,11 +918,11 @@
       "channel_title": "Excel Movies",
       "published_at": "2026-06-25T06:29:50Z",
       "category_id": "1",
-      "view_count": "20369559",
-      "like_count": "256656",
-      "comment_count": "11406",
+      "view_count": "20428550",
+      "like_count": "257513",
+      "comment_count": "11428",
       "url": "https://www.youtube.com/watch?v=uBotyv_TSZg",
-      "captured_at": "2026-06-27T06:01:02",
+      "captured_at": "2026-06-27T06:41:27",
       "evidence_level": "A"
     },
     {
@@ -935,11 +935,11 @@
       "channel_title": "TGG",
       "published_at": "2026-06-25T07:35:29Z",
       "category_id": "20",
-      "view_count": "515123",
-      "like_count": "21575",
-      "comment_count": "2066",
+      "view_count": "516661",
+      "like_count": "21611",
+      "comment_count": "2069",
       "url": "https://www.youtube.com/watch?v=w2qeAZY_T5k",
-      "captured_at": "2026-06-27T06:01:02",
+      "captured_at": "2026-06-27T06:41:27",
       "evidence_level": "A"
     },
     {
@@ -952,11 +952,11 @@
       "channel_title": "undershare",
       "published_at": "2026-06-19T17:30:37Z",
       "category_id": "22",
-      "view_count": "262157",
-      "like_count": "1009",
+      "view_count": "266110",
+      "like_count": "1011",
       "comment_count": "3",
       "url": "https://www.youtube.com/watch?v=tFaGAeS_Ov4",
-      "captured_at": "2026-06-27T06:01:02",
+      "captured_at": "2026-06-27T06:41:27",
       "evidence_level": "A"
     },
     {
@@ -969,11 +969,11 @@
       "channel_title": "Ultimate Studios",
       "published_at": "2026-06-24T18:30:23Z",
       "category_id": "24",
-      "view_count": "106876",
-      "like_count": "429",
+      "view_count": "107177",
+      "like_count": "430",
       "comment_count": "65",
       "url": "https://www.youtube.com/watch?v=CHKHLes3zk0",
-      "captured_at": "2026-06-27T06:01:02",
+      "captured_at": "2026-06-27T06:41:27",
       "evidence_level": "A"
     },
     {
@@ -986,11 +986,11 @@
       "channel_title": "VanossGaming",
       "published_at": "2026-06-25T01:48:24Z",
       "category_id": "20",
-      "view_count": "1308062",
-      "like_count": "57437",
-      "comment_count": "1327",
+      "view_count": "1313134",
+      "like_count": "57551",
+      "comment_count": "1328",
       "url": "https://www.youtube.com/watch?v=U-JyUSsROC0",
-      "captured_at": "2026-06-27T06:01:02",
+      "captured_at": "2026-06-27T06:41:27",
       "evidence_level": "A"
     },
     {
@@ -1003,11 +1003,11 @@
       "channel_title": "Aitch",
       "published_at": "2026-06-24T18:00:07Z",
       "category_id": "10",
-      "view_count": "155176",
-      "like_count": "8412",
-      "comment_count": "450",
+      "view_count": "155642",
+      "like_count": "8431",
+      "comment_count": "451",
       "url": "https://www.youtube.com/watch?v=3uUHZlEBQ6A",
-      "captured_at": "2026-06-27T06:01:02",
+      "captured_at": "2026-06-27T06:41:27",
       "evidence_level": "A"
     },
     {
@@ -1020,11 +1020,11 @@
       "channel_title": "ONE Media",
       "published_at": "2026-06-24T16:04:34Z",
       "category_id": "1",
-      "view_count": "191672",
-      "like_count": "2118",
-      "comment_count": "223",
+      "view_count": "192464",
+      "like_count": "2125",
+      "comment_count": "238",
       "url": "https://www.youtube.com/watch?v=INE0WHvka2g",
-      "captured_at": "2026-06-27T06:01:02",
+      "captured_at": "2026-06-27T06:41:27",
       "evidence_level": "A"
     },
     {
@@ -1037,11 +1037,11 @@
       "channel_title": "Lo-fi 2307",
       "published_at": "2026-06-21T06:30:07Z",
       "category_id": "10",
-      "view_count": "1401283",
-      "like_count": "7709",
-      "comment_count": "58",
+      "view_count": "1428449",
+      "like_count": "7842",
+      "comment_count": "59",
       "url": "https://www.youtube.com/watch?v=lFlK7t1INjA",
-      "captured_at": "2026-06-27T06:01:02",
+      "captured_at": "2026-06-27T06:41:27",
       "evidence_level": "A"
     },
     {
@@ -1054,11 +1054,11 @@
       "channel_title": "Excel Movies",
       "published_at": "2026-06-25T06:29:50Z",
       "category_id": "1",
-      "view_count": "20369559",
-      "like_count": "256656",
-      "comment_count": "11406",
+      "view_count": "20428550",
+      "like_count": "257513",
+      "comment_count": "11428",
       "url": "https://www.youtube.com/watch?v=uBotyv_TSZg",
-      "captured_at": "2026-06-27T06:01:02",
+      "captured_at": "2026-06-27T06:41:27",
       "evidence_level": "A"
     },
     {
@@ -1071,11 +1071,11 @@
       "channel_title": "VanossGaming",
       "published_at": "2026-06-25T01:48:24Z",
       "category_id": "20",
-      "view_count": "1308062",
-      "like_count": "57437",
-      "comment_count": "1327",
+      "view_count": "1313134",
+      "like_count": "57551",
+      "comment_count": "1328",
       "url": "https://www.youtube.com/watch?v=U-JyUSsROC0",
-      "captured_at": "2026-06-27T06:01:02",
+      "captured_at": "2026-06-27T06:41:27",
       "evidence_level": "A"
     },
     {
@@ -1088,11 +1088,11 @@
       "channel_title": "Velvet Sky22 - Topic",
       "published_at": "2026-06-24T02:37:18Z",
       "category_id": "10",
-      "view_count": "203023",
-      "like_count": "3010",
+      "view_count": "204645",
+      "like_count": "3043",
       "comment_count": "0",
       "url": "https://www.youtube.com/watch?v=6v2Q_i8D1vA",
-      "captured_at": "2026-06-27T06:01:02",
+      "captured_at": "2026-06-27T06:41:27",
       "evidence_level": "A"
     },
     {
@@ -1105,11 +1105,11 @@
       "channel_title": "Quiver Distribution",
       "published_at": "2026-05-27T16:09:54Z",
       "category_id": "1",
-      "view_count": "561235",
-      "like_count": "21594",
-      "comment_count": "3493",
+      "view_count": "566330",
+      "like_count": "21732",
+      "comment_count": "3511",
       "url": "https://www.youtube.com/watch?v=fVxmjwaPEFU",
-      "captured_at": "2026-06-27T06:01:02",
+      "captured_at": "2026-06-27T06:41:27",
       "evidence_level": "A"
     },
     {
@@ -1122,11 +1122,11 @@
       "channel_title": "LookOut2DD",
       "published_at": "2026-06-24T23:51:16Z",
       "category_id": "20",
-      "view_count": "2854574",
-      "like_count": "80787",
-      "comment_count": "7448",
+      "view_count": "2873625",
+      "like_count": "81060",
+      "comment_count": "7472",
       "url": "https://www.youtube.com/watch?v=sv6LFf4eANw",
-      "captured_at": "2026-06-27T06:01:02",
+      "captured_at": "2026-06-27T06:41:27",
       "evidence_level": "A"
     },
     {
@@ -1139,11 +1139,11 @@
       "channel_title": "Josh Fawaz - Topic",
       "published_at": "2026-06-23T05:04:56Z",
       "category_id": "10",
-      "view_count": "218450",
-      "like_count": "2237",
+      "view_count": "221812",
+      "like_count": "2272",
       "comment_count": "7",
       "url": "https://www.youtube.com/watch?v=DSjVgHdsvWM",
-      "captured_at": "2026-06-27T06:01:02",
+      "captured_at": "2026-06-27T06:41:27",
       "evidence_level": "A"
     },
     {
@@ -1156,11 +1156,11 @@
       "channel_title": "New Rockstars",
       "published_at": "2026-06-24T19:25:22Z",
       "category_id": "24",
-      "view_count": "416122",
-      "like_count": "12688",
-      "comment_count": "751",
+      "view_count": "417150",
+      "like_count": "12705",
+      "comment_count": "752",
       "url": "https://www.youtube.com/watch?v=ynR3e3R7NjE",
-      "captured_at": "2026-06-27T06:01:02",
+      "captured_at": "2026-06-27T06:41:27",
       "evidence_level": "A"
     },
     {
@@ -1173,11 +1173,11 @@
       "channel_title": "JYP Entertainment",
       "published_at": "2026-06-24T04:00:01Z",
       "category_id": "10",
-      "view_count": "18100551",
-      "like_count": "1140708",
-      "comment_count": "109361",
+      "view_count": "18195157",
+      "like_count": "1141632",
+      "comment_count": "109468",
       "url": "https://www.youtube.com/watch?v=Q7IFjVUUb_E",
-      "captured_at": "2026-06-27T06:01:02",
+      "captured_at": "2026-06-27T06:41:27",
       "evidence_level": "A"
     },
     {
@@ -1190,11 +1190,11 @@
       "channel_title": "Excel Movies",
       "published_at": "2026-06-25T06:29:50Z",
       "category_id": "1",
-      "view_count": "20369559",
-      "like_count": "256656",
-      "comment_count": "11406",
+      "view_count": "20428550",
+      "like_count": "257513",
+      "comment_count": "11428",
       "url": "https://www.youtube.com/watch?v=uBotyv_TSZg",
-      "captured_at": "2026-06-27T06:01:02",
+      "captured_at": "2026-06-27T06:41:27",
       "evidence_level": "A"
     },
     {
@@ -1207,11 +1207,11 @@
       "channel_title": "VanossGaming",
       "published_at": "2026-06-25T01:48:24Z",
       "category_id": "20",
-      "view_count": "1308062",
-      "like_count": "57437",
-      "comment_count": "1327",
+      "view_count": "1313134",
+      "like_count": "57551",
+      "comment_count": "1328",
       "url": "https://www.youtube.com/watch?v=U-JyUSsROC0",
-      "captured_at": "2026-06-27T06:01:02",
+      "captured_at": "2026-06-27T06:41:27",
       "evidence_level": "A"
     },
     {
@@ -1224,11 +1224,11 @@
       "channel_title": "Josh Fawaz - Topic",
       "published_at": "2026-06-23T05:04:56Z",
       "category_id": "10",
-      "view_count": "218450",
-      "like_count": "2237",
+      "view_count": "221812",
+      "like_count": "2272",
       "comment_count": "7",
       "url": "https://www.youtube.com/watch?v=DSjVgHdsvWM",
-      "captured_at": "2026-06-27T06:01:02",
+      "captured_at": "2026-06-27T06:41:27",
       "evidence_level": "A"
     },
     {
@@ -1241,11 +1241,11 @@
       "channel_title": "Maddock Films",
       "published_at": "2026-06-23T08:45:15Z",
       "category_id": "24",
-      "view_count": "20575901",
-      "like_count": "214186",
-      "comment_count": "15887",
+      "view_count": "20777504",
+      "like_count": "214472",
+      "comment_count": "15894",
       "url": "https://www.youtube.com/watch?v=zfopTfY3lBU",
-      "captured_at": "2026-06-27T06:01:02",
+      "captured_at": "2026-06-27T06:41:27",
       "evidence_level": "A"
     },
     {
@@ -1258,11 +1258,11 @@
       "channel_title": "Spoke",
       "published_at": "2026-06-23T18:54:02Z",
       "category_id": "20",
-      "view_count": "3503999",
-      "like_count": "143429",
-      "comment_count": "34652",
+      "view_count": "3511229",
+      "like_count": "143526",
+      "comment_count": "34675",
       "url": "https://www.youtube.com/watch?v=8_Au10osdEo",
-      "captured_at": "2026-06-27T06:01:02",
+      "captured_at": "2026-06-27T06:41:27",
       "evidence_level": "A"
     },
     {
@@ -1275,11 +1275,11 @@
       "channel_title": "Toby Fox",
       "published_at": "2026-06-24T16:22:12Z",
       "category_id": "10",
-      "view_count": "1187443",
-      "like_count": "40551",
-      "comment_count": "6669",
+      "view_count": "1202653",
+      "like_count": "40801",
+      "comment_count": "6702",
       "url": "https://www.youtube.com/watch?v=GWf9_qSrnOM",
-      "captured_at": "2026-06-27T06:01:02",
+      "captured_at": "2026-06-27T06:41:27",
       "evidence_level": "A"
     },
     {
@@ -1292,11 +1292,11 @@
       "channel_title": "Quiver Distribution",
       "published_at": "2026-05-27T16:09:54Z",
       "category_id": "1",
-      "view_count": "561235",
-      "like_count": "21594",
-      "comment_count": "3493",
+      "view_count": "566330",
+      "like_count": "21732",
+      "comment_count": "3511",
       "url": "https://www.youtube.com/watch?v=fVxmjwaPEFU",
-      "captured_at": "2026-06-27T06:01:02",
+      "captured_at": "2026-06-27T06:41:27",
       "evidence_level": "A"
     }
   ],
@@ -1315,7 +1315,7 @@
       "AU"
     ],
     "error": "",
-    "captured_at": "2026-06-27T06:01:02"
+    "captured_at": "2026-06-27T06:41:27"
   },
   "youtube_comment_status": {
     "enabled": true,
@@ -1325,10 +1325,10 @@
       "microdrama romance"
     ],
     "videos_checked": 8,
-    "comments_scanned": 65,
-    "matched_comments": 7,
+    "comments_scanned": 76,
+    "matched_comments": 8,
     "error": "",
-    "captured_at": "2026-06-27T06:01:02"
+    "captured_at": "2026-06-27T06:41:27"
   },
   "ai_animation_topics": [
     {
@@ -1780,6 +1780,18 @@
       "audience_segment": "泛向/待验证"
     },
     {
+      "pain_point": "YouTube观众想看更有新意的狼人/命定伴侣",
+      "frequent_expression": "rejected mate again / alpha / mate bond / werewolf story · matched 1 public comments across 1 videos",
+      "source_platform": "YouTube public comments",
+      "emotion": "fandom fatigue, curiosity",
+      "mapped_drama_angle": "狼人 rejected mate / 世界观反转 / 女性成长",
+      "recommended_handling": "保留命定拒绝爽点，但改成女主主动拒绝、规则反转或非alpha关系，降低同质化。",
+      "evidence_level": "C",
+      "source_url": "https://www.youtube.com/results?search_query=microdrama+romance",
+      "risk_notes": "供给拥挤，必须有世界观或人物关系差异化。 已匿名聚合，不保留用户名或单条评论原文。",
+      "audience_segment": "女频"
+    },
+    {
       "pain_point": "不想再看软弱女主反复原谅",
       "frequent_expression": "Tired of weak female leads / why does she forgive him again",
       "source_platform": "Reddit / app reviews",
@@ -1826,18 +1838,6 @@
       "source_url": "https://arxiv.org/abs/2602.14045",
       "risk_notes": "评论反馈只能辅助A/B测试，不能替代编剧判断。",
       "audience_segment": "泛向/待验证"
-    },
-    {
-      "pain_point": "想看更不套路的狼人命定伴侣",
-      "frequent_expression": "Rejected mate again, but give me something new",
-      "source_platform": "Reddit / TikTok comments",
-      "emotion": "fandom fatigue, curiosity",
-      "mapped_drama_angle": "狼人 rejected mate / 世界观新意 / 女性成长",
-      "recommended_handling": "保留命定拒绝爽点，但改成女主主动拒绝、群体规则反转或非alpha关系。",
-      "evidence_level": "C",
-      "source_url": "https://www.reddit.com/search/?q=rejected%20mate%20werewolf%20romance",
-      "risk_notes": "供给拥挤，必须有世界观或人物关系差异化。",
-      "audience_segment": "女频"
     }
   ],
   "industry_media_observations": [
