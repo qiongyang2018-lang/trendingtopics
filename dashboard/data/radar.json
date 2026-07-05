@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T06:14:19",
+  "generated_at": "2026-07-05T06:53:41",
   "source_workbook": "社媒热点题材雷达_v1.xlsx",
   "scope": {
     "markets": [
@@ -765,11 +765,11 @@
       "channel_title": "Beyoncé",
       "published_at": "2026-07-04T13:00:53Z",
       "category_id": "10",
-      "view_count": "804386",
-      "like_count": "108040",
-      "comment_count": "10578",
+      "view_count": "818797",
+      "like_count": "108830",
+      "comment_count": "10622",
       "url": "https://www.youtube.com/watch?v=Mv5f9Q2LJYM",
-      "captured_at": "2026-07-05T06:14:19",
+      "captured_at": "2026-07-05T06:53:41",
       "evidence_level": "A"
     },
     {
@@ -782,11 +782,11 @@
       "channel_title": "The Hunger Games",
       "published_at": "2026-07-04T16:00:06Z",
       "category_id": "1",
-      "view_count": "301481",
-      "like_count": "13502",
-      "comment_count": "924",
+      "view_count": "306189",
+      "like_count": "13671",
+      "comment_count": "928",
       "url": "https://www.youtube.com/watch?v=7TYdQysC_Fc",
-      "captured_at": "2026-07-05T06:14:19",
+      "captured_at": "2026-07-05T06:53:41",
       "evidence_level": "A"
     },
     {
@@ -799,11 +799,11 @@
       "channel_title": "SeanRiiVEVO",
       "published_at": "2026-07-02T15:00:06Z",
       "category_id": "10",
-      "view_count": "71856",
-      "like_count": "3696",
+      "view_count": "72528",
+      "like_count": "3709",
       "comment_count": "421",
       "url": "https://www.youtube.com/watch?v=N4jtgcOIzVA",
-      "captured_at": "2026-07-05T06:14:19",
+      "captured_at": "2026-07-05T06:53:41",
       "evidence_level": "A"
     },
     {
@@ -816,11 +816,11 @@
       "channel_title": "The Critical Drinker",
       "published_at": "2026-07-03T16:00:04Z",
       "category_id": "24",
-      "view_count": "1917494",
-      "like_count": "124210",
-      "comment_count": "18092",
+      "view_count": "1928618",
+      "like_count": "124716",
+      "comment_count": "18154",
       "url": "https://www.youtube.com/watch?v=BkGOs3_q79I",
-      "captured_at": "2026-07-05T06:14:19",
+      "captured_at": "2026-07-05T06:53:41",
       "evidence_level": "A"
     },
     {
@@ -833,11 +833,11 @@
       "channel_title": "FaZe Rug",
       "published_at": "2026-07-04T20:57:55Z",
       "category_id": "24",
-      "view_count": "419939",
-      "like_count": "14236",
-      "comment_count": "1391",
+      "view_count": "458511",
+      "like_count": "14855",
+      "comment_count": "1417",
       "url": "https://www.youtube.com/watch?v=8UG1IJcYEQU",
-      "captured_at": "2026-07-05T06:14:19",
+      "captured_at": "2026-07-05T06:53:41",
       "evidence_level": "A"
     },
     {
@@ -850,11 +850,11 @@
       "channel_title": "Chicago Band",
       "published_at": "2026-07-03T14:00:27Z",
       "category_id": "10",
-      "view_count": "158506",
-      "like_count": "5517",
-      "comment_count": "431",
+      "view_count": "160361",
+      "like_count": "5540",
+      "comment_count": "434",
       "url": "https://www.youtube.com/watch?v=GOJHauJ1wzQ",
-      "captured_at": "2026-07-05T06:14:19",
+      "captured_at": "2026-07-05T06:53:41",
       "evidence_level": "A"
     },
     {
@@ -867,11 +867,11 @@
       "channel_title": "Crunchyroll",
       "published_at": "2026-07-05T03:03:40Z",
       "category_id": "1",
-      "view_count": "74859",
-      "like_count": "12961",
-      "comment_count": "977",
+      "view_count": "93004",
+      "like_count": "14401",
+      "comment_count": "1052",
       "url": "https://www.youtube.com/watch?v=9QyiEgv33z4",
-      "captured_at": "2026-07-05T06:14:19",
+      "captured_at": "2026-07-05T06:53:41",
       "evidence_level": "A"
     },
     {
@@ -884,11 +884,11 @@
       "channel_title": "Beyoncé",
       "published_at": "2026-07-04T13:00:53Z",
       "category_id": "10",
-      "view_count": "804386",
-      "like_count": "108040",
-      "comment_count": "10578",
+      "view_count": "818797",
+      "like_count": "108830",
+      "comment_count": "10622",
       "url": "https://www.youtube.com/watch?v=Mv5f9Q2LJYM",
-      "captured_at": "2026-07-05T06:14:19",
+      "captured_at": "2026-07-05T06:53:41",
       "evidence_level": "A"
     },
     {
@@ -901,11 +901,11 @@
       "channel_title": "The Hunger Games",
       "published_at": "2026-07-04T16:00:06Z",
       "category_id": "1",
-      "view_count": "301481",
-      "like_count": "13502",
-      "comment_count": "924",
+      "view_count": "306189",
+      "like_count": "13671",
+      "comment_count": "928",
       "url": "https://www.youtube.com/watch?v=7TYdQysC_Fc",
-      "captured_at": "2026-07-05T06:14:19",
+      "captured_at": "2026-07-05T06:53:41",
       "evidence_level": "A"
     },
     {
@@ -918,11 +918,11 @@
       "channel_title": "MoreSidemen",
       "published_at": "2026-07-04T18:12:45Z",
       "category_id": "24",
-      "view_count": "841892",
-      "like_count": "52467",
-      "comment_count": "1264",
+      "view_count": "880228",
+      "like_count": "54260",
+      "comment_count": "1280",
       "url": "https://www.youtube.com/watch?v=4Q4TuAzkz4k",
-      "captured_at": "2026-07-05T06:14:19",
+      "captured_at": "2026-07-05T06:53:41",
       "evidence_level": "A"
     },
     {
@@ -935,11 +935,11 @@
       "channel_title": "Joe Cocker",
       "published_at": "2026-07-03T15:00:06Z",
       "category_id": "10",
-      "view_count": "112849",
-      "like_count": "1816",
-      "comment_count": "26",
+      "view_count": "116182",
+      "like_count": "1849",
+      "comment_count": "27",
       "url": "https://www.youtube.com/watch?v=3uXipmPaluU",
-      "captured_at": "2026-07-05T06:14:19",
+      "captured_at": "2026-07-05T06:53:41",
       "evidence_level": "A"
     },
     {
@@ -952,11 +952,11 @@
       "channel_title": "The Critical Drinker",
       "published_at": "2026-07-03T16:00:04Z",
       "category_id": "24",
-      "view_count": "1917494",
-      "like_count": "124210",
-      "comment_count": "18092",
+      "view_count": "1928618",
+      "like_count": "124716",
+      "comment_count": "18154",
       "url": "https://www.youtube.com/watch?v=BkGOs3_q79I",
-      "captured_at": "2026-07-05T06:14:19",
+      "captured_at": "2026-07-05T06:53:41",
       "evidence_level": "A"
     },
     {
@@ -969,11 +969,11 @@
       "channel_title": "Marnz Malone",
       "published_at": "2026-07-04T18:00:00Z",
       "category_id": "22",
-      "view_count": "12465",
-      "like_count": "831",
+      "view_count": "12654",
+      "like_count": "840",
       "comment_count": "88",
       "url": "https://www.youtube.com/watch?v=X6qavZXhXFM",
-      "captured_at": "2026-07-05T06:14:19",
+      "captured_at": "2026-07-05T06:53:41",
       "evidence_level": "A"
     },
     {
@@ -986,11 +986,11 @@
       "channel_title": "Critical Drinker After Hours",
       "published_at": "2026-07-04T18:00:02Z",
       "category_id": "24",
-      "view_count": "120112",
-      "like_count": "6895",
-      "comment_count": "1994",
+      "view_count": "124262",
+      "like_count": "7015",
+      "comment_count": "2030",
       "url": "https://www.youtube.com/watch?v=sQj9MLVbpog",
-      "captured_at": "2026-07-05T06:14:19",
+      "captured_at": "2026-07-05T06:53:41",
       "evidence_level": "A"
     },
     {
@@ -1003,11 +1003,11 @@
       "channel_title": "Beyoncé",
       "published_at": "2026-07-04T13:00:53Z",
       "category_id": "10",
-      "view_count": "804386",
-      "like_count": "108040",
-      "comment_count": "10578",
+      "view_count": "818797",
+      "like_count": "108830",
+      "comment_count": "10622",
       "url": "https://www.youtube.com/watch?v=Mv5f9Q2LJYM",
-      "captured_at": "2026-07-05T06:14:19",
+      "captured_at": "2026-07-05T06:53:41",
       "evidence_level": "A"
     },
     {
@@ -1020,11 +1020,11 @@
       "channel_title": "The Hunger Games",
       "published_at": "2026-07-04T16:00:06Z",
       "category_id": "1",
-      "view_count": "301481",
-      "like_count": "13502",
-      "comment_count": "924",
+      "view_count": "306189",
+      "like_count": "13671",
+      "comment_count": "928",
       "url": "https://www.youtube.com/watch?v=7TYdQysC_Fc",
-      "captured_at": "2026-07-05T06:14:19",
+      "captured_at": "2026-07-05T06:53:41",
       "evidence_level": "A"
     },
     {
@@ -1037,11 +1037,11 @@
       "channel_title": "Prem Dhillon",
       "published_at": "2026-07-04T04:30:06Z",
       "category_id": "10",
-      "view_count": "222213",
-      "like_count": "19225",
-      "comment_count": "1415",
+      "view_count": "227830",
+      "like_count": "19361",
+      "comment_count": "1424",
       "url": "https://www.youtube.com/watch?v=9jLQ7O8Ep74",
-      "captured_at": "2026-07-05T06:14:19",
+      "captured_at": "2026-07-05T06:53:41",
       "evidence_level": "A"
     },
     {
@@ -1054,11 +1054,11 @@
       "channel_title": "The Critical Drinker",
       "published_at": "2026-07-03T16:00:04Z",
       "category_id": "24",
-      "view_count": "1917494",
-      "like_count": "124210",
-      "comment_count": "18092",
+      "view_count": "1928618",
+      "like_count": "124716",
+      "comment_count": "18154",
       "url": "https://www.youtube.com/watch?v=BkGOs3_q79I",
-      "captured_at": "2026-07-05T06:14:19",
+      "captured_at": "2026-07-05T06:53:41",
       "evidence_level": "A"
     },
     {
@@ -1071,11 +1071,11 @@
       "channel_title": "MoreSidemen",
       "published_at": "2026-07-04T18:12:45Z",
       "category_id": "24",
-      "view_count": "841892",
-      "like_count": "52467",
-      "comment_count": "1264",
+      "view_count": "880228",
+      "like_count": "54260",
+      "comment_count": "1280",
       "url": "https://www.youtube.com/watch?v=4Q4TuAzkz4k",
-      "captured_at": "2026-07-05T06:14:19",
+      "captured_at": "2026-07-05T06:53:41",
       "evidence_level": "A"
     },
     {
@@ -1088,11 +1088,11 @@
       "channel_title": "HEAVY HITTERS GLOBAL",
       "published_at": "2026-07-03T08:04:21Z",
       "category_id": "10",
-      "view_count": "120114",
-      "like_count": "4784",
-      "comment_count": "197",
+      "view_count": "122084",
+      "like_count": "4819",
+      "comment_count": "198",
       "url": "https://www.youtube.com/watch?v=OKTVXHYzT2Q",
-      "captured_at": "2026-07-05T06:14:19",
+      "captured_at": "2026-07-05T06:53:41",
       "evidence_level": "A"
     },
     {
@@ -1105,11 +1105,11 @@
       "channel_title": "Zee 5",
       "published_at": "2026-07-03T13:14:28Z",
       "category_id": "24",
-      "view_count": "12106627",
-      "like_count": "18955",
-      "comment_count": "1383",
+      "view_count": "12274513",
+      "like_count": "19341",
+      "comment_count": "1404",
       "url": "https://www.youtube.com/watch?v=Cn7ga2e7mZc",
-      "captured_at": "2026-07-05T06:14:19",
+      "captured_at": "2026-07-05T06:53:41",
       "evidence_level": "A"
     },
     {
@@ -1122,11 +1122,11 @@
       "channel_title": "Khan Bhaini",
       "published_at": "2026-07-02T12:44:22Z",
       "category_id": "10",
-      "view_count": "1491864",
-      "like_count": "25434",
-      "comment_count": "1213",
+      "view_count": "1499270",
+      "like_count": "25574",
+      "comment_count": "1217",
       "url": "https://www.youtube.com/watch?v=--OFJWkdJOI",
-      "captured_at": "2026-07-05T06:14:19",
+      "captured_at": "2026-07-05T06:53:41",
       "evidence_level": "A"
     },
     {
@@ -1139,11 +1139,11 @@
       "channel_title": "The Critical Drinker",
       "published_at": "2026-07-03T16:00:04Z",
       "category_id": "24",
-      "view_count": "1917494",
-      "like_count": "124210",
-      "comment_count": "18092",
+      "view_count": "1928618",
+      "like_count": "124716",
+      "comment_count": "18154",
       "url": "https://www.youtube.com/watch?v=BkGOs3_q79I",
-      "captured_at": "2026-07-05T06:14:19",
+      "captured_at": "2026-07-05T06:53:41",
       "evidence_level": "A"
     },
     {
@@ -1156,11 +1156,11 @@
       "channel_title": "Beyoncé",
       "published_at": "2026-07-04T13:00:53Z",
       "category_id": "10",
-      "view_count": "804386",
-      "like_count": "108040",
-      "comment_count": "10578",
+      "view_count": "818797",
+      "like_count": "108830",
+      "comment_count": "10622",
       "url": "https://www.youtube.com/watch?v=Mv5f9Q2LJYM",
-      "captured_at": "2026-07-05T06:14:19",
+      "captured_at": "2026-07-05T06:53:41",
       "evidence_level": "A"
     },
     {
@@ -1173,11 +1173,11 @@
       "channel_title": "Zee 5",
       "published_at": "2026-07-03T13:14:28Z",
       "category_id": "24",
-      "view_count": "12106627",
-      "like_count": "18955",
-      "comment_count": "1383",
+      "view_count": "12274513",
+      "like_count": "19341",
+      "comment_count": "1404",
       "url": "https://www.youtube.com/watch?v=Cn7ga2e7mZc",
-      "captured_at": "2026-07-05T06:14:19",
+      "captured_at": "2026-07-05T06:53:41",
       "evidence_level": "A"
     },
     {
@@ -1190,11 +1190,11 @@
       "channel_title": "MoreSidemen",
       "published_at": "2026-07-04T18:12:45Z",
       "category_id": "24",
-      "view_count": "841892",
-      "like_count": "52467",
-      "comment_count": "1264",
+      "view_count": "880228",
+      "like_count": "54260",
+      "comment_count": "1280",
       "url": "https://www.youtube.com/watch?v=4Q4TuAzkz4k",
-      "captured_at": "2026-07-05T06:14:19",
+      "captured_at": "2026-07-05T06:53:41",
       "evidence_level": "A"
     },
     {
@@ -1207,11 +1207,11 @@
       "channel_title": "MONEY VERSE RECORDS",
       "published_at": "2026-07-01T15:30:23Z",
       "category_id": "24",
-      "view_count": "4833632",
-      "like_count": "227868",
-      "comment_count": "5461",
+      "view_count": "4891469",
+      "like_count": "229200",
+      "comment_count": "5480",
       "url": "https://www.youtube.com/watch?v=xvT1jH8B9AM",
-      "captured_at": "2026-07-05T06:14:19",
+      "captured_at": "2026-07-05T06:53:41",
       "evidence_level": "A"
     },
     {
@@ -1224,11 +1224,11 @@
       "channel_title": "Universal Pictures",
       "published_at": "2026-07-01T12:30:05Z",
       "category_id": "24",
-      "view_count": "4516561",
-      "like_count": "58330",
-      "comment_count": "20480",
+      "view_count": "4523494",
+      "like_count": "58410",
+      "comment_count": "20539",
       "url": "https://www.youtube.com/watch?v=AyIZ9tiiN8I",
-      "captured_at": "2026-07-05T06:14:19",
+      "captured_at": "2026-07-05T06:53:41",
       "evidence_level": "A"
     }
   ],
@@ -1247,7 +1247,7 @@
       "AU"
     ],
     "error": "",
-    "captured_at": "2026-07-05T06:14:19"
+    "captured_at": "2026-07-05T06:53:41"
   },
   "youtube_comment_status": {
     "enabled": true,
@@ -1256,11 +1256,11 @@
       "DramaBox short drama",
       "microdrama romance"
     ],
-    "videos_checked": 8,
-    "comments_scanned": 85,
-    "matched_comments": 5,
+    "videos_checked": 9,
+    "comments_scanned": 94,
+    "matched_comments": 6,
     "error": "",
-    "captured_at": "2026-07-05T06:14:19"
+    "captured_at": "2026-07-05T06:53:41"
   },
   "ai_animation_topics": [
     {
@@ -1664,6 +1664,18 @@
   ],
   "comment_pain_points": [
     {
+      "pain_point": "YouTube观众讨厌付费后剧情拖水",
+      "frequent_expression": "too many episodes / filler / where is the ending / paid but dragged · matched 2 public comments across 2 videos",
+      "source_platform": "YouTube public comments",
+      "emotion": "frustration",
+      "mapped_drama_angle": "高密度反转 / 付费点后兑现 / 短集节奏优化",
+      "recommended_handling": "每个付费段落必须兑现一个秘密、打脸或关系进展，避免用误会和重复冲突拖时长。",
+      "evidence_level": "C",
+      "source_url": "https://www.youtube.com/results?search_query=DramaBox+short+drama",
+      "risk_notes": "这是产品与节奏痛点，不直接等同于新题材。 已匿名聚合，不保留用户名或单条评论原文。",
+      "audience_segment": "泛向/待验证"
+    },
+    {
       "pain_point": "YouTube观众对黑帮/高压关系既上头又担心有毒",
       "frequent_expression": "mafia romance / toxic / red flag / obsessed · matched 2 public comments across 2 videos",
       "source_platform": "YouTube public comments",
@@ -1674,18 +1686,6 @@
       "source_url": "https://www.youtube.com/results?search_query=DramaBox+short+drama",
       "risk_notes": "品牌风险较高，只做弱信号追踪。 已匿名聚合，不保留用户名或单条评论原文。",
       "audience_segment": "女频"
-    },
-    {
-      "pain_point": "YouTube观众讨厌付费后剧情拖水",
-      "frequent_expression": "too many episodes / filler / where is the ending / paid but dragged · matched 1 public comments across 1 videos",
-      "source_platform": "YouTube public comments",
-      "emotion": "frustration",
-      "mapped_drama_angle": "高密度反转 / 付费点后兑现 / 短集节奏优化",
-      "recommended_handling": "每个付费段落必须兑现一个秘密、打脸或关系进展，避免用误会和重复冲突拖时长。",
-      "evidence_level": "C",
-      "source_url": "https://www.youtube.com/results?search_query=DramaBox+short+drama",
-      "risk_notes": "这是产品与节奏痛点，不直接等同于新题材。 已匿名聚合，不保留用户名或单条评论原文。",
-      "audience_segment": "泛向/待验证"
     },
     {
       "pain_point": "YouTube观众想看更有新意的狼人/命定伴侣",
