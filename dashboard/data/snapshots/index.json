@@ -1,5 +1,9 @@
 [
   {
+    "date": "2026-07-15",
+    "path": "data/snapshots/2026-07-15.json"
+  },
+  {
     "date": "2026-07-14",
     "path": "data/snapshots/2026-07-14.json"
   },
