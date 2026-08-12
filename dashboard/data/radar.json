@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T03:25:00",
+  "generated_at": "2026-08-12T04:16:07",
   "source_workbook": "社媒热点题材雷达_v1.xlsx",
   "scope": {
     "markets": [
@@ -765,11 +765,11 @@
       "channel_title": "Larry June",
       "published_at": "2026-08-11T17:01:49Z",
       "category_id": "10",
-      "view_count": "151094",
-      "like_count": "9689",
-      "comment_count": "822",
+      "view_count": "166197",
+      "like_count": "10098",
+      "comment_count": "843",
       "url": "https://www.youtube.com/watch?v=ED7Fp3Cj0xY",
-      "captured_at": "2026-08-12T03:25:00",
+      "captured_at": "2026-08-12T04:16:07",
       "evidence_level": "A"
     },
     {
@@ -782,11 +782,11 @@
       "channel_title": "Amazon MGM Studios",
       "published_at": "2026-08-11T12:55:20Z",
       "category_id": "24",
-      "view_count": "2186368",
-      "like_count": "6630",
-      "comment_count": "472",
+      "view_count": "2231859",
+      "like_count": "6812",
+      "comment_count": "476",
       "url": "https://www.youtube.com/watch?v=xdPMKhjMSFs",
-      "captured_at": "2026-08-12T03:25:00",
+      "captured_at": "2026-08-12T04:16:07",
       "evidence_level": "A"
     },
     {
@@ -799,11 +799,11 @@
       "channel_title": "Jynxzi",
       "published_at": "2026-08-12T01:07:22Z",
       "category_id": "24",
-      "view_count": "658319",
-      "like_count": "10558",
-      "comment_count": "64",
+      "view_count": "689972",
+      "like_count": "10686",
+      "comment_count": "72",
       "url": "https://www.youtube.com/watch?v=dIw76C3-xYU",
-      "captured_at": "2026-08-12T03:25:00",
+      "captured_at": "2026-08-12T04:16:07",
       "evidence_level": "A"
     },
     {
@@ -816,11 +816,11 @@
       "channel_title": "KATSEYE",
       "published_at": "2026-08-12T00:15:07Z",
       "category_id": "10",
-      "view_count": "185990",
-      "like_count": "35266",
-      "comment_count": "7684",
+      "view_count": "212275",
+      "like_count": "37822",
+      "comment_count": "7964",
       "url": "https://www.youtube.com/watch?v=UdoR4R_5El0",
-      "captured_at": "2026-08-12T03:25:00",
+      "captured_at": "2026-08-12T04:16:07",
       "evidence_level": "A"
     },
     {
@@ -833,11 +833,11 @@
       "channel_title": "Screen Junkies",
       "published_at": "2026-08-11T17:00:23Z",
       "category_id": "1",
-      "view_count": "141519",
-      "like_count": "8052",
-      "comment_count": "831",
+      "view_count": "150090",
+      "like_count": "8304",
+      "comment_count": "849",
       "url": "https://www.youtube.com/watch?v=8aEP7zLn0HM",
-      "captured_at": "2026-08-12T03:25:00",
+      "captured_at": "2026-08-12T04:16:07",
       "evidence_level": "A"
     },
     {
@@ -850,11 +850,11 @@
       "channel_title": "Kai Cenat Live",
       "published_at": "2026-08-11T21:02:10Z",
       "category_id": "24",
-      "view_count": "2246417",
-      "like_count": "29213",
-      "comment_count": "57",
+      "view_count": "2249581",
+      "like_count": "29234",
+      "comment_count": "59",
       "url": "https://www.youtube.com/watch?v=aoGra6zw4fI",
-      "captured_at": "2026-08-12T03:25:00",
+      "captured_at": "2026-08-12T04:16:07",
       "evidence_level": "A"
     },
     {
@@ -862,16 +862,16 @@
       "source_platform": "YouTube Trending",
       "country_region": "US",
       "rank": 7,
-      "video_id": "PbDNg4DsXNI",
-      "title": "MARBELLA NIGHTS",
-      "channel_title": "Farruko - Topic",
-      "published_at": "2026-08-10T21:23:39Z",
+      "video_id": "chl0R8C4NJ8",
+      "title": "Hearts2Hearts 하츠투하츠 'ICONIC HEART' MV",
+      "channel_title": "SMTOWN",
+      "published_at": "2026-08-11T15:00:38Z",
       "category_id": "10",
-      "view_count": "178592",
-      "like_count": "1903",
-      "comment_count": "41",
-      "url": "https://www.youtube.com/watch?v=PbDNg4DsXNI",
-      "captured_at": "2026-08-12T03:25:00",
+      "view_count": "884421",
+      "like_count": "143809",
+      "comment_count": "10676",
+      "url": "https://www.youtube.com/watch?v=chl0R8C4NJ8",
+      "captured_at": "2026-08-12T04:16:07",
       "evidence_level": "A"
     },
     {
@@ -884,11 +884,11 @@
       "channel_title": "PlayOverwatch",
       "published_at": "2026-08-10T17:00:06Z",
       "category_id": "20",
-      "view_count": "495413",
-      "like_count": "24365",
-      "comment_count": "2938",
+      "view_count": "496030",
+      "like_count": "24375",
+      "comment_count": "2940",
       "url": "https://www.youtube.com/watch?v=DiIquLrEqC4",
-      "captured_at": "2026-08-12T03:25:00",
+      "captured_at": "2026-08-12T04:16:07",
       "evidence_level": "A"
     },
     {
@@ -901,11 +901,11 @@
       "channel_title": "CharlieSloth",
       "published_at": "2026-08-11T17:00:06Z",
       "category_id": "10",
-      "view_count": "12682",
-      "like_count": "898",
-      "comment_count": "267",
+      "view_count": "13067",
+      "like_count": "907",
+      "comment_count": "268",
       "url": "https://www.youtube.com/watch?v=-OAG3SvYXt0",
-      "captured_at": "2026-08-12T03:25:00",
+      "captured_at": "2026-08-12T04:16:07",
       "evidence_level": "A"
     },
     {
@@ -918,11 +918,11 @@
       "channel_title": "Amazon MGM Studios",
       "published_at": "2026-08-11T12:55:20Z",
       "category_id": "24",
-      "view_count": "2186368",
-      "like_count": "6630",
-      "comment_count": "472",
+      "view_count": "2231859",
+      "like_count": "6812",
+      "comment_count": "476",
       "url": "https://www.youtube.com/watch?v=xdPMKhjMSFs",
-      "captured_at": "2026-08-12T03:25:00",
+      "captured_at": "2026-08-12T04:16:07",
       "evidence_level": "A"
     },
     {
@@ -935,11 +935,11 @@
       "channel_title": "Jynxzi",
       "published_at": "2026-08-12T01:07:22Z",
       "category_id": "24",
-      "view_count": "658319",
-      "like_count": "10558",
-      "comment_count": "64",
+      "view_count": "689972",
+      "like_count": "10686",
+      "comment_count": "72",
       "url": "https://www.youtube.com/watch?v=dIw76C3-xYU",
-      "captured_at": "2026-08-12T03:25:00",
+      "captured_at": "2026-08-12T04:16:07",
       "evidence_level": "A"
     },
     {
@@ -952,11 +952,11 @@
       "channel_title": "SMTOWN",
       "published_at": "2026-08-11T15:00:38Z",
       "category_id": "10",
-      "view_count": "828097",
-      "like_count": "138769",
-      "comment_count": "10490",
+      "view_count": "884421",
+      "like_count": "143809",
+      "comment_count": "10676",
       "url": "https://www.youtube.com/watch?v=chl0R8C4NJ8",
-      "captured_at": "2026-08-12T03:25:00",
+      "captured_at": "2026-08-12T04:16:07",
       "evidence_level": "A"
     },
     {
@@ -969,11 +969,11 @@
       "channel_title": "Excel Movies",
       "published_at": "2026-08-11T11:30:07Z",
       "category_id": "1",
-      "view_count": "11594697",
-      "like_count": "164959",
-      "comment_count": "7835",
+      "view_count": "11666141",
+      "like_count": "169140",
+      "comment_count": "7967",
       "url": "https://www.youtube.com/watch?v=5vMWZhHPlaw",
-      "captured_at": "2026-08-12T03:25:00",
+      "captured_at": "2026-08-12T04:16:07",
       "evidence_level": "A"
     },
     {
@@ -986,11 +986,11 @@
       "channel_title": "Grian",
       "published_at": "2026-08-11T20:15:19Z",
       "category_id": "20",
-      "view_count": "251062",
-      "like_count": "27580",
-      "comment_count": "2830",
+      "view_count": "277139",
+      "like_count": "28999",
+      "comment_count": "2922",
       "url": "https://www.youtube.com/watch?v=OMzR7urB02E",
-      "captured_at": "2026-08-12T03:25:00",
+      "captured_at": "2026-08-12T04:16:07",
       "evidence_level": "A"
     },
     {
@@ -1003,11 +1003,11 @@
       "channel_title": "Mr. P ",
       "published_at": "2026-08-10T15:00:06Z",
       "category_id": "10",
-      "view_count": "607337",
-      "like_count": "78629",
-      "comment_count": "14268",
+      "view_count": "611146",
+      "like_count": "78795",
+      "comment_count": "14288",
       "url": "https://www.youtube.com/watch?v=Pjj56cOKAR8",
-      "captured_at": "2026-08-12T03:25:00",
+      "captured_at": "2026-08-12T04:16:07",
       "evidence_level": "A"
     },
     {
@@ -1020,11 +1020,11 @@
       "channel_title": "PlayStation",
       "published_at": "2026-08-11T16:00:37Z",
       "category_id": "20",
-      "view_count": "159764",
-      "like_count": "5426",
-      "comment_count": "1304",
+      "view_count": "166084",
+      "like_count": "5507",
+      "comment_count": "1323",
       "url": "https://www.youtube.com/watch?v=luTEjqWxA6g",
-      "captured_at": "2026-08-12T03:25:00",
+      "captured_at": "2026-08-12T04:16:07",
       "evidence_level": "A"
     },
     {
@@ -1037,11 +1037,11 @@
       "channel_title": "SMTOWN",
       "published_at": "2026-08-11T15:00:38Z",
       "category_id": "10",
-      "view_count": "828097",
-      "like_count": "138769",
-      "comment_count": "10490",
+      "view_count": "884421",
+      "like_count": "143809",
+      "comment_count": "10676",
       "url": "https://www.youtube.com/watch?v=chl0R8C4NJ8",
-      "captured_at": "2026-08-12T03:25:00",
+      "captured_at": "2026-08-12T04:16:07",
       "evidence_level": "A"
     },
     {
@@ -1054,11 +1054,11 @@
       "channel_title": "Excel Movies",
       "published_at": "2026-08-11T11:30:07Z",
       "category_id": "1",
-      "view_count": "11594697",
-      "like_count": "164944",
-      "comment_count": "7835",
+      "view_count": "11666141",
+      "like_count": "169140",
+      "comment_count": "7967",
       "url": "https://www.youtube.com/watch?v=5vMWZhHPlaw",
-      "captured_at": "2026-08-12T03:25:00",
+      "captured_at": "2026-08-12T04:16:07",
       "evidence_level": "A"
     },
     {
@@ -1071,11 +1071,11 @@
       "channel_title": "Jynxzi",
       "published_at": "2026-08-12T01:07:22Z",
       "category_id": "24",
-      "view_count": "658319",
-      "like_count": "10558",
-      "comment_count": "64",
+      "view_count": "689972",
+      "like_count": "10686",
+      "comment_count": "72",
       "url": "https://www.youtube.com/watch?v=dIw76C3-xYU",
-      "captured_at": "2026-08-12T03:25:00",
+      "captured_at": "2026-08-12T04:16:07",
       "evidence_level": "A"
     },
     {
@@ -1088,11 +1088,11 @@
       "channel_title": "Iqbal - Topic",
       "published_at": "2026-08-11T05:15:37Z",
       "category_id": "10",
-      "view_count": "36220",
-      "like_count": "1841",
-      "comment_count": "92",
+      "view_count": "37489",
+      "like_count": "1923",
+      "comment_count": "95",
       "url": "https://www.youtube.com/watch?v=4CQeaPpmMbk",
-      "captured_at": "2026-08-12T03:25:00",
+      "captured_at": "2026-08-12T04:16:07",
       "evidence_level": "A"
     },
     {
@@ -1105,11 +1105,11 @@
       "channel_title": "Amazon MGM Studios",
       "published_at": "2026-08-11T12:55:20Z",
       "category_id": "24",
-      "view_count": "2186368",
-      "like_count": "6630",
-      "comment_count": "472",
+      "view_count": "2231859",
+      "like_count": "6812",
+      "comment_count": "476",
       "url": "https://www.youtube.com/watch?v=xdPMKhjMSFs",
-      "captured_at": "2026-08-12T03:25:00",
+      "captured_at": "2026-08-12T04:16:07",
       "evidence_level": "A"
     },
     {
@@ -1122,11 +1122,11 @@
       "channel_title": "KATSEYE",
       "published_at": "2026-08-12T00:15:07Z",
       "category_id": "10",
-      "view_count": "185990",
-      "like_count": "35254",
-      "comment_count": "7684",
+      "view_count": "212275",
+      "like_count": "37822",
+      "comment_count": "7964",
       "url": "https://www.youtube.com/watch?v=UdoR4R_5El0",
-      "captured_at": "2026-08-12T03:25:00",
+      "captured_at": "2026-08-12T04:16:07",
       "evidence_level": "A"
     },
     {
@@ -1139,11 +1139,11 @@
       "channel_title": "PlayStation",
       "published_at": "2026-08-11T16:00:37Z",
       "category_id": "20",
-      "view_count": "159764",
-      "like_count": "5426",
-      "comment_count": "1304",
+      "view_count": "166084",
+      "like_count": "5507",
+      "comment_count": "1323",
       "url": "https://www.youtube.com/watch?v=luTEjqWxA6g",
-      "captured_at": "2026-08-12T03:25:00",
+      "captured_at": "2026-08-12T04:16:07",
       "evidence_level": "A"
     },
     {
@@ -1156,11 +1156,11 @@
       "channel_title": "JYP Entertainment",
       "published_at": "2026-08-07T04:00:01Z",
       "category_id": "10",
-      "view_count": "39723854",
-      "like_count": "1198861",
-      "comment_count": "113808",
+      "view_count": "39862620",
+      "like_count": "1199817",
+      "comment_count": "113895",
       "url": "https://www.youtube.com/watch?v=BZ4UzthYTss",
-      "captured_at": "2026-08-12T03:25:00",
+      "captured_at": "2026-08-12T04:16:07",
       "evidence_level": "A"
     },
     {
@@ -1173,11 +1173,11 @@
       "channel_title": "Excel Movies",
       "published_at": "2026-08-11T11:30:07Z",
       "category_id": "1",
-      "view_count": "11594697",
-      "like_count": "164959",
-      "comment_count": "7835",
+      "view_count": "11666141",
+      "like_count": "169140",
+      "comment_count": "7967",
       "url": "https://www.youtube.com/watch?v=5vMWZhHPlaw",
-      "captured_at": "2026-08-12T03:25:00",
+      "captured_at": "2026-08-12T04:16:07",
       "evidence_level": "A"
     },
     {
@@ -1190,11 +1190,11 @@
       "channel_title": "SMii7Y",
       "published_at": "2026-08-10T19:13:19Z",
       "category_id": "20",
-      "view_count": "2053549",
-      "like_count": "115480",
-      "comment_count": "2842",
+      "view_count": "2078509",
+      "like_count": "116298",
+      "comment_count": "2854",
       "url": "https://www.youtube.com/watch?v=zFpiS0CaddA",
-      "captured_at": "2026-08-12T03:25:00",
+      "captured_at": "2026-08-12T04:16:07",
       "evidence_level": "A"
     },
     {
@@ -1207,11 +1207,11 @@
       "channel_title": "STARSHIP",
       "published_at": "2026-08-10T09:00:03Z",
       "category_id": "10",
-      "view_count": "2048163",
-      "like_count": "119126",
-      "comment_count": "7893",
+      "view_count": "2060913",
+      "like_count": "119767",
+      "comment_count": "7915",
       "url": "https://www.youtube.com/watch?v=UsbRoaH6y-Q",
-      "captured_at": "2026-08-12T03:25:00",
+      "captured_at": "2026-08-12T04:16:07",
       "evidence_level": "A"
     },
     {
@@ -1224,11 +1224,11 @@
       "channel_title": "KVN PRODUCTIONS",
       "published_at": "2026-08-08T13:31:22Z",
       "category_id": "1",
-      "view_count": "24812756",
-      "like_count": "599180",
-      "comment_count": "34513",
+      "view_count": "24823943",
+      "like_count": "599494",
+      "comment_count": "34528",
       "url": "https://www.youtube.com/watch?v=G5hWlD5zfhw",
-      "captured_at": "2026-08-12T03:25:00",
+      "captured_at": "2026-08-12T04:16:07",
       "evidence_level": "A"
     },
     {
@@ -1241,11 +1241,11 @@
       "channel_title": "Dream",
       "published_at": "2026-08-09T16:30:06Z",
       "category_id": "20",
-      "view_count": "3285819",
-      "like_count": "115423",
-      "comment_count": "5425",
+      "view_count": "3299075",
+      "like_count": "115743",
+      "comment_count": "5435",
       "url": "https://www.youtube.com/watch?v=IqcS1d3eXYc",
-      "captured_at": "2026-08-12T03:25:00",
+      "captured_at": "2026-08-12T04:16:07",
       "evidence_level": "A"
     },
     {
@@ -1258,11 +1258,11 @@
       "channel_title": "Wangden Sherpa",
       "published_at": "2026-08-09T12:30:07Z",
       "category_id": "10",
-      "view_count": "394183",
-      "like_count": "24201",
-      "comment_count": "955",
+      "view_count": "396670",
+      "like_count": "24277",
+      "comment_count": "959",
       "url": "https://www.youtube.com/watch?v=AWvYwY3AvL8",
-      "captured_at": "2026-08-12T03:25:00",
+      "captured_at": "2026-08-12T04:16:07",
       "evidence_level": "A"
     },
     {
@@ -1275,11 +1275,11 @@
       "channel_title": "Amazon MGM Studios",
       "published_at": "2026-08-11T12:55:20Z",
       "category_id": "24",
-      "view_count": "2186368",
-      "like_count": "6630",
-      "comment_count": "472",
+      "view_count": "2231859",
+      "like_count": "6812",
+      "comment_count": "476",
       "url": "https://www.youtube.com/watch?v=xdPMKhjMSFs",
-      "captured_at": "2026-08-12T03:25:00",
+      "captured_at": "2026-08-12T04:16:07",
       "evidence_level": "A"
     }
   ],
@@ -1298,7 +1298,7 @@
       "AU"
     ],
     "error": "",
-    "captured_at": "2026-08-12T03:25:00"
+    "captured_at": "2026-08-12T04:16:07"
   },
   "youtube_comment_status": {
     "enabled": true,
@@ -1308,10 +1308,10 @@
       "microdrama romance"
     ],
     "videos_checked": 8,
-    "comments_scanned": 66,
-    "matched_comments": 1,
+    "comments_scanned": 65,
+    "matched_comments": 4,
     "error": "",
-    "captured_at": "2026-08-12T03:25:00"
+    "captured_at": "2026-08-12T04:16:07"
   },
   "ai_animation_topics": [
     {
@@ -1715,15 +1715,27 @@
   ],
   "comment_pain_points": [
     {
-      "pain_point": "YouTube观众关注单亲/离婚后的重新开始",
-      "frequent_expression": "single mom / divorce / kids / start over · matched 1 public comments across 1 videos",
+      "pain_point": "YouTube观众想看更有新意的狼人/命定伴侣",
+      "frequent_expression": "rejected mate again / alpha / mate bond / werewolf story · matched 3 public comments across 1 videos",
       "source_platform": "YouTube public comments",
-      "emotion": "hope, empathy",
-      "mapped_drama_angle": "单亲妈妈逆袭 / 离婚重启 / 家庭伦理",
-      "recommended_handling": "把亲情、经济压力、前任纠缠和新身份揭示放在一起，前3集给明确生存压力和翻盘目标。",
+      "emotion": "fandom fatigue, curiosity",
+      "mapped_drama_angle": "狼人 rejected mate / 世界观反转 / 女性成长",
+      "recommended_handling": "保留命定拒绝爽点，但改成女主主动拒绝、规则反转或非alpha关系，降低同质化。",
       "evidence_level": "C",
-      "source_url": "https://www.youtube.com/results?search_query=ReelShort+short+drama",
-      "risk_notes": "避免把女性成长只写成被拯救。 已匿名聚合，不保留用户名或单条评论原文。",
+      "source_url": "https://www.youtube.com/results?search_query=microdrama+romance",
+      "risk_notes": "供给拥挤，必须有世界观或人物关系差异化。 已匿名聚合，不保留用户名或单条评论原文。",
+      "audience_segment": "女频"
+    },
+    {
+      "pain_point": "YouTube观众对黑帮/高压关系既上头又担心有毒",
+      "frequent_expression": "mafia romance / toxic / red flag / obsessed · matched 1 public comments across 1 videos",
+      "source_platform": "YouTube public comments",
+      "emotion": "desire, concern",
+      "mapped_drama_angle": "禁忌恋 / 危险保护欲 / 权力边界",
+      "recommended_handling": "把危险感转成外部威胁和保护关系，弱化胁迫、囚禁和美化暴力。",
+      "evidence_level": "C",
+      "source_url": "https://www.youtube.com/results?search_query=microdrama+romance",
+      "risk_notes": "品牌风险较高，只做弱信号追踪。 已匿名聚合，不保留用户名或单条评论原文。",
       "audience_segment": "女频"
     },
     {
@@ -1787,18 +1799,6 @@
       "audience_segment": "泛向/待验证"
     },
     {
-      "pain_point": "黑帮/禁忌恋有吸引力但胁迫风险高",
-      "frequent_expression": "Mafia romance is hot but too toxic",
-      "source_platform": "BookTok / Reddit",
-      "emotion": "desire, concern",
-      "mapped_drama_angle": "禁忌恋 / 危险保护欲 / 权力边界",
-      "recommended_handling": "把危险感转成外部威胁和保护关系，弱化胁迫、囚禁和美化暴力。",
-      "evidence_level": "C",
-      "source_url": "https://www.reddit.com/search/?q=mafia%20romance%20toxic",
-      "risk_notes": "高品牌风险题材，只做弱信号追踪。",
-      "audience_segment": "女频"
-    },
-    {
       "pain_point": "用户讨厌付费后剧情拖水",
       "frequent_expression": "Too many filler episodes after I pay",
       "source_platform": "App Store / Google Play reviews",
@@ -1809,18 +1809,6 @@
       "source_url": "https://play.google.com/store/search?q=ReelShort%20DramaBox&c=apps",
       "risk_notes": "这是产品/节奏痛点，不直接等同于新题材。",
       "audience_segment": "泛向/待验证"
-    },
-    {
-      "pain_point": "想看更不套路的狼人命定伴侣",
-      "frequent_expression": "Rejected mate again, but give me something new",
-      "source_platform": "Reddit / TikTok comments",
-      "emotion": "fandom fatigue, curiosity",
-      "mapped_drama_angle": "狼人 rejected mate / 世界观新意 / 女性成长",
-      "recommended_handling": "保留命定拒绝爽点，但改成女主主动拒绝、群体规则反转或非alpha关系。",
-      "evidence_level": "C",
-      "source_url": "https://www.reddit.com/search/?q=rejected%20mate%20werewolf%20romance",
-      "risk_notes": "供给拥挤，必须有世界观或人物关系差异化。",
-      "audience_segment": "女频"
     }
   ],
   "industry_media_observations": [
