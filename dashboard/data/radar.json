@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T12:45:29",
+  "generated_at": "2026-08-27T14:24:29",
   "source_workbook": "社媒热点题材雷达_v1.xlsx",
   "scope": {
     "markets": [
@@ -765,11 +765,11 @@
       "channel_title": "Ken Carson - Topic",
       "published_at": "2026-08-27T04:00:18Z",
       "category_id": "10",
-      "view_count": "44038",
-      "like_count": "4769",
-      "comment_count": "481",
+      "view_count": "52598",
+      "like_count": "5353",
+      "comment_count": "505",
       "url": "https://www.youtube.com/watch?v=uxs8gVjP7xA",
-      "captured_at": "2026-08-27T12:45:29",
+      "captured_at": "2026-08-27T14:24:29",
       "evidence_level": "A"
     },
     {
@@ -782,11 +782,11 @@
       "channel_title": "Marvel Entertainment",
       "published_at": "2026-08-25T16:00:01Z",
       "category_id": "24",
-      "view_count": "9612567",
-      "like_count": "292772",
-      "comment_count": "16381",
+      "view_count": "9777731",
+      "like_count": "294577",
+      "comment_count": "16434",
       "url": "https://www.youtube.com/watch?v=L2NAh3CIdig",
-      "captured_at": "2026-08-27T12:45:29",
+      "captured_at": "2026-08-27T14:24:29",
       "evidence_level": "A"
     },
     {
@@ -799,11 +799,11 @@
       "channel_title": "CaseOh",
       "published_at": "2026-08-26T22:00:33Z",
       "category_id": "20",
-      "view_count": "349891",
-      "like_count": "14575",
-      "comment_count": "1149",
+      "view_count": "380067",
+      "like_count": "15276",
+      "comment_count": "1183",
       "url": "https://www.youtube.com/watch?v=PBTDmlB47zc",
-      "captured_at": "2026-08-27T12:45:29",
+      "captured_at": "2026-08-27T14:24:29",
       "evidence_level": "A"
     },
     {
@@ -816,11 +816,11 @@
       "channel_title": "Jarahn",
       "published_at": "2026-08-20T09:03:41Z",
       "category_id": "10",
-      "view_count": "44082",
-      "like_count": "1846",
+      "view_count": "44369",
+      "like_count": "1854",
       "comment_count": "110",
       "url": "https://www.youtube.com/watch?v=GNBMwZV-jIo",
-      "captured_at": "2026-08-27T12:45:29",
+      "captured_at": "2026-08-27T14:24:29",
       "evidence_level": "A"
     },
     {
@@ -833,11 +833,11 @@
       "channel_title": "Mob Entertainment",
       "published_at": "2026-08-26T18:49:54Z",
       "category_id": "20",
-      "view_count": "607655",
-      "like_count": "59587",
-      "comment_count": "4231",
+      "view_count": "646660",
+      "like_count": "60929",
+      "comment_count": "4299",
       "url": "https://www.youtube.com/watch?v=qRLTbHUl44U",
-      "captured_at": "2026-08-27T12:45:29",
+      "captured_at": "2026-08-27T14:24:29",
       "evidence_level": "A"
     },
     {
@@ -850,11 +850,11 @@
       "channel_title": "TheBurntPeanut",
       "published_at": "2026-08-27T08:19:14Z",
       "category_id": "20",
-      "view_count": "459259",
-      "like_count": "7435",
-      "comment_count": "48",
+      "view_count": "470464",
+      "like_count": "7521",
+      "comment_count": "62",
       "url": "https://www.youtube.com/watch?v=jfpRJDLXi14",
-      "captured_at": "2026-08-27T12:45:29",
+      "captured_at": "2026-08-27T14:24:29",
       "evidence_level": "A"
     },
     {
@@ -867,11 +867,11 @@
       "channel_title": "Country Paradise",
       "published_at": "2026-08-25T20:00:07Z",
       "category_id": "10",
-      "view_count": "341150",
-      "like_count": "5790",
-      "comment_count": "427",
+      "view_count": "355864",
+      "like_count": "6001",
+      "comment_count": "441",
       "url": "https://www.youtube.com/watch?v=GnLITwQf8s8",
-      "captured_at": "2026-08-27T12:45:29",
+      "captured_at": "2026-08-27T14:24:29",
       "evidence_level": "A"
     },
     {
@@ -884,11 +884,11 @@
       "channel_title": "New Rockstars",
       "published_at": "2026-08-26T21:08:24Z",
       "category_id": "24",
-      "view_count": "316898",
-      "like_count": "8776",
-      "comment_count": "564",
+      "view_count": "345286",
+      "like_count": "9178",
+      "comment_count": "578",
       "url": "https://www.youtube.com/watch?v=3BpCL5KyZPM",
-      "captured_at": "2026-08-27T12:45:29",
+      "captured_at": "2026-08-27T14:24:29",
       "evidence_level": "A"
     },
     {
@@ -901,11 +901,11 @@
       "channel_title": "Cover Nation",
       "published_at": "2026-08-25T19:29:57Z",
       "category_id": "10",
-      "view_count": "44443",
-      "like_count": "610",
+      "view_count": "49931",
+      "like_count": "636",
       "comment_count": "24",
       "url": "https://www.youtube.com/watch?v=RINEaGraHMc",
-      "captured_at": "2026-08-27T12:45:29",
+      "captured_at": "2026-08-27T14:24:29",
       "evidence_level": "A"
     },
     {
@@ -918,11 +918,11 @@
       "channel_title": "Amazon MGM Studios",
       "published_at": "2026-08-25T13:00:10Z",
       "category_id": "24",
-      "view_count": "5806940",
-      "like_count": "20134",
-      "comment_count": "1569",
+      "view_count": "5936462",
+      "like_count": "20550",
+      "comment_count": "1604",
       "url": "https://www.youtube.com/watch?v=6t7C4qaHihE",
-      "captured_at": "2026-08-27T12:45:29",
+      "captured_at": "2026-08-27T14:24:29",
       "evidence_level": "A"
     },
     {
@@ -935,11 +935,11 @@
       "channel_title": "Cash",
       "published_at": "2026-08-26T15:00:07Z",
       "category_id": "24",
-      "view_count": "843561",
-      "like_count": "9181",
-      "comment_count": "1554",
+      "view_count": "891986",
+      "like_count": "9458",
+      "comment_count": "1585",
       "url": "https://www.youtube.com/watch?v=2xhZEb7yYIw",
-      "captured_at": "2026-08-27T12:45:29",
+      "captured_at": "2026-08-27T14:24:29",
       "evidence_level": "A"
     },
     {
@@ -952,11 +952,11 @@
       "channel_title": "The Bands of HM Royal Marines",
       "published_at": "2026-08-26T11:37:55Z",
       "category_id": "10",
-      "view_count": "123473",
-      "like_count": "8416",
-      "comment_count": "724",
+      "view_count": "156604",
+      "like_count": "9747",
+      "comment_count": "817",
       "url": "https://www.youtube.com/watch?v=mbxA4Qigjjs",
-      "captured_at": "2026-08-27T12:45:29",
+      "captured_at": "2026-08-27T14:24:29",
       "evidence_level": "A"
     },
     {
@@ -964,16 +964,16 @@
       "source_platform": "YouTube Trending",
       "country_region": "UK",
       "rank": 5,
-      "video_id": "L2NAh3CIdig",
-      "title": "Avengers Endgame: Encore | Official Trailer | In Theaters Sep 25",
-      "channel_title": "Marvel Entertainment",
-      "published_at": "2026-08-25T16:00:01Z",
-      "category_id": "24",
-      "view_count": "9612567",
-      "like_count": "292772",
-      "comment_count": "16381",
-      "url": "https://www.youtube.com/watch?v=L2NAh3CIdig",
-      "captured_at": "2026-08-27T12:45:29",
+      "video_id": "qRLTbHUl44U",
+      "title": "Escape From Playtime: A Smiling Critters Adventure | Reveal Trailer",
+      "channel_title": "Mob Entertainment",
+      "published_at": "2026-08-26T18:49:54Z",
+      "category_id": "20",
+      "view_count": "646660",
+      "like_count": "60929",
+      "comment_count": "4299",
+      "url": "https://www.youtube.com/watch?v=qRLTbHUl44U",
+      "captured_at": "2026-08-27T14:24:29",
       "evidence_level": "A"
     },
     {
@@ -986,11 +986,11 @@
       "channel_title": "Foltyn",
       "published_at": "2026-08-26T11:05:43Z",
       "category_id": "20",
-      "view_count": "1327499",
-      "like_count": "29864",
-      "comment_count": "3968",
+      "view_count": "1412133",
+      "like_count": "31129",
+      "comment_count": "4125",
       "url": "https://www.youtube.com/watch?v=_8BYrhMqDAc",
-      "captured_at": "2026-08-27T12:45:29",
+      "captured_at": "2026-08-27T14:24:29",
       "evidence_level": "A"
     },
     {
@@ -1003,11 +1003,11 @@
       "channel_title": "Country Paradise",
       "published_at": "2026-08-25T20:00:07Z",
       "category_id": "10",
-      "view_count": "341150",
-      "like_count": "5790",
-      "comment_count": "427",
+      "view_count": "355864",
+      "like_count": "6001",
+      "comment_count": "441",
       "url": "https://www.youtube.com/watch?v=GnLITwQf8s8",
-      "captured_at": "2026-08-27T12:45:29",
+      "captured_at": "2026-08-27T14:24:29",
       "evidence_level": "A"
     },
     {
@@ -1015,16 +1015,16 @@
       "source_platform": "YouTube Trending",
       "country_region": "UK",
       "rank": 8,
-      "video_id": "qRLTbHUl44U",
-      "title": "Escape From Playtime: A Smiling Critters Adventure | Reveal Trailer",
-      "channel_title": "Mob Entertainment",
-      "published_at": "2026-08-26T18:49:54Z",
-      "category_id": "20",
-      "view_count": "607655",
-      "like_count": "59587",
-      "comment_count": "4231",
-      "url": "https://www.youtube.com/watch?v=qRLTbHUl44U",
-      "captured_at": "2026-08-27T12:45:29",
+      "video_id": "L2NAh3CIdig",
+      "title": "Avengers Endgame: Encore | Official Trailer | In Theaters Sep 25",
+      "channel_title": "Marvel Entertainment",
+      "published_at": "2026-08-25T16:00:01Z",
+      "category_id": "24",
+      "view_count": "9777731",
+      "like_count": "294577",
+      "comment_count": "16434",
+      "url": "https://www.youtube.com/watch?v=L2NAh3CIdig",
+      "captured_at": "2026-08-27T14:24:29",
       "evidence_level": "A"
     },
     {
@@ -1037,11 +1037,11 @@
       "channel_title": "Cover Nation",
       "published_at": "2026-08-25T19:37:29Z",
       "category_id": "10",
-      "view_count": "893981",
-      "like_count": "24501",
-      "comment_count": "923",
+      "view_count": "933671",
+      "like_count": "25272",
+      "comment_count": "936",
       "url": "https://www.youtube.com/watch?v=cR4EQ_dI1BM",
-      "captured_at": "2026-08-27T12:45:29",
+      "captured_at": "2026-08-27T14:24:29",
       "evidence_level": "A"
     },
     {
@@ -1054,11 +1054,11 @@
       "channel_title": "Marvel Entertainment",
       "published_at": "2026-08-25T16:00:01Z",
       "category_id": "24",
-      "view_count": "9612567",
-      "like_count": "292772",
-      "comment_count": "16381",
+      "view_count": "9777731",
+      "like_count": "294577",
+      "comment_count": "16434",
       "url": "https://www.youtube.com/watch?v=L2NAh3CIdig",
-      "captured_at": "2026-08-27T12:45:29",
+      "captured_at": "2026-08-27T14:24:29",
       "evidence_level": "A"
     },
     {
@@ -1071,11 +1071,11 @@
       "channel_title": "Summoning Salt",
       "published_at": "2026-08-27T01:51:10Z",
       "category_id": "20",
-      "view_count": "313688",
-      "like_count": "18015",
-      "comment_count": "1787",
+      "view_count": "372536",
+      "like_count": "19901",
+      "comment_count": "1918",
       "url": "https://www.youtube.com/watch?v=iYJC4QYmdog",
-      "captured_at": "2026-08-27T12:45:29",
+      "captured_at": "2026-08-27T14:24:29",
       "evidence_level": "A"
     },
     {
@@ -1088,11 +1088,11 @@
       "channel_title": "Polyphia",
       "published_at": "2026-08-26T16:00:17Z",
       "category_id": "10",
-      "view_count": "191404",
-      "like_count": "19313",
-      "comment_count": "2199",
+      "view_count": "206136",
+      "like_count": "20059",
+      "comment_count": "2258",
       "url": "https://www.youtube.com/watch?v=fDltPLFdkYI",
-      "captured_at": "2026-08-27T12:45:29",
+      "captured_at": "2026-08-27T14:24:29",
       "evidence_level": "A"
     },
     {
@@ -1105,11 +1105,11 @@
       "channel_title": "The Witcher",
       "published_at": "2026-08-25T19:59:52Z",
       "category_id": "20",
-      "view_count": "2823026",
-      "like_count": "182646",
-      "comment_count": "15145",
+      "view_count": "2908895",
+      "like_count": "184333",
+      "comment_count": "15247",
       "url": "https://www.youtube.com/watch?v=IGk17XQ7IrQ",
-      "captured_at": "2026-08-27T12:45:29",
+      "captured_at": "2026-08-27T14:24:29",
       "evidence_level": "A"
     },
     {
@@ -1122,11 +1122,11 @@
       "channel_title": "Cash",
       "published_at": "2026-08-26T15:00:07Z",
       "category_id": "24",
-      "view_count": "843561",
-      "like_count": "9181",
-      "comment_count": "1554",
+      "view_count": "891986",
+      "like_count": "9458",
+      "comment_count": "1585",
       "url": "https://www.youtube.com/watch?v=2xhZEb7yYIw",
-      "captured_at": "2026-08-27T12:45:29",
+      "captured_at": "2026-08-27T14:24:29",
       "evidence_level": "A"
     },
     {
@@ -1139,11 +1139,11 @@
       "channel_title": "Jass Records",
       "published_at": "2026-08-26T04:34:18Z",
       "category_id": "10",
-      "view_count": "114499",
-      "like_count": "899",
+      "view_count": "123088",
+      "like_count": "926",
       "comment_count": "12",
       "url": "https://www.youtube.com/watch?v=Uvb5J25MPaE",
-      "captured_at": "2026-08-27T12:45:29",
+      "captured_at": "2026-08-27T14:24:29",
       "evidence_level": "A"
     },
     {
@@ -1156,11 +1156,11 @@
       "channel_title": "New Rockstars",
       "published_at": "2026-08-26T21:08:24Z",
       "category_id": "24",
-      "view_count": "316898",
-      "like_count": "8776",
-      "comment_count": "564",
+      "view_count": "345286",
+      "like_count": "9178",
+      "comment_count": "578",
       "url": "https://www.youtube.com/watch?v=3BpCL5KyZPM",
-      "captured_at": "2026-08-27T12:45:29",
+      "captured_at": "2026-08-27T14:24:29",
       "evidence_level": "A"
     },
     {
@@ -1173,11 +1173,11 @@
       "channel_title": "Cover Nation",
       "published_at": "2026-08-25T19:37:29Z",
       "category_id": "10",
-      "view_count": "893981",
-      "like_count": "24501",
-      "comment_count": "923",
+      "view_count": "933671",
+      "like_count": "25272",
+      "comment_count": "936",
       "url": "https://www.youtube.com/watch?v=cR4EQ_dI1BM",
-      "captured_at": "2026-08-27T12:45:29",
+      "captured_at": "2026-08-27T14:24:29",
       "evidence_level": "A"
     },
     {
@@ -1190,11 +1190,11 @@
       "channel_title": "Amazon MGM Studios",
       "published_at": "2026-08-25T13:00:10Z",
       "category_id": "24",
-      "view_count": "5806940",
-      "like_count": "20134",
-      "comment_count": "1569",
+      "view_count": "5936462",
+      "like_count": "20550",
+      "comment_count": "1604",
       "url": "https://www.youtube.com/watch?v=6t7C4qaHihE",
-      "captured_at": "2026-08-27T12:45:29",
+      "captured_at": "2026-08-27T14:24:29",
       "evidence_level": "A"
     },
     {
@@ -1207,11 +1207,11 @@
       "channel_title": "Cash",
       "published_at": "2026-08-26T15:00:07Z",
       "category_id": "24",
-      "view_count": "843561",
-      "like_count": "9181",
-      "comment_count": "1554",
+      "view_count": "891986",
+      "like_count": "9458",
+      "comment_count": "1585",
       "url": "https://www.youtube.com/watch?v=2xhZEb7yYIw",
-      "captured_at": "2026-08-27T12:45:29",
+      "captured_at": "2026-08-27T14:24:29",
       "evidence_level": "A"
     },
     {
@@ -1224,11 +1224,11 @@
       "channel_title": "Taylor Swift",
       "published_at": "2026-08-24T23:02:12Z",
       "category_id": "10",
-      "view_count": "2792187",
-      "like_count": "216578",
-      "comment_count": "14088",
+      "view_count": "2817439",
+      "like_count": "217279",
+      "comment_count": "14113",
       "url": "https://www.youtube.com/watch?v=_9jaJtmraXA",
-      "captured_at": "2026-08-27T12:45:29",
+      "captured_at": "2026-08-27T14:24:29",
       "evidence_level": "A"
     },
     {
@@ -1241,11 +1241,11 @@
       "channel_title": "Marvel Entertainment",
       "published_at": "2026-08-25T16:00:01Z",
       "category_id": "24",
-      "view_count": "9612567",
-      "like_count": "292772",
-      "comment_count": "16381",
+      "view_count": "9777731",
+      "like_count": "294577",
+      "comment_count": "16434",
       "url": "https://www.youtube.com/watch?v=L2NAh3CIdig",
-      "captured_at": "2026-08-27T12:45:29",
+      "captured_at": "2026-08-27T14:24:29",
       "evidence_level": "A"
     },
     {
@@ -1258,11 +1258,11 @@
       "channel_title": "Foltyn",
       "published_at": "2026-08-26T11:05:43Z",
       "category_id": "20",
-      "view_count": "1327499",
-      "like_count": "29864",
-      "comment_count": "3968",
+      "view_count": "1412133",
+      "like_count": "31129",
+      "comment_count": "4125",
       "url": "https://www.youtube.com/watch?v=_8BYrhMqDAc",
-      "captured_at": "2026-08-27T12:45:29",
+      "captured_at": "2026-08-27T14:24:29",
       "evidence_level": "A"
     },
     {
@@ -1275,11 +1275,11 @@
       "channel_title": "Dhanda Nyoliwala - Topic",
       "published_at": "2026-08-26T10:01:31Z",
       "category_id": "10",
-      "view_count": "216115",
-      "like_count": "17523",
-      "comment_count": "1244",
+      "view_count": "231919",
+      "like_count": "17829",
+      "comment_count": "1248",
       "url": "https://www.youtube.com/watch?v=TUt055_Yqew",
-      "captured_at": "2026-08-27T12:45:29",
+      "captured_at": "2026-08-27T14:24:29",
       "evidence_level": "A"
     },
     {
@@ -1292,11 +1292,11 @@
       "channel_title": "The Witcher",
       "published_at": "2026-08-25T19:59:52Z",
       "category_id": "20",
-      "view_count": "2823026",
-      "like_count": "182646",
-      "comment_count": "15145",
+      "view_count": "2908895",
+      "like_count": "184333",
+      "comment_count": "15247",
       "url": "https://www.youtube.com/watch?v=IGk17XQ7IrQ",
-      "captured_at": "2026-08-27T12:45:29",
+      "captured_at": "2026-08-27T14:24:29",
       "evidence_level": "A"
     }
   ],
@@ -1315,7 +1315,7 @@
       "AU"
     ],
     "error": "",
-    "captured_at": "2026-08-27T12:45:29"
+    "captured_at": "2026-08-27T14:24:29"
   },
   "youtube_comment_status": {
     "enabled": true,
@@ -1325,10 +1325,10 @@
       "microdrama romance"
     ],
     "videos_checked": 8,
-    "comments_scanned": 84,
-    "matched_comments": 4,
+    "comments_scanned": 72,
+    "matched_comments": 3,
     "error": "",
-    "captured_at": "2026-08-27T12:45:29"
+    "captured_at": "2026-08-27T14:24:29"
   },
   "ai_animation_topics": [
     {
@@ -1744,18 +1744,6 @@
       "audience_segment": "泛向/待验证"
     },
     {
-      "pain_point": "YouTube观众想看更有新意的狼人/命定伴侣",
-      "frequent_expression": "rejected mate again / alpha / mate bond / werewolf story · matched 1 public comments across 1 videos",
-      "source_platform": "YouTube public comments",
-      "emotion": "fandom fatigue, curiosity",
-      "mapped_drama_angle": "狼人 rejected mate / 世界观反转 / 女性成长",
-      "recommended_handling": "保留命定拒绝爽点，但改成女主主动拒绝、规则反转或非alpha关系，降低同质化。",
-      "evidence_level": "C",
-      "source_url": "https://www.youtube.com/results?search_query=microdrama+romance",
-      "risk_notes": "供给拥挤，必须有世界观或人物关系差异化。 已匿名聚合，不保留用户名或单条评论原文。",
-      "audience_segment": "女频"
-    },
-    {
       "pain_point": "YouTube观众关注单亲/离婚后的重新开始",
       "frequent_expression": "single mom / divorce / kids / start over · matched 1 public comments across 1 videos",
       "source_platform": "YouTube public comments",
@@ -1838,6 +1826,18 @@
       "source_url": "https://arxiv.org/abs/2602.14045",
       "risk_notes": "评论反馈只能辅助A/B测试，不能替代编剧判断。",
       "audience_segment": "泛向/待验证"
+    },
+    {
+      "pain_point": "想看更不套路的狼人命定伴侣",
+      "frequent_expression": "Rejected mate again, but give me something new",
+      "source_platform": "Reddit / TikTok comments",
+      "emotion": "fandom fatigue, curiosity",
+      "mapped_drama_angle": "狼人 rejected mate / 世界观新意 / 女性成长",
+      "recommended_handling": "保留命定拒绝爽点，但改成女主主动拒绝、群体规则反转或非alpha关系。",
+      "evidence_level": "C",
+      "source_url": "https://www.reddit.com/search/?q=rejected%20mate%20werewolf%20romance",
+      "risk_notes": "供给拥挤，必须有世界观或人物关系差异化。",
+      "audience_segment": "女频"
     }
   ],
   "industry_media_observations": [
