@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T07:37:48",
+  "generated_at": "2026-09-26T08:45:01",
   "source_workbook": "社媒热点题材雷达_v1.xlsx",
   "scope": {
     "markets": [
@@ -765,11 +765,11 @@
       "channel_title": "Taylor Swift - Topic",
       "published_at": "2026-09-25T04:02:10Z",
       "category_id": "10",
-      "view_count": "2372024",
-      "like_count": "75161",
-      "comment_count": "4403",
+      "view_count": "2395792",
+      "like_count": "75511",
+      "comment_count": "4410",
       "url": "https://www.youtube.com/watch?v=V-uIp-WuD60",
-      "captured_at": "2026-09-26T07:37:48",
+      "captured_at": "2026-09-26T08:45:01",
       "evidence_level": "A"
     },
     {
@@ -782,11 +782,11 @@
       "channel_title": "Paramount Pictures",
       "published_at": "2026-09-25T13:00:03Z",
       "category_id": "1",
-      "view_count": "7235287",
-      "like_count": "7439",
-      "comment_count": "636",
+      "view_count": "7304410",
+      "like_count": "7574",
+      "comment_count": "642",
       "url": "https://www.youtube.com/watch?v=nzNYomSd5Ls",
-      "captured_at": "2026-09-26T07:37:48",
+      "captured_at": "2026-09-26T08:45:01",
       "evidence_level": "A"
     },
     {
@@ -799,11 +799,11 @@
       "channel_title": "SMii7Y",
       "published_at": "2026-09-25T20:28:11Z",
       "category_id": "20",
-      "view_count": "1278858",
-      "like_count": "46127",
-      "comment_count": "1966",
+      "view_count": "1351816",
+      "like_count": "48207",
+      "comment_count": "2002",
       "url": "https://www.youtube.com/watch?v=Kbak6x1krqA",
-      "captured_at": "2026-09-26T07:37:48",
+      "captured_at": "2026-09-26T08:45:01",
       "evidence_level": "A"
     },
     {
@@ -816,11 +816,11 @@
       "channel_title": "4 Shooters Only™",
       "published_at": "2026-09-25T17:23:33Z",
       "category_id": "10",
-      "view_count": "404970",
-      "like_count": "21335",
-      "comment_count": "1905",
+      "view_count": "416077",
+      "like_count": "21785",
+      "comment_count": "1930",
       "url": "https://www.youtube.com/watch?v=za06CCJ8tyE",
-      "captured_at": "2026-09-26T07:37:48",
+      "captured_at": "2026-09-26T08:45:01",
       "evidence_level": "A"
     },
     {
@@ -833,11 +833,11 @@
       "channel_title": "Prime Video",
       "published_at": "2026-09-24T13:10:37Z",
       "category_id": "24",
-      "view_count": "3168285",
-      "like_count": "6855",
+      "view_count": "3232670",
+      "like_count": "6889",
       "comment_count": "855",
       "url": "https://www.youtube.com/watch?v=xzh7HzLXXpk",
-      "captured_at": "2026-09-26T07:37:48",
+      "captured_at": "2026-09-26T08:45:01",
       "evidence_level": "A"
     },
     {
@@ -845,16 +845,16 @@
       "source_platform": "YouTube Trending",
       "country_region": "US",
       "rank": 6,
-      "video_id": "izM4Na9qCgo",
-      "title": "Adopting BABY ANIMAL ANOMALIES in Roblox!",
-      "channel_title": "Tyler & Snowi",
-      "published_at": "2026-09-25T21:42:10Z",
+      "video_id": "RoBabfioVF8",
+      "title": "The Hunt for Minecraft’s Strongest Item",
+      "channel_title": "MinuteTech",
+      "published_at": "2026-09-25T21:24:28Z",
       "category_id": "20",
-      "view_count": "362393",
-      "like_count": "15503",
-      "comment_count": "580",
-      "url": "https://www.youtube.com/watch?v=izM4Na9qCgo",
-      "captured_at": "2026-09-26T07:37:48",
+      "view_count": "676985",
+      "like_count": "21609",
+      "comment_count": "1687",
+      "url": "https://www.youtube.com/watch?v=RoBabfioVF8",
+      "captured_at": "2026-09-26T08:45:01",
       "evidence_level": "A"
     },
     {
@@ -867,11 +867,11 @@
       "channel_title": "RemyMaVEVO",
       "published_at": "2026-09-25T01:00:37Z",
       "category_id": "10",
-      "view_count": "491783",
-      "like_count": "40316",
-      "comment_count": "7512",
+      "view_count": "496153",
+      "like_count": "40464",
+      "comment_count": "7538",
       "url": "https://www.youtube.com/watch?v=xluDXfpjqQM",
-      "captured_at": "2026-09-26T07:37:48",
+      "captured_at": "2026-09-26T08:45:01",
       "evidence_level": "A"
     },
     {
@@ -884,11 +884,11 @@
       "channel_title": "Lionsgate Movies",
       "published_at": "2026-09-24T15:05:06Z",
       "category_id": "1",
-      "view_count": "5381937",
-      "like_count": "30892",
-      "comment_count": "2927",
+      "view_count": "5496556",
+      "like_count": "31206",
+      "comment_count": "2944",
       "url": "https://www.youtube.com/watch?v=bhKKR5He_Fo",
-      "captured_at": "2026-09-26T07:37:48",
+      "captured_at": "2026-09-26T08:45:01",
       "evidence_level": "A"
     },
     {
@@ -901,11 +901,11 @@
       "channel_title": "Taylor Swift - Topic",
       "published_at": "2026-09-25T04:02:10Z",
       "category_id": "10",
-      "view_count": "2372024",
-      "like_count": "75161",
-      "comment_count": "4403",
+      "view_count": "2395792",
+      "like_count": "75511",
+      "comment_count": "4410",
       "url": "https://www.youtube.com/watch?v=V-uIp-WuD60",
-      "captured_at": "2026-09-26T07:37:48",
+      "captured_at": "2026-09-26T08:45:01",
       "evidence_level": "A"
     },
     {
@@ -918,11 +918,11 @@
       "channel_title": "The Guardian",
       "published_at": "2026-09-25T14:19:21Z",
       "category_id": "25",
-      "view_count": "200414",
-      "like_count": "6446",
-      "comment_count": "500",
+      "view_count": "208079",
+      "like_count": "6748",
+      "comment_count": "518",
       "url": "https://www.youtube.com/watch?v=YIBRLEEaueo",
-      "captured_at": "2026-09-26T07:37:48",
+      "captured_at": "2026-09-26T08:45:01",
       "evidence_level": "A"
     },
     {
@@ -935,11 +935,11 @@
       "channel_title": "SMii7Y",
       "published_at": "2026-09-25T20:28:11Z",
       "category_id": "20",
-      "view_count": "1278858",
-      "like_count": "46127",
-      "comment_count": "1966",
+      "view_count": "1351816",
+      "like_count": "48207",
+      "comment_count": "2002",
       "url": "https://www.youtube.com/watch?v=Kbak6x1krqA",
-      "captured_at": "2026-09-26T07:37:48",
+      "captured_at": "2026-09-26T08:45:01",
       "evidence_level": "A"
     },
     {
@@ -952,11 +952,11 @@
       "channel_title": "Karan Aujla",
       "published_at": "2026-09-25T04:33:01Z",
       "category_id": "10",
-      "view_count": "5097190",
-      "like_count": "237564",
-      "comment_count": "13373",
+      "view_count": "5265890",
+      "like_count": "241622",
+      "comment_count": "13524",
       "url": "https://www.youtube.com/watch?v=Pd1yGW_g2T8",
-      "captured_at": "2026-09-26T07:37:48",
+      "captured_at": "2026-09-26T08:45:01",
       "evidence_level": "A"
     },
     {
@@ -969,11 +969,11 @@
       "channel_title": "MIMESIC Films",
       "published_at": "2026-09-25T20:12:27Z",
       "category_id": "22",
-      "view_count": "2489",
-      "like_count": "198",
-      "comment_count": "21",
+      "view_count": "2892",
+      "like_count": "225",
+      "comment_count": "25",
       "url": "https://www.youtube.com/watch?v=B_G4Ytpc8Vg",
-      "captured_at": "2026-09-26T07:37:48",
+      "captured_at": "2026-09-26T08:45:01",
       "evidence_level": "A"
     },
     {
@@ -986,11 +986,11 @@
       "channel_title": "Cash",
       "published_at": "2026-09-25T15:00:05Z",
       "category_id": "24",
-      "view_count": "471534",
-      "like_count": "4918",
-      "comment_count": "780",
+      "view_count": "488463",
+      "like_count": "5046",
+      "comment_count": "785",
       "url": "https://www.youtube.com/watch?v=NFxlkdJxHgI",
-      "captured_at": "2026-09-26T07:37:48",
+      "captured_at": "2026-09-26T08:45:01",
       "evidence_level": "A"
     },
     {
@@ -1003,11 +1003,11 @@
       "channel_title": "Luis Gabriel",
       "published_at": "2026-09-25T10:25:01Z",
       "category_id": "10",
-      "view_count": "283474",
-      "like_count": "11569",
+      "view_count": "294883",
+      "like_count": "12030",
       "comment_count": "190",
       "url": "https://www.youtube.com/watch?v=Mts930Jx-3M",
-      "captured_at": "2026-09-26T07:37:48",
+      "captured_at": "2026-09-26T08:45:01",
       "evidence_level": "A"
     },
     {
@@ -1020,11 +1020,11 @@
       "channel_title": "Warner Bros.",
       "published_at": "2026-09-24T13:00:11Z",
       "category_id": "1",
-      "view_count": "6375025",
-      "like_count": "92723",
-      "comment_count": "4264",
+      "view_count": "6635899",
+      "like_count": "93088",
+      "comment_count": "4272",
       "url": "https://www.youtube.com/watch?v=KCR-rz0YfD4",
-      "captured_at": "2026-09-26T07:37:48",
+      "captured_at": "2026-09-26T08:45:01",
       "evidence_level": "A"
     },
     {
@@ -1037,11 +1037,11 @@
       "channel_title": "Karan Aujla",
       "published_at": "2026-09-25T04:33:01Z",
       "category_id": "10",
-      "view_count": "5097190",
-      "like_count": "237564",
-      "comment_count": "13373",
+      "view_count": "5265890",
+      "like_count": "241622",
+      "comment_count": "13524",
       "url": "https://www.youtube.com/watch?v=Pd1yGW_g2T8",
-      "captured_at": "2026-09-26T07:37:48",
+      "captured_at": "2026-09-26T08:45:01",
       "evidence_level": "A"
     },
     {
@@ -1054,11 +1054,11 @@
       "channel_title": "rakehellrow",
       "published_at": "2026-09-25T00:13:14Z",
       "category_id": "22",
-      "view_count": "9589",
+      "view_count": "9646",
       "like_count": "292",
       "comment_count": "40",
       "url": "https://www.youtube.com/watch?v=BH4gOpLV8xs",
-      "captured_at": "2026-09-26T07:37:48",
+      "captured_at": "2026-09-26T08:45:01",
       "evidence_level": "A"
     },
     {
@@ -1071,11 +1071,11 @@
       "channel_title": "SMii7Y",
       "published_at": "2026-09-25T20:28:11Z",
       "category_id": "20",
-      "view_count": "1278858",
-      "like_count": "46127",
-      "comment_count": "1966",
+      "view_count": "1351816",
+      "like_count": "48207",
+      "comment_count": "2002",
       "url": "https://www.youtube.com/watch?v=Kbak6x1krqA",
-      "captured_at": "2026-09-26T07:37:48",
+      "captured_at": "2026-09-26T08:45:01",
       "evidence_level": "A"
     },
     {
@@ -1088,11 +1088,11 @@
       "channel_title": "Taylor Swift - Topic",
       "published_at": "2026-09-25T04:02:10Z",
       "category_id": "10",
-      "view_count": "2372024",
-      "like_count": "75161",
-      "comment_count": "4403",
+      "view_count": "2395792",
+      "like_count": "75511",
+      "comment_count": "4410",
       "url": "https://www.youtube.com/watch?v=V-uIp-WuD60",
-      "captured_at": "2026-09-26T07:37:48",
+      "captured_at": "2026-09-26T08:45:01",
       "evidence_level": "A"
     },
     {
@@ -1105,11 +1105,11 @@
       "channel_title": "The Guardian",
       "published_at": "2026-09-25T14:19:21Z",
       "category_id": "25",
-      "view_count": "200414",
-      "like_count": "6446",
-      "comment_count": "500",
+      "view_count": "208079",
+      "like_count": "6748",
+      "comment_count": "518",
       "url": "https://www.youtube.com/watch?v=YIBRLEEaueo",
-      "captured_at": "2026-09-26T07:37:48",
+      "captured_at": "2026-09-26T08:45:01",
       "evidence_level": "A"
     },
     {
@@ -1122,11 +1122,11 @@
       "channel_title": "MinuteTech",
       "published_at": "2026-09-25T21:24:28Z",
       "category_id": "20",
-      "view_count": "604664",
-      "like_count": "19451",
-      "comment_count": "1589",
+      "view_count": "676985",
+      "like_count": "21609",
+      "comment_count": "1687",
       "url": "https://www.youtube.com/watch?v=RoBabfioVF8",
-      "captured_at": "2026-09-26T07:37:48",
+      "captured_at": "2026-09-26T08:45:01",
       "evidence_level": "A"
     },
     {
@@ -1139,11 +1139,11 @@
       "channel_title": "BANGTANTV",
       "published_at": "2026-09-25T15:00:01Z",
       "category_id": "10",
-      "view_count": "2921029",
-      "like_count": "465464",
-      "comment_count": "24847",
+      "view_count": "3033807",
+      "like_count": "476632",
+      "comment_count": "25299",
       "url": "https://www.youtube.com/watch?v=eJXL4-4m5nY",
-      "captured_at": "2026-09-26T07:37:48",
+      "captured_at": "2026-09-26T08:45:01",
       "evidence_level": "A"
     },
     {
@@ -1156,11 +1156,11 @@
       "channel_title": "Harbhajan Mann",
       "published_at": "2026-09-24T11:30:07Z",
       "category_id": "10",
-      "view_count": "1354854",
-      "like_count": "23109",
-      "comment_count": "365",
+      "view_count": "1430198",
+      "like_count": "23164",
+      "comment_count": "366",
       "url": "https://www.youtube.com/watch?v=_w_00mUOz04",
-      "captured_at": "2026-09-26T07:37:48",
+      "captured_at": "2026-09-26T08:45:01",
       "evidence_level": "A"
     },
     {
@@ -1173,11 +1173,11 @@
       "channel_title": "Karan Aujla",
       "published_at": "2026-09-25T04:33:01Z",
       "category_id": "10",
-      "view_count": "5097190",
-      "like_count": "237564",
-      "comment_count": "13373",
+      "view_count": "5265890",
+      "like_count": "241622",
+      "comment_count": "13524",
       "url": "https://www.youtube.com/watch?v=Pd1yGW_g2T8",
-      "captured_at": "2026-09-26T07:37:48",
+      "captured_at": "2026-09-26T08:45:01",
       "evidence_level": "A"
     },
     {
@@ -1190,11 +1190,11 @@
       "channel_title": "A24",
       "published_at": "2026-09-23T13:00:14Z",
       "category_id": "1",
-      "view_count": "7164743",
-      "like_count": "65737",
-      "comment_count": "5804",
+      "view_count": "7225008",
+      "like_count": "65882",
+      "comment_count": "5816",
       "url": "https://www.youtube.com/watch?v=HvW_N5p1q44",
-      "captured_at": "2026-09-26T07:37:48",
+      "captured_at": "2026-09-26T08:45:01",
       "evidence_level": "A"
     },
     {
@@ -1207,11 +1207,11 @@
       "channel_title": "LazarBeam",
       "published_at": "2026-09-23T22:42:22Z",
       "category_id": "20",
-      "view_count": "2693887",
-      "like_count": "67559",
-      "comment_count": "3085",
+      "view_count": "2732255",
+      "like_count": "68217",
+      "comment_count": "3092",
       "url": "https://www.youtube.com/watch?v=y2O0NXVHjSg",
-      "captured_at": "2026-09-26T07:37:48",
+      "captured_at": "2026-09-26T08:45:01",
       "evidence_level": "A"
     },
     {
@@ -1224,11 +1224,11 @@
       "channel_title": "Taylor Swift - Topic",
       "published_at": "2026-09-25T04:02:10Z",
       "category_id": "10",
-      "view_count": "2372024",
-      "like_count": "75161",
-      "comment_count": "4403",
+      "view_count": "2395792",
+      "like_count": "75511",
+      "comment_count": "4410",
       "url": "https://www.youtube.com/watch?v=V-uIp-WuD60",
-      "captured_at": "2026-09-26T07:37:48",
+      "captured_at": "2026-09-26T08:45:01",
       "evidence_level": "A"
     },
     {
@@ -1241,11 +1241,11 @@
       "channel_title": "ONE Media",
       "published_at": "2026-09-24T15:14:30Z",
       "category_id": "1",
-      "view_count": "1325873",
-      "like_count": "10436",
-      "comment_count": "1662",
+      "view_count": "1334734",
+      "like_count": "10508",
+      "comment_count": "1677",
       "url": "https://www.youtube.com/watch?v=lg8H3BS2Fdk",
-      "captured_at": "2026-09-26T07:37:48",
+      "captured_at": "2026-09-26T08:45:01",
       "evidence_level": "A"
     },
     {
@@ -1258,11 +1258,11 @@
       "channel_title": "SMii7Y",
       "published_at": "2026-09-25T20:28:11Z",
       "category_id": "20",
-      "view_count": "1278858",
-      "like_count": "46127",
-      "comment_count": "1966",
+      "view_count": "1351816",
+      "like_count": "48207",
+      "comment_count": "2002",
       "url": "https://www.youtube.com/watch?v=Kbak6x1krqA",
-      "captured_at": "2026-09-26T07:37:48",
+      "captured_at": "2026-09-26T08:45:01",
       "evidence_level": "A"
     },
     {
@@ -1275,11 +1275,11 @@
       "channel_title": "Angelica Nero",
       "published_at": "2026-09-23T13:00:06Z",
       "category_id": "10",
-      "view_count": "555293",
-      "like_count": "4742",
-      "comment_count": "446",
+      "view_count": "560756",
+      "like_count": "4782",
+      "comment_count": "449",
       "url": "https://www.youtube.com/watch?v=yrONUgQwHdc",
-      "captured_at": "2026-09-26T07:37:48",
+      "captured_at": "2026-09-26T08:45:01",
       "evidence_level": "A"
     },
     {
@@ -1292,11 +1292,11 @@
       "channel_title": "Netflix",
       "published_at": "2026-09-23T13:00:02Z",
       "category_id": "24",
-      "view_count": "6754079",
-      "like_count": "106709",
-      "comment_count": "8833",
+      "view_count": "6797055",
+      "like_count": "107265",
+      "comment_count": "8866",
       "url": "https://www.youtube.com/watch?v=VL-xjzQFWsY",
-      "captured_at": "2026-09-26T07:37:48",
+      "captured_at": "2026-09-26T08:45:01",
       "evidence_level": "A"
     }
   ],
@@ -1315,7 +1315,7 @@
       "AU"
     ],
     "error": "",
-    "captured_at": "2026-09-26T07:37:48"
+    "captured_at": "2026-09-26T08:45:01"
   },
   "youtube_comment_status": {
     "enabled": true,
@@ -1326,9 +1326,9 @@
     ],
     "videos_checked": 8,
     "comments_scanned": 72,
-    "matched_comments": 5,
+    "matched_comments": 7,
     "error": "",
-    "captured_at": "2026-09-26T07:37:48"
+    "captured_at": "2026-09-26T08:45:01"
   },
   "ai_animation_topics": [
     {
@@ -1732,6 +1732,18 @@
   ],
   "comment_pain_points": [
     {
+      "pain_point": "YouTube观众关注单亲/离婚后的重新开始",
+      "frequent_expression": "single mom / divorce / kids / start over · matched 3 public comments across 2 videos",
+      "source_platform": "YouTube public comments",
+      "emotion": "hope, empathy",
+      "mapped_drama_angle": "单亲妈妈逆袭 / 离婚重启 / 家庭伦理",
+      "recommended_handling": "把亲情、经济压力、前任纠缠和新身份揭示放在一起，前3集给明确生存压力和翻盘目标。",
+      "evidence_level": "B",
+      "source_url": "https://www.youtube.com/results?search_query=ReelShort+short+drama",
+      "risk_notes": "避免把女性成长只写成被拯救。 已匿名聚合，不保留用户名或单条评论原文。",
+      "audience_segment": "女频"
+    },
+    {
       "pain_point": "YouTube观众想看更有新意的狼人/命定伴侣",
       "frequent_expression": "rejected mate again / alpha / mate bond / werewolf story · matched 2 public comments across 1 videos",
       "source_platform": "YouTube public comments",
@@ -1753,18 +1765,6 @@
       "evidence_level": "C",
       "source_url": "https://www.youtube.com/results?search_query=ReelShort+short+drama",
       "risk_notes": "同质化高，不能只依赖背叛设定。 已匿名聚合，不保留用户名或单条评论原文。",
-      "audience_segment": "女频"
-    },
-    {
-      "pain_point": "YouTube观众关注单亲/离婚后的重新开始",
-      "frequent_expression": "single mom / divorce / kids / start over · matched 1 public comments across 1 videos",
-      "source_platform": "YouTube public comments",
-      "emotion": "hope, empathy",
-      "mapped_drama_angle": "单亲妈妈逆袭 / 离婚重启 / 家庭伦理",
-      "recommended_handling": "把亲情、经济压力、前任纠缠和新身份揭示放在一起，前3集给明确生存压力和翻盘目标。",
-      "evidence_level": "C",
-      "source_url": "https://www.youtube.com/results?search_query=ReelShort+short+drama",
-      "risk_notes": "避免把女性成长只写成被拯救。 已匿名聚合，不保留用户名或单条评论原文。",
       "audience_segment": "女频"
     },
     {
