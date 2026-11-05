@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T07:48:23",
+  "generated_at": "2026-11-05T09:25:41",
   "source_workbook": "社媒热点题材雷达_v1.xlsx",
   "scope": {
     "markets": [
@@ -765,11 +765,11 @@
       "channel_title": "kevingatesTV",
       "published_at": "2026-11-04T12:00:24Z",
       "category_id": "10",
-      "view_count": "226095",
-      "like_count": "12547",
-      "comment_count": "824",
+      "view_count": "232146",
+      "like_count": "12741",
+      "comment_count": "830",
       "url": "https://www.youtube.com/watch?v=GPNePSlf62U",
-      "captured_at": "2026-11-05T07:48:23",
+      "captured_at": "2026-11-05T09:25:41",
       "evidence_level": "A"
     },
     {
@@ -782,11 +782,11 @@
       "channel_title": "Vertical",
       "published_at": "2026-11-04T15:55:13Z",
       "category_id": "1",
-      "view_count": "336879",
-      "like_count": "4720",
-      "comment_count": "427",
+      "view_count": "356439",
+      "like_count": "4979",
+      "comment_count": "446",
       "url": "https://www.youtube.com/watch?v=6ANmtY7Xtwg",
-      "captured_at": "2026-11-05T07:48:23",
+      "captured_at": "2026-11-05T09:25:41",
       "evidence_level": "A"
     },
     {
@@ -799,11 +799,11 @@
       "channel_title": "LoL Esports",
       "published_at": "2026-11-05T00:58:29Z",
       "category_id": "20",
-      "view_count": "1510809",
-      "like_count": "7380",
-      "comment_count": "74",
+      "view_count": "1520202",
+      "like_count": "7433",
+      "comment_count": "77",
       "url": "https://www.youtube.com/watch?v=p6k9F6pjg7o",
-      "captured_at": "2026-11-05T07:48:23",
+      "captured_at": "2026-11-05T09:25:41",
       "evidence_level": "A"
     },
     {
@@ -816,11 +816,11 @@
       "channel_title": "Sean Rii",
       "published_at": "2026-10-30T08:00:09Z",
       "category_id": "10",
-      "view_count": "139239",
-      "like_count": "5339",
-      "comment_count": "249",
+      "view_count": "140715",
+      "like_count": "5366",
+      "comment_count": "251",
       "url": "https://www.youtube.com/watch?v=fzJx4r10MEI",
-      "captured_at": "2026-11-05T07:48:23",
+      "captured_at": "2026-11-05T09:25:41",
       "evidence_level": "A"
     },
     {
@@ -833,11 +833,11 @@
       "channel_title": "Paramount Pictures UK",
       "published_at": "2026-11-04T14:07:05Z",
       "category_id": "1",
-      "view_count": "193605",
-      "like_count": "2986",
-      "comment_count": "725",
+      "view_count": "207847",
+      "like_count": "3046",
+      "comment_count": "740",
       "url": "https://www.youtube.com/watch?v=jdBnS4HGQoA",
-      "captured_at": "2026-11-05T07:48:23",
+      "captured_at": "2026-11-05T09:25:41",
       "evidence_level": "A"
     },
     {
@@ -850,11 +850,11 @@
       "channel_title": "Foltyn",
       "published_at": "2026-11-04T20:55:35Z",
       "category_id": "20",
-      "view_count": "407943",
-      "like_count": "5435",
-      "comment_count": "1248",
+      "view_count": "449018",
+      "like_count": "5848",
+      "comment_count": "1319",
       "url": "https://www.youtube.com/watch?v=AJhXDEH3730",
-      "captured_at": "2026-11-05T07:48:23",
+      "captured_at": "2026-11-05T09:25:41",
       "evidence_level": "A"
     },
     {
@@ -867,11 +867,11 @@
       "channel_title": "BigXthaPlug - Topic",
       "published_at": "2026-11-01T10:03:55Z",
       "category_id": "10",
-      "view_count": "74186",
-      "like_count": "2779",
-      "comment_count": "24",
+      "view_count": "76156",
+      "like_count": "2833",
+      "comment_count": "25",
       "url": "https://www.youtube.com/watch?v=8538ofT7yEg",
-      "captured_at": "2026-11-05T07:48:23",
+      "captured_at": "2026-11-05T09:25:41",
       "evidence_level": "A"
     },
     {
@@ -884,11 +884,11 @@
       "channel_title": "KinoCheck.com",
       "published_at": "2026-11-04T11:24:39Z",
       "category_id": "24",
-      "view_count": "828015",
-      "like_count": "9845",
-      "comment_count": "529",
+      "view_count": "847960",
+      "like_count": "10028",
+      "comment_count": "547",
       "url": "https://www.youtube.com/watch?v=K5BlylIjjCY",
-      "captured_at": "2026-11-05T07:48:23",
+      "captured_at": "2026-11-05T09:25:41",
       "evidence_level": "A"
     },
     {
@@ -896,16 +896,16 @@
       "source_platform": "YouTube Trending",
       "country_region": "UK",
       "rank": 1,
-      "video_id": "p4owhYtVIE0",
-      "title": "Everything Everything - Poison Pop (Official Video)",
-      "channel_title": "Everything Everything",
-      "published_at": "2026-11-04T17:55:29Z",
+      "video_id": "RMXe4RnC-m8",
+      "title": "Shotta's.",
+      "channel_title": "Season 25 - Topic",
+      "published_at": "2026-10-29T18:19:15Z",
       "category_id": "10",
-      "view_count": "37444",
-      "like_count": "2047",
-      "comment_count": "288",
-      "url": "https://www.youtube.com/watch?v=p4owhYtVIE0",
-      "captured_at": "2026-11-05T07:48:23",
+      "view_count": "101522",
+      "like_count": "1702",
+      "comment_count": "19",
+      "url": "https://www.youtube.com/watch?v=RMXe4RnC-m8",
+      "captured_at": "2026-11-05T09:25:41",
       "evidence_level": "A"
     },
     {
@@ -918,11 +918,11 @@
       "channel_title": "Amal Neerad Productions",
       "published_at": "2026-11-04T11:30:22Z",
       "category_id": "1",
-      "view_count": "2176657",
-      "like_count": "44629",
-      "comment_count": "4567",
+      "view_count": "2262119",
+      "like_count": "45630",
+      "comment_count": "4706",
       "url": "https://www.youtube.com/watch?v=eJMQsl2a2Ds",
-      "captured_at": "2026-11-05T07:48:23",
+      "captured_at": "2026-11-05T09:25:41",
       "evidence_level": "A"
     },
     {
@@ -935,11 +935,11 @@
       "channel_title": "Mumbo Jumbo",
       "published_at": "2026-11-04T20:00:25Z",
       "category_id": "20",
-      "view_count": "720489",
-      "like_count": "33890",
-      "comment_count": "1323",
+      "view_count": "771730",
+      "like_count": "35633",
+      "comment_count": "1367",
       "url": "https://www.youtube.com/watch?v=OQL2DSH0llM",
-      "captured_at": "2026-11-05T07:48:23",
+      "captured_at": "2026-11-05T09:25:41",
       "evidence_level": "A"
     },
     {
@@ -947,16 +947,16 @@
       "source_platform": "YouTube Trending",
       "country_region": "UK",
       "rank": 4,
-      "video_id": "RMXe4RnC-m8",
-      "title": "Shotta's.",
-      "channel_title": "Season 25 - Topic",
-      "published_at": "2026-10-29T18:19:15Z",
+      "video_id": "p4owhYtVIE0",
+      "title": "Everything Everything - Poison Pop (Official Video)",
+      "channel_title": "Everything Everything",
+      "published_at": "2026-11-04T17:55:29Z",
       "category_id": "10",
-      "view_count": "98520",
-      "like_count": "1645",
-      "comment_count": "19",
-      "url": "https://www.youtube.com/watch?v=RMXe4RnC-m8",
-      "captured_at": "2026-11-05T07:48:23",
+      "view_count": "38732",
+      "like_count": "2109",
+      "comment_count": "291",
+      "url": "https://www.youtube.com/watch?v=p4owhYtVIE0",
+      "captured_at": "2026-11-05T09:25:41",
       "evidence_level": "A"
     },
     {
@@ -969,11 +969,11 @@
       "channel_title": "Vertical",
       "published_at": "2026-11-04T15:55:13Z",
       "category_id": "1",
-      "view_count": "336879",
-      "like_count": "4720",
-      "comment_count": "427",
+      "view_count": "356439",
+      "like_count": "4979",
+      "comment_count": "446",
       "url": "https://www.youtube.com/watch?v=6ANmtY7Xtwg",
-      "captured_at": "2026-11-05T07:48:23",
+      "captured_at": "2026-11-05T09:25:41",
       "evidence_level": "A"
     },
     {
@@ -986,11 +986,11 @@
       "channel_title": "Danny Aarons",
       "published_at": "2026-11-04T15:30:02Z",
       "category_id": "20",
-      "view_count": "224053",
-      "like_count": "3326",
-      "comment_count": "113",
+      "view_count": "236869",
+      "like_count": "3496",
+      "comment_count": "119",
       "url": "https://www.youtube.com/watch?v=C5sX8slG-kM",
-      "captured_at": "2026-11-05T07:48:23",
+      "captured_at": "2026-11-05T09:25:41",
       "evidence_level": "A"
     },
     {
@@ -1003,11 +1003,11 @@
       "channel_title": "Rock Paradise",
       "published_at": "2026-11-03T11:02:41Z",
       "category_id": "10",
-      "view_count": "590151",
-      "like_count": "3112",
+      "view_count": "602256",
+      "like_count": "3147",
       "comment_count": "17",
       "url": "https://www.youtube.com/watch?v=8Ea83jemnXI",
-      "captured_at": "2026-11-05T07:48:23",
+      "captured_at": "2026-11-05T09:25:41",
       "evidence_level": "A"
     },
     {
@@ -1020,11 +1020,11 @@
       "channel_title": "KinoCheck.com",
       "published_at": "2026-11-04T11:24:39Z",
       "category_id": "24",
-      "view_count": "828015",
-      "like_count": "9845",
-      "comment_count": "529",
+      "view_count": "847960",
+      "like_count": "10028",
+      "comment_count": "547",
       "url": "https://www.youtube.com/watch?v=K5BlylIjjCY",
-      "captured_at": "2026-11-05T07:48:23",
+      "captured_at": "2026-11-05T09:25:41",
       "evidence_level": "A"
     },
     {
@@ -1037,11 +1037,11 @@
       "channel_title": "Roxane Bruneau",
       "published_at": "2026-11-05T01:00:06Z",
       "category_id": "10",
-      "view_count": "8314",
-      "like_count": "917",
+      "view_count": "8665",
+      "like_count": "930",
       "comment_count": "531",
       "url": "https://www.youtube.com/watch?v=ro-aaZWF1v0",
-      "captured_at": "2026-11-05T07:48:23",
+      "captured_at": "2026-11-05T09:25:41",
       "evidence_level": "A"
     },
     {
@@ -1054,11 +1054,11 @@
       "channel_title": "Amal Neerad Productions",
       "published_at": "2026-11-04T11:30:22Z",
       "category_id": "1",
-      "view_count": "2176657",
-      "like_count": "44629",
-      "comment_count": "4567",
+      "view_count": "2262119",
+      "like_count": "45630",
+      "comment_count": "4706",
       "url": "https://www.youtube.com/watch?v=eJMQsl2a2Ds",
-      "captured_at": "2026-11-05T07:48:23",
+      "captured_at": "2026-11-05T09:25:41",
       "evidence_level": "A"
     },
     {
@@ -1071,11 +1071,11 @@
       "channel_title": "LoL Esports",
       "published_at": "2026-11-05T00:58:29Z",
       "category_id": "20",
-      "view_count": "1510809",
-      "like_count": "7380",
-      "comment_count": "74",
+      "view_count": "1520202",
+      "like_count": "7433",
+      "comment_count": "77",
       "url": "https://www.youtube.com/watch?v=p6k9F6pjg7o",
-      "captured_at": "2026-11-05T07:48:23",
+      "captured_at": "2026-11-05T09:25:41",
       "evidence_level": "A"
     },
     {
@@ -1088,11 +1088,11 @@
       "channel_title": "LocoCity",
       "published_at": "2026-11-04T00:00:06Z",
       "category_id": "10",
-      "view_count": "31358",
-      "like_count": "1165",
+      "view_count": "32031",
+      "like_count": "1180",
       "comment_count": "128",
       "url": "https://www.youtube.com/watch?v=CvM47gtL7G4",
-      "captured_at": "2026-11-05T07:48:23",
+      "captured_at": "2026-11-05T09:25:41",
       "evidence_level": "A"
     },
     {
@@ -1105,11 +1105,11 @@
       "channel_title": "Vertical",
       "published_at": "2026-11-04T15:55:13Z",
       "category_id": "1",
-      "view_count": "336879",
-      "like_count": "4720",
-      "comment_count": "427",
+      "view_count": "356439",
+      "like_count": "4979",
+      "comment_count": "446",
       "url": "https://www.youtube.com/watch?v=6ANmtY7Xtwg",
-      "captured_at": "2026-11-05T07:48:23",
+      "captured_at": "2026-11-05T09:25:41",
       "evidence_level": "A"
     },
     {
@@ -1122,11 +1122,11 @@
       "channel_title": "IGN",
       "published_at": "2026-11-04T11:00:03Z",
       "category_id": "20",
-      "view_count": "1157717",
-      "like_count": "14167",
-      "comment_count": "2460",
+      "view_count": "1185308",
+      "like_count": "14407",
+      "comment_count": "2490",
       "url": "https://www.youtube.com/watch?v=g0ipZ6UoLac",
-      "captured_at": "2026-11-05T07:48:23",
+      "captured_at": "2026-11-05T09:25:41",
       "evidence_level": "A"
     },
     {
@@ -1139,11 +1139,11 @@
       "channel_title": "Bedjine officiel",
       "published_at": "2026-11-03T22:00:07Z",
       "category_id": "22",
-      "view_count": "356620",
-      "like_count": "20613",
-      "comment_count": "7829",
+      "view_count": "359309",
+      "like_count": "20636",
+      "comment_count": "7865",
       "url": "https://www.youtube.com/watch?v=t1MJvR3vug8",
-      "captured_at": "2026-11-05T07:48:23",
+      "captured_at": "2026-11-05T09:25:41",
       "evidence_level": "A"
     },
     {
@@ -1156,11 +1156,11 @@
       "channel_title": "KinoCheck.com",
       "published_at": "2026-11-04T11:24:39Z",
       "category_id": "24",
-      "view_count": "828015",
-      "like_count": "9845",
-      "comment_count": "529",
+      "view_count": "847960",
+      "like_count": "10028",
+      "comment_count": "547",
       "url": "https://www.youtube.com/watch?v=K5BlylIjjCY",
-      "captured_at": "2026-11-05T07:48:23",
+      "captured_at": "2026-11-05T09:25:41",
       "evidence_level": "A"
     },
     {
@@ -1173,11 +1173,11 @@
       "channel_title": "T-Series",
       "published_at": "2026-11-01T18:39:02Z",
       "category_id": "10",
-      "view_count": "54381777",
-      "like_count": "615586",
-      "comment_count": "40366",
+      "view_count": "54719142",
+      "like_count": "618735",
+      "comment_count": "40475",
       "url": "https://www.youtube.com/watch?v=BPZkZpGMpXA",
-      "captured_at": "2026-11-05T07:48:23",
+      "captured_at": "2026-11-05T09:25:41",
       "evidence_level": "A"
     },
     {
@@ -1190,11 +1190,11 @@
       "channel_title": "Budha Subba Digital",
       "published_at": "2026-11-04T14:05:09Z",
       "category_id": "1",
-      "view_count": "396453",
-      "like_count": "17316",
-      "comment_count": "1762",
+      "view_count": "470489",
+      "like_count": "17946",
+      "comment_count": "1786",
       "url": "https://www.youtube.com/watch?v=1HKKPAe-V2k",
-      "captured_at": "2026-11-05T07:48:23",
+      "captured_at": "2026-11-05T09:25:41",
       "evidence_level": "A"
     },
     {
@@ -1207,11 +1207,11 @@
       "channel_title": "MoreSidemen",
       "published_at": "2026-11-02T19:31:33Z",
       "category_id": "24",
-      "view_count": "3530809",
-      "like_count": "83874",
-      "comment_count": "2637",
+      "view_count": "3558030",
+      "like_count": "84338",
+      "comment_count": "2650",
       "url": "https://www.youtube.com/watch?v=Bbhvp9Oo8TI",
-      "captured_at": "2026-11-05T07:48:23",
+      "captured_at": "2026-11-05T09:25:41",
       "evidence_level": "A"
     },
     {
@@ -1224,11 +1224,11 @@
       "channel_title": "Al Shami - الشامي",
       "published_at": "2026-11-03T15:00:10Z",
       "category_id": "10",
-      "view_count": "2368024",
-      "like_count": "111579",
-      "comment_count": "29627",
+      "view_count": "2409348",
+      "like_count": "112588",
+      "comment_count": "30085",
       "url": "https://www.youtube.com/watch?v=XXSNzN8wMTM",
-      "captured_at": "2026-11-05T07:48:23",
+      "captured_at": "2026-11-05T09:25:41",
       "evidence_level": "A"
     },
     {
@@ -1241,11 +1241,11 @@
       "channel_title": "Amal Neerad Productions",
       "published_at": "2026-11-04T11:30:22Z",
       "category_id": "1",
-      "view_count": "2176657",
-      "like_count": "44629",
-      "comment_count": "4567",
+      "view_count": "2262119",
+      "like_count": "45630",
+      "comment_count": "4706",
       "url": "https://www.youtube.com/watch?v=eJMQsl2a2Ds",
-      "captured_at": "2026-11-05T07:48:23",
+      "captured_at": "2026-11-05T09:25:41",
       "evidence_level": "A"
     },
     {
@@ -1258,11 +1258,11 @@
       "channel_title": "Parrot",
       "published_at": "2026-11-01T16:39:00Z",
       "category_id": "20",
-      "view_count": "11407657",
-      "like_count": "264348",
-      "comment_count": "67836",
+      "view_count": "11610610",
+      "like_count": "265088",
+      "comment_count": "68003",
       "url": "https://www.youtube.com/watch?v=bHxLy6Qza3M",
-      "captured_at": "2026-11-05T07:48:23",
+      "captured_at": "2026-11-05T09:25:41",
       "evidence_level": "A"
     },
     {
@@ -1275,11 +1275,11 @@
       "channel_title": "RESCENE - Topic",
       "published_at": "2026-11-03T09:05:03Z",
       "category_id": "10",
-      "view_count": "1912790",
-      "like_count": "37303",
-      "comment_count": "1285",
+      "view_count": "1977821",
+      "like_count": "38020",
+      "comment_count": "1297",
       "url": "https://www.youtube.com/watch?v=rodFpxo7wkE",
-      "captured_at": "2026-11-05T07:48:23",
+      "captured_at": "2026-11-05T09:25:41",
       "evidence_level": "A"
     },
     {
@@ -1292,11 +1292,11 @@
       "channel_title": "Vertical",
       "published_at": "2026-11-04T15:55:13Z",
       "category_id": "1",
-      "view_count": "336879",
-      "like_count": "4720",
-      "comment_count": "427",
+      "view_count": "356439",
+      "like_count": "4979",
+      "comment_count": "446",
       "url": "https://www.youtube.com/watch?v=6ANmtY7Xtwg",
-      "captured_at": "2026-11-05T07:48:23",
+      "captured_at": "2026-11-05T09:25:41",
       "evidence_level": "A"
     }
   ],
@@ -1315,7 +1315,7 @@
       "AU"
     ],
     "error": "",
-    "captured_at": "2026-11-05T07:48:23"
+    "captured_at": "2026-11-05T09:25:41"
   },
   "youtube_comment_status": {
     "enabled": true,
@@ -1325,10 +1325,10 @@
       "microdrama romance"
     ],
     "videos_checked": 8,
-    "comments_scanned": 42,
+    "comments_scanned": 54,
     "matched_comments": 2,
     "error": "",
-    "captured_at": "2026-11-05T07:48:23"
+    "captured_at": "2026-11-05T09:25:41"
   },
   "ai_animation_topics": [
     {
