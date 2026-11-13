@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T07:42:12",
+  "generated_at": "2026-11-13T09:28:03",
   "source_workbook": "社媒热点题材雷达_v1.xlsx",
   "scope": {
     "markets": [
@@ -765,11 +765,11 @@
       "channel_title": "The Weeknd",
       "published_at": "2026-11-12T16:00:33Z",
       "category_id": "10",
-      "view_count": "2092048",
-      "like_count": "105257",
-      "comment_count": "8056",
+      "view_count": "2240114",
+      "like_count": "111344",
+      "comment_count": "8254",
       "url": "https://www.youtube.com/watch?v=hX9S94XsySk",
-      "captured_at": "2026-11-13T07:42:12",
+      "captured_at": "2026-11-13T09:28:03",
       "evidence_level": "A"
     },
     {
@@ -782,11 +782,11 @@
       "channel_title": "Pixar",
       "published_at": "2026-11-12T17:00:37Z",
       "category_id": "1",
-      "view_count": "1834776",
-      "like_count": "24347",
-      "comment_count": "1772",
+      "view_count": "1877883",
+      "like_count": "24969",
+      "comment_count": "1815",
       "url": "https://www.youtube.com/watch?v=fq7Q-dtIZeM",
-      "captured_at": "2026-11-13T07:42:12",
+      "captured_at": "2026-11-13T09:28:03",
       "evidence_level": "A"
     },
     {
@@ -799,11 +799,11 @@
       "channel_title": "The Streamer Awards",
       "published_at": "2026-11-13T05:42:05Z",
       "category_id": "24",
-      "view_count": "907477",
-      "like_count": "17518",
-      "comment_count": "346",
+      "view_count": "984148",
+      "like_count": "19101",
+      "comment_count": "564",
       "url": "https://www.youtube.com/watch?v=hCOqWDTTtcs",
-      "captured_at": "2026-11-13T07:42:12",
+      "captured_at": "2026-11-13T09:28:03",
       "evidence_level": "A"
     },
     {
@@ -811,16 +811,16 @@
       "source_platform": "YouTube Trending",
       "country_region": "US",
       "rank": 4,
-      "video_id": "SCHgnsuPmaM",
-      "title": "FattMack - Roxys [Official Music Video]",
-      "channel_title": "FattMack",
-      "published_at": "2026-11-12T21:00:09Z",
+      "video_id": "Ezx_4yQftGA",
+      "title": "Otendewa (feat. Jammin)",
+      "channel_title": "Flunky - Topic",
+      "published_at": "2026-11-06T10:05:02Z",
       "category_id": "10",
-      "view_count": "79947",
-      "like_count": "8049",
-      "comment_count": "600",
-      "url": "https://www.youtube.com/watch?v=SCHgnsuPmaM",
-      "captured_at": "2026-11-13T07:42:12",
+      "view_count": "88732",
+      "like_count": "3170",
+      "comment_count": "93",
+      "url": "https://www.youtube.com/watch?v=Ezx_4yQftGA",
+      "captured_at": "2026-11-13T09:28:03",
       "evidence_level": "A"
     },
     {
@@ -833,11 +833,11 @@
       "channel_title": "Fatshark",
       "published_at": "2026-11-12T16:59:14Z",
       "category_id": "20",
-      "view_count": "700891",
-      "like_count": "34511",
-      "comment_count": "3614",
+      "view_count": "723756",
+      "like_count": "35080",
+      "comment_count": "3659",
       "url": "https://www.youtube.com/watch?v=_K8t6VQMM6o",
-      "captured_at": "2026-11-13T07:42:12",
+      "captured_at": "2026-11-13T09:28:03",
       "evidence_level": "A"
     },
     {
@@ -850,11 +850,11 @@
       "channel_title": "Sonic the Hedgehog",
       "published_at": "2026-11-12T17:00:10Z",
       "category_id": "20",
-      "view_count": "755467",
-      "like_count": "143251",
+      "view_count": "794804",
+      "like_count": "147484",
       "comment_count": "0",
       "url": "https://www.youtube.com/watch?v=_yocC5AIQ5M",
-      "captured_at": "2026-11-13T07:42:12",
+      "captured_at": "2026-11-13T09:28:03",
       "evidence_level": "A"
     },
     {
@@ -862,16 +862,16 @@
       "source_platform": "YouTube Trending",
       "country_region": "US",
       "rank": 7,
-      "video_id": "Ezx_4yQftGA",
-      "title": "Otendewa (feat. Jammin)",
-      "channel_title": "Flunky - Topic",
-      "published_at": "2026-11-06T10:05:02Z",
+      "video_id": "SCHgnsuPmaM",
+      "title": "FattMack - Roxys [Official Music Video]",
+      "channel_title": "FattMack",
+      "published_at": "2026-11-12T21:00:09Z",
       "category_id": "10",
-      "view_count": "87585",
-      "like_count": "3143",
-      "comment_count": "93",
-      "url": "https://www.youtube.com/watch?v=Ezx_4yQftGA",
-      "captured_at": "2026-11-13T07:42:12",
+      "view_count": "84918",
+      "like_count": "8207",
+      "comment_count": "608",
+      "url": "https://www.youtube.com/watch?v=SCHgnsuPmaM",
+      "captured_at": "2026-11-13T09:28:03",
       "evidence_level": "A"
     },
     {
@@ -884,11 +884,11 @@
       "channel_title": "BlushCrunch Studio",
       "published_at": "2026-11-11T20:15:04Z",
       "category_id": "24",
-      "view_count": "1845064",
-      "like_count": "122530",
-      "comment_count": "14111",
+      "view_count": "1863610",
+      "like_count": "122928",
+      "comment_count": "14157",
       "url": "https://www.youtube.com/watch?v=MDhGjithpig",
-      "captured_at": "2026-11-13T07:42:12",
+      "captured_at": "2026-11-13T09:28:03",
       "evidence_level": "A"
     },
     {
@@ -901,11 +901,11 @@
       "channel_title": "The Weeknd",
       "published_at": "2026-11-12T16:00:33Z",
       "category_id": "10",
-      "view_count": "2092048",
-      "like_count": "105257",
-      "comment_count": "8056",
+      "view_count": "2240114",
+      "like_count": "111344",
+      "comment_count": "8254",
       "url": "https://www.youtube.com/watch?v=hX9S94XsySk",
-      "captured_at": "2026-11-13T07:42:12",
+      "captured_at": "2026-11-13T09:28:03",
       "evidence_level": "A"
     },
     {
@@ -918,11 +918,11 @@
       "channel_title": "Fatshark",
       "published_at": "2026-11-12T16:59:14Z",
       "category_id": "20",
-      "view_count": "700891",
-      "like_count": "34511",
-      "comment_count": "3614",
+      "view_count": "723756",
+      "like_count": "35080",
+      "comment_count": "3659",
       "url": "https://www.youtube.com/watch?v=_K8t6VQMM6o",
-      "captured_at": "2026-11-13T07:42:12",
+      "captured_at": "2026-11-13T09:28:03",
       "evidence_level": "A"
     },
     {
@@ -935,11 +935,11 @@
       "channel_title": "The Streamer Awards",
       "published_at": "2026-11-13T05:42:05Z",
       "category_id": "24",
-      "view_count": "907477",
-      "like_count": "17518",
-      "comment_count": "346",
+      "view_count": "984148",
+      "like_count": "19101",
+      "comment_count": "564",
       "url": "https://www.youtube.com/watch?v=hCOqWDTTtcs",
-      "captured_at": "2026-11-13T07:42:12",
+      "captured_at": "2026-11-13T09:28:03",
       "evidence_level": "A"
     },
     {
@@ -952,11 +952,11 @@
       "channel_title": "therealrimzee",
       "published_at": "2026-11-12T19:00:14Z",
       "category_id": "10",
-      "view_count": "36174",
-      "like_count": "1826",
-      "comment_count": "86",
+      "view_count": "38043",
+      "like_count": "1930",
+      "comment_count": "89",
       "url": "https://www.youtube.com/watch?v=qAcJ1mINJdc",
-      "captured_at": "2026-11-13T07:42:12",
+      "captured_at": "2026-11-13T09:28:03",
       "evidence_level": "A"
     },
     {
@@ -969,11 +969,11 @@
       "channel_title": "Pixar",
       "published_at": "2026-11-12T17:00:37Z",
       "category_id": "1",
-      "view_count": "1834776",
-      "like_count": "24347",
-      "comment_count": "1772",
+      "view_count": "1877883",
+      "like_count": "24968",
+      "comment_count": "1815",
       "url": "https://www.youtube.com/watch?v=fq7Q-dtIZeM",
-      "captured_at": "2026-11-13T07:42:12",
+      "captured_at": "2026-11-13T09:28:03",
       "evidence_level": "A"
     },
     {
@@ -986,11 +986,11 @@
       "channel_title": "SidemenReacts",
       "published_at": "2026-11-12T17:00:19Z",
       "category_id": "24",
-      "view_count": "517794",
-      "like_count": "12972",
-      "comment_count": "635",
+      "view_count": "546881",
+      "like_count": "13580",
+      "comment_count": "654",
       "url": "https://www.youtube.com/watch?v=oqQg0MqNJ4Y",
-      "captured_at": "2026-11-13T07:42:12",
+      "captured_at": "2026-11-13T09:28:03",
       "evidence_level": "A"
     },
     {
@@ -1003,11 +1003,11 @@
       "channel_title": "Alan Walker",
       "published_at": "2026-11-12T15:00:08Z",
       "category_id": "10",
-      "view_count": "636285",
-      "like_count": "36339",
-      "comment_count": "3152",
+      "view_count": "707811",
+      "like_count": "38826",
+      "comment_count": "3257",
       "url": "https://www.youtube.com/watch?v=DxEkSmqTOtc",
-      "captured_at": "2026-11-13T07:42:12",
+      "captured_at": "2026-11-13T09:28:03",
       "evidence_level": "A"
     },
     {
@@ -1020,11 +1020,11 @@
       "channel_title": "Amazon MGM Studios",
       "published_at": "2026-11-12T12:59:56Z",
       "category_id": "24",
-      "view_count": "3351206",
-      "like_count": "8113",
-      "comment_count": "633",
+      "view_count": "4119924",
+      "like_count": "8398",
+      "comment_count": "646",
       "url": "https://www.youtube.com/watch?v=A643rogutGM",
-      "captured_at": "2026-11-13T07:42:12",
+      "captured_at": "2026-11-13T09:28:03",
       "evidence_level": "A"
     },
     {
@@ -1037,11 +1037,11 @@
       "channel_title": "Souldia",
       "published_at": "2026-11-12T23:00:17Z",
       "category_id": "10",
-      "view_count": "35415",
-      "like_count": "3863",
-      "comment_count": "328",
+      "view_count": "37318",
+      "like_count": "4127",
+      "comment_count": "335",
       "url": "https://www.youtube.com/watch?v=2BZMgUedVRo",
-      "captured_at": "2026-11-13T07:42:12",
+      "captured_at": "2026-11-13T09:28:03",
       "evidence_level": "A"
     },
     {
@@ -1054,11 +1054,11 @@
       "channel_title": "Fatshark",
       "published_at": "2026-11-12T16:59:14Z",
       "category_id": "20",
-      "view_count": "700891",
-      "like_count": "34511",
-      "comment_count": "3614",
+      "view_count": "723756",
+      "like_count": "35080",
+      "comment_count": "3659",
       "url": "https://www.youtube.com/watch?v=_K8t6VQMM6o",
-      "captured_at": "2026-11-13T07:42:12",
+      "captured_at": "2026-11-13T09:28:03",
       "evidence_level": "A"
     },
     {
@@ -1071,11 +1071,11 @@
       "channel_title": "The Streamer Awards",
       "published_at": "2026-11-13T05:42:05Z",
       "category_id": "24",
-      "view_count": "907477",
-      "like_count": "17518",
-      "comment_count": "346",
+      "view_count": "984148",
+      "like_count": "19101",
+      "comment_count": "564",
       "url": "https://www.youtube.com/watch?v=hCOqWDTTtcs",
-      "captured_at": "2026-11-13T07:42:12",
+      "captured_at": "2026-11-13T09:28:03",
       "evidence_level": "A"
     },
     {
@@ -1088,11 +1088,11 @@
       "channel_title": "The Weeknd",
       "published_at": "2026-11-12T16:00:33Z",
       "category_id": "10",
-      "view_count": "2092048",
-      "like_count": "105257",
-      "comment_count": "8056",
+      "view_count": "2240114",
+      "like_count": "111344",
+      "comment_count": "8254",
       "url": "https://www.youtube.com/watch?v=hX9S94XsySk",
-      "captured_at": "2026-11-13T07:42:12",
+      "captured_at": "2026-11-13T09:28:03",
       "evidence_level": "A"
     },
     {
@@ -1105,11 +1105,11 @@
       "channel_title": "Pixar",
       "published_at": "2026-11-12T17:00:37Z",
       "category_id": "1",
-      "view_count": "1834776",
-      "like_count": "24347",
-      "comment_count": "1772",
+      "view_count": "1877883",
+      "like_count": "24968",
+      "comment_count": "1815",
       "url": "https://www.youtube.com/watch?v=fq7Q-dtIZeM",
-      "captured_at": "2026-11-13T07:42:12",
+      "captured_at": "2026-11-13T09:28:03",
       "evidence_level": "A"
     },
     {
@@ -1122,11 +1122,11 @@
       "channel_title": "Sonic the Hedgehog",
       "published_at": "2026-11-12T17:00:10Z",
       "category_id": "20",
-      "view_count": "755467",
-      "like_count": "143251",
+      "view_count": "794804",
+      "like_count": "147484",
       "comment_count": "0",
       "url": "https://www.youtube.com/watch?v=_yocC5AIQ5M",
-      "captured_at": "2026-11-13T07:42:12",
+      "captured_at": "2026-11-13T09:28:03",
       "evidence_level": "A"
     },
     {
@@ -1134,16 +1134,16 @@
       "source_platform": "YouTube Trending",
       "country_region": "CA",
       "rank": 7,
-      "video_id": "IyofZbgsK6I",
-      "title": "Alexisonfire - Push the River (Official Music Video)",
-      "channel_title": "Alexisonfire",
-      "published_at": "2026-11-12T15:00:09Z",
+      "video_id": "zdz8swOQUqw",
+      "title": "Shubh - Never Left (Official Music Video)",
+      "channel_title": "SHUBH",
+      "published_at": "2026-11-13T05:00:22Z",
       "category_id": "10",
-      "view_count": "77810",
-      "like_count": "4145",
-      "comment_count": "574",
-      "url": "https://www.youtube.com/watch?v=IyofZbgsK6I",
-      "captured_at": "2026-11-13T07:42:12",
+      "view_count": "302393",
+      "like_count": "40888",
+      "comment_count": "4311",
+      "url": "https://www.youtube.com/watch?v=zdz8swOQUqw",
+      "captured_at": "2026-11-13T09:28:03",
       "evidence_level": "A"
     },
     {
@@ -1156,11 +1156,11 @@
       "channel_title": "Nosniy Games",
       "published_at": "2026-11-13T01:00:06Z",
       "category_id": "20",
-      "view_count": "71111",
-      "like_count": "5354",
-      "comment_count": "3091",
+      "view_count": "90311",
+      "like_count": "6074",
+      "comment_count": "3383",
       "url": "https://www.youtube.com/watch?v=HxnvXu7kPxE",
-      "captured_at": "2026-11-13T07:42:12",
+      "captured_at": "2026-11-13T09:28:03",
       "evidence_level": "A"
     },
     {
@@ -1173,11 +1173,11 @@
       "channel_title": "The Weeknd",
       "published_at": "2026-11-12T16:00:33Z",
       "category_id": "10",
-      "view_count": "2092048",
-      "like_count": "105257",
-      "comment_count": "8056",
+      "view_count": "2240114",
+      "like_count": "111344",
+      "comment_count": "8254",
       "url": "https://www.youtube.com/watch?v=hX9S94XsySk",
-      "captured_at": "2026-11-13T07:42:12",
+      "captured_at": "2026-11-13T09:28:03",
       "evidence_level": "A"
     },
     {
@@ -1190,11 +1190,11 @@
       "channel_title": "Salman Khan Films",
       "published_at": "2026-11-10T16:55:19Z",
       "category_id": "24",
-      "view_count": "42190088",
-      "like_count": "390006",
-      "comment_count": "32441",
+      "view_count": "42970960",
+      "like_count": "393863",
+      "comment_count": "32639",
       "url": "https://www.youtube.com/watch?v=fA8-gXDoAk8",
-      "captured_at": "2026-11-13T07:42:12",
+      "captured_at": "2026-11-13T09:28:03",
       "evidence_level": "A"
     },
     {
@@ -1207,11 +1207,11 @@
       "channel_title": "The Streamer Awards",
       "published_at": "2026-11-13T05:42:05Z",
       "category_id": "24",
-      "view_count": "907477",
-      "like_count": "17518",
-      "comment_count": "346",
+      "view_count": "984148",
+      "like_count": "19101",
+      "comment_count": "564",
       "url": "https://www.youtube.com/watch?v=hCOqWDTTtcs",
-      "captured_at": "2026-11-13T07:42:12",
+      "captured_at": "2026-11-13T09:28:03",
       "evidence_level": "A"
     },
     {
@@ -1224,11 +1224,11 @@
       "channel_title": "Revus - Topic",
       "published_at": "2026-11-12T10:02:43Z",
       "category_id": "10",
-      "view_count": "10924",
-      "like_count": "720",
-      "comment_count": "70",
+      "view_count": "13044",
+      "like_count": "792",
+      "comment_count": "76",
       "url": "https://www.youtube.com/watch?v=OLzEiNjXWaY",
-      "captured_at": "2026-11-13T07:42:12",
+      "captured_at": "2026-11-13T09:28:03",
       "evidence_level": "A"
     },
     {
@@ -1241,11 +1241,11 @@
       "channel_title": "PlayStation",
       "published_at": "2026-11-10T15:40:22Z",
       "category_id": "20",
-      "view_count": "5709362",
-      "like_count": "138105",
-      "comment_count": "7853",
+      "view_count": "5726546",
+      "like_count": "138344",
+      "comment_count": "7866",
       "url": "https://www.youtube.com/watch?v=8L0CzL2V72c",
-      "captured_at": "2026-11-13T07:42:12",
+      "captured_at": "2026-11-13T09:28:03",
       "evidence_level": "A"
     },
     {
@@ -1258,11 +1258,11 @@
       "channel_title": "Rockstar Games",
       "published_at": "2026-11-10T13:55:06Z",
       "category_id": "20",
-      "view_count": "11352686",
-      "like_count": "478367",
-      "comment_count": "23972",
+      "view_count": "11412863",
+      "like_count": "479304",
+      "comment_count": "24006",
       "url": "https://www.youtube.com/watch?v=_yl5ELcmugI",
-      "captured_at": "2026-11-13T07:42:12",
+      "captured_at": "2026-11-13T09:28:03",
       "evidence_level": "A"
     },
     {
@@ -1275,11 +1275,11 @@
       "channel_title": "Alan Walker",
       "published_at": "2026-11-12T15:00:08Z",
       "category_id": "10",
-      "view_count": "636285",
-      "like_count": "36339",
-      "comment_count": "3152",
+      "view_count": "707811",
+      "like_count": "38826",
+      "comment_count": "3257",
       "url": "https://www.youtube.com/watch?v=DxEkSmqTOtc",
-      "captured_at": "2026-11-13T07:42:12",
+      "captured_at": "2026-11-13T09:28:03",
       "evidence_level": "A"
     },
     {
@@ -1292,11 +1292,11 @@
       "channel_title": "Fatshark",
       "published_at": "2026-11-12T16:59:14Z",
       "category_id": "20",
-      "view_count": "700891",
-      "like_count": "34511",
-      "comment_count": "3614",
+      "view_count": "723756",
+      "like_count": "35080",
+      "comment_count": "3659",
       "url": "https://www.youtube.com/watch?v=_K8t6VQMM6o",
-      "captured_at": "2026-11-13T07:42:12",
+      "captured_at": "2026-11-13T09:28:03",
       "evidence_level": "A"
     }
   ],
@@ -1315,7 +1315,7 @@
       "AU"
     ],
     "error": "",
-    "captured_at": "2026-11-13T07:42:12"
+    "captured_at": "2026-11-13T09:28:03"
   },
   "youtube_comment_status": {
     "enabled": true,
@@ -1325,10 +1325,10 @@
       "microdrama romance"
     ],
     "videos_checked": 8,
-    "comments_scanned": 56,
+    "comments_scanned": 42,
     "matched_comments": 4,
     "error": "",
-    "captured_at": "2026-11-13T07:42:12"
+    "captured_at": "2026-11-13T09:28:03"
   },
   "ai_animation_topics": [
     {
@@ -1733,7 +1733,7 @@
   "comment_pain_points": [
     {
       "pain_point": "YouTube观众关注单亲/离婚后的重新开始",
-      "frequent_expression": "single mom / divorce / kids / start over · matched 2 public comments across 1 videos",
+      "frequent_expression": "single mom / divorce / kids / start over · matched 3 public comments across 1 videos",
       "source_platform": "YouTube public comments",
       "emotion": "hope, empathy",
       "mapped_drama_angle": "单亲妈妈逆袭 / 离婚重启 / 家庭伦理",
@@ -1754,18 +1754,6 @@
       "source_url": "https://www.youtube.com/results?search_query=DramaBox+short+drama",
       "risk_notes": "这是产品与节奏痛点，不直接等同于新题材。 已匿名聚合，不保留用户名或单条评论原文。",
       "audience_segment": "泛向/待验证"
-    },
-    {
-      "pain_point": "YouTube观众对黑帮/高压关系既上头又担心有毒",
-      "frequent_expression": "mafia romance / toxic / red flag / obsessed · matched 1 public comments across 1 videos",
-      "source_platform": "YouTube public comments",
-      "emotion": "desire, concern",
-      "mapped_drama_angle": "禁忌恋 / 危险保护欲 / 权力边界",
-      "recommended_handling": "把危险感转成外部威胁和保护关系，弱化胁迫、囚禁和美化暴力。",
-      "evidence_level": "C",
-      "source_url": "https://www.youtube.com/results?search_query=ReelShort+short+drama",
-      "risk_notes": "品牌风险较高，只做弱信号追踪。 已匿名聚合，不保留用户名或单条评论原文。",
-      "audience_segment": "女频"
     },
     {
       "pain_point": "不想再看软弱女主反复原谅",
@@ -1826,6 +1814,18 @@
       "source_url": "https://arxiv.org/abs/2602.14045",
       "risk_notes": "评论反馈只能辅助A/B测试，不能替代编剧判断。",
       "audience_segment": "泛向/待验证"
+    },
+    {
+      "pain_point": "黑帮/禁忌恋有吸引力但胁迫风险高",
+      "frequent_expression": "Mafia romance is hot but too toxic",
+      "source_platform": "BookTok / Reddit",
+      "emotion": "desire, concern",
+      "mapped_drama_angle": "禁忌恋 / 危险保护欲 / 权力边界",
+      "recommended_handling": "把危险感转成外部威胁和保护关系，弱化胁迫、囚禁和美化暴力。",
+      "evidence_level": "C",
+      "source_url": "https://www.reddit.com/search/?q=mafia%20romance%20toxic",
+      "risk_notes": "高品牌风险题材，只做弱信号追踪。",
+      "audience_segment": "女频"
     },
     {
       "pain_point": "想看更不套路的狼人命定伴侣",
